@@ -1,0 +1,29 @@
+﻿Workshop Decisions
+
+
+The Environmental Data Initiative (EDI) organized a workshop titled the “Next generation climate and hydrological data products” at the University of New Mexico in Albuquerque, NM, 12-14 March 2019. The group was comprised of LTER Information Managers, EDI Staff, and scientists from both LTER and US Forest Service. The objective was for the scientific and technological communities to evaluate the needs and desire for accessing harmonized multi-site and multi-agency climate and hydrology data, the infrastructure required to collect and store these data, and consider new technologies or workflows based on current data storage models (i.e., PASTA). (maybe add background info that EDI collected, like survey)
+
+
+ClimDB/HydroDB (https://climhy.lternet.edu/) is a web harvester and data warehouse that provides uniform access to common daily streamflow and meteorological measurements through a single portal. ClimDB/HydroDB was developed by LTER and US Forest Service through several funding pulses between 1997 to 2006. Contributing sites transform their data into an specified exchange format for ingestion into the database. Although the ClimHy database is still actively ingesting and providing data, the architecture and web portal is running on antiquated systems and the data are outside of the PASTA data repository.
+
+
+After reviewing and discussing several different options the group decided on two paths forward;
+1. Archive the current ClimDB/HydroDB database into PASTA 
+2. Explore and outline the CUAHSI ODM as a repository for site climate and hydrology data from PASTA
+
+
+Archive the current ClimDB/HydroDB database into PASTA:
+Data from the current ClimDB/HydroDB database will be exported into flat files. Decisions about these structures are still being examined (by station, parameter, and aggregation - daily, monthly, annual). Create EML metadata and upload the package into PASTA as an L0 product. As much metadata as possible will be pulled from the current ClimDB/HydroDB database. Before the final archive occurs, sites will have the chance to update their data and improve any metadata.
+
+
+If the exploration of using the CUAHSI OSM as a repository is successful and desirable, the L0 archived data (ClimDB/HydroDB  archive) package in PASTA could be converted to an L1 product based on the CUAHSI ODM (this process is discussed below) and uploaded to CUAHSI. 
+
+
+Explore and outline the CUAHSI ODM as a repository for site climate and hydrology data from PASTA:
+If LTER and USFS sites’ climate and hydrology data are in the CUAHSI system, researchers can take advantage of the suite of tools provided. The CUAHSI ODM 1.1 is comprised of 6 standard tables; data values (time series data), sites, sources, variable, method, and quality. Additionally, optional tables can be added using the advanced formatting template. 
+
+
+Reference: CUAHSI_Formattin_Guide.pdf; https://drive.google.com/drive/folders/13TnpcMIn7E1QNeroxSr9dgCjbuklpeGs
+
+
+Each site will  harvest their climate and hydrology data into PASTA as an L0 product. These data will be at the finest resolution that the site maintains. In order to create the L1 dataset using the ODM, each site will need to complete the ODM formatting template, with the standard template as the minimum. The five tables, site, sources, variable, method, and quality will likely be a one time process unless there are changes in any of these (added sites, changed methods, etc.). The data values table will require a mapping table and a script to accommodate the transfer from L0 to L1. Scripts on PASTA will run to upload these L1 datasets to CUAHSI. Once all of these scripts are in place, when the site updates their L0 data in PASTA, the L1 datasets will be created and uploaded to CUAHSI.

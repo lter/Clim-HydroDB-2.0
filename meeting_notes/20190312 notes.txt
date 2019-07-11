@@ -1,0 +1,481 @@
+﻿Google drive link: https://drive.google.com/drive/u/0/folders/0B0Gg0cAZlQbibUZhZHA3aDBCWjg  
+20190312 notes
+
+
+Possible Climdb objectives
+1. Archive as EML datasets
+   1. Offer contributors the chance to update their contributions if out of date (deadline)
+1. 
+
+
+
+
+
+Use cases
+Primary climdb uses: aggregation and graphing to eval trends
+
+
+L1 data of interest
+Higher temporal res (hourly, sometimes finer)
+Spatial res, ?? (ability to do this would be methods/domain specific)
+Could we ever label a dataset as “reference” or is this something we should do? The concept of “reference” is actually is quite deep in the weeds of a “site” (or contributor) - its sampling scheme, biome, history, 
+
+
+What users want (see Susanne’s summary!)
+Maps, 
+Ways to select by state, climate type biome, local site name
+Aggregate and subset
+spatial/temporal aggregation (with QC prov)
+More… (see S’s slides)
+
+
+
+
+Use cases (L2 uses):
+1. a mechanism to get at ALL the data, for local browsing
+2. LIndsay: additional params that are commonly added to met and hydro, eg. soil params
+3. Andy: something that works for marine data too! Eg. NSF has funded Pco2 instrumentation, and we need recommendations for that.
+4. Sven: ability to merge data streams (L2)
+5. Lindsay: dashboards, plotting, graphing and viz
+6. Richard (Fusion project): they have geotags that they want to match up with (a L1 can include a count of locations in the L1, and set up lat/longs for using gazetteers, so they can be operated on by sites
+7. Flux use case: combine some hydrologic data from this model with some chemistry data (from another source) to calculate flux 
+   1. A flux use case needs streamflow l/s, and a watershed area
+1. Repeat cross-site climate trend analysis 
+   1. https://www.int-res.com/articles/cr2002/19/c019p213.pdf
+   2. “We examine the temporal climate variability of 18 Long-Term Ecological Research (LTER) sites in the United States including Puerto Rico and Antarctica”
+   3. Greenland, D., & Kittel, T. G. (2002). Temporal variability of climate at the US Long-Term Ecological Research (LTER) sites. Climate Research, 19(3), 213-231.
+1. Overview catalogs, eg. “reference”, “LTER sites”
+2. Combined with phenology data 
+3. Use cases we will not meet: real-time data 
+
+
+
+
+Scope - has to stay within the EDI budget.
+We could have: 
+Something that is very LTER specific (e.g., list of sites, map)
+Something that is very FS specific 
+
+
+We can do: L1.
+A few L2s, e.g., a table that looks like a commonly-requested climdb output
+
+
+  
+
+
+Lindsay - Question: whatever happened to chemdb? 
+It exists, but is generally limited to a few nitrogen compounds
+
+
+
+
+
+
+
+
+Suggestion:
+L1 could aggregate. File Size will be an issue if we keep at raw res. Probably we will use a long format, which can get really long with short time steps.
+A mix of time steps is a barrier to some uses, but this is likely to be a L2. several are possible.
+
+
+A L1 should converge on:
+Format
+Attribute names 
+Units
+
+
+
+
+Metadata elements users will need (eg. tags for filtering on):
+Representative station for an area vs other stations
+Geotags
+Distinguishing experimental stations from control
+Instrument used
+Summary info: 
+temporal coverage (length and time step) 
+Area covered by this measurement (eg, watershed area, used to convert between precip and streamflow)
+
+
+
+
+
+
+Parameters we should be able to handle
+(climdb reference document -> https://lternet.edu/wp-content/uploads/2011/09/Climstan99.pdf) 
+What instruments put out (is there a typical suite? What kinds of instruments?) 
+        chemicals-by-sensor
+Methodology code? This may be metadata, e.g. sensor-type
+Type of biome, or type of area covered, 
+eg, is air temperature over water or land (data or metadata?)
+Marine-equivalent of stream flow: current velocity, wave height. 
+Snow-water equiv, snow depth, ice depth (thickness? For the ice itself - wouldn’t a measurement have depth within the ice) snow melt
+Radiation (short and long wave, components/fractions thereof (PAR), directional- up/down, horizontal)
+Other optical proxies, eg, for chl, turbidity
+Profiles - ie 3d data 
+
+
+pros /cons of data duplication
+Work for producer, ease of citation, confusion over what/which data to use 
+
+
+How frequently do we expect L1 to be created (note: these are not be real-time). But that is not what an archive holds. 
+
+
+
+
+
+
+
+
+Wade:
+Cannot always divorce the format from the ways you access it. Tend to be linked at some level.
+NCEI (NCDC)
+USGS NWIS
+CUAHSI
+ClimDB/HydroDB
+
+
+
+
+Repo org scheme for finding sites and stations
+Selection tools (files,variables)
+NCEI 
+data not simple to use via API. simple csv with no metadata (return to web for that) there are FTP options though, Wade has written a parser.
+
+
+USGS - 
+easier, and data are well-described. Attrs are based on storet codes, which describe complete measurement (var, unit, method), USGS adds on processing level
+
+
+CUAHSI 
+a platform for data delivery, with a workspace (not a repo like EDI, or a provider like USGS) - time series defined as unique comob of [site, property method, source org, qc-level]. Relational back end. to contribute, create a series of xref tables (that ref their CVs) plus your obs table. 
+
+
+ClimDB: org-station-var based. Output in simple csv little metadata (return to web)
+
+
+See his comparison table.
+
+
+20190313 notes
+Margaret -- Vocabularies
+
+
+Lexicon (define terms) > Vocabulary (add hierarchical class) > thesaurus (add relationships) > ontology (add rules)
+
+
+Can use several vocabularies to define keywords at the data package level and enhance data discoverability. Suggestion starts with CUASHI and if not applicable find another best vocabulary.
+
+
+Use the CUASHI/ODM vocabulary to define attribute level terms
+
+
+EML 2.2 will enable annotations and direct linking to vocabularies.
+
+
+
+
+
+
+Breakouts
+Vocab selection
+Priorities for L1 conversion 
+        Representative site?
+        Non-experimental data? 
+        
+
+
+
+
+CUAHSI questions/edits
+Which unit vocab do we use, unitType or older Unit
+Height should be height above bottom - rather than height above ocean sfc (or ability to record both)
+Cannot find a variable to match to non-volumetric water content
+
+
+
+
+
+
+EDI tasks
+From whiteboard:
+RFC for climdb archive
+Suggested datasets
+1. DB dump all (1)
+2. L0: climdb content (text data tables) by contributor (site) - 41
+3. L1: dataset (6 ODM tables) from each L0 - 41
+
+
+
+
+Wade:
+Climdb and GCE Matlab toolbox
+
+
+L0 to L1:
+Bring in (import) dataset
+Identify an import a mapping table?
+Map to known format, with conversions where necessary.
+Need to set up a template for 
+
+
+We need:
+Master list of methods codes, a table in a dataset
+
+
+Fiddly bits:
+1. When methods change over time, methods flags: add temporal coverage cols to control mappings
+2. Some additional material may be required by ODM that is not provided by the input file or its EML metadata.
+
+
+
+
+EDI maintenance: Margaret has a matlab license. 
+
+
+
+
+
+
+Level 2: monthly, annual aggregations created. 
+** possible: compute aggregations in Toolbox, compare to climdb as a validation step
+Plan: archive what climdb has (hourly). 
+Put off aggregations -- a) these are likely to be use-driven, and b) the system may need some tweaking which we will work on with the L1. 
+
+
+
+
+How do we specify the temporal frequency of observations? (DH)
+* This is achieved by information provided in the “Variables” table (of the 6 tables we are required to populate)
+* There are two relevant fields, “TimeSupport” and “TimeUnitsName”
+* TimeSupport is simply a numeric field that expresses the frequency of observations (and thus no CV exists)
+* TimeUnitsName should be a term like “minute” or “day,” but as best we can determine as of March 13 there is no controlled vocabulary for these terms. We might want to address this shortcoming so we don’t wind up with datasets that include “day” vs. “daily” and so on. 
+* ODM1.x required the time unit to be in the Units controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=Units&id=1125579048, but that could mean that you have a time support of 12 kg.
+* 
+
+Still need:
+Map EML elements to ODM fields: Renee, Sven, Yang, Don, Suzanne
+Findings:
+Populating the ODM site table from EML metadata will be difficult. Contributors use geoCov a variety of ways (sometimes do/not include bounding boxes for points (ie N=S, E=W).
+Variables in ODM are more granularly described than EML measurements. We need to get hold of  ODM_freq, ODM_aggregation-level, ODM_medium, ODM_unit_ID, ODM_offset
+
+
+Using hydroshare interface: 
+Lindsay, David and Andy
+Cons:
+Found the interface a little cumbersome to use, but thought that someone could get used to it. 
+
+
+Pros
+It allowed them to access a broader range of data (than climdb did)
+It is more discoverable than climdb was.
+
+
+Water VIZ! The level 50 product! They seem impressed.
+Overall: ODM is a most robust way to go for our data. 
+Suggestion: EDI could host hackathon, but need priorities, objectives for L2 products (maybe a synthesis paper using the newly imported data)
+
+
+Suggestion: learn about other CUAHSI tools.
+
+
+
+
+
+
+
+
+
+
+
+
+Exporting from Climdb: Wade and Suzanne
+Some of the data is a little messy, and will need some cleanup.
+
+
+
+
+
+
+What climate variables should be included, how, and where? 
+
+
+LTER recommends/expects “Level 2” stations (from the 1999 guide). Level 2 stations include: 
+Temp - max, min, mean for 24 hrs 
+Precip 
+Wind speed and direction 
+Relative humidity 
+Global solar radiation 
+
+
+All of the above at least at synoptic times but preferably hourly 
+Automated - electronic
+
+
+“Level 2 instrumentation makes periodic measurements of maximum, minimum and (separately) mean air temperature, precipitation (as water-equivalent), wind (speed and direction), relative humidity, and global solar radiation, as summarized in Table 6. The air temperature and precipitation sensors at a Level 2 station are often are more sensitive and need to be exposed in a different manner than those at a Level 1 station. Some "packaged" meteorological stations come with masts and equipment enclosures that obviate the need for the standard NWS-type shelters and other equipment described in sections 2 and 3 above.” (page 11 https://lternet.edu/wp-content/uploads/2011/09/Climstan99.pdf) 
+
+
+https://www.cuahsi.org/uploads/pages/img/CUAHSI_Formatting_Guide.pdf provides some more in depth discussion on what is expected in the various fields.
+
+
+
+
+
+
+Wednesday:
+Get two datasets into ODM.
+1. Using toolbox, use the templates from the NTL sample (Margaret)
+2. Using R (Corinna, Kristin)
+
+
+Thursday:
+
+
+Next steps
+1. Corinna to contact CUAHSI and start setting up LTER service
+   1. Inform them what we are thinking of doing
+   2. Get their agreement that they want our data
+   3. Duplication of data from other places (e.g. AZmet)
+   4. How should we deal with depth and height
+   5. Size of data restrictions?
+   6. Status of ODM 2.2
+1. Do more research of what CUAHSI offers in terms of specific portals
+2. Describe climDB workflow (see whiteboard photo)
+   1. L0 creation (aka “Climdb archive”)
+   2. L1 creation
+1. Design a climDB archive-package (L0)
+   1. One pkg per contributor
+   2. Tables
+      1. Wide, by station
+      2. More, tbd
+1. Walk through tasks for using gce-toolbox for climdb L1 (margaret and wade)
+   1. EML and metadata template for a pulled climdb L! - margaret
+      1. Proposed structure/request input 
+         1. Attribution
+         2. Title
+         3. Creator
+         4. Contact
+         5. Pubdate
+         6. keywords
+         7. Methods
+         8. Coverage-geo
+         9. Coverage-temporal
+   1. ODM table templates  - Wade (confirm)
+   2. Batch processing 
+      1. Set up - wade and margaret
+      2. Run - margaret
+
+
+        
+1. Remotely: Report back to workshop members what CUAHSI provides, what they recommend we set things up etc.
+2. Suggest ESIP workshop with CUAHSI (with Martin?)
+3. Suzanne, Renee and Kristin to fill in Dan at IMExec who can report to Science Council (May)
+4. Corinna to report related EDI activities to Science Council (May)
+5. EDI and Wade to develop a couple examples in CUAHSI
+   1. Current climDB from participating sites (AND, GCE, NTL, SBC, HBR, MCM, KNZ) into CUAHSI as example
+   2. One site climate dataset at higher resolution converted (SBC, GCE)
+1. Water cooler/EDI webinar to discuss workshop outcome (April/May) include Forest Service
+2. Documentation in gitHub (EDI Margaret, Suzanne, Yang, Andy)
+   1. About ODM input file - data package
+   2. Develop mapping between LTER site parameter names and ODM controlled vocabulary
+   3. Available tools for converting data
+   4. Best practice recommendations (for EML, mapping, parameter selection criteria, measurement)
+   5. Help for using data in CUAHSI - interface, R, API (Julien)
+   6. Develop example: how to extract data to end up with all data for one parameter for all sites
+1. Draft RFC from EDI to climdb community: climDB is getting too difficult to maintain, all data will be archived in EDI, the live climDB will be converted to CUAHSI ODM and comparable functionality will be available there (workshop group)
+   1. climDb will move
+   2. Higher time resolution
+   3. All stations
+   4. Extend to other parameters
+   5. Met data from all LTER sites, even if they don’t run their station?
+   6. All USGS stream gauge stations are already in CUAHSI
+1. Wait for comments from RFC
+2. Send out site specific information as is in climDB to be updated
+   1. Lat long in decimal degrees with 6 decimal points
+   2. Methods
+   3. Contact / appropriate attribution to original creator
+1. Discuss at IMC meeting in Tacoma
+   1. Go through climDB interface to update site information
+   2. Determine timeline (climdb retirement)
+   3. Deadline for updates to climDB
+   4. Date for shutting down climDB server and archiving in EDI
+1. Workshop at ESIP (with CUAHSI)
+   1. Priority stations
+   2. Priority parameters
+   3. Intro to how to convert site data into ODM
+   4. Intro to CUAHSI tools, EDI tools
+1. Webinar to introduce example data in CUAHSI, their functionality (scientists) (fall)
+   1. Brainstorming about L2 products that could/should exist? (NCO synthesis working groups) 
+      1. Creating wide files from narrow files
+      2. Hourly/daily/annual aggregates
+      3. (we might also think about setting ourselves up for great “L50” products like waterviz.org, or smartforests.org) 
+         1. Create their input format(s) as a L2 (ask Mary Martin for specs)
+         2. Education committee may be interested (Katy Potter? confirm)
+      1. Flat file of each parameter for all sites
+         1. Structure: ___
+1. Online hackathon to fill out ODM tables (with IMs)
+   1. Dive into climate report from late 1990s, match recommendations to current practice and data systems/uploaded parameters
+1. Steps for data to take - to go into documentation
+   1. L0 data: Site specific data in EDI repo (optional)
+   2. L1 data: Chosen stations, harmonized parameters and units in ODM input format in EDI repo
+   3. L2 data: Chosen station(s), parameters, frequency of hourly into CUAHSI HIS
+
+
+
+
+
+
+
+
+Ruby script to generate odm format from kbs climdb output https://github.com/kf8a/odm_generate
+
+
+
+
+Notes from End Users Group (Lindsey, Andrew, Julien)
+  
+
+
+
+HydroClient (search; http://data.cuahsi.org/)
+* Learned how to navigate the search and select tools bars.  They are a little clunky but functional
+* Successfully selected data and put it into the work space
+*  Successfully created single variable and multivariable stacked .csv files (for GLEON and USGS data; not SCAN data)
+* Successfully contacted the CUASHI help desk about problems with SCAN data.  The got right back to us.
+* Successfully made on-the-fly graphs.  These are limited to 5 variables at a time. (still need to understand where to save the .png files.
+* Successfully viewed summary statistics for each variable (up to 5)
+*  Failed to transfer data to HydroShare
+
+
+HydroShare (data manipulations; https://www.hydroshare.org/)
+* Successfully uploaded csv files downloaded from HydroClient
+* Did not have time to look into the different apps
+
+
+WaterML R-package
+
+
+Package tutorial: https://cran.r-project.org/web/packages/WaterML/vignettes/WaterML-Tutorial.html 
+R Script example for Lake Annie - GLEON: https://github.com/brunj7/lter-climdb/blob/master/testing_waterML.R 
+Paper describing the R package : https://www.sciencedirect.com/science/article/pii/S1574954115000801 
+
+
+Use cases:
+Networks:
+* Found GLEON data easily, 8 years, no problem with time out or size limit so far
+* Got an error when retrieving data from the SCAN sites; The problem was about the date conversion. Julien to log an issue on their repo (https://github.com/jirikadlec2/waterml/issues/13 )
+Usability
+Site and variables selection necessity the visual inspection of the tables as the code needed to do the request are not self explanatory. Maybe a shiny app sitting on top could improve user friendliness
+
+
+Seem to be possible to batch process through variables
+
+
+Overview, Recommendation and Next Steps
+* Functional but clunky
+* We will troubleshoot the transfer of data from HydroClient into HydroShare (with CUASHI helpdesk)
+* Different networks (GLEON, SCAN,...) seem to organize sites differently
+* We noticed discrepancies in how different networks self-identified, and how they tagged the data, and used vocabularies.  For example, we searched for air temperature at the SCAN sites, we got no results, and had to go in advanced searched to select all temperatures to find the data. 
+=> We probably will need to develop best practices on how to organize sites and apply the vocabulary
+* Our group will finish walking through the existing CUASHI tutorials, and will create a network specific tutorial once LTER data are available in CUASHI
