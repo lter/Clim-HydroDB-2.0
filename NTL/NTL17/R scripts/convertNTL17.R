@@ -19,6 +19,7 @@ df_met$datetime <- ymd_hms(df_met$datetime)
 # drop the records that didn't parse into datetime
 df_met <- drop_na(df_met, datetime)
 
+# turn the datetime into 15 minute intervals
 df_met$LocalDateTime <- cut(df_met$datetime, breaks='15 min')
 
 # turn it back into date format
@@ -41,26 +42,28 @@ df_wind_speed <- df_met %>% group_by(LocalDateTime) %>% summarise(Windspeed_ms =
 summary(df_wind_speed)
 
 # figure out data problems
-#find data flags
-df_temp_flags <- filter(df_met, nchar(flag_air_temp) > 0)
-df_temp_flags <- df_temp_flags %>% select(LocalDateTime, flag_air_temp) %>% 
-  group_by(LocalDateTime) %>%
-  summarize(QualityControlLevelCode = first(flag_air_temp))
-
-df_precip_flags <- filter(df_met, nchar(flag_tot_precip) > 0)
-df_precip_flags <- df_precip_flags %>% select(LocalDateTime, flag_tot_precip) %>% 
-  group_by(LocalDateTime) %>%
-  summarize(QualityControlLevelCode = first(flag_tot_precip))
-
-df_rel_hum_flags <- filter(df_met, nchar(flag_rel_hum) > 0)
-df_rel_hum_flags <- df_rel_hum_flags %>% select(LocalDateTime, flag_rel_hum) %>% 
-  group_by(LocalDateTime) %>%
-  summarize(QualityControlLevelCode = first(flag_rel_hum))
-
-df_wind_speed_flags <- filter(df_met, nchar(flag_wind_speed) > 0)
-df_wind_speed_flags <- df_wind_speed_flags %>% select(LocalDateTime, flag_wind_speed) %>% 
-  group_by(LocalDateTime) %>%
-  summarize(QualityControlLevelCode = first(flag_wind_speed))
+# find data flags
+# this is all not needed right now, but I'll leave it in in case we'll go with advanced upload later
+# 
+# df_temp_flags <- filter(df_met, nchar(flag_air_temp) > 0)
+# df_temp_flags <- df_temp_flags %>% select(LocalDateTime, flag_air_temp) %>% 
+#   group_by(LocalDateTime) %>%
+#   summarize(QualityControlLevelCode = first(flag_air_temp))
+# 
+# df_precip_flags <- filter(df_met, nchar(flag_tot_precip) > 0)
+# df_precip_flags <- df_precip_flags %>% select(LocalDateTime, flag_tot_precip) %>% 
+#   group_by(LocalDateTime) %>%
+#   summarize(QualityControlLevelCode = first(flag_tot_precip))
+# 
+# df_rel_hum_flags <- filter(df_met, nchar(flag_rel_hum) > 0)
+# df_rel_hum_flags <- df_rel_hum_flags %>% select(LocalDateTime, flag_rel_hum) %>% 
+#   group_by(LocalDateTime) %>%
+#   summarize(QualityControlLevelCode = first(flag_rel_hum))
+# 
+# df_wind_speed_flags <- filter(df_met, nchar(flag_wind_speed) > 0)
+# df_wind_speed_flags <- df_wind_speed_flags %>% select(LocalDateTime, flag_wind_speed) %>% 
+#   group_by(LocalDateTime) %>%
+#   summarize(QualityControlLevelCode = first(flag_wind_speed))
 
 #make the long format for each table
 df_odm_temp_mean <- df_temp_mean %>% gather('VariableCode', 'DataValue', 2)
@@ -83,23 +86,24 @@ df_odm_windspeed$MethodCode <- 'windspeed_sensor'
 
 # add QualityControlCode columns
 # with flag for temp
-df_odm_temp <- left_join(df_odm_temp, df_temp_flags)
-df_odm_precip <- left_join(df_odm_precip, df_precip_flags)
-df_odm_rel_hum <- left_join(df_odm_rel_hum, df_rel_hum_flags)
-df_odm_windspeed <- left_join(df_odm_windspeed, df_wind_speed_flags)
+# df_odm_temp <- left_join(df_odm_temp, df_temp_flags)
+# df_odm_precip <- left_join(df_odm_precip, df_precip_flags)
+# df_odm_rel_hum <- left_join(df_odm_rel_hum, df_rel_hum_flags)
+# df_odm_windspeed <- left_join(df_odm_windspeed, df_wind_speed_flags)
 
 #combine tables into final ODM
 df_odm <- rbind(df_odm_temp, df_odm_precip)
 df_odm <- rbind(df_odm, df_odm_rel_hum)
 df_odm <- rbind(df_odm, df_odm_windspeed)
 
-# change flags to standards
+# # change flags to standards
+# 
+# df_odm$QualityControlLevelCode[df_odm$QualityControlLevelCode == 'H'] <- 'Q'
+# df_odm$QualityControlLevelCode[df_odm$QualityControlLevelCode == 'K'] <- 'Q'
+# df_odm$QualityControlLevelCode[df_odm$QualityControlLevelCode == 'D'] <- 'M'
 
-df_odm$QualityControlLevelCode[df_odm$QualityControlLevelCode == 'H'] <- 'Q'
-df_odm$QualityControlLevelCode[df_odm$QualityControlLevelCode == 'K'] <- 'Q'
-df_odm$QualityControlLevelCode[df_odm$QualityControlLevelCode == 'D'] <- 'M'
+# df_odm$QualityControlLevelCode[is.na(df_odm$DataValue)] <- "M"
 
-df_odm$QualityControlLevelCode[is.na(df_odm$DataValue)] <- "M"
 df_odm$DataValue[is.na(df_odm$DataValue)] <- -9999
 
 #add the rest of the columns
@@ -107,13 +111,32 @@ df_odm$DataValue[is.na(df_odm$DataValue)] <- -9999
 df_odm$UTCOffset <- -6
 df_odm$SiteCode <- "AP"
 df_odm$SourceCode <- "NTL_LTER"
+df_odm$QualityControlLevelCode <- '1'
 
 df_odm$DateTimeUTC <- df_odm$LocalDateTime - hours(6)
 
 df_odm <- select(df_odm, DataValue, LocalDateTime, UTCOffset, DateTimeUTC, SiteCode, VariableCode, MethodCode, SourceCode, QualityControlLevelCode)
 
-
+# write the whole file out for upload to EDI repo
 write.csv(df_odm, file = 'DataValues.csv', row.names = F, na = '')
+
+# then break it up into ~500k record chunks for upload to CUAHSI
+
+numrows <- nrow(df_odm)
+numchunks <- ceiling(numrows/500000)
+start_record <- 1
+end_record <- 500000
+
+for(i in 1:numchunks){
+  
+  df_odm_chunk <- slice(df_odm, start_record:end_record)
+  
+  write.csv(df_odm_chunk, file = paste('DataValues', i, '.csv', sep = ''), row.names = F)
+  
+  start_record <- start_record + 500000
+  end_record <- end_record + 500000
+  
+}
 
 # do some more quality checking
 

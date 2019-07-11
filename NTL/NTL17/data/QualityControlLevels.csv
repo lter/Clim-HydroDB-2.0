@@ -1,6 +1,7 @@
 QualityControlLevelCode,Definition,Explanation
-G,Value is a good value,"blank/no flag is preferred, though"
-E,Value is estimated,the value was not measured but estimated
-Q,Value is questionable,some problems with this value has been noted in the original data
-M,Value is missing .,"in this case, it is preferred to leave value field null or blank with the data quality flag = “M”"
-T,Trace value ,"For precipitation only.  Values must be assigned to the data field (e.g., assign a zero or 0.1).  DO NOT leave the data field null or blank."
+0,Raw data,"Raw and unprocessed data and data products that have not undergone quality control. Depending on the variable, data type, and data transmission system, raw data may be available within seconds or minutes after the measurements have been made. Examples include real time precipitation, streamflow and water quality measurements."
+1,Quality controlled data,Quality controlled data that have passed quality assurance procedures such as routine estimation of timing and sensor calibration or visual inspection and removal of obvious errors. An example is USGS published streamflow records following parsing through USGS quality control procedures.
+2,Derived products,Derived products that require scientific and technical interpretation and may include multiple-sensor data. An example is basin average precipitation derived from rain gages using an interpolation procedure.
+3,Interpreted products,"Interpreted products that require researcher driven analysis and interpretation, model-based interpretation using other data and/or strong prior assumptions. An example is basin average precipitation derived from the combination of rain gages and radar return data."
+4,Knowledge products,Knowledge products that require researcher driven scientific interpretation and multidisciplinary data integration and include model-based interpretation using other data and/or strong prior assumptions. An example is percentages of old or new water in a hydrograph inferred from an isotope analysis.
+-9999,Unknown,The quality control level is unknown
