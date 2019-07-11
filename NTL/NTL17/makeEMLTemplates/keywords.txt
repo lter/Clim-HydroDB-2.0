@@ -1,0 +1,9 @@
+keyword	keywordThesaurus
+Precipitation	
+Temperature
+Air Temperature
+Wind speed	
+Relative humidity	
+NTL LTER	
+North Temperate Lakes LTER	
+CUAHSI ODM	

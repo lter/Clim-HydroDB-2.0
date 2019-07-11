@@ -1,0 +1,1 @@
+﻿The following parameters are measured at 1-minute intervals: and summarized to 15 minute intervals 1) air temperature at 1.5 m above ground, 2) relative humidity at 1.5 m above ground, 3) wind speed at 3 m above ground, 4) total precipitation.

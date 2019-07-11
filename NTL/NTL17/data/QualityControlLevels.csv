@@ -1,0 +1,6 @@
+QualityControlLevelCode,Definition,Explanation
+G,Value is a good value,"blank/no flag is preferred, though"
+E,Value is estimated,the value was not measured but estimated
+Q,Value is questionable,some problems with this value has been noted in the original data
+M,Value is missing .,"in this case, it is preferred to leave value field null or blank with the data quality flag = “M”"
+T,Trace value ,"For precipitation only.  Values must be assigned to the data field (e.g., assign a zero or 0.1).  DO NOT leave the data field null or blank."
