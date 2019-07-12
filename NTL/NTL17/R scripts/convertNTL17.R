@@ -82,7 +82,7 @@ df_odm_temp <- bind_rows(df_odm_temp, df_odm_temp_min)
 df_odm_temp$MethodCode <- 'air_temp_sensor'
 df_odm_precip$MethodCode <- 'precipitation_sensor'
 df_odm_rel_hum$MethodCode <- 'rel_humidity_sensor'
-df_odm_windspeed$MethodCode <- 'windspeed_sensor'
+df_odm_windspeed$MethodCode <- 'wind_sensor'
 
 # add QualityControlCode columns
 # with flag for temp

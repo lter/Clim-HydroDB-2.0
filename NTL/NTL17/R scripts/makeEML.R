@@ -51,7 +51,7 @@ make_eml(
                  'Variables.csv'),
   data.table.description = c('Values and variable names in long format',
                              'Method desciptions',
-                             'Quality control flags',
+                             'Quality control levels as provided by CUAHSI',
                              'Site description and lat longs',
                              'Research project providing these data',
                              'Variable definitions'),
@@ -65,5 +65,5 @@ make_eml(
   other.entity.description = c('R script to convert original data into ODM format'),
   user.id = 'NTL',
   user.domain = 'LTER',
-  package.id = 'knb-lter-ntl.370.1'
+  package.id = 'knb-lter-ntl.370.3'
 )
