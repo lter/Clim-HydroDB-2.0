@@ -31,14 +31,10 @@ Climdb has
 
 ODM 1.1 ERD (I think you lost your copy)
 
-## We would use HIS.
+**We would use HIS**
 
 The process for updating in HIS is very similar to GBIF - I think (although it sounds like HIS disallows duplicates - how do they detect duplicate? Is it only dateTime-station-measurementName? Or do they check values? How are values replaced?)
 
-TO DO (EDI): 
-
-- Write up a generic pathway. E.g., L0 > L1 > external-query-sys (e.g., cuahsi, gbif), ie, Data goinh from L1 to an external-query-system via a harvester.
-- EDI is not committing to writing the harvesters - at least not for now. EDI can mediate contributions to CUAHSI. We do not yet know whether this will have manual steps or could be automated via a harvester. EDI is not committing to a harvester at this time.
 
 Process for someone who is a current climdb contributor:
 
@@ -59,7 +55,12 @@ Misc:
 
 # Action items
 
-##Webinars to plan
+## TO DO (EDI): 
+
+- Write up a generic pathway. E.g., L0 > L1 > external-query-sys (e.g., cuahsi, gbif), ie, Data goinh from L1 to an external-query-system via a harvester.
+- EDI is not committing to writing the harvesters - at least not for now. EDI can mediate contributions to CUAHSI. We do not yet know whether this will have manual steps or could be automated via a harvester. EDI is not committing to a harvester at this time.
+
+## Webinars to plan
 
 1. ##ODM format itself##
     1. CUASHI system is optimized for querying the data values themselves, so some metadata is in tables, rather than in EML.
@@ -77,17 +78,17 @@ Misc:
     7. E.g. a branched workflow with streaming data that goes directly into CUAHSI, 
     8. with cached-version in a permanent archive.
 
-##Outline Intro materials
+## Outline Intro materials
 
 we will need, e.g.,
 
-###Outreach to data users -
+### Outreach to data users -
 
    1. How to get data from CUAHSI (manual, or hydroclient)
 
    2. How to use CUAHSI web services, for lightweight applications (guest speaker: Emilio Mayorga - he will be at NCEAS in October)
 
-## Questions/discussions:
+# Questions/discussions:
 
 Climdb had pretty regular harvests. Does EDI anticipate we would contribute at that freq? Eg. weekly?
 
