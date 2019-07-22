@@ -1,12 +1,8 @@
-
-
-2019-07-18 - ESIP notes
+# 2019-07-18 - ESIP notes
 
 Phase 1: climdb > cuahsi
 
 What EDI will do
-
-
 
 1. Archive climdb as a DB dump. 
     1. 1 data package in EDI holding the text-dump (otherEntity)
@@ -21,89 +17,77 @@ What EDI will do
 
 ----------------
 
-Don - intro to Climdb
+## Don - intro to Climdb
 
 Climdb has 
+- 26 LTERs - (24 us + 2 international)
+- 22 USFS
 
+## Martin - intro to CUAHSI
 
-    26 LTERs - (24 us + 2 international)
-
-
-    22 USFS
-
-Martin:
-
-Hydroshare = file based,
-
-HIS = time-series based.
-
-Look at his architecture slide, very general.
+- Hydroshare = file based,
+- HIS = time-series based.
+- Look at his architecture slide, very general (good for overviews)
 
 ODM 1.1 ERD (I think you lost your copy)
 
-We would use HIS.
+## We would use HIS.
 
-The process for updating in HIS is very similar to GBIF - I think (although it sounds like HIS disallows duplicates - how do they detect duplicate? Is it only dateTime-station-measurementName? Or do they check values? Can values be replaced?)
+The process for updating in HIS is very similar to GBIF - I think (although it sounds like HIS disallows duplicates - how do they detect duplicate? Is it only dateTime-station-measurementName? Or do they check values? How are values replaced?)
 
-TO DO (EDI): Write up a generic pathway. E.g., L0 > L1 > external-query-sys (e.g., cuahsi, gbif)
+TO DO (EDI): 
 
-Data goes from L1 to an external-query-system via a harvester.
-
-EDI is not committing to writing the harvesters - at least not yet.
+- Write up a generic pathway. E.g., L0 > L1 > external-query-sys (e.g., cuahsi, gbif), ie, Data goinh from L1 to an external-query-system via a harvester.
+- EDI is not committing to writing the harvesters - at least not for now. EDI can mediate contributions to CUAHSI. We do not yet know whether this will have manual steps or could be automated via a harvester. EDI is not committing to a harvester at this time.
 
 Process for someone who is a current climdb contributor:
-
-
 
 1. Deposit L0 is in EDI, in your format and resolution
 2. Deposit L1 in EDI, in ODM format and recommended resolution
 
-EDI can mediate contributions to CUAHSI. We do not yet know whether this will have manual steps or could be automated via a harvester. EDI is not committing to a harvester at this time.
 
-Corinna’s demo/tour of ODM files
+## Corinna’s demo/tour of ODM files
 
 [https://github.com/lter/Clim-HydroDB-2.0](https://github.com/lter/Clim-HydroDB-2.0)
 
-Cuahsi uploads need to be chunked up, 500,000 record limit per upload.
+Misc: 
 
-We might need some advice on handling a few of the vocab terms - eg, “medium name”,
-
-“General category”, we might need some recommendations - are these collection context or use-context?
+- Cuahsi uploads need to be chunked up, 500,000 record limit per upload.
+- We might need some advice on handling a few of the vocab terms - eg, “medium name”,
+- “General category”, we might need some recommendations - are these collection context or use-context?
 
 
 # Action items
 
-**Webinars to plan**
+##Webinars to plan
 
-
-
-1. ODM format itself
+1. ##ODM format itself##
     1. CUASHI system is optimized for querying the data values themselves, so some metadata is in tables, rather than in EML.
         1. Observation table is Long format (rather than wide), that links to metadata in other tables
         2. Entity-specific metadata is in tables (so they can be queried)
         3. High-level metadata in EML.
-2. Making ODM packages
+2. ##Making ODM packages##
     2. With R
     3. With GCE-toolbox
-3. Submissions to CUAHSI
+3. ##Submissions to CUAHSI##
     4. Org-logins
     5. How to? Are these manual processes or with an API?
     6. Size limits & Chunking up
-4. Best ways/Options for streaming data  (guest - Collin Bode, Eel River CZO/UCB)
+4. ##Best ways/Options for streaming data##  (guest - Collin Bode, Eel River CZO/UCB)
     7. E.g. a branched workflow with streaming data that goes directly into CUAHSI, 
     8. with cached-version in a permanent archive.
 
-**Outline Intro materials **
+##Outline Intro materials
 
-we will need, e.g., Outreach to data users -
+we will need, e.g.,
 
+###Outreach to data users -
 
-    How to get data from CUAHSI (manual, or hydroclient)
+   1. How to get data from CUAHSI (manual, or hydroclient)
 
+   2. How to use CUAHSI web services, for lightweight applications (guest speaker: Emilio Mayorga - he will be at NCEAS in October)
 
-    How to use CUAHSI web services, for lightweight applications (guest speaker: Emilio Mayorga - he will be at NCEAS in October)
-
-Questions:
+## Questions/discussions:
 
 Climdb had pretty regular harvests. Does EDI anticipate we would contribute at that freq? Eg. weekly?
 
