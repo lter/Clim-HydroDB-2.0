@@ -19,7 +19,7 @@ It is currently being successfully applied to designing data packages for [commu
  ![Figure 1. General data package harmonization workflow](harmonization_procedure_general.png)
 
 
-## Data models for met and hydrologic data
+### Data models for met and hydrologic data
 A number of data models are commonly used in the research community for harmonizing meteorological and hydrological data. The most prominent of these is the ODM data model for time series, developed and used by the [Consortium of Universities for the Advancement of Hydrologic Science (CUHASI)](https://cuahsi.org). The CUAHSI data platform provides tools for visualization, analysis and might provide some of the ClimDB/HydroDB plotting functionality.  Hence, the ODM model of the CUAHSI HIS is a good candidate for the L1 data model.
 
 At the workshop, a first draft of a workflow was designed for converting all ClimDB/HydroDB products (L0) as well as meteorological and hydrological data in the EDI repository (raw L0) archive those in the EDI data repository as L1 data packages. If the ODM data model is adopted, the data packages will also be available in CUAHSI, hopefully with comparable functionality to ClimDB/HydroDB.
@@ -27,7 +27,7 @@ At the workshop, a first draft of a workflow was designed for converting all Cli
  ![Figure 2. Harmonization of meterological and hydrological raw data using the CUAHSI/ODM data model](harmonization_procedure_odm.png)
 
 
-### Other expertise available to this group:
+## Other expertise available to this group
 Wade Sheldon's GCE Data Toolbox can be applied for the conversion of L0 data packages to the L1 data model. Margaret O'Brien is involved is several semantics projects which might benefit this project as well (although data must adhere to the CUAHSI ODM vocabulary). Vocabularies are also important for defining suitable keywords at the data package level and thereby enhance data discoverability in the EDI repository and via Google's data search.
 
 
