@@ -1,13 +1,13 @@
 # Clim-HydroDB-2.0
 Material related to converting the original climHydroDB into CUAHSI ODM.
 
+### The next working group meeting will be held on November 14, 2019 3 PM ET.
+
 # Major activities (also see issues)
+- Strategic workshop on “Next generation climate/hydrological data products” (organized by EDI, LTER, Forest Service) for developing a strategy on harmonizing weather, climate and hydrological data in the EDI data repository and ClimDB/HydroDB  (University of New Mexico, Albuquerque, NM, March 2019).
+  - The results of the workshop were presented at an LTER Information Manager Water Cooler (April 9, 2019).
+  - Reported activities to LTER Science Council in May 2019.
 - Explore the ODM data model and CUAHSI functionality regarding its suitability for LTER and EDI meteorological and hydrological data products.
-  - Contact CUAHSI regarding services & recommendations for our data products.
-  - Plan webinar for introducing example data in CUAHSI and the functionality of the CUAHSI workspace.
-  - Organize ESIP workshop with members of CUAHSI and Information Managers.
-  - Provide examples of converting site L0 raw and ClimDB/HydroDB data to CUAHSI/ODM standard (L1)
-  - Develop workflow and best practices for data conversion from L0 to L1 using the GCE toolbox and R/Python.
 
 - Establish workflow and best practices documentation in EDI's gitHub space for:
   - Available tools for converting data from raw (L0) to ODM (L1) data model.
