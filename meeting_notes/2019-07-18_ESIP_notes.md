@@ -62,19 +62,19 @@ Misc:
 
 ## Webinars to plan
 
-1. ##ODM format itself##
+1. ODM format itself
     1. CUASHI system is optimized for querying the data values themselves, so some metadata is in tables, rather than in EML.
         1. Observation table is Long format (rather than wide), that links to metadata in other tables
         2. Entity-specific metadata is in tables (so they can be queried)
         3. High-level metadata in EML.
-2. ##Making ODM packages##
+2. Making ODM packages
     2. With R
     3. With GCE-toolbox
-3. ##Submissions to CUAHSI##
+3. Submissions to CUAHSI
     4. Org-logins
     5. How to? Are these manual processes or with an API?
     6. Size limits & Chunking up
-4. ##Best ways/Options for streaming data##  (guest - Collin Bode, Eel River CZO/UCB)
+4. Best ways/Options for streaming data  (guest - Collin Bode, Eel River CZO/UCB)
     7. E.g. a branched workflow with streaming data that goes directly into CUAHSI, 
     8. with cached-version in a permanent archive.
 
@@ -82,13 +82,13 @@ Misc:
 
 we will need, e.g.,
 
-### Outreach to data users -
+## Outreach to data users -
 
    1. How to get data from CUAHSI (manual, or hydroclient)
 
    2. How to use CUAHSI web services, for lightweight applications (guest speaker: Emilio Mayorga - he will be at NCEAS in October)
 
-# Questions/discussions:
+## Questions/discussions:
 
 Climdb had pretty regular harvests. Does EDI anticipate we would contribute at that freq? Eg. weekly?
 
