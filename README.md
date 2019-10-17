@@ -1,6 +1,9 @@
 # Clim-HydroDB-2.0
 Material related to converting the original climHydroDB into CUAHSI ODM.
 
+# Clim-HydroDB-2.0
+Material related to converting the original climHydroDB into CUAHSI ODM.
+
 ### The next working group meeting will be held on November 14, 2019 3 PM ET.
 
 # Major activities (also see issues)
@@ -8,6 +11,13 @@ Material related to converting the original climHydroDB into CUAHSI ODM.
   - The results of the workshop were presented at an LTER Information Manager Water Cooler (April 9, 2019).
   - Reported activities to LTER Science Council in May 2019.
 - Explore the ODM data model and CUAHSI functionality regarding its suitability for LTER and EDI meteorological and hydrological data products.
+  - Contacted CUAHSI regarding services & recommendations for our data products (April 2019).
+  - EDI webinar (June 18, 2019) “CUAHSI Tools for Data Management”: Introducing example data in CUAHSI and the functionality of the CUAHSI workspace (speaker: Martin Seul, Technical Director of CUAHSI).
+  - Working Session at ESIP Summer Meeting (Tacoma, WA, July 2019): “Preparing climate and hydrological time series data for submission to CUAHSI”. Moderator: Corinna Gries (EDI); Speakers: M. Seul (CUAHSI), W. Sheldon (LTER), M. O’Brien (EDI), S. Remillard (LTER).
+
+## Ongoing and upcoming activities
+- Provide examples of converting site L0 raw and ClimDB/HydroDB data to CUAHSI/ODM standard (L1)
+  - Develop workflow and best practices for data conversion from L0 to L1 using the GCE toolbox and R/Python.
 
 - Establish workflow and best practices documentation in EDI's gitHub space for:
   - Available tools for converting data from raw (L0) to ODM (L1) data model.
@@ -16,11 +26,9 @@ Material related to converting the original climHydroDB into CUAHSI ODM.
 
 - Brainstorming about possible L2 products (data products for education and outreach, NCO synthesis working groups, time averages and spatial aggregates, input for great "L50" products like waterviz.org, or smartforests.org.
 
-- Report activities to LTER Science Council in May 2019
-
-- Discuss at 2019 IMC meeting in Tacoma
+- Discuss at upcoming LTER IM Exec meeting possibility to:
   - Determine timeline of ClimDB/HydroDB retirement and archiving in EDI.
-  - Set deadline for LTER sites' updates to ClimDB/HydroDB.
+  - Set deadline for LTER sites' updates met and hydro data to ClimDB/HydroDB.
+  - Provide metadata for site informationin CUAHSI site worksheet.
 
-- Online hackathon with LTER Information Managers to fill out ODM tables
-
+- Online hackathon with LTER Information Managers to fill out ODM tables.
