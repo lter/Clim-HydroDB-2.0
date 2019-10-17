@@ -24,7 +24,3 @@ Material related to converting the original climHydroDB into CUAHSI ODM.
 
 - Online hackathon with LTER Information Managers to fill out ODM tables
 
-
-Set up an account with CUAHSI here http://hydroserver.cuahsi.org/
-
-Log in to that account is on the same page (which is somehow very difficult to find)
