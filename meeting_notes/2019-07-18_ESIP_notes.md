@@ -6,14 +6,14 @@ What EDI will do
 
 1. Archive climdb as a DB dump. 
     1. 1 data package in EDI holding the text-dump (otherEntity)
-2. Export climdb content to ODM format to prepare it for CUASHI
-    2. As EML data packages in EDI
-    3. Tbd:
+1. Export climdb content to ODM format to prepare it for CUASHI
+    1. As EML data packages in EDI
+    1. Tbd:
         1. Exact packaging scheme (anticipating 1/climdb-contributor, eg, lter site)
         2. Mechanism for requesting needed metadata
         3. Aggregation level (anticipating hourly)
-3. Coordinate with CUAHSI to accept these 
-    4. Timing, ownership, volume
+1. Coordinate with CUAHSI to accept these 
+    1. Timing, ownership, volume
 
 ----------------
 
