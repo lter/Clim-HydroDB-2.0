@@ -1,9 +1,6 @@
 # Clim-HydroDB-2.0
 Material related to converting the original climHydroDB into CUAHSI ODM.
 
-# Clim-HydroDB-2.0
-Material related to converting the original climHydroDB into CUAHSI ODM.
-
 ### The next working group meeting will be held on November 14, 2019 3 PM ET.
 
 # Major activities (also see issues)
