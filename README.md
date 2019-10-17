@@ -1,9 +1,12 @@
 # Clim-HydroDB-2.0
 Material related to converting the original climHydroDB into CUAHSI ODM.
 
-### The next working group meeting will be held on November 14, 2019 3 PM ET.
+The next working group meeting will be held on November 14, 2019 3 PM ET.
+
 
 # Major activities (also see issues)
+
+## Past activities
 - Strategic workshop on “Next generation climate/hydrological data products” (organized by EDI, LTER, Forest Service) for developing a strategy on harmonizing weather, climate and hydrological data in the EDI data repository and ClimDB/HydroDB  (University of New Mexico, Albuquerque, NM, March 2019).
   - The results of the workshop were presented at an LTER Information Manager Water Cooler (April 9, 2019).
   - Reported activities to LTER Science Council in May 2019.
