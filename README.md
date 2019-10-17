@@ -1,7 +1,7 @@
 # Clim-HydroDB-2.0
 Material related to converting the original climHydroDB into CUAHSI ODM.
 
-# major activities (also see issues)
+# Major activities (also see issues)
 - Explore the ODM data model and CUAHSI functionality regarding its suitability for LTER and EDI meteorological and hydrological data products.
   - Contact CUAHSI regarding services & recommendations for our data products.
   - Plan webinar for introducing example data in CUAHSI and the functionality of the CUAHSI workspace.
