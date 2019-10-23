@@ -21,6 +21,7 @@ The next working group meeting: November 14, 2019 3 PM ET.
 
 - Establish workflow and best practices documentation in EDI's gitHub space for:
   - Available tools for converting data from raw (L0) to ODM (L1) data model.
+  - Explore automated workflow available in PASTA
   - Develop examples of how to access/extract data in CUAHSI via R or API interface, for one parameter across all LTER sites (maintaining ClimDB/HydroDB functionality).
   - Vocabulary: mapping between LTER and EML site parameter names and ODM controlled vocabulary.
 
