@@ -28,7 +28,7 @@ Two steps, performed by EDI
 - Details to be worked out, depending on what we learn from Phase 1
 
 ### Planned implementation
-#### Phase 1: 
+#### Phase 1: migrate climdb to ODM 1.1 format
 
 - who: EDI, with help from GCE, toolbox
 - tasks overview
@@ -46,5 +46,6 @@ Two steps, performed by EDI
             1. e.g., Timing, ownership, volume
 
 
-#### Phase 2: implementation depends on what we learn from phase 1
+#### Phase 2: EDI mediates contributions from climdb-contributiors to CUAHSI
+implementation depends on what we learn from phase 1
 
