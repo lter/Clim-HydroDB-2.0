@@ -29,6 +29,7 @@ Two steps, performed by EDI
 
 ### Planned implementation
 #### Phase 1: migrate climdb to ODM 1.1 format
+Include
 
 - who: EDI, with help from GCE, toolbox
 - tasks overview
@@ -44,7 +45,11 @@ Two steps, performed by EDI
         1. Request additional metadata (for CUAHSI)
         1. Coordinate with CUAHSI to accept these
             1. e.g., Timing, ownership, volume
-
+3. Timeline 
+    1. proposed date: metadata requests to sites (if metadata is to be added to climdb)
+    1. proposed date of DB archive (for final contribution if desired)
+    1. date: other metadata request (if not added to climdb)
+    
 
 #### Phase 2: EDI mediates contributions from climdb-contributiors to CUAHSI
 implementation depends on what we learn from phase 1
