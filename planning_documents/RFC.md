@@ -52,5 +52,6 @@ Include
     
 
 #### Phase 2: EDI mediates contributions from climdb-contributiors to CUAHSI
-implementation depends on what we learn from phase 1
+- implementation depends on what we learn from phase 1
+- Corinna did this for NTL already, find her notes
 
