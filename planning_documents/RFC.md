@@ -13,10 +13,10 @@ This RFC requests comments from the community on this project. Please send comme
 
 
 ### General recommendation 
-CUAHSI - paragraph describing benefits
-- CUAHSI HIS
+CUAHSI HIS and ODM 1.1. paragraph describing benefits.
 
-two phases 
+two phases, below.
+
 #### Phase 1. migrate climdb to ODM 1.1 format 
 Two steps, performed by EDI
 - archive the content of climdb
