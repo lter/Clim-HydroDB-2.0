@@ -43,7 +43,7 @@ Two steps, performed by EDI
         1. Determine aggregation level (anticipating hourly)
         1. Request additional metadata (for CUAHSI)
         1. Coordinate with CUAHSI to accept these
-        1. Timing, ownership, volume
+            1. e.g., Timing, ownership, volume
 
 
 #### Phase 2: implementation depends on what we learn from phase 1
