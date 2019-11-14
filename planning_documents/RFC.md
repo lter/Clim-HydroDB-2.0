@@ -2,6 +2,8 @@
 ## Project Name
 
 
+## DO NOT EDIT - using gd for early drafts for faster changes. replace this copy later
+
 ### Background 
 ClimHy (aka ClimDB/HydroDB) [https://climhy.lternet.edu](https://climhy.lternet.edu/) is a web harvester and data warehouse that provides uniform access to common daily meteorological and streamflow measurements through a single portal. Participating sites primarily include LTER and USFS stations, although a few additional organizations have participated. In addition to site-generated climate and hydrology data contributions, data from nearby, site-identified USGS streamflow gauges and NCEI weather stations are harvested automatically on a weekly basis using a MATLAB-based workflow hosted by GCE-LTER. The original prototype for ClimHy was developed at North Temperate Lakes LTER in 1997 (Henshaw et al. 1998), and the current version was developed and hosted at the Andrews LTER from 2002-2010. ClimHy was later migrated to the now-defunct LTER Network Office and no further upgrades were implemented. The data and metadata are stored in a SQL Database Server and the harvester and data access pages are written in Perl.
 
