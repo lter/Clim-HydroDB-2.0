@@ -27,9 +27,11 @@ OR
 												
 													
 													
-### Color Key												
-Included here for completeness, but only applies of you look at the original excel spreadsheet or someone has converted these tables to html and added some styling for the color. each table has a column describing if field is required and if it has a vocabulary source.
+### Required Columns
+All 6 tables are required. Each table has some required columns. In each table's description, the `Constraint` row tells you if it's required (`mandatory`), or if the content comes from a controlled vocabulary
 
+#### Color Key 												
+Included here for completeness, but colors are only applied in the original excel spreadsheet (or if someone has converted these tables to html and added some styling for the color.). See the "Constraint row also, as it tells you if field is required or if it has a vocabulary source.
 
 - Mandatory - orange 						
     -	Mandatory fields must contain a value. If information is unavailable, populate with "Unknown" as applicable.												
@@ -50,10 +52,8 @@ http://dx.doi.org/10.1029/2007WR006392
 
 
 
-|  |  |  |
+| Table Name | Table Description | Comment |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| Table Name | Table Description |  |
-|  |  |  |
 | Variables | The Variables table lists the full descriptive information about what variables have been measured. This table is mandatory. |  |
 | Methods | The Methods table lists the methods used to collect the data and any additional information about the method. This table is mandatory. |  |
 | Sites | The Sites table provides information giving the spatial location at which data values have been collected. This table is mandatory. |  |
