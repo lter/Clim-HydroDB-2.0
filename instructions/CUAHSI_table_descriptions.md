@@ -1,8 +1,8 @@
 # CUAHSI Table Descriptions
 
 This doc was created from the 
-1. CUAHSI Standard Formatting Template (Excel file) also in this directory 
-2. screenshot of the general table arrangement.
+1. CUAHSI Standard Formatting Template (see Excel file in CUAHSI_documentation dir)  
+2. screenshot of the general table arrangement, from the CUAHSI guide PDF.
 
 
 
