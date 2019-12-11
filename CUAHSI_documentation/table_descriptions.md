@@ -1,25 +1,36 @@
-#CUAHSI Standard Formatting Template
-This doc was created from the Excel file here:
-https://docs.google.com/spreadsheets/d/1UDEEupH2p4EIsCJ83pwnxWfO-iLvfkH9Km02bDBiNiA/edit#gid=862252164
+# CUAHSI Table Descriptions
 
-and my new best friend: https://www.tablesgenerator.com/markdown_tables
+This doc was created from the 
+1. CUAHSI Standard Formatting Template (Excel file) also in this directory 
+2. screenshot of the general table arrangement.
+
+
 
 ## Introduction
+![ODM general file layout](ODM_model.png)
 
-### 1. How to Use this Guide													
-													
-	The purpose of this document is to provide guidance in populating ODM 1.1.1 templates for uploading data using CUAHSI's ODM Uploader for Azure. 												
-													
-How to use this guide:												
-1. Populate metadata and data values												
-2. Delete first column and 2nd, 3rd, 4th, and 5th rows so that only column headers and your metadata and data values remain												
-3. Export each sheet as a separate CSV file												
-4. Upload each CSV file using CUAHSI's Cloud HydroServer												
+
+### 1. How to Use the Template													
+The purpose of this document is to provide guidance in populating ODM 1.1.1 templates for uploading data using CUAHSI's ODM Uploader for Azure. 												
+
+1. as a guide for creating tables by some other method
+    1. create 6 tables that look like these
+
+OR
+
+2. To hold the data you indend to contribute to CUAHSI (copied from excel template):									
+    1. Populate metadata and data values										
+    2. Delete first column and 2nd, 3rd, 4th, and 5th rows so that only column headers and your metadata and data values remain												
+    3. Export each sheet as a separate CSV file										
+    4. Upload each CSV file using CUAHSI's Cloud HydroServer
 											
 												
 													
 													
 ### Color Key												
+Included here for completeness, but only applies of you look at the original excel spreadsheet or someone has converted these tables to html and added some styling for the color. each table has a column describing if field is required and if it has a vocabulary source.
+
+
 - Mandatory - orange 						
     -	Mandatory fields must contain a value. If information is unavailable, populate with "Unknown" as applicable.												
 - Optional - green												
@@ -29,10 +40,16 @@ How to use this guide:
 	- Note: All controlled vocabulary fields are mandatory although "Unknown" is a valid value for some.												
 													
 													
-### For more information about the Observational Data Model: http://dx.doi.org/10.1029/2007WR006392 												
+### For more information about the Observational Data Model: 
+http://dx.doi.org/10.1029/2007WR006392 												
 													
 													
 ### Table Descriptions
+
+![ODM general file layout](ODM_model.png)
+
+
+
 |  |  |  |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | Table Name | Table Description |  |
@@ -44,7 +61,7 @@ How to use this guide:
 | Quality Control | The QualityControlLevels table contains the quality control levels that are used for versioning data within the database. This table is mandatory. |  |
 | DataValues | The DataValues table contains the actual data values and keys to metadata tables. This table is mandatory. |  |														
 																			
-### Sites
+### Sites Table
 | Field | SiteCode | SiteName | Latitude | Longitude | LatLongDatumSRSName | SiteType | Comments |
 |---------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|------------------------------|-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
 | Data Type | Text (255) | Text (255) | Real | Real | Text | Text | Text (Unlimited) |
@@ -53,7 +70,7 @@ How to use this guide:
 | Default Value | There is no default value | There is no default value | N/A | N/A | Unknown |  |  |
 
 
-### Variables
+### Variables Table
 | Field | VariableCode | VariableName | VariableUnitsName | DataType | SampleMedium | ValueType | IsRegular | TimeSupport | TimeUnitsName | GeneralCategory | NoDataValue |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Data Type | Text (50) | Text (255 characters or less) | Text (255) | Text (255) | Text (255) | Text (255) | Boolean | Real | Text (255) | Text (255) | Real |
@@ -62,7 +79,7 @@ How to use this guide:
 | Default Value | There is no default value | There is no default value | There is no default value | Unknown | Unknown | Unknown | FALSE | 0 (Assumes instantaneous samples where no other information is available) | "hours" | Unknown | -9999 |
 
 
-### Methods
+### Methods Table
 | Field | MethodCode | MethodDescription | MethodLink |
 |---------------|--------------------------------------------------------------------------------------------------------|----------------------------------|------------------------------------------------------|
 | DataType | Text (50) | Text (Unlimited) | Text (500) |
@@ -71,7 +88,7 @@ How to use this guide:
 | Default Value | There is no default value | There is no default value | NULL |
 
 
-### Sources
+### Sources Table
 | Field | SourceCode | Organization | SourceDescription | SourceLink | ContactName | Email | Citation |
 |---------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | Data Type | Text (50) | Text (255) | Text (Unlimited) | Text (500) | Text (255) | Text (255) | Text (Unlimited) |
@@ -79,8 +96,8 @@ How to use this guide:
 | Description | Code used to identify the organization that created the data. | Name of the organization that collected the data. This should be the agency or organization that collected the data, even if it came out of a database consolidated from many sources such as STORET. | Full text description of the source of the data. | Link that can be pointed at the original data file and/or associated metadata stored in the digital library or URL of data source. | Name of the contact person for the data source. | Email addresss for the contact person. | Text string that give the citation to be used when the data from each source are referenced. |
 | Default Value | There is no default value | There is no default value | There is no default value | NULL | Unknown | Unknown | Unknown |
 
-
-### Quality Control Levels
+ 
+### Quality Control Levels Table
 | Field | QualityControlLevelCode | Definition | Explanation |
 |---------------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|---------------------------------------|
 | Data Type | Text (50) | Text (50) | Text (Unlimited) |
