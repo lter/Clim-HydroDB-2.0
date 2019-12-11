@@ -13,12 +13,13 @@ This doc was created from the
 ### 1. How to Use the Template													
 The purpose of this document is to provide guidance in populating ODM 1.1.1 templates for uploading data using CUAHSI's ODM Uploader for Azure. 												
 
-1. as a guide for creating tables by some other method
+1. Use this guide to create tables by your own method
     1. create 6 tables that look like these
+    2. Other instructions TBD
 
 OR
 
-2. To hold the data you indend to contribute to CUAHSI (copied from excel template):									
+2. If you copy the template Excel file, you can past into it the data you indend to contribute, and export the six tables. These steps copied directly from their Excel file for convenience; if you are going to populate the template, stop reading here and look in the Excel file instead:									
     1. Populate metadata and data values										
     2. Delete first column and 2nd, 3rd, 4th, and 5th rows so that only column headers and your metadata and data values remain												
     3. Export each sheet as a separate CSV file										
