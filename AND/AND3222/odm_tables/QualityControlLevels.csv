@@ -1,0 +1,8 @@
+QualityControlLevelCode,Definition,Explanation
+A,Accepted value,Accepted value has passed all QC tests applied as represented by the quality level
+B,Snow temperature,Sensor buried in snow and value is snow temperature
+D,Estimated value,Value is estimated as the average of daily minimum and daily maximum
+E,Estimated value,Estimated value
+M,Missing value,Missing value
+Q,Questionable value,Questionable value
+S,Daily value,Daily value based on sunrise to sunrise
