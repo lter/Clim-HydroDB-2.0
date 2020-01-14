@@ -1,6 +1,4 @@
-List of Participants
-
-| Participants    | Organization  | Email |
+| Members    |  Email  | Organization |
 |:----------------|:-------------:|:-----:|
 |Bohm, Sven | bohms@msu.edu | KBS LTER|
 |Brooks, Andy |ajbrooks@ucsb.edu | MCR LTER|
