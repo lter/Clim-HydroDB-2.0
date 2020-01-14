@@ -1,7 +1,7 @@
 # Clim-HydroDB-2.0
 Material related to converting the original climHydroDB into CUAHSI ODM.
 
-* [LTER-EDI working group members](https://github.com/sgclarkevt/Clim-HydroDB-2.0/blob/master/meeting_notes/working_group_members.md)
+* [LTER-EDI working group members](https://github.com/lter/Clim-HydroDB-2.0/blob/master/meeting_notes/working_group_members.md)
 
 
 # Major activities (also see issues)
