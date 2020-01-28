@@ -1,6 +1,5 @@
 keyword	keywordThesaurus
-Temperature
-Air Temperature
-NTL LTER	
-Andrews Forest LTER
+Temperature 
+Air Temperature 
+AND LTER 
 CUAHSI ODM	
