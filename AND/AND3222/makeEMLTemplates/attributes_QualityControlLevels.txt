@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+QualityControlLevelCode	xxx	character				
+Definition	xxx	character				
+Explanation	xxx	character				

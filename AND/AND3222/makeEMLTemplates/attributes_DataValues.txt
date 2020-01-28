@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+DataValue	"15-minute mean air temperature"	numeric	C
+LocalDateTime	"YYYY-MM-DD hh:mm:ss"	Date		YYYY-MM-DD hh:mm:ss
+UTCOffset	"Number of hours between the local time and UTC"	numeric	hours
+DateTimeUTC	"Local time plus magnitude of UTC offset"	Date		YYYY-MM-DD hh:mm:ss
+SiteCode	"User-defined textcode for the site"	categorical				
+VariableCode	"User-defined code for variable"	categorical				
+MethodCode	"User-defined field for each measurement method"	categorical				
+SourceCode	"Unique text code for organization responsible for collecting the data"	categorical				
+QualityControlLevelCode	"Level of review"	categorical				

@@ -1,0 +1,8 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SourceCode	"Unique text code for each organization"	character				
+Organization	"Name of the organization responsible for the data collection"	character				
+SourceDescription	"Description of project or other subunit of the organization"	character				
+SourceLink	"URL that describes the projec"	character				
+ContactName	"Name of the person who should be contacted if the user has questions about the data"	character				
+Email	"Email address of the contact"	character				
+Citation	"How the data should be cited."	character				
