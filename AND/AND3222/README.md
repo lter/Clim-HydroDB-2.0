@@ -2,9 +2,10 @@
 
 Data set title: "Meteorological data from benchmark stations at the Andrews Experimental Forest, 1957 to present."
 
-### Convert subset
+### Convert subset of data package
 * Table: MS00111.txt
-* PROBE_CODE: "AIRCEN08","AIRPRI08","AIRUPL08","AIRVAN08" (5 minute air temperatures)
+* PROBE_CODE values: "AIRCEN08","AIRPRI08","AIRUPL08","AIRVAN08" (5 minute air temperatures)
+* Each PROBE_CODE value is an independent CUAHSI dataset since sensors have different locations (lat, lon).
 
 ### Requirements
 * Create ODM tables: 1. Variables.csv, 2.Methods.csv, 3.Sites.csv, 4.Sources.csv 5.QualityControlLevels.csv
