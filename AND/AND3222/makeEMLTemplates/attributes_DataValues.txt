@@ -1,6 +1,6 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-DataValue	"15-minute mean air temperature"	numeric	C
-LocalDateTime	"YYYY-MM-DD hh:mm:ss"	Date		YYYY-MM-DD hh:mm:ss
+DataValue	"The numeric value of the observation. For Categorical variables, a number is stored here. The Variables table has DataType as Categorical and the Categories table maps from the DataValue onto Category Description."	numeric	dimensionless
+LocalDateTime	"Local date and time at which the data value was observed. Represented in an implementation specific format."	Date		YYYY-MM-DD hh:mm:ss
 UTCOffset	"Number of hours between the local time and UTC"	numeric	hours
 DateTimeUTC	"Local time plus magnitude of UTC offset"	Date		YYYY-MM-DD hh:mm:ss
 SiteCode	"User-defined textcode for the site"	categorical				
