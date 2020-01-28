@@ -15,4 +15,4 @@ Data set title: "Meteorological data from benchmark stations at the Andrews Expe
  * Place ODM tables in "odm_tables" dir and input data in "data" dir.
 
 ### Questions
-* When should 15 minute averaging be started? At first data contribution or full hour?
+* 
