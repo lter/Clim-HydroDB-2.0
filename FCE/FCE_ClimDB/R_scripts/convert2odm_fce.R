@@ -36,7 +36,7 @@ library(lubridate)
 
 ## make ODM table "DataValues.csv"
 
-# DataValues Table: Create colums 6:VariableCode(Text) and 9:QualityControlLevel col1(Text)
+# create columns VariableCode and QualityControlLevel
 flags <- df_met %>%
     select (Date, Flag_Daily_AirTemp_Mean_C, Flag_Daily_AirTemp_AbsMax_C,Flag_Daily_AirTemp_AbsMin_C,Flag_Daily_Precip_Total_mm)  %>%
     pivot_longer(cols = starts_with("Flag_"), names_to = "VariableCode", values_to = "QualityControlLevel", values_drop_na = FALSE)
