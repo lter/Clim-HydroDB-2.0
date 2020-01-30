@@ -34,14 +34,14 @@ library(lubridate)
     odm_table_variables <- read_csv(file.path(dir_odm_tables, "Variables.csv"))
     VariableCode <- odm_table_variables$VariableCode[1]
 
-# Make ODM table "DataValues.csv"
+## make ODM table "DataValues.csv"
 
 # DataValues Table: Create colums 6:VariableCode(Text) and 9:QualityControlLevel col1(Text)
 flags <- df_met %>%
     select (Date, Flag_Daily_AirTemp_Mean_C, Flag_Daily_AirTemp_AbsMax_C,Flag_Daily_AirTemp_AbsMin_C,Flag_Daily_Precip_Total_mm)  %>%
     pivot_longer(cols = starts_with("Flag_"), names_to = "VariableCode", values_to = "QualityControlLevel", values_drop_na = FALSE)
 
-# DataValues Table: Create colums
+# make columns for ODM table "DataValues.csv"
 df_odm <- df_met %>%
     select (-LTER_Site, -Station, -Flag_Daily_AirTemp_Mean_C, -Flag_Daily_AirTemp_AbsMax_C, -Flag_Daily_AirTemp_AbsMin_C, -Flag_Daily_Precip_Total_mm) %>%
     pivot_longer(cols = starts_with("Daily_"), names_to = "VariableCode", values_to = "DataValue", values_drop_na = FALSE)  %>%
