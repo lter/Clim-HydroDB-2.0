@@ -1,4 +1,4 @@
-## Conversion of FCE ClimDB/HydroDB data into CUAHSI ODM format.
+## Conversion of FCE ClimDB/HydroDB data into CUAHSI ODM format. Write into table "DataValues.csv"
 
 ### ClimDB data table has 10 columns
     1. LTER_Site
@@ -14,9 +14,11 @@
 
 ### Requirements
 
-Create ODM tables: 1. Variables.csv, 2.Methods.csv, 3.Sites.csv, 4.Sources.csv 5.QualityControlLevels.csv according to instructions in "CUAHSI Data Formatting Guide" using controlled vocabulary.
-In R working directory create subdirectories "odm_tables" and "data".
-Place ODM tables in "odm_tables" dir and input data in "data" dir.
+Create ODM tables according to instructions in "CUAHSI Data Formatting Guide" using controlled vocabulary: 
+    1. Variables.csv
+    2. Methods.csv
+    3. Sites.csv
+    4. Sources.csv
+    5. QualityControlLevels.csv 
 
-Questions
-
+In R working directory create subdirectories "odm_tables" and "data". Place ODM tables in "odm_tables" dir and input data in "data" dir. Run program convert2odm_fce.R to convert data in ClimDB/HydroDB into ODM format and write into DataVlaues.csv file.
