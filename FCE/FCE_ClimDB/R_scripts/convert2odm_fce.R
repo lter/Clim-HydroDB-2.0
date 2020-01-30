@@ -11,7 +11,7 @@ library(lubridate)
 
 ## read FCE data
     in_file <- file.path(dir_data,data_table_name)
-    df_met <- read_csv(in_file, header = TRUE, sep = ",",
+    df_met <- read_csv(in_file,
                     col_types = list(col_character(), col_character(), col_character(), 
                                      col_double(), col_character(), 
                                      col_double(), col_character(), 
