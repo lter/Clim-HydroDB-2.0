@@ -2,7 +2,6 @@
 
 library(tidyverse) 
 library(lubridate)
-# library(chunked)
 
 ## specify inputs
     dir_data <- "data"
@@ -10,6 +9,7 @@ library(lubridate)
     data_table_name <- "FCE_Everglades_ClimDB_data.csv"
     UTCOffset <- -5 # to Florida Standard Time
 
+## read FCE data
     in_file <- file.path(dir_data,data_table_name)
     df_met <- read_csv(in_file, header = TRUE, sep = ",",
                     col_types = list(col_character(), col_character(), col_character(), 
@@ -21,7 +21,7 @@ library(lubridate)
 
 ## calulate daily mean air temperature 
 ## justification: http://www.nrcse.washington.edu/NordicNetwork/reports/temp.pdf
-    df_odm <- df_met %>%
+    df_met <- df_met %>%
               mutate(Daily_AirTemp_Mean_C = 0.5*(Daily_AirTemp_AbsMax_C+Daily_AirTemp_AbsMin_C))
 
 # read information from ODM tables and assign to columns of "DataValues.csv"
@@ -37,12 +37,12 @@ library(lubridate)
 # Make ODM table "DataValues.csv"
 
 # DataValues Table: Create colums 6:VariableCode(Text) and 9:QualityControlLevel col1(Text)
-data_values_flags <- data_values %>%
+data_flags <- df_met %>%
     select (Date, Flag_Daily_AirTemp_Mean_C, Flag_Daily_AirTemp_AbsMax_C,Flag_Daily_AirTemp_AbsMin_C,Flag_Daily_Precip_Total_mm)  %>%
     pivot_longer(cols = starts_with("Flag_"), names_to = "VariableCode", values_to = "QualityControlLevel", values_drop_na = FALSE)
 
 # DataValues Table: Create colums
-df_odm <- df_odm %>%
+df_odm <- df_met %>%
     select (-LTER_Site, -Station, -Flag_Daily_AirTemp_Mean_C, -Flag_Daily_AirTemp_AbsMax_C, -Flag_Daily_AirTemp_AbsMin_C, -Flag_Daily_Precip_Total_mm) %>%
     pivot_longer(cols = starts_with("Daily_"), names_to = "VariableCode", values_to = "DataValue", values_drop_na = FALSE)  %>%
     rename(LocalDateTime = Date) %>%
