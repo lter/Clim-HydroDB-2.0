@@ -1,4 +1,4 @@
-# Convert ClimDB data from FCE lTER into CUAHSI ODM format
+# Convert ClimDB data from FCE LTER into CUAHSI ODM format
 
 library(tidyverse) 
 library(lubridate)
