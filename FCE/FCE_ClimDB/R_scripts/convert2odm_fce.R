@@ -49,7 +49,7 @@ df_odm <- df_met %>%
     mutate(SiteCode,
            SourceCode,
            UTCOffset,
-           DateTimeUTC = LocalDateTime + hours(-UTCOffset),
+           DateTimeUTC = LocalDateTime      # hours(-UTCOffset) not added, bc of daily data
            QualityControlLevelCode = flags$QualityControlLevel,
            MethodCode = case_when (
                   VariableCode=="Daily_Precip_Total_mm" ~ "PRECIP",
