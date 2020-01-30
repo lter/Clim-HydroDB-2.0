@@ -37,7 +37,7 @@ library(lubridate)
 # Make ODM table "DataValues.csv"
 
 # DataValues Table: Create colums 6:VariableCode(Text) and 9:QualityControlLevel col1(Text)
-data_flags <- df_met %>%
+flags <- df_met %>%
     select (Date, Flag_Daily_AirTemp_Mean_C, Flag_Daily_AirTemp_AbsMax_C,Flag_Daily_AirTemp_AbsMin_C,Flag_Daily_Precip_Total_mm)  %>%
     pivot_longer(cols = starts_with("Flag_"), names_to = "VariableCode", values_to = "QualityControlLevel", values_drop_na = FALSE)
 
@@ -46,7 +46,7 @@ df_odm <- df_met %>%
     select (-LTER_Site, -Station, -Flag_Daily_AirTemp_Mean_C, -Flag_Daily_AirTemp_AbsMax_C, -Flag_Daily_AirTemp_AbsMin_C, -Flag_Daily_Precip_Total_mm) %>%
     pivot_longer(cols = starts_with("Daily_"), names_to = "VariableCode", values_to = "DataValue", values_drop_na = FALSE)  %>%
     rename(LocalDateTime = Date) %>%
-    mutate(QualityControlLevelCode = data_values_flags$QualityControlLevel) %>%
+    mutate(QualityControlLevelCode = flags$QualityControlLevel) %>%
     mutate(UTCOffset) %>%
     mutate(SiteCode = odm_table_sites$SiteCode) %>%
     mutate(MethodCode = case_when (
@@ -64,5 +64,5 @@ df_odm <- df_met %>%
     df_odm <- select(df_odm, DataValue, LocalDateTime, UTCOffset, DateTimeUTC, SiteCode, VariableCode, MethodCode, SourceCode, QualityControlLevelCode)
     
 # write "DataValues.csv"
-    out_file <- file.path(dir_odm_tables,paste(probe_code,"DataValues.csv", sep="_"))
+    out_file <- file.path(dir_odm_tables,"DataValues.csv")
     write_csv(df_odm,out_file)
