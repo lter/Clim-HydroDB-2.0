@@ -46,16 +46,16 @@ df_odm <- df_met %>%
     select (-LTER_Site, -Station, -Flag_Daily_AirTemp_Mean_C, -Flag_Daily_AirTemp_AbsMax_C, -Flag_Daily_AirTemp_AbsMin_C, -Flag_Daily_Precip_Total_mm) %>%
     pivot_longer(cols = starts_with("Daily_"), names_to = "VariableCode", values_to = "DataValue", values_drop_na = FALSE)  %>%
     rename(LocalDateTime = Date) %>%
-    mutate(QualityControlLevelCode = flags$QualityControlLevel) %>%
-    mutate(UTCOffset) %>%
-    mutate(SiteCode = odm_table_sites$SiteCode) %>%
-    mutate(MethodCode = case_when (
+    mutate(SiteCode,
+           SourceCode,
+           UTCOffset,
+           DateTimeUTC = LocalDateTime + hours(-UTCOffset),
+           QualityControlLevelCode = flags$QualityControlLevel,
+           MethodCode = case_when (
                   VariableCode=="Daily_Precip_Total_mm" ~ "PRECIP",
                   VariableCode=="Daily_AirTemp_Mean_C"  ~ "AIR_MEAN",                  
                   VariableCode=="Daily_AirTemp_AbsMax_C"  ~ "AIR_TMAX",
-                  VariableCode=="Daily_AirTemp_AbsMin_C"  ~ "AIR_TMIN")) %>% 
-    mutate(SourceCode = odm_table_sources$SourceCode) %>% 
-    mutate(DateTimeUTC = LocalDateTime)
+                  VariableCode=="Daily_AirTemp_AbsMin_C"  ~ "AIR_TMIN"))
     
 # replace missing values NA with -9999 
     df_odm$DataValue[is.na(df_odm$DataValue)] <- -9999
