@@ -1,20 +1,22 @@
 ## Conversion of FCE ClimDB/HydroDB data into CUAHSI ODM format. Write into table "DataValues.csv"
 
-### ClimDB data table has 10 columns
+### ClimDB data table has 11 columns
     1. LTER_Site
-    2. Station,Date
-    3. Daily_AirTemp_Mean_C
-    4. Flag_Daily_AirTemp_Mean_C
-    5. Daily_AirTemp_AbsMax_C
-    6. Flag_Daily_AirTemp_AbsMax_C
-    7. Daily_AirTemp_AbsMin_C
-    8. Flag_Daily_AirTemp_AbsMin_C
-    9. Daily_Precip_Total_mm
-    10. Flag_Daily_Precip_Total_mm
+    2. Station
+    3. Date
+    4. Daily_AirTemp_Mean_C
+    5. Flag_Daily_AirTemp_Mean_C
+    6. Daily_AirTemp_AbsMax_C
+    7. Flag_Daily_AirTemp_AbsMax_C
+    8. Daily_AirTemp_AbsMin_C
+    9. Flag_Daily_AirTemp_AbsMin_C
+    10. Daily_Precip_Total_mm
+    11. Flag_Daily_Precip_Total_mm
 
 ### Requirements
 
 Create ODM tables according to instructions in "CUAHSI Data Formatting Guide" using controlled vocabulary: 
+
     1. Variables.csv
     2. Methods.csv
     3. Sites.csv
