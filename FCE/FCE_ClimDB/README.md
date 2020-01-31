@@ -1,5 +1,9 @@
 ## Conversion of FCE ClimDB/HydroDB data into CUAHSI ODM format.
 
+## Data set title: "NOAA Daily Surface Meteorologic Data at NCDC Everglades Station (ID-082850)(FCE), South Florida from February 1924 to Present"
+
+Package identifier: knb-lter-fce.1050.15
+
 ### ClimDB data table has 11 columns
     1. LTER_Site
     2. Station
