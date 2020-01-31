@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+VariableCode	"Code that uniquely defines the variable"	categorical				
+VariableName	"Controlled vocabulary name"	character				
+VariableUnitsName	"Controlled vocabulary units that describe data"	character				
+DataType	"Recorded value over the time interval being sampled"	categorical				
+SampleMedium	"Controlled vocabulary medium in which a sensor is placed"	categorical				
+ValueType	"Controlled Vocabulary type of observations"	categorical				
+IsRegular	"Measurements taken at regular time step or not"	boolean				
+TimeSupport	"Period of time which the measurement represents"	Date		YYYY-MM-DD		
+TimeUnitsName	"Units of time support field"	Date		YYYY-MM-DD		
+GeneralCategory	"Controlled vocabulary category of data"	categorical				
+NoDataValue	"Numeric value used to indicate no data"	numeric	-9999			

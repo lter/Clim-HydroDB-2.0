@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SiteCode	"User-defined textcode for the site"	character				
+SiteName	"User-defined name for the site"	factor				
+Latitude	"Expressed in decimal degrees"	numeric degrees			
+Longitude	"Expressed in decimal degrees"	numeric	degrees			
+Elevation	"Elevation of site in meters"	numeric	meters			
+LatLongDatumSRSName	"Datum for the earth spatial reference system"	factor				
+SiteType	"site classification comes from the USGS system"	factor				
+Comments	"Open text field to record any comments"	character				
