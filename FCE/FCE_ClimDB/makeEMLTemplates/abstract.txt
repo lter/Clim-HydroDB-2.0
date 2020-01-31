@@ -1,1 +1,1 @@
-FCE ClimDB data
+The National Climatic Data Center's (NOAA) daily mean, maximum, and minimum air temperatures and daily precipitation collected at Everglades Station (Coop ID- 082850).
