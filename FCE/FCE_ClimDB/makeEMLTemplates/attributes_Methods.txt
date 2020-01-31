@@ -1,4 +1,4 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-MethodCode	"User-defined field for each measurement method"	character				
+MethodCode	"User or organization-defined code that collects the data to identify the method used for measurement"	character				
 MethodDescription	"Description of the method used to make the measurement"	character				
-MethodLink	"URL to a web page that describes the method more completely"	character				
+MethodLink	"URL to additional reference material on the method."	character				
