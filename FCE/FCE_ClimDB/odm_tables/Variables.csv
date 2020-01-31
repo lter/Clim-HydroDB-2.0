@@ -1,0 +1,5 @@
+VariableCode,VariableName,VariableUnitsName,DataType,SampleMedium,ValueType,IsRegular,TimeSupport,TimeUnitsName,GeneralCategory,NoDataValue
+Daily_AirTemp_Mean_C,Temperature,degC,Average,Air,Derived Value,TRUE,1,day,Climate,-9999
+Daily_AirTemp_AbsMax_C,Temperature,degC,Maximum,Air,Field Observation,TRUE,0,day,Climate,-9999
+Daily_AirTemp_AbsMin_C,Temperature,degC,Minimum,Air,Field Observation,TRUE,0,day,Climate,-9999
+Daily_Precip_Total_mm,Precipitation,mm,Cumulative,Air,Field Observation,TRUE,1,day,Hydrology,-9999
