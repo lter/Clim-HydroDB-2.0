@@ -1,2 +1,6 @@
 keyword	keywordThesaurus
-CUAHSI  LTER
+Temperature 
+Air Temperature 
+Precipitation 
+FCE LTER 
+CUAHSI ODM	
