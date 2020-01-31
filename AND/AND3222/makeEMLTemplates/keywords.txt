@@ -1,6 +1,5 @@
 keyword	keywordThesaurus
 Temperature 
 Air Temperature 
-Precipitation 
-FCE LTER 
+AND LTER 
 CUAHSI ODM	
