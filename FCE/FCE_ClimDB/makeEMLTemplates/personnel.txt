@@ -1,5 +1,2 @@
 givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
-Information		Manager	"Orgeon State University"	hjaweb@fsl.orst.edu		Information manager	AND LTER	National Science Foundation	DEB-1440409
-Donald	L	Henshaw	"Orgeon State University"	don.henshaw@oregonstate.edu		Information manager	AND LTER	National Science Foundation	DEB-1440409
-Adam	M	Kennedy	"Orgeon State University"	adam.kennedy@oregonstate.edu		contact		AND LTER	National Science Foundation	DEB-1440409
-
+Information		Manager	"Florida International University"  fcelter@fiu.edu Florida Coastal Everglades LTER Program National Science Foundation	DEB-# 9910514-#0620409-#1237517
