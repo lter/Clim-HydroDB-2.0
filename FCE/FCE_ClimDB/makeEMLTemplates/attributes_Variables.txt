@@ -1,7 +1,7 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
 VariableCode	"User or organization-defined code to describe the variable. If for example, you are measuring streamflow, you may name this SF"	character				
 VariableName	"Full text name of the variable that was measured, observed, modeled, etc. Example: Streamflow. Choose from the Variable Name controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=VariableNameCV&id=1157579162"	character				
-VariableUnitsName	"The name of units of the data values associated with a variable. Example: degree. Choose from the Units controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=Units&id=1125579048"	character				
+VariableUnitsName "The name of units of the data values associated with a variable. Example: degree. Choose from the Units controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=Units&id=1125579048"	character				
 DataType	"The recorded value over the time interval being sampled. Example: average. Choose from the DataType controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=DataTypeCV&id=789577851"	character				
 SampleMedium	"The medium in which the sample or observation was taken or made. Example: Surface water. Choose from the SampleMedium controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=SampleMediumCV&id=821577965." 	character				
 ValueType	"Text value indicating what type of data value is being recorded. Example: Field Observation. Choose from the ValueType controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=ValueTypeCV&id=1141579105"	character				
