@@ -1,1 +1,41 @@
-odm_table_name,odm_field,data_type,constraint,climdb_table,climdb_field,commentsSites,SiteCode,text,mandatory,site,site_code,foreign keySites,SiteName,text,mandatory,site,site_name,sites or subsitesSites,Latitude,real,mandatory,site,latitude_dec,Sites,Longitude,real,mandatory,site,longitude_dec,Sites,LatLongDatumSRSName,text,mandatory,,,Sites,SiteType,text,,,,Sites,Comments,text,optional,,,Variables,VariableCode,text,,climdb_variables,variable,foreign keyVariables,VariableName,text,controlledVocab,climdb_variables,fullname,Variables,VariableUnitsName,text,controlledVocab,climdb_variables,unit_desc,Variables,DataType,text,,climdb_variables,variable_name,Variables,SampleMedium,text,controlledVocab,,,Variables,ValueType,text,controlledVocab,,,"""Field Observation"""Variables,IsRegular,boolean,mandatory,,,is data averaged over a dayVariables,TimeSupport,real,mandatory,,,1Variables,TimeUnitsName,text,mandatory,,,dayVariables,GeneralCategory,text,mandatory,,,"""Climate"" ""Soil"" or ""Hydrology"""Variables,NoDataValue,real,mandatory,,,Methods,MethodCode,text,mandatory,,,Methods,MethodDescription,text,mandatory,,,Methods,MethodLink,text,optional,,,Sources,SourceCode,text,mandatory,,,Sources,Organization,text,mandatory,,,Sources,SourceDescription,text,mandatory,,,Sources,SourceLink,text,optional,,,Sources,ContactName,text,mandatory,,,Sources,Email,text,mandatory,,,Sources,Citation,text,mandatory,,,QualityControl,QualityControlLevelCode,text,mandatory,,,QualityControl,Definition,text,mandatory,,,QualityControl,Explanation,text,mandatory,,,DataValues,DataValue,real,mandatory,climdb_raw,value,DataValues,LocalDateTime,Date/Time,mandatory,climdb_raw,sampledate,DataValues,UTCOffset,real,mandatory,,,DataValues,DateTimeUTC,Date/Time,mandatory,,,DataValues,SiteCode,text,mandatory,site,site_code,DataValues,VariableCode,text,mandatory,climdb_variables,variable,DataValues,MethodCode,text,mandatory,,,DataValues,SourceCode,text,mandatory,,,DataValues,QualityControlLevelCode,text,mandatory,,,
+odm_table_name,odm_field,data_type,constraint,climdb_table,climdb_field,comments
+Sites,SiteCode,text,mandatory,site,site_code,foreign key
+Sites,SiteName,text,mandatory,site,site_name,sites or subsites
+Sites,Latitude,real,mandatory,site,latitude_dec,
+Sites,Longitude,real,mandatory,site,longitude_dec,
+Sites,LatLongDatumSRSName,text,mandatory,,,
+Sites,SiteType,text,,,,
+Sites,Comments,text,optional,,,
+Variables,VariableCode,text,,climdb_variables,variable,foreign key
+Variables,VariableName,text,controlledVocab,climdb_variables,fullname,
+Variables,VariableUnitsName,text,controlledVocab,climdb_variables,unit_desc,
+Variables,DataType,text,,climdb_variables,variable_name,
+Variables,SampleMedium,text,controlledVocab,,,
+Variables,ValueType,text,controlledVocab,,,"""Field Observation"""
+Variables,IsRegular,boolean,mandatory,,,is data averaged over a day
+Variables,TimeSupport,real,mandatory,,,1
+Variables,TimeUnitsName,text,mandatory,,,day
+Variables,GeneralCategory,text,mandatory,,,"""Climate"" ""Soil"" or ""Hydrology"""
+Variables,NoDataValue,real,mandatory,,,
+Methods,MethodCode,text,mandatory,,,
+Methods,MethodDescription,text,mandatory,,,
+Methods,MethodLink,text,optional,,,
+Sources,SourceCode,text,mandatory,,,
+Sources,Organization,text,mandatory,site,site_name,
+Sources,SourceDescription,text,mandatory,site,loc1_and_loc2,not reliable in climdb
+Sources,SourceLink,text,optional,site,url,
+Sources,ContactName,text,mandatory,,,
+Sources,Email,text,mandatory,,,
+Sources,Citation,text,mandatory,,,probably create a self-citation
+QualityControl,QualityControlLevelCode,text,mandatory,,,
+QualityControl,Definition,text,mandatory,,,
+QualityControl,Explanation,text,mandatory,,,
+DataValues,DataValue,real,mandatory,climdb_raw,value,
+DataValues,LocalDateTime,Date/Time,mandatory,climdb_raw,sampledate,
+DataValues,UTCOffset,real,mandatory,,,
+DataValues,DateTimeUTC,Date/Time,mandatory,,,
+DataValues,SiteCode,text,mandatory,site,site_code,
+DataValues,VariableCode,text,mandatory,climdb_variables,variable,
+DataValues,MethodCode,text,mandatory,,,
+DataValues,SourceCode,text,mandatory,,,
+DataValues,QualityControlLevelCode,text,mandatory,,,
