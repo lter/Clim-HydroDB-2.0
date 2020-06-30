@@ -33,7 +33,7 @@ QualityControl,Explanation,text,mandatory,,,
 DataValues,DataValue,real,mandatory,climdb_raw,value,
 DataValues,LocalDateTime,Date/Time,mandatory,climdb_raw,sampledate,
 DataValues,UTCOffset,real,mandatory,,,from external CSV
-DataValues,DateTimeUTC,Date/Time,mandatory,,,computed, with offset
+DataValues,DateTimeUTC,Date/Time,mandatory,,,computed with offset
 DataValues,SiteCode,text,mandatory,site,site_code,
 DataValues,VariableCode,text,mandatory,climdb_variables,variable,
 DataValues,MethodCode,text,mandatory,,,
