@@ -1,0 +1,11 @@
+climdb_table,climdb_field,eml_xpath,comment
+,,/eml/dataset/title, constructed from boilerplate text + contributor metadata
+,,/eml/dataset/abstract, constructed from boilerplate text + contributor metadata
+,,/eml/dataset/creator/individualName/surName,
+,,/eml/dataset/creator/individualName/givenName,
+,,/eml/dataset/creator/organizationName,
+,,/eml/dataset/coverage/geographicCoverage/boundingCoordinates/northBoundingCoordinate,
+,,/eml/dataset/coverage/geographicCoverage/boundingCoordinates/southBoundingCoordinate,
+,,/eml/dataset/coverage/geographicCoverage/boundingCoordinates/eastBoundingCoordinate,
+,,/eml/dataset/coverage/geographicCoverage/boundingCoordinates/westBoundingCoordinate,
+,,/eml/dataset/coverage/geographicCoverage/geographicDescription,
