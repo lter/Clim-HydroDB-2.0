@@ -1,0 +1,22 @@
+"descriptor_category_id","descriptor_category_name","descriptor_category_desc","descriptor_order"
+1,site,Research Area Information,1
+2,site,Research Area Information,1
+3,gs,Hydrologic Gauging Station,6
+4,ms,Meteorological Station,5
+5,airt,Air Temperature,7
+6,atm,Atmospheric Pressure,8
+7,dew,Dewpoint Temperature,9
+8,grad,Global Radiation,10
+9,prec,Precipitation,11
+10,rh,Relative Humidity,12
+11,sm,Soil Moisture,14
+12,snow,Snow Depth,13
+13,soil,Soil Temperature,15
+14,vap,Water Vapor Pressure,18
+15,windsp,Wind Speed and Resultant Wind Speed,20
+16,wsreq,Watershed Spatial Characteristics,2
+17,wschar,Watershed Ecological Characteristics,3
+18,wsdesc,Watershed Descriptions,4
+19,winddir,Wind Direction and Resultant Wind Direction,19
+20,watert,Water Temperature,17
+21,q,Stream Discharge,16
