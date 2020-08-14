@@ -46,7 +46,7 @@ queryTail="';";
 # mssql command line options
 as_csv=" --format csv " # still ugly. has a multi header (with col names prefixed), everything is a string.
 # vars=" -v sample=fruit " # --variable assignment
-connection=" -s 129.24.124.181 -o 3733 -u climdbquery -d climdb -p 'qry4cdb&' "
+connection=" -s 129.24.124.181 -o 3733 -u climdbquery -d climdb -p 'INSERT_PW' "
 # optional - request longer timeout. this may have to be several minutes. 1mil ms is about 16 min. 
 timeout=" -T 1000000";
 
