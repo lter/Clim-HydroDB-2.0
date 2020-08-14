@@ -1,364 +1,516 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="f6e742cd-6109-40cc-9721-a6c13cf9118a" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="58d05bd7-ef82-4dec-9f52-3d72733f30c2" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
   <dataset>
     <title>H.J. Andrews Experimental Forest - archive from climdb</title>
-    <creator>johnsons@fsl.orst.edu                             Johnson Sherri                   cre</creator>
+    <creator>johnsons@fsl.orst.eduJohnsonSherricre</creator>
     <associatedParty>theresa.valentine@oregonstate.eduValentineTheresactb</associatedParty>
     <pubDate>2020-08-01</pubDate>
-    <abstract>abstract coming soon!</abstract>
+    <abstract>The National Science Foundation's Long-Term Ecological Research (LTER) program and many U. S. Forest Service Experimental Research Stations collect and maintain extensive, long-term ecological databases including streamflow and meteorological measurements. These databases have been widely used in intersite comparisons, modeling studies, and land management-related studies. Intersite research was facilitated by a centralized database called ClimHydroDB, initiated in 1998. The database was actively maintained until approximately 2015, and received contributions from 45 contributing LTER and USFS sites. In 2018, it was decided that a more modern system aligned with a broader community would be more appropriate for this type of data. The system maintained by the Consortium of Universities for the Advancement of Hydrologic Science (CUAHSI) was chosen. This data package contains data contributed by the site H.J. Andrews Experimental Forest (AND) to ClimHydroDB, which has been reformatted to the ODM 1.1 model for contribution to the CUAHSI system. Data are availble from 26 research sites spanning 1949-10-01 to 2020-08-01. This package contains the six data tables required for upload to CUAHSI.</abstract>
     <keywordSet>
       <keyword>climdb</keyword>
       <keyword>H.J. Andrews Experimental Forest</keyword>
     </keywordSet>
     <intellectualRights>This data package is released to the “public domain” under Creative Commons CC0 1.0 “No Rights Reserved” (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered professional etiquette to provide attribution of the original work if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website https://portal.edirepository.org (herein “website”) in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available “as is” and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website.</intellectualRights>
     <coverage>
-      <geographicCoverage>
-        <geographicDescription>H.J. Andrews Experimental Forest</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.260544</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.254439</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.28226</northBoundingCoordinate>
-          <southBoundingCoordinate>44.265881</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-      <temporalCoverage>
-        <rangeOfDates>
-          <beginDate>
-            <calendarDate>1949-10-01</calendarDate>
-          </beginDate>
-          <endDate>
-            <calendarDate>2020-08-01</calendarDate>
-          </endDate>
-        </rangeOfDates>
-      </temporalCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Central Meteorological Station</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.141611</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.141611</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.243306</northBoundingCoordinate>
-          <southBoundingCoordinate>44.243306</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Climatic Station at WS#2                          </geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.249053</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.249053</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.214875</northBoundingCoordinate>
-          <southBoundingCoordinate>44.214875</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>GSWS01</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.2569646</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.2569646</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.20733954</northBoundingCoordinate>
-          <southBoundingCoordinate>44.20733954</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>GSWS02</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.2437421</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.2437421</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.21216403</northBoundingCoordinate>
-          <southBoundingCoordinate>44.21216403</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>GSWS03</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.2417193</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.2417193</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.21951977</northBoundingCoordinate>
-          <southBoundingCoordinate>44.21951977</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>GSWS06</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.1796076</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.1796076</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.26160362</northBoundingCoordinate>
-          <southBoundingCoordinate>44.26160362</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>GSWS07</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.174105</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.174105</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.26477809</northBoundingCoordinate>
-          <southBoundingCoordinate>44.26477809</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>GSWS08</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.169586</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.169586</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.26618583</northBoundingCoordinate>
-          <southBoundingCoordinate>44.26618583</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>GSWS09</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.2576599</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.2576599</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.2013659</northBoundingCoordinate>
-          <southBoundingCoordinate>44.2013659</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>GSWS10</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.2599328</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.2599328</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.21718584</northBoundingCoordinate>
-          <southBoundingCoordinate>44.21718584</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Hi-15 Meteorological Station</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.173794</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.173794</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.264217</northBoundingCoordinate>
-          <southBoundingCoordinate>44.264217</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Lookout Creek Gauging Station (USGS 14161500)</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.2559783</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.2559783</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.21030869</northBoundingCoordinate>
-          <southBoundingCoordinate>44.21030869</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Lookout Creek Watershed</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.258793</westBoundingCoordinate>
-          <westBoundingCoordinate>-122.099527</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.258793</eastBoundingCoordinate>
-          <eastBoundingCoordinate>-122.099527</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.28226</northBoundingCoordinate>
-          <northBoundingCoordinate>44.201274</northBoundingCoordinate>
-          <southBoundingCoordinate>44.28226</southBoundingCoordinate>
-          <southBoundingCoordinate>44.201274</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Mack Creek Gauging Station</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.1661758</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.1661758</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.21947948</northBoundingCoordinate>
-          <southBoundingCoordinate>44.21947948</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Mack Creek Watershed</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.172822</westBoundingCoordinate>
-          <westBoundingCoordinate>-122.126996</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.172822</eastBoundingCoordinate>
-          <eastBoundingCoordinate>-122.126996</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.220543</northBoundingCoordinate>
-          <northBoundingCoordinate>44.20148</northBoundingCoordinate>
-          <southBoundingCoordinate>44.220543</southBoundingCoordinate>
-          <southBoundingCoordinate>44.20148</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Primary Meteorological Station</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.255889</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.255889</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.211844</northBoundingCoordinate>
-          <southBoundingCoordinate>44.211844</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Upper Lookout Meteorological Station</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.119392</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.119392</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.207211</northBoundingCoordinate>
-          <southBoundingCoordinate>44.207211</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Vanilla Leaf Meteorological Station</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.149492</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.149492</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.271625</northBoundingCoordinate>
-          <southBoundingCoordinate>44.271625</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Watershed 1</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.256831</westBoundingCoordinate>
-          <westBoundingCoordinate>-122.235813</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.256831</eastBoundingCoordinate>
-          <eastBoundingCoordinate>-122.235813</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.208517</northBoundingCoordinate>
-          <northBoundingCoordinate>44.199017</northBoundingCoordinate>
-          <southBoundingCoordinate>44.208517</southBoundingCoordinate>
-          <southBoundingCoordinate>44.199017</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Watershed 10</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.259966</westBoundingCoordinate>
-          <westBoundingCoordinate>-122.254439</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.259966</eastBoundingCoordinate>
-          <eastBoundingCoordinate>-122.254439</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.220152</northBoundingCoordinate>
-          <northBoundingCoordinate>44.216786</northBoundingCoordinate>
-          <southBoundingCoordinate>44.220152</southBoundingCoordinate>
-          <southBoundingCoordinate>44.216786</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Watershed 2</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.243976</westBoundingCoordinate>
-          <westBoundingCoordinate>-122.229741</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.243976</eastBoundingCoordinate>
-          <eastBoundingCoordinate>-122.229741</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.213385</northBoundingCoordinate>
-          <northBoundingCoordinate>44.206178</northBoundingCoordinate>
-          <southBoundingCoordinate>44.213385</southBoundingCoordinate>
-          <southBoundingCoordinate>44.206178</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Watershed 3</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.241949</westBoundingCoordinate>
-          <westBoundingCoordinate>-122.224022</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.241949</eastBoundingCoordinate>
-          <eastBoundingCoordinate>-122.224022</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.219943</northBoundingCoordinate>
-          <northBoundingCoordinate>44.208031</northBoundingCoordinate>
-          <southBoundingCoordinate>44.219943</southBoundingCoordinate>
-          <southBoundingCoordinate>44.208031</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Watershed 6</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.18351</westBoundingCoordinate>
-          <westBoundingCoordinate>-122.17755</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.18351</eastBoundingCoordinate>
-          <eastBoundingCoordinate>-122.17755</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.266808</northBoundingCoordinate>
-          <northBoundingCoordinate>44.261544</northBoundingCoordinate>
-          <southBoundingCoordinate>44.266808</southBoundingCoordinate>
-          <southBoundingCoordinate>44.261544</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Watershed 7</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.179209</westBoundingCoordinate>
-          <westBoundingCoordinate>-122.173875</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.179209</eastBoundingCoordinate>
-          <eastBoundingCoordinate>-122.173875</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.269748</northBoundingCoordinate>
-          <northBoundingCoordinate>44.264579</northBoundingCoordinate>
-          <southBoundingCoordinate>44.269748</southBoundingCoordinate>
-          <southBoundingCoordinate>44.264579</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Watershed 8</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.173302</westBoundingCoordinate>
-          <westBoundingCoordinate>-122.167183</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.173302</eastBoundingCoordinate>
-          <eastBoundingCoordinate>-122.167183</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.273397</northBoundingCoordinate>
-          <northBoundingCoordinate>44.265881</northBoundingCoordinate>
-          <southBoundingCoordinate>44.273397</southBoundingCoordinate>
-          <southBoundingCoordinate>44.265881</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
-    </coverage>
-    <coverage>
-      <geographicCoverage>
-        <geographicDescription>Watershed 9</geographicDescription>
-        <boundingCoordinates>
-          <westBoundingCoordinate>-122.257815</westBoundingCoordinate>
-          <westBoundingCoordinate>-122.251515</westBoundingCoordinate>
-          <eastBoundingCoordinate>-122.257815</eastBoundingCoordinate>
-          <eastBoundingCoordinate>-122.251515</eastBoundingCoordinate>
-          <northBoundingCoordinate>44.203933</northBoundingCoordinate>
-          <northBoundingCoordinate>44.20111</northBoundingCoordinate>
-          <southBoundingCoordinate>44.203933</southBoundingCoordinate>
-          <southBoundingCoordinate>44.20111</southBoundingCoordinate>
-        </boundingCoordinates>
-      </geographicCoverage>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>H.J. Andrews Experimental Forest</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.260544</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.254439</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.28226</northBoundingCoordinate>
+            <southBoundingCoordinate>44.265881</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1949-10-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2020-08-01</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Central Meteorological Station</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.141611</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.141611</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.243306</northBoundingCoordinate>
+            <southBoundingCoordinate>44.243306</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Climatic Station at WS#2</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.249053</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.249053</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.214875</northBoundingCoordinate>
+            <southBoundingCoordinate>44.214875</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>GSWS01</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.2569646</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.2569646</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.20733954</northBoundingCoordinate>
+            <southBoundingCoordinate>44.20733954</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>GSWS02</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.2437421</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.2437421</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.21216403</northBoundingCoordinate>
+            <southBoundingCoordinate>44.21216403</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>GSWS03</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.2417193</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.2417193</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.21951977</northBoundingCoordinate>
+            <southBoundingCoordinate>44.21951977</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>GSWS06</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.1796076</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.1796076</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.26160362</northBoundingCoordinate>
+            <southBoundingCoordinate>44.26160362</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>GSWS07</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.174105</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.174105</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.26477809</northBoundingCoordinate>
+            <southBoundingCoordinate>44.26477809</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>GSWS08</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.169586</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.169586</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.26618583</northBoundingCoordinate>
+            <southBoundingCoordinate>44.26618583</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>GSWS09</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.2576599</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.2576599</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.2013659</northBoundingCoordinate>
+            <southBoundingCoordinate>44.2013659</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>GSWS10</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.2599328</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.2599328</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.21718584</northBoundingCoordinate>
+            <southBoundingCoordinate>44.21718584</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Hi-15 Meteorological Station</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.173794</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.173794</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.264217</northBoundingCoordinate>
+            <southBoundingCoordinate>44.264217</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Lookout Creek Gauging Station (USGS 14161500)</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.2559783</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.2559783</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.21030869</northBoundingCoordinate>
+            <southBoundingCoordinate>44.21030869</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Lookout Creek Watershed</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.258793</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.099527</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.28226</northBoundingCoordinate>
+            <southBoundingCoordinate>44.201274</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Mack Creek Gauging Station</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.1661758</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.1661758</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.21947948</northBoundingCoordinate>
+            <southBoundingCoordinate>44.21947948</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Mack Creek Watershed</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.172822</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.126996</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.220543</northBoundingCoordinate>
+            <southBoundingCoordinate>44.20148</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Primary Meteorological Station</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.255889</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.255889</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.211844</northBoundingCoordinate>
+            <southBoundingCoordinate>44.211844</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Upper Lookout Meteorological Station</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.119392</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.119392</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.207211</northBoundingCoordinate>
+            <southBoundingCoordinate>44.207211</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Vanilla Leaf Meteorological Station</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.149492</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.149492</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.271625</northBoundingCoordinate>
+            <southBoundingCoordinate>44.271625</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Watershed 1</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.256831</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.235813</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.208517</northBoundingCoordinate>
+            <southBoundingCoordinate>44.199017</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Watershed 10</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.259966</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.254439</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.220152</northBoundingCoordinate>
+            <southBoundingCoordinate>44.216786</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Watershed 2</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.243976</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.229741</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.213385</northBoundingCoordinate>
+            <southBoundingCoordinate>44.206178</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Watershed 3</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.241949</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.224022</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.219943</northBoundingCoordinate>
+            <southBoundingCoordinate>44.208031</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Watershed 6</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.18351</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.17755</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.266808</northBoundingCoordinate>
+            <southBoundingCoordinate>44.261544</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Watershed 7</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.179209</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.173875</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.269748</northBoundingCoordinate>
+            <southBoundingCoordinate>44.264579</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Watershed 8</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.173302</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.167183</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.273397</northBoundingCoordinate>
+            <southBoundingCoordinate>44.265881</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
+      <cov>
+        <geographicCoverage>
+          <geographicDescription>Watershed 9</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-122.257815</westBoundingCoordinate>
+            <eastBoundingCoordinate>-122.251515</eastBoundingCoordinate>
+            <northBoundingCoordinate>44.203933</northBoundingCoordinate>
+            <southBoundingCoordinate>44.20111</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </cov>
     </coverage>
     <methods>methods will go here</methods>
+    <dataTable>
+      <attributeList>
+        <attribute>
+          <attributeName>SourceCode</attributeName>
+          <attributeDefinition>Code used to identify the organization that created the data.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Organization</attributeName>
+          <attributeDefinition>Name of the organization that collected the data. This should be the agency or organization that collected the data, even if it came out of a database consolidated from many sources such as STORET.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SourceDescription</attributeName>
+          <attributeDefinition>Full text description of the source of the data.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SourceLink</attributeName>
+          <attributeDefinition>Link that can be pointed at the original data file and/or associated metadata stored in the digital library or URL of data source.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ContactName</attributeName>
+          <attributeDefinition>Name of the contact person for the data source.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Email</attributeName>
+          <attributeDefinition>Email addresss for the contact person.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Citation</attributeName>
+          <attributeDefinition>Text string that give the citation to be used when the data from each source are referenced.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM Sources table</entityDescription>
+      <entityName>AND_ODM_sources_table.csv</entityName>
+      <objectName>AND_ODM_sources_table.csv</objectName>
+      <physical>
+        <objectName>AND_ODM_methods_table.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_sources_table.csv</url>
+          </online>
+        </distribution>
+      </physical>
+    </dataTable>
+    <dataTable>
+      <attributeList>
+        <attribute>
+          <attributeName>MethodCode</attributeName>
+          <attributeDefinition>User or organization-defined code that collects the data to identify the method used for measurement.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MethodDescription</attributeName>
+          <attributeDefinition>Text description of each method.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MethodLink</attributeName>
+          <attributeDefinition>Link to additional reference material on the method.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM Methods table</entityDescription>
+      <entityName>AND_ODM_methods_table.csv</entityName>
+      <objectName>AND_ODM_methods_table.csv</objectName>
+      <physical>
+        <objectName>AND_ODM_methods_table.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_methods_table.csv</url>
+          </online>
+        </distribution>
+      </physical>
+    </dataTable>
     <dataTable>
       <attributeList>
         <attribute>
@@ -367,7 +519,11 @@
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
-              <nonNumericDomain/>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
@@ -377,7 +533,11 @@
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
-              <nonNumericDomain/>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
@@ -417,7 +577,11 @@
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
-              <nonNumericDomain/>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
@@ -427,7 +591,11 @@
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
-              <nonNumericDomain/>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
@@ -437,11 +605,185 @@
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
-              <nonNumericDomain/>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
       </attributeList>
+      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM Sites table</entityDescription>
+      <entityName>AND_ODM_sites_table.csv</entityName>
+      <objectName>AND_ODM_sites_table.csv</objectName>
+      <physical>
+        <objectName>AND_ODM_sites_table.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_sites_table.csv</url>
+          </online>
+        </distribution>
+      </physical>
+    </dataTable>
+    <dataTable>
+      <attributeList>
+        <attribute>
+          <attributeName>DataValue</attributeName>
+          <attributeDefinition>The numeric value of the observation. For Categorical variables, a number is stored here. The Variables table has DataType as Categorical and the Categories table maps from the DataValue onto Categor</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>VariableUnitsName</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LocalDateTime</attributeName>
+          <attributeDefinition>Local date and time at which the data value was observed. Represented in an implementation specific format.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UTCOffset</attributeName>
+          <attributeDefinition>Offset in hours from UTC time of the corresponding LocalDateTime value.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hours</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DateTimeUTC</attributeName>
+          <attributeDefinition>Universal UTC date and time at which the data value was observed. Represented in an implementation specific format.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteCode</attributeName>
+          <attributeDefinition>Code used by organization that collects the data to identify the site.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>VariableCode</attributeName>
+          <attributeDefinition>Code used by the organization that collects the data to identify the variable.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MethodCode</attributeName>
+          <attributeDefinition>Code used by the organization that collects the data to identify the Method, which is defined in the Methods table.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SourceCode</attributeName>
+          <attributeDefinition>Code used by the organization that collects the data to identify the source, which is defined in the Sources table.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>QualityControlLevelCode</attributeName>
+          <attributeDefinition>Code which identifies the level of quality control that the value has been subjected to. This references the QualityControlLevels table.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM DataValues table</entityDescription>
+      <entityName>AND_ODM_value_table.csv</entityName>
+      <objectName>AND_ODM_value_table.csv</objectName>
+      <physical>
+        <objectName>AND_ODM_value_table.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_value_table.csv</url>
+          </online>
+        </distribution>
+      </physical>
+    </dataTable>
+    <dataTable>
       <attributeList>
         <attribute>
           <attributeName>VariableCode</attributeName>
@@ -449,7 +791,11 @@
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
-              <nonNumericDomain/>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
@@ -459,7 +805,11 @@
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
-              <nonNumericDomain/>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
@@ -469,7 +819,11 @@
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
-              <nonNumericDomain/>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
@@ -479,7 +833,11 @@
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
-              <nonNumericDomain/>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
@@ -489,7 +847,11 @@
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
-              <nonNumericDomain/>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
@@ -499,7 +861,11 @@
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
-              <nonNumericDomain/>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
@@ -545,7 +911,11 @@
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
-              <nonNumericDomain/>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
@@ -555,7 +925,11 @@
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
-              <nonNumericDomain/>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
@@ -565,254 +939,20 @@
           <storageType>string</storageType>
           <measurementScale>
             <nominal>
-              <nonNumericDomain/>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
       </attributeList>
-      <attributeList>
-        <attribute>
-          <attributeName>MethodCode</attributeName>
-          <attributeDefinition>User or organization-defined code that collects the data to identify the method used for measurement.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>MethodDescription</attributeName>
-          <attributeDefinition>Text description of each method.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>MethodLink</attributeName>
-          <attributeDefinition>Link to additional reference material on the method.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-      </attributeList>
-      <attributeList>
-        <attribute>
-          <attributeName>SourceCode</attributeName>
-          <attributeDefinition>Code used to identify the organization that created the data.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>Organization</attributeName>
-          <attributeDefinition>Name of the organization that collected the data. This should be the agency or organization that collected the data, even if it came out of a database consolidated from many sources such as STORET.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>SourceDescription</attributeName>
-          <attributeDefinition>Full text description of the source of the data.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>SourceLink</attributeName>
-          <attributeDefinition>Link that can be pointed at the original data file and/or associated metadata stored in the digital library or URL of data source.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>ContactName</attributeName>
-          <attributeDefinition>Name of the contact person for the data source.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>Email</attributeName>
-          <attributeDefinition>Email addresss for the contact person.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>Citation</attributeName>
-          <attributeDefinition>Text string that give the citation to be used when the data from each source are referenced.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-      </attributeList>
-      <attributeList>
-        <attribute>
-          <attributeName>QualityControlLevelCode</attributeName>
-          <attributeDefinition>Code used to identify the level of quality control to which data values have been subjected.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>Definition</attributeName>
-          <attributeDefinition>Definition of Quality Control Level.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>Explanation</attributeName>
-          <attributeDefinition>Explanation of Quality Control Level.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-      </attributeList>
-      <attributeList>
-        <attribute>
-          <attributeName>DataValue</attributeName>
-          <attributeDefinition>The numeric value of the observation. For Categorical variables, a number is stored here. The Variables table has DataType as Categorical and the Categories table maps from the DataValue onto Categor</attributeDefinition>
-          <storageType>float</storageType>
-          <measurementScale>
-            <ratio>
-              <unit>
-                <customUnit>VariableUnitsName</customUnit>
-              </unit>
-              <numericDomain>
-                <numberType>real</numberType>
-              </numericDomain>
-            </ratio>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>LocalDateTime</attributeName>
-          <attributeDefinition>Local date and time at which the data value was observed. Represented in an implementation specific format.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>UTCOffset</attributeName>
-          <attributeDefinition>Offset in hours from UTC time of the corresponding LocalDateTime value.</attributeDefinition>
-          <storageType>float</storageType>
-          <measurementScale>
-            <ratio>
-              <unit>
-                <customUnit>hours</customUnit>
-              </unit>
-              <numericDomain>
-                <numberType>real</numberType>
-              </numericDomain>
-            </ratio>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>DateTimeUTC</attributeName>
-          <attributeDefinition>Universal UTC date and time at which the data value was observed. Represented in an implementation specific format.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>SiteCode</attributeName>
-          <attributeDefinition>Code used by organization that collects the data to identify the site.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>VariableCode</attributeName>
-          <attributeDefinition>Code used by the organization that collects the data to identify the variable.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>MethodCode</attributeName>
-          <attributeDefinition>Code used by the organization that collects the data to identify the Method, which is defined in the Methods table.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>SourceCode</attributeName>
-          <attributeDefinition>Code used by the organization that collects the data to identify the source, which is defined in the Sources table.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>QualityControlLevelCode</attributeName>
-          <attributeDefinition>Code which identifies the level of quality control that the value has been subjected to. This references the QualityControlLevels table.</attributeDefinition>
-          <storageType>string</storageType>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain/>
-            </nominal>
-          </measurementScale>
-        </attribute>
-      </attributeList>
-      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM format</entityDescription>
-      <entityName>ODM values table</entityName>
-      <objectName>AND_ODM_value_table.csv</objectName>
+      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM Variables table</entityDescription>
+      <entityName>AND_ODM_variables_table.csv</entityName>
+      <objectName>AND_ODM_variables_table.csv</objectName>
       <physical>
-        <objectName>https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_value_table.csv</objectName>
+        <objectName>AND_ODM_variables_table.csv</objectName>
         <dataFormat>
           <textFormat>
             <recordDelimiter>&#13;
@@ -823,6 +963,78 @@
             </simpleDelimited>
           </textFormat>
         </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_variables_table.csv</url>
+          </online>
+        </distribution>
+      </physical>
+    </dataTable>
+    <dataTable>
+      <attributeList>
+        <attribute>
+          <attributeName>QualityControlLevelCode</attributeName>
+          <attributeDefinition>Code used to identify the level of quality control to which data values have been subjected.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Definition</attributeName>
+          <attributeDefinition>Definition of Quality Control Level.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Explanation</attributeName>
+          <attributeDefinition>Explanation of Quality Control Level.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM QualityControl table</entityDescription>
+      <entityName>AND_ODM_qualitycontrol_table.csv</entityName>
+      <objectName>AND_ODM_qualitycontrol_table.csv</objectName>
+      <physical>
+        <objectName>AND_ODM_qualitycontrol_table.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_qualitycontrol_table.csv</url>
+          </online>
+        </distribution>
       </physical>
     </dataTable>
   </dataset>
