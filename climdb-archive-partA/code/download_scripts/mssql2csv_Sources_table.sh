@@ -40,7 +40,7 @@ parent_dir="$git_clone_loc""$slash""$git_repo""$slash""$repo_subdir";
 filename_tail='_ODM_Sources_table.csv';
 
 # Fixed strings, to build the query
-queryHead="SELECT DISTINCT s.site_code AS 'SourceCode', s.site_name AS 'Organization', 'Description not available' AS 'SourceDescription', COALESCE(RTRIM(LTRIM(s.site_url)), 'unknown') AS 'SourceLink', RTRIM(LTRIM(p.first_name)) + ' ' + p.middle_name + ' ' + RTRIM(LTRIM(p.last_name)) AS 'ContactName', COALESCE(REPLACE(REPLACE(p.email1, CHAR(13) + CHAR(10), ''),CHAR(10), '') , 'unknown') AS 'Email', 'unknown' AS 'Citation' from dbo.site s JOIN dbo.site_personnel_role spr 	on s.site_id = spr.site_id JOIN dbo.personnel_role pr 	on pr.personnel_role_id = spr.personnel_role_id JOIN dbo.personnel p 	on spr.personnel_id = p.personnel_id WHERE pr.personnel_role_desc = 'Data Set Contact' AND s.site_code = '" ;
+queryHead="SELECT DISTINCT s.site_code AS 'SourceCode', REPLACE(REPLACE(s.site_name, CHAR(13) + CHAR(10), ''),CHAR(10), '')  AS 'Organization', 'Description not available' AS 'SourceDescription', COALESCE(RTRIM(LTRIM(s.site_url)), 'unknown') AS 'SourceLink', RTRIM(LTRIM(p.first_name)) + ' ' + p.middle_name + ' ' + RTRIM(LTRIM(p.last_name)) AS 'ContactName', COALESCE(LTRIM(RTRIM(REPLACE(REPLACE(p.email1, CHAR(13) + CHAR(10), ''),CHAR(10), ''))) , 'unknown') AS 'Email', 'unknown' AS 'Citation' from dbo.site s JOIN dbo.site_personnel_role spr 	on s.site_id = spr.site_id JOIN dbo.personnel_role pr 	on pr.personnel_role_id = spr.personnel_role_id JOIN dbo.personnel p 	on spr.personnel_id = p.personnel_id WHERE pr.personnel_role_desc = 'Data Set Contact' AND s.site_code = '" ;
 
 queryTail="';";
 
