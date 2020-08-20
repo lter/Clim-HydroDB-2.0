@@ -1,0 +1,7 @@
+"QualityControlLevelCode","Definition","Explanation"
+"0","Raw","unedited data, such as the output from a sensor"
+"1","Edited data","Data that have passed some objective quality assurance procedure"
+"2","Derived data","Derived product, potentially from multiple sensors, that require some subjective judgment"
+"3","Interpreted product","requiring more assumptions and judgments (e.g., rainfall inferred from radar reflectance)"
+"4","Knowledge product","requiring inferences, potentially from multiple disciplines, and combining multiple measurements, each with their own assumptions"
+"-9999","Unknown","unknown"
