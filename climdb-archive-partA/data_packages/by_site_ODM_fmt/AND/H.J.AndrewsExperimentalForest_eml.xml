@@ -1,9 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="58d05bd7-ef82-4dec-9f52-3d72733f30c2" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="9f33c369-704b-44ed-acc1-3913e2a0669c" system="https://pasta.edirepository.org" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
   <dataset>
     <title>H.J. Andrews Experimental Forest - archive from climdb</title>
-    <creator>johnsons@fsl.orst.eduJohnsonSherricre</creator>
-    <associatedParty>theresa.valentine@oregonstate.eduValentineTheresactb</associatedParty>
+    <creator>
+      <remove>
+        <email>fred.swanson@orst.edu</email>
+        <family>Swanson</family>
+        <given>Fred</given>
+        <role>cre</role>
+      </remove>
+      <remove>
+        <email>don.henshaw@oregonstate.edu</email>
+        <family>Henshaw</family>
+        <given>Don</given>
+        <role>cre</role>
+      </remove>
+      <remove>
+        <email>jonesj@geo.oregonstate.edu</email>
+        <family>Jones</family>
+        <given>Julia</given>
+        <role>cre</role>
+      </remove>
+      <remove>
+        <email>johnsons@fsl.orst.edu</email>
+        <family>Johnson</family>
+        <given>Sherri</given>
+        <role>cre</role>
+      </remove>
+    </creator>
+    <associatedParty>
+      <remove>
+        <email>don.henshaw@oregonstate.edu</email>
+        <family>Henshaw</family>
+        <given>Don</given>
+        <role>ctb</role>
+      </remove>
+      <remove>
+        <email>suzanne.remillard@oregonstate.edu</email>
+        <family>Remillard</family>
+        <given>Suzanne</given>
+        <role>ctb</role>
+      </remove>
+      <remove>
+        <email>greenlan@lsu.edu</email>
+        <family>Greenland</family>
+        <given>David</given>
+        <role>ctb</role>
+      </remove>
+      <remove>
+        <email>theresa.valentine@oregonstate.edu</email>
+        <family>Valentine</family>
+        <given>Theresa</given>
+        <role>ctb</role>
+      </remove>
+    </associatedParty>
     <pubDate>2020-08-01</pubDate>
     <abstract>The National Science Foundation's Long-Term Ecological Research (LTER) program and many U. S. Forest Service Experimental Research Stations collect and maintain extensive, long-term ecological databases including streamflow and meteorological measurements. These databases have been widely used in intersite comparisons, modeling studies, and land management-related studies. Intersite research was facilitated by a centralized database called ClimHydroDB, initiated in 1998. The database was actively maintained until approximately 2015, and received contributions from 45 contributing LTER and USFS sites. In 2018, it was decided that a more modern system aligned with a broader community would be more appropriate for this type of data. The system maintained by the Consortium of Universities for the Advancement of Hydrologic Science (CUAHSI) was chosen. This data package contains data contributed by the site H.J. Andrews Experimental Forest (AND) to ClimHydroDB, which has been reformatted to the ODM 1.1 model for contribution to the CUAHSI system. Data are availble from 26 research sites spanning 1949-10-01 to 2020-08-01. This package contains the six data tables required for upload to CUAHSI.</abstract>
     <keywordSet>
@@ -12,7 +62,7 @@
     </keywordSet>
     <intellectualRights>This data package is released to the “public domain” under Creative Commons CC0 1.0 “No Rights Reserved” (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered professional etiquette to provide attribution of the original work if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website https://portal.edirepository.org (herein “website”) in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available “as is” and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website.</intellectualRights>
     <coverage>
-      <cov>
+      <remove>
         <geographicCoverage>
           <geographicDescription>H.J. Andrews Experimental Forest</geographicDescription>
           <boundingCoordinates>
@@ -32,8 +82,8 @@
             </endDate>
           </rangeOfDates>
         </temporalCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Central Meteorological Station</geographicDescription>
           <boundingCoordinates>
@@ -43,8 +93,8 @@
             <southBoundingCoordinate>44.243306</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Climatic Station at WS#2</geographicDescription>
           <boundingCoordinates>
@@ -54,8 +104,8 @@
             <southBoundingCoordinate>44.214875</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>GSWS01</geographicDescription>
           <boundingCoordinates>
@@ -65,8 +115,8 @@
             <southBoundingCoordinate>44.20733954</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>GSWS02</geographicDescription>
           <boundingCoordinates>
@@ -76,8 +126,8 @@
             <southBoundingCoordinate>44.21216403</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>GSWS03</geographicDescription>
           <boundingCoordinates>
@@ -87,8 +137,8 @@
             <southBoundingCoordinate>44.21951977</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>GSWS06</geographicDescription>
           <boundingCoordinates>
@@ -98,8 +148,8 @@
             <southBoundingCoordinate>44.26160362</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>GSWS07</geographicDescription>
           <boundingCoordinates>
@@ -109,8 +159,8 @@
             <southBoundingCoordinate>44.26477809</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>GSWS08</geographicDescription>
           <boundingCoordinates>
@@ -120,8 +170,8 @@
             <southBoundingCoordinate>44.26618583</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>GSWS09</geographicDescription>
           <boundingCoordinates>
@@ -131,8 +181,8 @@
             <southBoundingCoordinate>44.2013659</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>GSWS10</geographicDescription>
           <boundingCoordinates>
@@ -142,8 +192,8 @@
             <southBoundingCoordinate>44.21718584</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Hi-15 Meteorological Station</geographicDescription>
           <boundingCoordinates>
@@ -153,8 +203,8 @@
             <southBoundingCoordinate>44.264217</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Lookout Creek Gauging Station (USGS 14161500)</geographicDescription>
           <boundingCoordinates>
@@ -164,8 +214,8 @@
             <southBoundingCoordinate>44.21030869</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Lookout Creek Watershed</geographicDescription>
           <boundingCoordinates>
@@ -175,8 +225,8 @@
             <southBoundingCoordinate>44.201274</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Mack Creek Gauging Station</geographicDescription>
           <boundingCoordinates>
@@ -186,8 +236,8 @@
             <southBoundingCoordinate>44.21947948</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Mack Creek Watershed</geographicDescription>
           <boundingCoordinates>
@@ -197,8 +247,8 @@
             <southBoundingCoordinate>44.20148</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Primary Meteorological Station</geographicDescription>
           <boundingCoordinates>
@@ -208,8 +258,8 @@
             <southBoundingCoordinate>44.211844</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Upper Lookout Meteorological Station</geographicDescription>
           <boundingCoordinates>
@@ -219,8 +269,8 @@
             <southBoundingCoordinate>44.207211</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Vanilla Leaf Meteorological Station</geographicDescription>
           <boundingCoordinates>
@@ -230,8 +280,8 @@
             <southBoundingCoordinate>44.271625</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Watershed 1</geographicDescription>
           <boundingCoordinates>
@@ -241,8 +291,8 @@
             <southBoundingCoordinate>44.199017</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Watershed 10</geographicDescription>
           <boundingCoordinates>
@@ -252,8 +302,8 @@
             <southBoundingCoordinate>44.216786</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Watershed 2</geographicDescription>
           <boundingCoordinates>
@@ -263,8 +313,8 @@
             <southBoundingCoordinate>44.206178</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Watershed 3</geographicDescription>
           <boundingCoordinates>
@@ -274,8 +324,8 @@
             <southBoundingCoordinate>44.208031</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Watershed 6</geographicDescription>
           <boundingCoordinates>
@@ -285,8 +335,8 @@
             <southBoundingCoordinate>44.261544</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Watershed 7</geographicDescription>
           <boundingCoordinates>
@@ -296,8 +346,8 @@
             <southBoundingCoordinate>44.264579</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Watershed 8</geographicDescription>
           <boundingCoordinates>
@@ -307,8 +357,8 @@
             <southBoundingCoordinate>44.265881</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
-      <cov>
+      </remove>
+      <remove>
         <geographicCoverage>
           <geographicDescription>Watershed 9</geographicDescription>
           <boundingCoordinates>
@@ -318,10 +368,30 @@
             <southBoundingCoordinate>44.20111</southBoundingCoordinate>
           </boundingCoordinates>
         </geographicCoverage>
-      </cov>
+      </remove>
     </coverage>
     <methods>methods will go here</methods>
     <dataTable>
+      <entityName>AND_ODM_sources_table.csv</entityName>
+      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM Sources table</entityDescription>
+      <physical>
+        <objectName>AND_ODM_methods_table.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <recordDelimiter>&#13;
+</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_sources_table.csv</url>
+          </online>
+        </distribution>
+      </physical>
       <attributeList>
         <attribute>
           <attributeName>SourceCode</attributeName>
@@ -422,9 +492,10 @@
           </measurementScale>
         </attribute>
       </attributeList>
-      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM Sources table</entityDescription>
-      <entityName>AND_ODM_sources_table.csv</entityName>
-      <objectName>AND_ODM_sources_table.csv</objectName>
+    </dataTable>
+    <dataTable>
+      <entityName>AND_ODM_methods_table.csv</entityName>
+      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM Methods table</entityDescription>
       <physical>
         <objectName>AND_ODM_methods_table.csv</objectName>
         <dataFormat>
@@ -439,12 +510,10 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_sources_table.csv</url>
+            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_methods_table.csv</url>
           </online>
         </distribution>
       </physical>
-    </dataTable>
-    <dataTable>
       <attributeList>
         <attribute>
           <attributeName>MethodCode</attributeName>
@@ -489,11 +558,12 @@
           </measurementScale>
         </attribute>
       </attributeList>
-      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM Methods table</entityDescription>
-      <entityName>AND_ODM_methods_table.csv</entityName>
-      <objectName>AND_ODM_methods_table.csv</objectName>
+    </dataTable>
+    <dataTable>
+      <entityName>AND_ODM_sites_table.csv</entityName>
+      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM Sites table</entityDescription>
       <physical>
-        <objectName>AND_ODM_methods_table.csv</objectName>
+        <objectName>AND_ODM_sites_table.csv</objectName>
         <dataFormat>
           <textFormat>
             <recordDelimiter>&#13;
@@ -506,12 +576,10 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_methods_table.csv</url>
+            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_sites_table.csv</url>
           </online>
         </distribution>
       </physical>
-    </dataTable>
-    <dataTable>
       <attributeList>
         <attribute>
           <attributeName>SiteCode</attributeName>
@@ -614,11 +682,12 @@
           </measurementScale>
         </attribute>
       </attributeList>
-      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM Sites table</entityDescription>
-      <entityName>AND_ODM_sites_table.csv</entityName>
-      <objectName>AND_ODM_sites_table.csv</objectName>
+    </dataTable>
+    <dataTable>
+      <entityName>AND_ODM_value_table.csv</entityName>
+      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM DataValues table</entityDescription>
       <physical>
-        <objectName>AND_ODM_sites_table.csv</objectName>
+        <objectName>AND_ODM_value_table.csv</objectName>
         <dataFormat>
           <textFormat>
             <recordDelimiter>&#13;
@@ -631,12 +700,10 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_sites_table.csv</url>
+            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_value_table.csv</url>
           </online>
         </distribution>
       </physical>
-    </dataTable>
-    <dataTable>
       <attributeList>
         <attribute>
           <attributeName>DataValue</attributeName>
@@ -761,11 +828,12 @@
           </measurementScale>
         </attribute>
       </attributeList>
-      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM DataValues table</entityDescription>
-      <entityName>AND_ODM_value_table.csv</entityName>
-      <objectName>AND_ODM_value_table.csv</objectName>
+    </dataTable>
+    <dataTable>
+      <entityName>AND_ODM_variables_table.csv</entityName>
+      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM Variables table</entityDescription>
       <physical>
-        <objectName>AND_ODM_value_table.csv</objectName>
+        <objectName>AND_ODM_variables_table.csv</objectName>
         <dataFormat>
           <textFormat>
             <recordDelimiter>&#13;
@@ -778,12 +846,10 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_value_table.csv</url>
+            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_variables_table.csv</url>
           </online>
         </distribution>
       </physical>
-    </dataTable>
-    <dataTable>
       <attributeList>
         <attribute>
           <attributeName>VariableCode</attributeName>
@@ -948,11 +1014,12 @@
           </measurementScale>
         </attribute>
       </attributeList>
-      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM Variables table</entityDescription>
-      <entityName>AND_ODM_variables_table.csv</entityName>
-      <objectName>AND_ODM_variables_table.csv</objectName>
+    </dataTable>
+    <dataTable>
+      <entityName>AND_ODM_qualitycontrol_table.csv</entityName>
+      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM QualityControl table</entityDescription>
       <physical>
-        <objectName>AND_ODM_variables_table.csv</objectName>
+        <objectName>AND_ODM_qualitycontrol_table.csv</objectName>
         <dataFormat>
           <textFormat>
             <recordDelimiter>&#13;
@@ -965,12 +1032,10 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_variables_table.csv</url>
+            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_qualitycontrol_table.csv</url>
           </online>
         </distribution>
       </physical>
-    </dataTable>
-    <dataTable>
       <attributeList>
         <attribute>
           <attributeName>QualityControlLevelCode</attributeName>
@@ -1015,27 +1080,6 @@
           </measurementScale>
         </attribute>
       </attributeList>
-      <entityDescription>H.J. Andrews Experimental Forest climdb data in ODM QualityControl table</entityDescription>
-      <entityName>AND_ODM_qualitycontrol_table.csv</entityName>
-      <objectName>AND_ODM_qualitycontrol_table.csv</objectName>
-      <physical>
-        <objectName>AND_ODM_qualitycontrol_table.csv</objectName>
-        <dataFormat>
-          <textFormat>
-            <recordDelimiter>&#13;
-</recordDelimiter>
-            <attributeOrientation>column</attributeOrientation>
-            <simpleDelimited>
-              <fieldDelimiter>,</fieldDelimiter>
-            </simpleDelimited>
-          </textFormat>
-        </dataFormat>
-        <distribution>
-          <online>
-            <url function="download">https://github.com/lter/Clim-HydroDB-2.0/blob/master/climdb-archive-partA/data_packages/by_site_ODM_fmt/AND/data_objects/AND_ODM_qualitycontrol_table.csv</url>
-          </online>
-        </distribution>
-      </physical>
     </dataTable>
   </dataset>
 </eml:eml>
