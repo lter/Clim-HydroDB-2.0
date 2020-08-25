@@ -1,0 +1,41 @@
+attributeName,attributeDefinition,formatString,definition,unit,numberType,class,ODMtable
+SiteCode,User or organization-defined code that collects the data to identify the site.,NA,any text,NA,NA,character,Sites
+SiteName,Full name of the sampling site.,NA,any text,NA,NA,character,Sites
+Latitude,Latitude in decimal degrees.,NA,NA,decimal degrees,real,numeric,Sites
+Longitude,"Longitude in decimal degrees. East positive, West negative.",NA,NA,decimal degrees,real,numeric,Sites
+LatLongDatumSRSName,Full text name of the spatial reference system of the latitude and longitude coordinates in the SpatialReferences table. This should be from the SpatialReferences controlled vocabulary,NA,any text,NA,NA,character,Sites
+SiteType,The type of site. This should be from the SiteType controlled vocabulary,NA,any text,NA,NA,character,Sites
+Comments,Comments related to the site.,NA,any text,NA,NA,character,Sites
+VariableCode,User or organization-defined code to describe the variable.,NA,any text,NA,NA,character,Variables
+VariableName,"Full text name of the variable that was measured, observed, modeled, etc. Use VariableName controlled vocabulary",NA,any text,NA,NA,character,Variables
+VariableUnitsName,The name of units of the data values associated with a variable. Use the Units controlled vocabulary,NA,any text,NA,NA,character,Variables
+DataType,The recorded value over the time interval being sampled. Use the DataType controlled vocabulary,NA,any text,NA,NA,character,Variables
+SampleMedium,The medium in which the sample or observation was taken or made. Choose from the SampleMedium controlled vocabulary,NA,any text,NA,NA,character,Variables
+ValueType,Text value indicating what type of data value is being recorded. Choose from the ValueType controlled vocabulary,NA,any text,NA,NA,character,Variables
+IsRegular,Value indicates whether the data values are from a regularly sampled time series.,NA,any text,NA,NA,factor,Variables
+TimeSupport,Numerical value that indicates the time support (or temporal footprint) of the data values. 0 is used to indicate data values that are instantaneous. Other values indicate the time over which the data values are implicitly or explicitly averaged or aggregated. The Timesupport goes along with TimeUnitsName if IsRegularlyMeasured = TRUE. ,NA,NA,time,real,numeric,Variables
+TimeUnitsName,"The name of units of the time support. If TimeSupport is 0, indicating an instantaneous observation, a unit needs to still be given for completeness, although it is somewhat arbitrary. Choose from the Units controlled vocabulary",NA,any text,NA,NA,character,Variables
+GeneralCategory,General category of data. Choose from the GeneralCategory controlled vocabulary,NA,any text,NA,NA,character,Variables
+NoDataValue,"Numeric value used to encode no data values for this variable. When formatting the Data Values table, use this number to indicate no data value was measured.",-9999,any text,NA,NA,character,Variables
+MethodCode,User or organization-defined code that collects the data to identify the method used for measurement.,NA,any text,NA,NA,character,Methods
+MethodDescription,Text description of each method.,NA,any text,NA,NA,character,Methods
+MethodLink,Link to additional reference material on the method.,NA,any text,NA,NA,character,Methods
+SourceCode,Code used to identify the organization that created the data.,NA,any text,NA,NA,character,Sources
+Organization,"Name of the organization that collected the data. This should be the agency or organization that collected the data, even if it came out of a database consolidated from many sources such as STORET.",NA,any text,NA,NA,character,Sources
+SourceDescription,Full text description of the source of the data.,NA,any text,NA,NA,character,Sources
+SourceLink,Link that can be pointed at the original data file and/or associated metadata stored in the digital library or URL of data source.,NA,any text,NA,NA,character,Sources
+ContactName,Name of the contact person for the data source.,NA,any text,NA,NA,character,Sources
+Email,Email addresss for the contact person.,NA,any text,NA,NA,character,Sources
+Citation,Text string that give the citation to be used when the data from each source are referenced.,NA,any text,NA,NA,character,Sources
+QualityControlLevelCode,Code used to identify the level of quality control to which data values have been subjected.,NA,any text,NA,NA,character,QualityControl
+Definition,Definition of Quality Control Level.,NA,any text,NA,NA,character,QualityControl
+Explanation,Explanation of Quality Control Level.,NA,any text,NA,NA,character,QualityControl
+DataValue,"The numeric value of the observation. For Categorical variables, a number is stored here. The Variables table has DataType as Categorical and the Categories table maps from the DataValue onto Categor",NA,NA,VariableUnitsName,real,numeric,DataValues
+LocalDateTime,Local date and time at which the data value was observed. Represented in an implementation specific format.,YYYY-MM-DD hh:mm:ss,NA,NA,NA,Date,DataValues
+UTCOffset,Offset in hours from UTC time of the corresponding LocalDateTime value.,NA,NA,hours,real,numeric,DataValues
+DateTimeUTC,Universal UTC date and time at which the data value was observed. Represented in an implementation specific format.,YYYY-MM-DD hh:mm:ss,NA,NA,NA,Date,DataValues
+SiteCode,Code used by organization that collects the data to identify the site.,NA,any text,NA,NA,character,DataValues
+VariableCode,Code used by the organization that collects the data to identify the variable.,NA,any text,NA,NA,character,DataValues
+MethodCode,"Code used by the organization that collects the data to identify the Method, which is defined in the Methods table.",NA,any text,NA,NA,character,DataValues
+SourceCode,"Code used by the organization that collects the data to identify the source, which is defined in the Sources table.",NA,any text,NA,NA,character,DataValues
+QualityControlLevelCode,Code which identifies the level of quality control that the value has been subjected to. This references the QualityControlLevels table.,NA,any text,NA,NA,character,DataValues

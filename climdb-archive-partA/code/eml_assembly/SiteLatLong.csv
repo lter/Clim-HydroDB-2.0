@@ -1,0 +1,1005 @@
+site_name,res_site_id,site_id,res_site_parent_id,res_site_code,res_site_name,descriptor_type_name,descriptor_value,descriptor_type_unit
+Arctic Tundra,2,2,,ARC,Arctic Tundra,Site north bounding coordinate,68.62822897,decimal degree
+Arctic Tundra,2,2,,ARC,Arctic Tundra,Site west bounding coordinate,-149.5960013,decimal degree
+Arctic Tundra,2,2,,ARC,Arctic Tundra,Site south bounding coordinate,68.62822897,decimal degree
+Arctic Tundra,2,2,,ARC,Arctic Tundra,Site east bounding coordinate,-149.5960013,decimal degree
+Arctic Tundra,315,2,314,Kuparuk ,Kuparuk River,Latitude,68.6457,decimal degrees
+Arctic Tundra,315,2,314,Kuparuk ,Kuparuk River,Longitude,149.4052,decimal degrees
+Arctic Tundra,46,2,2,TLKMAIN,Toolik Lake Field Station,Latitude,68.6283,decimal degrees
+Arctic Tundra,46,2,2,TLKMAIN,Toolik Lake Field Station,Longitude,-149.596,decimal degrees
+Baltimore Ecosystem Study,428,3,3,BWI,BWI Airport,Latitude,39.1733 (From Google Earth),decimal degrees
+Baltimore Ecosystem Study,428,3,3,BWI,BWI Airport,Longitude,-76.6841 (From Google Earth),decimal degrees
+Baltimore Ecosystem Study,429,3,3,DMH,Inner Harbor,Latitude,39.2815 (From Google Earth),decimal degrees
+Baltimore Ecosystem Study,429,3,3,DMH,Inner Harbor,Longitude,-76.6112 (From Google Earth),decimal degrees
+Baltimore Ecosystem Study,404,3,3,Mcdonogh1,McDonogh Primary,Latitude,39.3957,decimal degrees
+Baltimore Ecosystem Study,404,3,3,Mcdonogh1,McDonogh Primary,Longitude,-76.7713,decimal degrees
+Bonanza Creek Experimental Forest,4,4,,BNZ,Bonanza Creek Experimental Forest,Site north bounding coordinate,64.77376,decimal degree
+Bonanza Creek Experimental Forest,4,4,,BNZ,Bonanza Creek Experimental Forest,Site west bounding coordinate,-148.34713,decimal degree
+Bonanza Creek Experimental Forest,4,4,,BNZ,Bonanza Creek Experimental Forest,Site south bounding coordinate,64.68825,decimal degree
+Bonanza Creek Experimental Forest,4,4,,BNZ,Bonanza Creek Experimental Forest,Site east bounding coordinate,-148.10477,decimal degree
+Bonanza Creek Experimental Forest,415,4,4,C4,C4,Latitude,65.16867494,decimal degrees
+Bonanza Creek Experimental Forest,415,4,4,C4,C4,Longitude,-147.506,decimal degrees
+Bonanza Creek Experimental Forest,417,4,4,CPEAK,CPEAK,Latitude,"	65.19144594 ",decimal degrees
+Bonanza Creek Experimental Forest,417,4,4,CPEAK,CPEAK,Longitude,"	-147.4965636",decimal degrees
+Bonanza Creek Experimental Forest,313,4,4,CRREL,CRREL,Latitude,65.154259,decimal degrees
+Bonanza Creek Experimental Forest,313,4,4,CRREL,CRREL,Longitude,147.4903787,decimal degrees
+Bonanza Creek Experimental Forest,310,4,4,CT1600,CT1600,Latitude,65.17466667,decimal degrees
+Bonanza Creek Experimental Forest,310,4,4,CT1600,CT1600,Longitude,-147.492,decimal degrees
+Bonanza Creek Experimental Forest,311,4,4,CT2100,CT2100,Latitude,65.18216667,decimal degrees
+Bonanza Creek Experimental Forest,311,4,4,CT2100,CT2100,Longitude,-147.4923333,decimal degrees
+Bonanza Creek Experimental Forest,278,4,4,FP1A,FP1A,Latitude,64.69888888,decimal degrees
+Bonanza Creek Experimental Forest,278,4,4,FP1A,FP1A,Longitude,-148.255,decimal degrees
+Bonanza Creek Experimental Forest,279,4,4,FP2A,FP2A,Latitude,64.69916666,decimal degrees
+Bonanza Creek Experimental Forest,279,4,4,FP2A,FP2A,Longitude,-148.2508333,decimal degrees
+Bonanza Creek Experimental Forest,280,4,4,FP3A,FP3A,Latitude,64.72333333,decimal degrees
+Bonanza Creek Experimental Forest,280,4,4,FP3A,FP3A,Longitude,-148.1494444,decimal degrees
+Bonanza Creek Experimental Forest,281,4,4,FP4A,FP4A,Latitude,64.67972222,decimal degrees
+Bonanza Creek Experimental Forest,281,4,4,FP4A,FP4A,Longitude,-148.2347222,decimal degrees
+Bonanza Creek Experimental Forest,282,4,4,FP5A,FP5A,Latitude,64.68333333,decimal degrees
+Bonanza Creek Experimental Forest,282,4,4,FP5A,FP5A,Longitude,-148.2666667,decimal degrees
+Bonanza Creek Experimental Forest,286,4,4,FP5C,FP5C,Latitude,64.71444444,decimal degrees
+Bonanza Creek Experimental Forest,286,4,4,FP5C,FP5C,Longitude,-148.1452778,decimal degrees
+Bonanza Creek Experimental Forest,416,4,4,HELM,HELM,Latitude,65.16894,decimal degrees
+Bonanza Creek Experimental Forest,416,4,4,HELM,HELM,Longitude,-147.539397,decimal degrees
+Bonanza Creek Experimental Forest,287,4,4,HR1A,HR1A,Latitude,65.17033333,decimal degrees
+Bonanza Creek Experimental Forest,287,4,4,HR1A,HR1A,Longitude,-147.542,decimal degrees
+Bonanza Creek Experimental Forest,47,4,4,LTER1,LTER1,Latitude,64.74167,decimal degrees
+Bonanza Creek Experimental Forest,47,4,4,LTER1,LTER1,Longitude,-148.31389,decimal degrees
+Bonanza Creek Experimental Forest,277,4,4,LTER2,LTER2,Latitude,64.69916666,decimal degrees
+Bonanza Creek Experimental Forest,277,4,4,LTER2,LTER2,Longitude,-148.2508333,decimal degrees
+Bonanza Creek Experimental Forest,283,4,4,UP1A,UP1A,Latitude,64.73611111,decimal degrees
+Bonanza Creek Experimental Forest,283,4,4,UP1A,UP1A,Longitude,-148.3002778,decimal degrees
+Bonanza Creek Experimental Forest,284,4,4,UP2A,UP2A,Latitude,64.69527777,decimal degrees
+Bonanza Creek Experimental Forest,284,4,4,UP2A,UP2A,Longitude,-148.3563889,decimal degrees
+Bonanza Creek Experimental Forest,285,4,4,UP3A,UP3A,Latitude,64.76805555,decimal degrees
+Bonanza Creek Experimental Forest,285,4,4,UP3A,UP3A,Longitude,-148.2766667,decimal degrees
+Caspar Creek Experimental Watersheds,146,5,6,ARF,ARF Temperature Station,Latitude,39.36233,decimal degrees
+Caspar Creek Experimental Watersheds,146,5,6,ARF,ARF Temperature Station,Longitude,-123.73409,decimal degrees
+Caspar Creek Experimental Watersheds,6,5,,CAS,Caspar Creek Experimental Watersheds,Site north bounding coordinate,39.37936,decimal degree
+Caspar Creek Experimental Watersheds,6,5,,CAS,Caspar Creek Experimental Watersheds,Site west bounding coordinate,-123.75925,decimal degree
+Caspar Creek Experimental Watersheds,6,5,,CAS,Caspar Creek Experimental Watersheds,Site south bounding coordinate,39.32693,decimal degree
+Caspar Creek Experimental Watersheds,6,5,,CAS,Caspar Creek Experimental Watersheds,Site east bounding coordinate,-123.70192,decimal degree
+Caspar Creek Experimental Watersheds,140,5,139,NFC,north Fork Caspar Creek,Latitude,39.36142,decimal degrees
+Caspar Creek Experimental Watersheds,140,5,139,NFC,north Fork Caspar Creek,Longitude,-123.73443,decimal degrees
+Caspar Creek Experimental Watersheds,143,5,6,NFC408,north Fork Caspar Creek 408 Precipitation Station,Latitude,39.37103,decimal degrees
+Caspar Creek Experimental Watersheds,143,5,6,NFC408,north Fork Caspar Creek 408 Precipitation Station,Longitude,-123.70193,decimal degrees
+Caspar Creek Experimental Watersheds,144,5,6,NFC620,north Fork Caspar Creek 620 Precipitation Station,Latitude,39.362,decimal degrees
+Caspar Creek Experimental Watersheds,144,5,6,NFC620,north Fork Caspar Creek 620 Precipitation Station,Longitude,-123.735,decimal degrees
+Caspar Creek Experimental Watersheds,139,5,6,NFC,north Fork Caspar Creek Watershed,north bounding coordinate,39.37936,decimal degrees
+Caspar Creek Experimental Watersheds,139,5,6,NFC,north Fork Caspar Creek Watershed,west bounding coordinate,-123.7462,decimal degrees
+Caspar Creek Experimental Watersheds,139,5,6,NFC,north Fork Caspar Creek Watershed,south bounding coordinate,39.35927,decimal degrees
+Caspar Creek Experimental Watersheds,139,5,6,NFC,north Fork Caspar Creek Watershed,east bounding coordinate,-123.70192,decimal degrees
+Caspar Creek Experimental Watersheds,147,5,6,QUE,QUE Temperature Station,Latitude,39.3394,decimal degrees
+Caspar Creek Experimental Watersheds,147,5,6,QUE,QUE Temperature Station,Longitude,-123.75035,decimal degrees
+Caspar Creek Experimental Watersheds,148,5,6,SOLAR,Solar Radiation,Latitude,39.35985,decimal degrees
+Caspar Creek Experimental Watersheds,148,5,6,SOLAR,Solar Radiation,Longitude,-123.71732,decimal degrees
+Caspar Creek Experimental Watersheds,142,5,141,SFC,south Fork Caspar Creek,Latitude,39.34139,decimal degrees
+Caspar Creek Experimental Watersheds,142,5,141,SFC,south Fork Caspar Creek,Longitude,-123.7525,decimal degrees
+Caspar Creek Experimental Watersheds,145,5,6,SFC620,south Fork Caspar Creek 620 Precipitation Station,Latitude,39.347,decimal degrees
+Caspar Creek Experimental Watersheds,145,5,6,SFC620,south Fork Caspar Creek 620 Precipitation Station,Longitude,-123.753,decimal degrees
+Caspar Creek Experimental Watersheds,141,5,6,SFC,south Fork Caspar Creek Watershed,north bounding coordinate,39.35191,decimal degrees
+Caspar Creek Experimental Watersheds,141,5,6,SFC,south Fork Caspar Creek Watershed,west bounding coordinate,-123.75925,decimal degrees
+Caspar Creek Experimental Watersheds,141,5,6,SFC,south Fork Caspar Creek Watershed,south bounding coordinate,39.32693,decimal degrees
+Caspar Creek Experimental Watersheds,141,5,6,SFC,south Fork Caspar Creek Watershed,east bounding coordinate,-123.71279,decimal degrees
+Cedar Creek Ecosystem Science Reserve,410,6,7,CC2,Cedar Creek 2,Latitude,45.4021,decimal degrees
+Cedar Creek Ecosystem Science Reserve,410,6,7,CC2,Cedar Creek 2,Longitude,-93.2026,decimal degrees
+Cedar Creek Ecosystem Science Reserve,7,6,,CDR,Cedar Creek Ecosystem Science Reserve,Site north bounding coordinate,45.44273,decimal degree
+Cedar Creek Ecosystem Science Reserve,7,6,,CDR,Cedar Creek Ecosystem Science Reserve,Site west bounding coordinate,-93.2253,decimal degree
+Cedar Creek Ecosystem Science Reserve,7,6,,CDR,Cedar Creek Ecosystem Science Reserve,Site south bounding coordinate,45.3852,decimal degree
+Cedar Creek Ecosystem Science Reserve,7,6,,CDR,Cedar Creek Ecosystem Science Reserve,Site east bounding coordinate,-93.16266,decimal degree
+Central Arizona - Phoenix,262,42,5,7,Aguila,Latitude,33.9466,decimal degrees
+Central Arizona - Phoenix,262,42,5,7,Aguila,Longitude,-113.1889,decimal degrees
+Central Arizona - Phoenix,264,42,5,9,Bonita,Latitude,32.4636,decimal degrees
+Central Arizona - Phoenix,264,42,5,9,Bonita,Longitude,-109.9294,decimal degrees
+Central Arizona - Phoenix,689,42,5,33,Bowie,Latitude,32.33,decimal degrees
+Central Arizona - Phoenix,689,42,5,33,Bowie,Longitude,-109.48,decimal degrees
+Central Arizona - Phoenix,508,42,5,26,Buckeye   ,Latitude,33.4,decimal degrees
+Central Arizona - Phoenix,508,42,5,26,Buckeye   ,Longitude,-112.6833,decimal degrees
+Central Arizona - Phoenix,5,42,,CAP,Central Arizona - Phoenix,Site north bounding coordinate,33.83801,decimal degree
+Central Arizona - Phoenix,5,42,,CAP,Central Arizona - Phoenix,Site west bounding coordinate,-112.794316,decimal degree
+Central Arizona - Phoenix,5,42,,CAP,Central Arizona - Phoenix,Site south bounding coordinate,33.198342,decimal degree
+Central Arizona - Phoenix,5,42,,CAP,Central Arizona - Phoenix,Site east bounding coordinate,-111.566698,decimal degree
+Central Arizona - Phoenix,507,42,5,25,Ciudad Obregon,Latitude,27.367,decimal degrees
+Central Arizona - Phoenix,507,42,5,25,Ciudad Obregon,Longitude,-109.8833,decimal degrees
+Central Arizona - Phoenix,260,42,5,5,Coolidge,Latitude,32.98,decimal degrees
+Central Arizona - Phoenix,260,42,5,5,Coolidge,Longitude,-111.6047,decimal degrees
+Central Arizona - Phoenix,272,42,5,17,Dateland,Latitude,32.9858,decimal degrees
+Central Arizona - Phoenix,272,42,5,17,Dateland,Longitude,-113.4967,decimal degrees
+Central Arizona - Phoenix,509,42,5,27,Desert Ridge,Latitude,33.7333,decimal degrees
+Central Arizona - Phoenix,509,42,5,27,Desert Ridge,Longitude,-111.9667,decimal degrees
+Central Arizona - Phoenix,271,42,5,16,Eloy,Latitude,32.7739,decimal degrees
+Central Arizona - Phoenix,271,42,5,16,Eloy,Longitude,-111.5569,decimal degrees
+Central Arizona - Phoenix,686,42,5,30,Flagstaff,Latitude,35.20972,decimal degrees
+Central Arizona - Phoenix,686,42,5,30,Flagstaff,Longitude,-111.5792,decimal degrees
+Central Arizona - Phoenix,505,42,5,23,Harquahala   ,Latitude,33.4833,decimal degrees
+Central Arizona - Phoenix,505,42,5,23,Harquahala   ,Longitude,-113.1167,decimal degrees
+Central Arizona - Phoenix,690,42,5,34,Kansas Settlement,Latitude,32.05,decimal degrees
+Central Arizona - Phoenix,690,42,5,34,Kansas Settlement,Longitude,-109.73,decimal degrees
+Central Arizona - Phoenix,276,42,5,21,Laveen,Latitude,33.3764,decimal degrees
+Central Arizona - Phoenix,276,42,5,21,Laveen,Longitude,-112.15,decimal degrees
+Central Arizona - Phoenix,266,42,5,11,Litchfield Park,Latitude,33.4672,decimal degrees
+Central Arizona - Phoenix,266,42,5,11,Litchfield Park,Longitude,-112.3981,decimal degrees
+Central Arizona - Phoenix,268,42,5,13,Marana,Latitude,32.4611,decimal degrees
+Central Arizona - Phoenix,268,42,5,13,Marana,Longitude,-111.2333,decimal degrees
+Central Arizona - Phoenix,261,42,5,6,Maricopa,Latitude,33.0686,decimal degrees
+Central Arizona - Phoenix,261,42,5,6,Maricopa,Longitude,-111.9716,decimal degrees
+Central Arizona - Phoenix,685,42,5,29,Mesa,Latitude,33.38667,decimal degrees
+Central Arizona - Phoenix,685,42,5,29,Mesa,Longitude,-111.8675,decimal degrees
+Central Arizona - Phoenix,275,42,5,20,Mohave,Latitude,34.9672,decimal degrees
+Central Arizona - Phoenix,275,42,5,20,Mohave,Longitude,-114.6058,decimal degrees
+Central Arizona - Phoenix,684,42,5,28,Mohave 2,Latitude,34.92778,decimal degrees
+Central Arizona - Phoenix,684,42,5,28,Mohave 2,Longitude,-114.5617,decimal degrees
+Central Arizona - Phoenix,274,42,5,19,Paloma,Latitude,32.9267,decimal degrees
+Central Arizona - Phoenix,274,42,5,19,Paloma,Longitude,-112.8956,decimal degrees
+Central Arizona - Phoenix,263,42,5,8,Parker,Latitude,33.8823,decimal degrees
+Central Arizona - Phoenix,263,42,5,8,Parker,Longitude,-114.4478,decimal degrees
+Central Arizona - Phoenix,691,42,5,35,Parker 2,Latitude,33.8828,decimal degrees
+Central Arizona - Phoenix,691,42,5,35,Parker 2,Longitude,-114.4478,decimal degrees
+Central Arizona - Phoenix,688,42,5,32,Payson,Latitude,34.2325,decimal degrees
+Central Arizona - Phoenix,688,42,5,32,Payson,Longitude,-111.3442,decimal degrees
+Central Arizona - Phoenix,270,42,5,15,Phoenix-Encanto,Latitude,33.4792,decimal degrees
+Central Arizona - Phoenix,270,42,5,15,Phoenix-Encanto,Longitude,-112.0964,decimal degrees
+Central Arizona - Phoenix,267,42,5,12,Phoenix-Greenway,Latitude,33.6214,decimal degrees
+Central Arizona - Phoenix,267,42,5,12,Phoenix-Greenway,Longitude,-112.1083,decimal degrees
+Central Arizona - Phoenix,687,42,5,31,Prescott,Latitude,34.59194,decimal degrees
+Central Arizona - Phoenix,687,42,5,31,Prescott,Longitude,-112.4197,decimal degrees
+Central Arizona - Phoenix,504,42,5,22,Queen Creek   ,Latitude,33.2583,decimal degrees
+Central Arizona - Phoenix,504,42,5,22,Queen Creek   ,Longitude,-113.9611,decimal degrees
+Central Arizona - Phoenix,506,42,5,24,Roll   ,Latitude,32.7444,decimal degrees
+Central Arizona - Phoenix,506,42,5,24,Roll   ,Longitude,-113.9611,decimal degrees
+Central Arizona - Phoenix,259,42,5,4,Safford,Latitude,32.8133,decimal degrees
+Central Arizona - Phoenix,259,42,5,4,Safford,Longitude,-109.6783,decimal degrees
+Central Arizona - Phoenix,746,42,745,9502000,SALT RIVER BLW STEWART MTN DAM  ABOVE VERDE RIVER,Latitude,33.5528,decimal degrees
+Central Arizona - Phoenix,746,42,745,9502000,SALT RIVER BLW STEWART MTN DAM  ABOVE VERDE RIVER,Longitude,-111.5758,decimal degrees
+Central Arizona - Phoenix,734,42,733,9498500,SALT RIVER NEAR ROOSEVELT  AZ,Latitude,33.6194,decimal degrees
+Central Arizona - Phoenix,734,42,733,9498500,SALT RIVER NEAR ROOSEVELT  AZ,Longitude,-110.9208,decimal degrees
+Central Arizona - Phoenix,273,42,5,18,Scottsdale,Latitude,33.6431,decimal degrees
+Central Arizona - Phoenix,273,42,5,18,Scottsdale,Longitude,-111.9,decimal degrees
+Central Arizona - Phoenix,738,42,737,9510200,SYCAMORE CREEK,Latitude,33.6942,decimal degrees
+Central Arizona - Phoenix,738,42,737,9510200,SYCAMORE CREEK,Longitude,-111.5411,decimal degrees
+Central Arizona - Phoenix,736,42,735,9499000,TONTO CREEK ABV GUN CREEK  NEAR ROOSEVELT  AZ,Latitude,33.98,decimal degrees
+Central Arizona - Phoenix,736,42,735,9499000,TONTO CREEK ABV GUN CREEK  NEAR ROOSEVELT  AZ,Longitude,-111.3028,decimal degrees
+Central Arizona - Phoenix,256,42,5,1,Tucson,Latitude,32.2803,decimal degrees
+Central Arizona - Phoenix,256,42,5,1,Tucson,Longitude,-110.9458,decimal degrees
+Central Arizona - Phoenix,265,42,5,10,U of A Citrus Farm,Latitude,33.6181,decimal degrees
+Central Arizona - Phoenix,265,42,5,10,U of A Citrus Farm,Longitude,-112.4597,decimal degrees
+Central Arizona - Phoenix,740,42,739,9508500,VERDE RIVER ABV HORSESHOE DAM ,Latitude,34.0731,decimal degrees
+Central Arizona - Phoenix,740,42,739,9508500,VERDE RIVER ABV HORSESHOE DAM ,Longitude,-111.7156,decimal degrees
+Central Arizona - Phoenix,742,42,741,9510000,VERDE RIVER BLW BARTLETT DAM,Latitude,33.8083,decimal degrees
+Central Arizona - Phoenix,742,42,741,9510000,VERDE RIVER BLW BARTLETT DAM,Longitude,-111.6628,decimal degrees
+Central Arizona - Phoenix,744,42,743,9511300,VERDE RIVER NR SCOTTSDALE  BELOW SYCAMORE CREEK ,Latitude,33.5586,decimal degrees
+Central Arizona - Phoenix,744,42,743,9511300,VERDE RIVER NR SCOTTSDALE  BELOW SYCAMORE CREEK ,Longitude,-111.6686,decimal degrees
+Central Arizona - Phoenix,258,42,5,3,"Yuma Mesa",Latitude,32.6119,decimal degrees
+Central Arizona - Phoenix,258,42,5,3,"Yuma Mesa",Longitude,-114.6339,decimal degrees
+Central Arizona - Phoenix,269,42,5,14,Yuma north-Gila,Latitude,32.7353,decimal degrees
+Central Arizona - Phoenix,269,42,5,14,Yuma north-Gila,Longitude,-114.5294,decimal degrees
+Central Arizona - Phoenix,692,42,5,36,Yuma south,Latitude,32.5469,decimal degrees
+Central Arizona - Phoenix,692,42,5,36,Yuma south,Longitude,-114.7364,decimal degrees
+Central Arizona - Phoenix,257,42,5,2,"Yuma Valley",Latitude,32.7125,decimal degrees
+Central Arizona - Phoenix,257,42,5,2,"Yuma Valley",Longitude,-114.705,decimal degrees
+Coweeta Hydrologic Laboratory,8,7,,CWT,Coweeta Hydrologic Laboratory,Site north bounding coordinate,35.074186,decimal degree
+Coweeta Hydrologic Laboratory,8,7,,CWT,Coweeta Hydrologic Laboratory,Site west bounding coordinate,-83.478924,decimal degree
+Coweeta Hydrologic Laboratory,8,7,,CWT,Coweeta Hydrologic Laboratory,Site south bounding coordinate,35.026968,decimal degree
+Coweeta Hydrologic Laboratory,8,7,,CWT,Coweeta Hydrologic Laboratory,Site east bounding coordinate,-83.42091,decimal degree
+Fernow Experimental Forest,103,9,11,STATIONB,Camp Hollow Station B,Latitude,39.05297,decimal degrees
+Fernow Experimental Forest,103,9,11,STATIONB,Camp Hollow Station B,Longitude,-79.6856,decimal degrees
+Fernow Experimental Forest,11,9,,FER,Fernow Experimental Forest,Site north bounding coordinate,39.07841,decimal degree
+Fernow Experimental Forest,11,9,,FER,Fernow Experimental Forest,Site west bounding coordinate,-79.71409,decimal degree
+Fernow Experimental Forest,11,9,,FER,Fernow Experimental Forest,Site south bounding coordinate,39.02686,decimal degree
+Fernow Experimental Forest,11,9,,FER,Fernow Experimental Forest,Site east bounding coordinate,-79.64276,decimal degree
+Fernow Experimental Forest,89,9,11,WS1,Watershed 1,north bounding coordinate,39.06142,decimal degrees
+Fernow Experimental Forest,89,9,11,WS1,Watershed 1,west bounding coordinate,-79.67935,decimal degrees
+Fernow Experimental Forest,89,9,11,WS1,Watershed 1,south bounding coordinate,39.05549,decimal degrees
+Fernow Experimental Forest,89,9,11,WS1,Watershed 1,east bounding coordinate,-79.67116,decimal degrees
+Fernow Experimental Forest,90,9,89,WS1,Watershed 1,Latitude,39.06007,decimal degrees
+Fernow Experimental Forest,90,9,89,WS1,Watershed 1,Longitude,-79.67132,decimal degrees
+Fernow Experimental Forest,91,9,11,WS2,Watershed 2,north bounding coordinate,39.05937,decimal degrees
+Fernow Experimental Forest,91,9,11,WS2,Watershed 2,west bounding coordinate,-79.68517,decimal degrees
+Fernow Experimental Forest,91,9,11,WS2,Watershed 2,south bounding coordinate,39.05377,decimal degrees
+Fernow Experimental Forest,91,9,11,WS2,Watershed 2,east bounding coordinate,-79.68084,decimal degrees
+Fernow Experimental Forest,92,9,91,WS2,Watershed 2,Latitude,39.05387,decimal degrees
+Fernow Experimental Forest,92,9,91,WS2,Watershed 2,Longitude,-79.68258,decimal degrees
+Fernow Experimental Forest,93,9,11,WS3,Watershed 3,north bounding coordinate,39.06225,decimal degrees
+Fernow Experimental Forest,93,9,11,WS3,Watershed 3,west bounding coordinate,-79.69053,decimal degrees
+Fernow Experimental Forest,93,9,11,WS3,Watershed 3,south bounding coordinate,39.05406,decimal degrees
+Fernow Experimental Forest,93,9,11,WS3,Watershed 3,east bounding coordinate,-79.68314,decimal degrees
+Fernow Experimental Forest,94,9,93,WS3,Watershed 3,Latitude,39.05413,decimal degrees
+Fernow Experimental Forest,94,9,93,WS3,Watershed 3,Longitude,-79.68625,decimal degrees
+Fernow Experimental Forest,95,9,11,WS4,Watershed 4,north bounding coordinate,39.06109,decimal degrees
+Fernow Experimental Forest,95,9,11,WS4,Watershed 4,west bounding coordinate,-79.69552,decimal degrees
+Fernow Experimental Forest,95,9,11,WS4,Watershed 4,south bounding coordinate,39.05259,decimal degrees
+Fernow Experimental Forest,95,9,11,WS4,Watershed 4,east bounding coordinate,-79.68707,decimal degrees
+Fernow Experimental Forest,96,9,95,WS4,Watershed 4,Latitude,39.05397,decimal degrees
+Fernow Experimental Forest,96,9,95,WS4,Watershed 4,Longitude,-79.68714,decimal degrees
+Fernow Experimental Forest,97,9,11,WS5,Watershed 5,north bounding coordinate,39.05322,decimal degrees
+Fernow Experimental Forest,97,9,11,WS5,Watershed 5,west bounding coordinate,-79.69242,decimal degrees
+Fernow Experimental Forest,97,9,11,WS5,Watershed 5,south bounding coordinate,39.04547,decimal degrees
+Fernow Experimental Forest,97,9,11,WS5,Watershed 5,east bounding coordinate,-79.68301,decimal degrees
+Fernow Experimental Forest,98,9,97,WS5,Watershed 5,Latitude,39.05239,decimal degrees
+Fernow Experimental Forest,98,9,97,WS5,Watershed 5,Longitude,-79.6856,decimal degrees
+Fernow Experimental Forest,99,9,11,WS6,Watershed 6,north bounding coordinate,39.07049,decimal degrees
+Fernow Experimental Forest,99,9,11,WS6,Watershed 6,west bounding coordinate,-79.68016,decimal degrees
+Fernow Experimental Forest,99,9,11,WS6,Watershed 6,south bounding coordinate,39.06602,decimal degrees
+Fernow Experimental Forest,99,9,11,WS6,Watershed 6,east bounding coordinate,-79.67379,decimal degrees
+Fernow Experimental Forest,100,9,99,WS6,Watershed 6,Latitude,39.06612,decimal degrees
+Fernow Experimental Forest,100,9,99,WS6,Watershed 6,Longitude,-79.67698,decimal degrees
+Fernow Experimental Forest,101,9,11,WS7,Watershed 7,north bounding coordinate,39.06588,decimal degrees
+Fernow Experimental Forest,101,9,11,WS7,Watershed 7,west bounding coordinate,-79.68917,decimal degrees
+Fernow Experimental Forest,101,9,11,WS7,Watershed 7,south bounding coordinate,39.0598,decimal degrees
+Fernow Experimental Forest,101,9,11,WS7,Watershed 7,east bounding coordinate,-79.68027,decimal degrees
+Fernow Experimental Forest,102,9,101,WS7,Watershed 7,Latitude,39.06388,decimal degrees
+Fernow Experimental Forest,102,9,101,WS7,Watershed 7,Longitude,-79.68029,decimal degrees
+Florida Coastal Everglades,434,39,431,C111_S18C,CANAL_111_S-18-C_FLORIDACITY (USGS 2290769),Latitude,25.3206,decimal degrees
+Florida Coastal Everglades,434,39,431,C111_S18C,CANAL_111_S-18-C_FLORIDACITY (USGS 2290769),Longitude,-80.5253,decimal degrees
+Florida Coastal Everglades,79,39,10,Everglades,Everglades NOAA,Latitude,25.85,decimal degrees
+Florida Coastal Everglades,79,39,10,Everglades,Everglades NOAA,Longitude,-81.3833,decimal degrees
+Florida Coastal Everglades,80,39,10,FlamingoRS,Flamingo Ranger Station NOAA,Latitude,25.15,decimal degrees
+Florida Coastal Everglades,80,39,10,FlamingoRS,Flamingo Ranger Station NOAA,Longitude,-80.9167,decimal degrees
+Florida Coastal Everglades,785,39,784,Flamingo_R,FLAMINGO RANGER STATION  FL US (USC00083020),Latitude,25.1422,decimal degrees
+Florida Coastal Everglades,785,39,784,Flamingo_R,FLAMINGO RANGER STATION  FL US (USC00083020),Longitude,-80.9144,decimal degrees
+Florida Coastal Everglades,437,39,431,LEVEE31_1,LEVEE_31_north_EXT_AT_1MILE_westMIAMI (USGS 22907647),Latitude,25.4781,decimal degrees
+Florida Coastal Everglades,437,39,431,LEVEE31_1,LEVEE_31_north_EXT_AT_1MILE_westMIAMI (USGS 22907647),Longitude,-80.4981,decimal degrees
+Florida Coastal Everglades,438,39,431,LEVEE31_3,LEVEE_31_north_EXT_AT_3MILE_westMIAMI  (USGS 2290765),Latitude,25.7464,decimal degrees
+Florida Coastal Everglades,438,39,431,LEVEE31_3,LEVEE_31_north_EXT_AT_3MILE_westMIAMI  (USGS 2290765),Longitude,-80.4978,decimal degrees
+Florida Coastal Everglades,439,39,431,LEVEE31_4,LEVEE_31_north_EXT_AT_4MILE_westMIAMI (USGS 2290766),Latitude,25.7017,decimal degrees
+Florida Coastal Everglades,439,39,431,LEVEE31_4,LEVEE_31_north_EXT_AT_4MILE_westMIAMI (USGS 2290766),Longitude,-80.4961,decimal degrees
+Florida Coastal Everglades,440,39,431,LEVEE31_5,LEVEE_31_north_EXT_AT_5MILE_westMIAMI (USGS 2290767),Latitude,25.6858,decimal degrees
+Florida Coastal Everglades,440,39,431,LEVEE31_5,LEVEE_31_north_EXT_AT_5MILE_westMIAMI (USGS 2290767),Longitude,-80.4972,decimal degrees
+Florida Coastal Everglades,441,39,431,LEVEE31_7,LEVEE_31_north_EXT_AT_7MILE_westMIAMI (USGS 2290768),Latitude,25.6631,decimal degrees
+Florida Coastal Everglades,441,39,431,LEVEE31_7,LEVEE_31_north_EXT_AT_7MILE_westMIAMI (USGS 2290768),Longitude,-80.4983,decimal degrees
+Florida Coastal Everglades,81,39,10,MIA,Miami Internation Airport NOAA,Latitude,25.8167,decimal degrees
+Florida Coastal Everglades,81,39,10,MIA,Miami Internation Airport NOAA,Longitude,-80.3,decimal degrees
+Florida Coastal Everglades,789,39,787,MIA_G,MIAMI INTERNATIONAL AIRPORT  FL US (USW00012839),Latitude,25.7881,decimal degrees
+Florida Coastal Everglades,789,39,787,MIA_G,MIAMI INTERNATIONAL AIRPORT  FL US (USW00012839),Longitude,-80.3169,decimal degrees
+Florida Coastal Everglades,448,39,431,WELLFIELD,NW_WELLFIELD_CANAL_NR_DADE_BROWARD_LEVEE_NR_PENN (USGS 2287497),Latitude,25.8911,decimal degrees
+Florida Coastal Everglades,448,39,431,WELLFIELD,NW_WELLFIELD_CANAL_NR_DADE_BROWARD_LEVEE_NR_PENN (USGS 2287497),Longitude,-80.4369,decimal degrees
+Florida Coastal Everglades,82,39,10,RoyalPalmR,Royal Palm Ranger Station NOAA,Latitude,25.3833,decimal degrees
+Florida Coastal Everglades,82,39,10,RoyalPalmR,Royal Palm Ranger Station NOAA,Longitude,-80.6,decimal degrees
+Florida Coastal Everglades,788,39,786,RoyalPalmS,ROYAL PALM RANGER STATION  FL US (USC00087760),Latitude,25.3866,decimal degrees
+Florida Coastal Everglades,788,39,786,RoyalPalmS,ROYAL PALM RANGER STATION  FL US (USC00087760),Longitude,-80.5936,decimal degrees
+Florida Coastal Everglades,458,39,431,TAM_S12A,TAMIAMI_CANAL_AT_S-12-A (USGS 254543080491101),Latitude,25.7619,decimal degrees
+Florida Coastal Everglades,458,39,431,TAM_S12A,TAMIAMI_CANAL_AT_S-12-A (USGS 254543080491101),Longitude,-80.8197,decimal degrees
+Florida Coastal Everglades,459,39,431,TAM_S12B,TAMIAMI_CANAL_AT_S-12-B (USGS 2289019),Latitude,25.7611,decimal degrees
+Florida Coastal Everglades,459,39,431,TAM_S12B,TAMIAMI_CANAL_AT_S-12-B (USGS 2289019),Longitude,-80.7681,decimal degrees
+Florida Coastal Everglades,460,39,431,TAM_S12D,TAMIAMI_CANAL_AT_S-12-D (USGS 254543080405401),Latitude,25.7619,decimal degrees
+Florida Coastal Everglades,460,39,431,TAM_S12D,TAMIAMI_CANAL_AT_S-12-D (USGS 254543080405401),Longitude,-80.6817,decimal degrees
+Florida Coastal Everglades,463,39,431,TAM_S12C,TAMIAMI_CANAL_BELOW_S-12-C (USGS 2289041),Latitude,25.7611,decimal degrees
+Florida Coastal Everglades,463,39,431,TAM_S12C,TAMIAMI_CANAL_BELOW_S-12-C (USGS 2289041),Longitude,-80.7261,decimal degrees
+Florida Coastal Everglades,83,39,10,Tavernier,Tavernier NOAA,Latitude,25,decimal degrees
+Florida Coastal Everglades,83,39,10,Tavernier,Tavernier NOAA,Longitude,-80.5167,decimal degrees
+Fraser Experimental Forest,73,11,70,ELOUI,east St. Louis Creek,Latitude,39.8869,decimal degrees
+Fraser Experimental Forest,73,11,70,ELOUI,east St. Louis Creek,Longitude,-105.8773,decimal degrees
+Fraser Experimental Forest,70,11,13,ELOUI,east St. Louis Creek Watershed,north bounding coordinate,39.9,decimal degrees
+Fraser Experimental Forest,70,11,13,ELOUI,east St. Louis Creek Watershed,west bounding coordinate,-105.89,decimal degrees
+Fraser Experimental Forest,70,11,13,ELOUI,east St. Louis Creek Watershed,south bounding coordinate,39.84,decimal degrees
+Fraser Experimental Forest,70,11,13,ELOUI,east St. Louis Creek Watershed,east bounding coordinate,-105.85,decimal degrees
+Fraser Experimental Forest,13,11,,FRA,Fraser Experimental Forest,Site north bounding coordinate,39.93,decimal degree
+Fraser Experimental Forest,13,11,,FRA,Fraser Experimental Forest,Site west bounding coordinate,-105.97,decimal degree
+Fraser Experimental Forest,13,11,,FRA,Fraser Experimental Forest,Site south bounding coordinate,39.82,decimal degree
+Fraser Experimental Forest,13,11,,FRA,Fraser Experimental Forest,Site east bounding coordinate,-105.85,decimal degree
+Fraser Experimental Forest,72,11,13,HQ3,Headquarters,Latitude,39.9045,decimal degrees
+Fraser Experimental Forest,72,11,13,HQ3,Headquarters,Longitude,-105.883,decimal degrees
+Fraser Experimental Forest,74,11,70,LFADJ,Lower Fool Creek,Latitude,39.8919,decimal degrees
+Fraser Experimental Forest,74,11,70,LFADJ,Lower Fool Creek,Longitude,-105.8693,decimal degrees
+Fraser Experimental Forest,71,11,13,LFADJ,Lower Fool Creek Watershed,north bounding coordinate,39.88,decimal degrees
+Fraser Experimental Forest,71,11,13,LFADJ,Lower Fool Creek Watershed,west bounding coordinate,-105.87,decimal degrees
+Fraser Experimental Forest,71,11,13,LFADJ,Lower Fool Creek Watershed,south bounding coordinate,39.86,decimal degrees
+Fraser Experimental Forest,71,11,13,LFADJ,Lower Fool Creek Watershed,east bounding coordinate,-105.85,decimal degrees
+Georgia Coastal Ecosystems,728,40,724,Alt_Baxley,Alt_Baxley  (USGS 02225000) ,Latitude,31.93908,decimal degrees
+Georgia Coastal Ecosystems,728,40,724,Alt_Baxley,Alt_Baxley  (USGS 02225000) ,Longitude,-82.35346,decimal degrees
+Georgia Coastal Ecosystems,308,40,14,Altamaha,Altamaha River Basin,north bounding coordinate,34.38555,decimal degrees
+Georgia Coastal Ecosystems,308,40,14,Altamaha,Altamaha River Basin,west bounding coordinate,-84.438334,decimal degrees
+Georgia Coastal Ecosystems,308,40,14,Altamaha,Altamaha River Basin,south bounding coordinate,31.315563,decimal degrees
+Georgia Coastal Ecosystems,308,40,14,Altamaha,Altamaha River Basin,east bounding coordinate,-81.506075,decimal degrees
+Georgia Coastal Ecosystems,729,40,14,Baxley ,Baxley (NWS),Latitude,31.84139,decimal degrees
+Georgia Coastal Ecosystems,729,40,14,Baxley ,Baxley (NWS),Longitude,-82.37556,decimal degrees
+Georgia Coastal Ecosystems,730,40,14,Brunswick ,Brunswick  (NWS) ,Latitude,31.1681,decimal degrees
+Georgia Coastal Ecosystems,730,40,14,Brunswick ,Brunswick  (NWS) ,Longitude,-81.5022,decimal degrees
+Georgia Coastal Ecosystems,309,40,308,DOCTORTOWN,Doctor Town (USGS),Latitude,31.654444,decimal degrees
+Georgia Coastal Ecosystems,309,40,308,DOCTORTOWN,Doctor Town (USGS),Longitude,-81.828056,decimal degrees
+Georgia Coastal Ecosystems,14,40,,GCE,Georgia Coastal Ecosystems,Site north bounding coordinate,31.56384,decimal degree
+Georgia Coastal Ecosystems,14,40,,GCE,Georgia Coastal Ecosystems,Site west bounding coordinate,-81.586458,decimal degree
+Georgia Coastal Ecosystems,14,40,,GCE,Georgia Coastal Ecosystems,Site south bounding coordinate,31.170266,decimal degree
+Georgia Coastal Ecosystems,14,40,,GCE,Georgia Coastal Ecosystems,Site east bounding coordinate,-81.151037,decimal degree
+Georgia Coastal Ecosystems,731,40,14,Glennville,Glennville  (NWS),Latitude,31.988,decimal degrees
+Georgia Coastal Ecosystems,731,40,14,Glennville,Glennville  (NWS),Longitude,-81.9522,decimal degrees
+Georgia Coastal Ecosystems,307,40,14,HUDSONCRK,Hudson Creek,Latitude,31.453333,decimal degrees
+Georgia Coastal Ecosystems,307,40,14,HUDSONCRK,Hudson Creek,Longitude,-81.363056,decimal degrees
+Georgia Coastal Ecosystems,732,40,14,Jesup ,Jesup  (NWS),Latitude,31.5075,decimal degrees
+Georgia Coastal Ecosystems,732,40,14,Jesup ,Jesup  (NWS),Longitude,-81.8628,decimal degrees
+Georgia Coastal Ecosystems,76,40,14,ML,Marsh landiing,Latitude,31.417778,decimal degrees
+Georgia Coastal Ecosystems,76,40,14,ML,Marsh landiing,Longitude,-81.296111,decimal degrees
+Georgia Coastal Ecosystems,727,40,723,Ocmulgee,Ocmulgee (USGS 02215500) ,Latitude,31.92018,decimal degrees
+Georgia Coastal Ecosystems,727,40,723,Ocmulgee,Ocmulgee (USGS 02215500) ,Longitude,-82.67403,decimal degrees
+Georgia Coastal Ecosystems,725,40,721,Oconee ,Oconee  (USGS 02223500) ,Latitude,32.54461,decimal degrees
+Georgia Coastal Ecosystems,725,40,721,Oconee ,Oconee  (USGS 02223500) ,Longitude,-82.89459,decimal degrees
+Georgia Coastal Ecosystems,726,40,722,Ohoopee,Ohoopee  (USGS 02225500) ,Latitude,32.07853,decimal degrees
+Georgia Coastal Ecosystems,726,40,722,Ohoopee,Ohoopee  (USGS 02225500) ,Longitude,-82.17734,decimal degrees
+Georgia Coastal Ecosystems,77,40,14,UGAMI,University of Georiga Marine Institute Met Station,Latitude,31.3972,decimal degrees
+Georgia Coastal Ecosystems,77,40,14,UGAMI,University of Georiga Marine Institute Met Station,Longitude,-81.2811,decimal degrees
+H.J. Andrews Experimental Forest,518,1,1,CENMET,Central Meteorological Station,Latitude,44.243306,decimal degrees
+H.J. Andrews Experimental Forest,518,1,1,CENMET,Central Meteorological Station,Longitude,-122.141611,decimal degrees
+H.J. Andrews Experimental Forest,43,1,1,CS2MET,Climatic Station at WS#2                          ,Latitude,44.214875,decimal degrees
+H.J. Andrews Experimental Forest,43,1,1,CS2MET,Climatic Station at WS#2                          ,Longitude,-122.249053,decimal degrees
+H.J. Andrews Experimental Forest,75,1,44,GSWS01,GSWS01,Latitude,44.20733954,decimal degrees
+H.J. Andrews Experimental Forest,75,1,44,GSWS01,GSWS01,Longitude,-122.2569646,decimal degrees
+H.J. Andrews Experimental Forest,150,1,149,GSWS02,GSWS02,Latitude,44.21216403,decimal degrees
+H.J. Andrews Experimental Forest,150,1,149,GSWS02,GSWS02,Longitude,-122.2437421,decimal degrees
+H.J. Andrews Experimental Forest,152,1,151,GSWS03,GSWS03,Latitude,44.21951977,decimal degrees
+H.J. Andrews Experimental Forest,152,1,151,GSWS03,GSWS03,Longitude,-122.2417193,decimal degrees
+H.J. Andrews Experimental Forest,154,1,153,GSWS06,GSWS06,Latitude,44.26160362,decimal degrees
+H.J. Andrews Experimental Forest,154,1,153,GSWS06,GSWS06,Longitude,-122.1796076,decimal degrees
+H.J. Andrews Experimental Forest,156,1,155,GSWS07,GSWS07,Latitude,44.26477809,decimal degrees
+H.J. Andrews Experimental Forest,156,1,155,GSWS07,GSWS07,Longitude,-122.174105,decimal degrees
+H.J. Andrews Experimental Forest,158,1,157,GSWS08,GSWS08,Latitude,44.26618583,decimal degrees
+H.J. Andrews Experimental Forest,158,1,157,GSWS08,GSWS08,Longitude,-122.169586,decimal degrees
+H.J. Andrews Experimental Forest,160,1,159,GSWS09,GSWS09,Latitude,44.2013659,decimal degrees
+H.J. Andrews Experimental Forest,160,1,159,GSWS09,GSWS09,Longitude,-122.2576599,decimal degrees
+H.J. Andrews Experimental Forest,162,1,161,GSWS10,GSWS10,Latitude,44.21718584,decimal degrees
+H.J. Andrews Experimental Forest,162,1,161,GSWS10,GSWS10,Longitude,-122.2599328,decimal degrees
+H.J. Andrews Experimental Forest,1,1,,AND,H.J. Andrews Experimental Forest,Site north bounding coordinate,44.282118,decimal degree
+H.J. Andrews Experimental Forest,1,1,,AND,H.J. Andrews Experimental Forest,Site west bounding coordinate,-122.260544,decimal degree
+H.J. Andrews Experimental Forest,1,1,,AND,H.J. Andrews Experimental Forest,Site south bounding coordinate,44.197854,decimal degree
+H.J. Andrews Experimental Forest,1,1,,AND,H.J. Andrews Experimental Forest,Site east bounding coordinate,-122.099675,decimal degree
+H.J. Andrews Experimental Forest,519,1,1,H15MET,Hi-15 Meteorological Station,Latitude,44.264217,decimal degrees
+H.J. Andrews Experimental Forest,519,1,1,H15MET,Hi-15 Meteorological Station,Longitude,-122.173794,decimal degrees
+H.J. Andrews Experimental Forest,166,1,165,GSLOOK,Lookout Creek Gauging Station (USGS 14161500),Latitude,44.21030869,decimal degrees
+H.J. Andrews Experimental Forest,166,1,165,GSLOOK,Lookout Creek Gauging Station (USGS 14161500),Longitude,-122.2559783,decimal degrees
+H.J. Andrews Experimental Forest,165,1,1,LOOKOUT,Lookout Creek Watershed,north bounding coordinate,44.28226,decimal degrees
+H.J. Andrews Experimental Forest,165,1,1,LOOKOUT,Lookout Creek Watershed,west bounding coordinate,-122.258793,decimal degrees
+H.J. Andrews Experimental Forest,165,1,1,LOOKOUT,Lookout Creek Watershed,south bounding coordinate,44.201274,decimal degrees
+H.J. Andrews Experimental Forest,165,1,1,LOOKOUT,Lookout Creek Watershed,east bounding coordinate,-122.099527,decimal degrees
+H.J. Andrews Experimental Forest,164,1,163,GSMACK,Mack Creek Gauging Station,Latitude,44.21947948,decimal degrees
+H.J. Andrews Experimental Forest,164,1,163,GSMACK,Mack Creek Gauging Station,Longitude,-122.1661758,decimal degrees
+H.J. Andrews Experimental Forest,163,1,1,MACK,Mack Creek Watershed,north bounding coordinate,44.220543,decimal degrees
+H.J. Andrews Experimental Forest,163,1,1,MACK,Mack Creek Watershed,west bounding coordinate,-122.172822,decimal degrees
+H.J. Andrews Experimental Forest,163,1,1,MACK,Mack Creek Watershed,south bounding coordinate,44.20148,decimal degrees
+H.J. Andrews Experimental Forest,163,1,1,MACK,Mack Creek Watershed,east bounding coordinate,-122.126996,decimal degrees
+H.J. Andrews Experimental Forest,45,1,1,PRIMET,Primary Meteorological Station,Latitude,44.211844,decimal degrees
+H.J. Andrews Experimental Forest,45,1,1,PRIMET,Primary Meteorological Station,Longitude,-122.255889,decimal degrees
+H.J. Andrews Experimental Forest,520,1,1,UPLMET,Upper Lookout Meteorological Station,Latitude,44.207211,decimal degrees
+H.J. Andrews Experimental Forest,520,1,1,UPLMET,Upper Lookout Meteorological Station,Longitude,-122.119392,decimal degrees
+H.J. Andrews Experimental Forest,521,1,1,VANMET,Vanilla Leaf Meteorological Station,Latitude,44.271625,decimal degrees
+H.J. Andrews Experimental Forest,521,1,1,VANMET,Vanilla Leaf Meteorological Station,Longitude,-122.149492,decimal degrees
+H.J. Andrews Experimental Forest,44,1,1,WS01,Watershed 1,north bounding coordinate,44.208517,decimal degrees
+H.J. Andrews Experimental Forest,44,1,1,WS01,Watershed 1,west bounding coordinate,-122.256831,decimal degrees
+H.J. Andrews Experimental Forest,44,1,1,WS01,Watershed 1,south bounding coordinate,44.199017,decimal degrees
+H.J. Andrews Experimental Forest,44,1,1,WS01,Watershed 1,east bounding coordinate,-122.235813,decimal degrees
+H.J. Andrews Experimental Forest,161,1,1,WS10,Watershed 10,north bounding coordinate,44.220152,decimal degrees
+H.J. Andrews Experimental Forest,161,1,1,WS10,Watershed 10,west bounding coordinate,-122.259966,decimal degrees
+H.J. Andrews Experimental Forest,161,1,1,WS10,Watershed 10,south bounding coordinate,44.216786,decimal degrees
+H.J. Andrews Experimental Forest,161,1,1,WS10,Watershed 10,east bounding coordinate,-122.254439,decimal degrees
+H.J. Andrews Experimental Forest,149,1,1,WS02,Watershed 2,north bounding coordinate,44.213385,decimal degrees
+H.J. Andrews Experimental Forest,149,1,1,WS02,Watershed 2,west bounding coordinate,-122.243976,decimal degrees
+H.J. Andrews Experimental Forest,149,1,1,WS02,Watershed 2,south bounding coordinate,44.206178,decimal degrees
+H.J. Andrews Experimental Forest,149,1,1,WS02,Watershed 2,east bounding coordinate,-122.229741,decimal degrees
+H.J. Andrews Experimental Forest,151,1,1,WS03,Watershed 3,north bounding coordinate,44.219943,decimal degrees
+H.J. Andrews Experimental Forest,151,1,1,WS03,Watershed 3,west bounding coordinate,-122.241949,decimal degrees
+H.J. Andrews Experimental Forest,151,1,1,WS03,Watershed 3,south bounding coordinate,44.208031,decimal degrees
+H.J. Andrews Experimental Forest,151,1,1,WS03,Watershed 3,east bounding coordinate,-122.224022,decimal degrees
+H.J. Andrews Experimental Forest,153,1,1,WS06,Watershed 6,north bounding coordinate,44.266808,decimal degrees
+H.J. Andrews Experimental Forest,153,1,1,WS06,Watershed 6,west bounding coordinate,-122.18351,decimal degrees
+H.J. Andrews Experimental Forest,153,1,1,WS06,Watershed 6,south bounding coordinate,44.261544,decimal degrees
+H.J. Andrews Experimental Forest,153,1,1,WS06,Watershed 6,east bounding coordinate,-122.17755,decimal degrees
+H.J. Andrews Experimental Forest,155,1,1,WS07,Watershed 7,north bounding coordinate,44.269748,decimal degrees
+H.J. Andrews Experimental Forest,155,1,1,WS07,Watershed 7,west bounding coordinate,-122.179209,decimal degrees
+H.J. Andrews Experimental Forest,155,1,1,WS07,Watershed 7,south bounding coordinate,44.264579,decimal degrees
+H.J. Andrews Experimental Forest,155,1,1,WS07,Watershed 7,east bounding coordinate,-122.173875,decimal degrees
+H.J. Andrews Experimental Forest,157,1,1,WS08,Watershed 8,north bounding coordinate,44.273397,decimal degrees
+H.J. Andrews Experimental Forest,157,1,1,WS08,Watershed 8,west bounding coordinate,-122.173302,decimal degrees
+H.J. Andrews Experimental Forest,157,1,1,WS08,Watershed 8,south bounding coordinate,44.265881,decimal degrees
+H.J. Andrews Experimental Forest,157,1,1,WS08,Watershed 8,east bounding coordinate,-122.167183,decimal degrees
+H.J. Andrews Experimental Forest,159,1,1,WS09,Watershed 9,north bounding coordinate,44.203933,decimal degrees
+H.J. Andrews Experimental Forest,159,1,1,WS09,Watershed 9,west bounding coordinate,-122.257815,decimal degrees
+H.J. Andrews Experimental Forest,159,1,1,WS09,Watershed 9,south bounding coordinate,44.20111,decimal degrees
+H.J. Andrews Experimental Forest,159,1,1,WS09,Watershed 9,east bounding coordinate,-122.251515,decimal degrees
+Harvard Forest,88,15,18,Fisher,Fisher Meteorological Station,Latitude,42.533,decimal degrees
+Harvard Forest,88,15,18,Fisher,Fisher Meteorological Station,Longitude,-72.19,decimal degrees
+Harvard Forest,18,15,,HFR,Harvard Forest,Site north bounding coordinate,42.55,decimal degree
+Harvard Forest,18,15,,HFR,Harvard Forest,Site west bounding coordinate,-72.2,decimal degree
+Harvard Forest,18,15,,HFR,Harvard Forest,Site south bounding coordinate,42.53,decimal degree
+Harvard Forest,18,15,,HFR,Harvard Forest,Site east bounding coordinate,-72.17,decimal degree
+Harvard Forest,78,15,18,Shaler    ,Shaler Meteorological Station ,Latitude,42.53,decimal degrees
+Harvard Forest,78,15,18,Shaler    ,Shaler Meteorological Station ,Longitude,-72.19,decimal degrees
+Horse Creek Study Watersheds,138,16,19,BUCKMDWS,Buck Meadows,Latitude,45.99028N,decimal degrees
+Horse Creek Study Watersheds,138,16,19,BUCKMDWS,Buck Meadows,Longitude,115.44014W,decimal degrees
+Horse Creek Study Watersheds,136,16,135,east300,east_300,Latitude,45.98666N,decimal degrees
+Horse Creek Study Watersheds,136,16,135,east300,east_300,Longitude,115.33102W,decimal degrees
+Horse Creek Study Watersheds,135,16,19,east300,east_300 Watershed,north bounding coordinate,45.98949N,decimal degrees
+Horse Creek Study Watersheds,135,16,19,east300,east_300 Watershed,west bounding coordinate,115.43284W,decimal degrees
+Horse Creek Study Watersheds,135,16,19,east300,east_300 Watershed,south bounding coordinate,45.95761N,decimal degrees
+Horse Creek Study Watersheds,135,16,19,east300,east_300 Watershed,east bounding coordinate,115.32622W,decimal degrees
+Horse Creek Study Watersheds,19,16,,HOR,Horse Creek Study Watersheds,Site north bounding coordinate,46.01119N,decimal degree
+Horse Creek Study Watersheds,19,16,,HOR,Horse Creek Study Watersheds,Site west bounding coordinate,115.44356W,decimal degree
+Horse Creek Study Watersheds,19,16,,HOR,Horse Creek Study Watersheds,Site south bounding coordinate,45.95761N,decimal degree
+Horse Creek Study Watersheds,19,16,,HOR,Horse Creek Study Watersheds,Site east bounding coordinate,115.32529W,decimal degree
+Horse Creek Study Watersheds,137,16,19,LWHORSE,Lower Horse,Latitude,45.98994N,decimal degrees
+Horse Creek Study Watersheds,137,16,19,LWHORSE,Lower Horse,Longitude,115.32677W,decimal degrees
+Horse Creek Study Watersheds,134,16,133,MAIN200,Main_200,Latitude,45.99141N,decimal degrees
+Horse Creek Study Watersheds,134,16,133,MAIN200,Main_200,Longitude,115.33010W,decimal degrees
+Horse Creek Study Watersheds,133,16,19,MAIN200,Main_200 Watershed,north bounding coordinate,46.01119N,decimal degrees
+Horse Creek Study Watersheds,133,16,19,MAIN200,Main_200 Watershed,west bounding coordinate,115.44356W,decimal degrees
+Horse Creek Study Watersheds,133,16,19,MAIN200,Main_200 Watershed,south bounding coordinate,45.97739N,decimal degrees
+Horse Creek Study Watersheds,133,16,19,MAIN200,Main_200 Watershed,east bounding coordinate,115.32529W,decimal degrees
+Hubbard Brook,17,14,,HBR,Hubbard Brook,Site north bounding coordinate,43.96226,decimal degree
+Hubbard Brook,17,14,,HBR,Hubbard Brook,Site west bounding coordinate,-71.68641,decimal degree
+Hubbard Brook,17,14,,HBR,Hubbard Brook,Site south bounding coordinate,43.91596,decimal degree
+Hubbard Brook,17,14,,HBR,Hubbard Brook,Site east bounding coordinate,-71.80492,decimal degree
+Hubbard Brook,174,14,17,WS1,Watershed 1,north bounding coordinate,43.95927,decimal degrees
+Hubbard Brook,174,14,17,WS1,Watershed 1,west bounding coordinate,-71.73133,decimal degrees
+Hubbard Brook,174,14,17,WS1,Watershed 1,south bounding coordinate,43.95206,decimal degrees
+Hubbard Brook,174,14,17,WS1,Watershed 1,east bounding coordinate,-71.7263,decimal degrees
+Hubbard Brook,183,14,174,GSWS1,Watershed 1,Latitude,43.952,decimal degrees
+Hubbard Brook,183,14,174,GSWS1,Watershed 1,Longitude,-71.727,decimal degrees
+Hubbard Brook,184,14,175,GSWS2,Watershed 2,Latitude,43.953,decimal degrees
+Hubbard Brook,184,14,175,GSWS2,Watershed 2,Longitude,-71.724,decimal degrees
+Hubbard Brook,175,14,17,WS2,Watershed 2,north bounding coordinate,43.96024,decimal degrees
+Hubbard Brook,175,14,17,WS2,Watershed 2,west bounding coordinate,-71.72871,decimal degrees
+Hubbard Brook,175,14,17,WS2,Watershed 2,south bounding coordinate,43.95335,decimal degrees
+Hubbard Brook,175,14,17,WS2,Watershed 2,east bounding coordinate,-71.72343,decimal degrees
+Hubbard Brook,176,14,17,WS3,Watershed 3,north bounding coordinate,43.96214,decimal degrees
+Hubbard Brook,176,14,17,WS3,Watershed 3,west bounding coordinate,-71.72552,decimal degrees
+Hubbard Brook,176,14,17,WS3,Watershed 3,south bounding coordinate,43.95458,decimal degrees
+Hubbard Brook,176,14,17,WS3,Watershed 3,east bounding coordinate,-71.717,decimal degrees
+Hubbard Brook,185,14,176,GSWS3,Watershed 3,Latitude,43.955,decimal degrees
+Hubbard Brook,185,14,176,GSWS3,Watershed 3,Longitude,-71.723,decimal degrees
+Hubbard Brook,186,14,177,GSWS4,Watershed 4,Latitude,43.95,decimal degrees
+Hubbard Brook,186,14,177,GSWS4,Watershed 4,Longitude,-71.726,decimal degrees
+Hubbard Brook,177,14,17,WS4,Watershed 4,north bounding coordinate,43.95837,decimal degrees
+Hubbard Brook,177,14,17,WS4,Watershed 4,west bounding coordinate,-71.7372,decimal degrees
+Hubbard Brook,177,14,17,WS4,Watershed 4,south bounding coordinate,43.94979,decimal degrees
+Hubbard Brook,177,14,17,WS4,Watershed 4,east bounding coordinate,-71.72559,decimal degrees
+Hubbard Brook,178,14,17,WS5,Watershed 5,north bounding coordinate,43.95709,decimal degrees
+Hubbard Brook,178,14,17,WS5,Watershed 5,west bounding coordinate,-71.73983,decimal degrees
+Hubbard Brook,178,14,17,WS5,Watershed 5,south bounding coordinate,43.94885,decimal degrees
+Hubbard Brook,178,14,17,WS5,Watershed 5,east bounding coordinate,-71.7317,decimal degrees
+Hubbard Brook,187,14,178,GSWS5,Watershed 5,Latitude,43.949,decimal degrees
+Hubbard Brook,187,14,178,GSWS5,Watershed 5,Longitude,-71.732,decimal degrees
+Hubbard Brook,188,14,179,GSWS6,Watershed 6,Latitude,43.95,decimal degrees
+Hubbard Brook,188,14,179,GSWS6,Watershed 6,Longitude,-71.736,decimal degrees
+Hubbard Brook,179,14,17,WS6,Watershed 6,north bounding coordinate,43.95702,decimal degrees
+Hubbard Brook,179,14,17,WS6,Watershed 6,west bounding coordinate,-71.74347,decimal degrees
+Hubbard Brook,179,14,17,WS6,Watershed 6,south bounding coordinate,43.94993,decimal degrees
+Hubbard Brook,179,14,17,WS6,Watershed 6,east bounding coordinate,-71.73564,decimal degrees
+Hubbard Brook,180,14,17,WS7,Watershed 7,north bounding coordinate,43.92747,decimal degrees
+Hubbard Brook,180,14,17,WS7,Watershed 7,west bounding coordinate,-71.77348,decimal degrees
+Hubbard Brook,180,14,17,WS7,Watershed 7,south bounding coordinate,43.91604,decimal degrees
+Hubbard Brook,180,14,17,WS7,Watershed 7,east bounding coordinate,-71.75883,decimal degrees
+Hubbard Brook,189,14,180,GSWS7,Watershed 7,Latitude,43.928,decimal degrees
+Hubbard Brook,189,14,180,GSWS7,Watershed 7,Longitude,-71.767,decimal degrees
+Hubbard Brook,190,14,181,GSWS8,Watershed 8,Latitude,43.929,decimal degrees
+Hubbard Brook,190,14,181,GSWS8,Watershed 8,Longitude,-71.76,decimal degrees
+Hubbard Brook,181,14,17,WS8,Watershed 8,north bounding coordinate,43.92944,decimal degrees
+Hubbard Brook,181,14,17,WS8,Watershed 8,west bounding coordinate,-71.76253,decimal degrees
+Hubbard Brook,181,14,17,WS8,Watershed 8,south bounding coordinate,43.91798,decimal degrees
+Hubbard Brook,181,14,17,WS8,Watershed 8,east bounding coordinate,-71.75286,decimal degrees
+Hubbard Brook,182,14,17,WS9,Watershed 9,north bounding coordinate,43.92589,decimal degrees
+Hubbard Brook,182,14,17,WS9,Watershed 9,west bounding coordinate,-71.75851,decimal degrees
+Hubbard Brook,182,14,17,WS9,Watershed 9,south bounding coordinate,43.91597,decimal degrees
+Hubbard Brook,182,14,17,WS9,Watershed 9,east bounding coordinate,-71.74272,decimal degrees
+Hubbard Brook,191,14,182,GSWS9,Watershed 9,Latitude,43.926,decimal degrees
+Hubbard Brook,191,14,182,GSWS9,Watershed 9,Longitude,-71.747,decimal degrees
+Jornada Basin,20,17,,JRN,Jornada Basin,Site north bounding coordinate,32.831393,decimal degree
+Jornada Basin,20,17,,JRN,Jornada Basin,Site west bounding coordinate,-107.002148,decimal degree
+Jornada Basin,20,17,,JRN,Jornada Basin,Site south bounding coordinate,32.428919,decimal degree
+Jornada Basin,20,17,,JRN,Jornada Basin,Site east bounding coordinate,-106.502641,decimal degree
+Kellogg Biological Station,21,18,,KBS,Kellogg Biological Station,Site north bounding coordinate,42.419886,decimal degree
+Kellogg Biological Station,21,18,,KBS,Kellogg Biological Station,Site west bounding coordinate,-85.404371,decimal degree
+Kellogg Biological Station,21,18,,KBS,Kellogg Biological Station,Site south bounding coordinate,42.390989,decimal degree
+Kellogg Biological Station,21,18,,KBS,Kellogg Biological Station,Site east bounding coordinate,-85.367893,decimal degree
+Kings River Experimental Watershed,644,47,414,WS_B201,Bull Creek 201 Watershed,north bounding coordinate,36.9868,decimal degrees
+Kings River Experimental Watershed,644,47,414,WS_B201,Bull Creek 201 Watershed,west bounding coordinate,119.0805,decimal degrees
+Kings River Experimental Watershed,644,47,414,WS_B201,Bull Creek 201 Watershed,south bounding coordinate,36.9782,decimal degrees
+Kings River Experimental Watershed,644,47,414,WS_B201,Bull Creek 201 Watershed,east bounding coordinate,119.068,decimal degrees
+Kings River Experimental Watershed,645,47,414,WS_B203,Bull Creek 203 Watershed,north bounding coordinate,36.9852,decimal degrees
+Kings River Experimental Watershed,645,47,414,WS_B203,Bull Creek 203 Watershed,west bounding coordinate,119.0734,decimal degrees
+Kings River Experimental Watershed,645,47,414,WS_B203,Bull Creek 203 Watershed,south bounding coordinate,36.9731,decimal degrees
+Kings River Experimental Watershed,645,47,414,WS_B203,Bull Creek 203 Watershed,east bounding coordinate,119.052,decimal degrees
+Kings River Experimental Watershed,647,47,646,B204,Bull Creek 204,Latitude,36.9748,decimal degrees
+Kings River Experimental Watershed,647,47,646,B204,Bull Creek 204,Longitude,119.0731,decimal degrees
+Kings River Experimental Watershed,646,47,414,WS_B204,Bull Creek 204 Watershed,north bounding coordinate,36.9747,decimal degrees
+Kings River Experimental Watershed,646,47,414,WS_B204,Bull Creek 204 Watershed,west bounding coordinate,119.0734,decimal degrees
+Kings River Experimental Watershed,646,47,414,WS_B204,Bull Creek 204 Watershed,south bounding coordinate,36.9609,decimal degrees
+Kings River Experimental Watershed,646,47,414,WS_B204,Bull Creek 204 Watershed,east bounding coordinate,119.0535,decimal degrees
+Kings River Experimental Watershed,634,47,644,B201,Bull Creek B201,Latitude,36.9781,decimal degrees
+Kings River Experimental Watershed,634,47,644,B201,Bull Creek B201,Longitude,119.0792,decimal degrees
+Kings River Experimental Watershed,635,47,645,B203,Bull Creek B203,Latitude,36.9759,decimal degrees
+Kings River Experimental Watershed,635,47,645,B203,Bull Creek B203,Longitude,119.0733,decimal degrees
+Kings River Experimental Watershed,633,47,626,B200,Bull Creek Integrating ,Latitude,36.9772,decimal degrees
+Kings River Experimental Watershed,633,47,626,B200,Bull Creek Integrating ,Longitude,119.082,decimal degrees
+Kings River Experimental Watershed,626,47,414,WS_B200,Bull Creek Integrating Watershed,north bounding coordinate,37.9867,decimal degrees
+Kings River Experimental Watershed,626,47,414,WS_B200,Bull Creek Integrating Watershed,west bounding coordinate,119.0823,decimal degrees
+Kings River Experimental Watershed,626,47,414,WS_B200,Bull Creek Integrating Watershed,south bounding coordinate,36.9608,decimal degrees
+Kings River Experimental Watershed,626,47,414,WS_B200,Bull Creek Integrating Watershed,east bounding coordinate,119.052,decimal degrees
+Kings River Experimental Watershed,632,47,625,D102,Duff Creek 102,Latitude,37.0377,decimal degrees
+Kings River Experimental Watershed,632,47,625,D102,Duff Creek 102,Longitude,119.2029,decimal degrees
+Kings River Experimental Watershed,625,47,414,WS_D102,Duff Creek 102 Watershed,north bounding coordinate,37.0468,decimal degrees
+Kings River Experimental Watershed,625,47,414,WS_D102,Duff Creek 102 Watershed,west bounding coordinate,119.183,decimal degrees
+Kings River Experimental Watershed,625,47,414,WS_D102,Duff Creek 102 Watershed,south bounding coordinate,37.0331,decimal degrees
+Kings River Experimental Watershed,625,47,414,WS_D102,Duff Creek 102 Watershed,east bounding coordinate,119.2032,decimal degrees
+Kings River Experimental Watershed,414,47,,KEW,Kings River Experimental Watershed,Site north bounding coordinate,37.0716,decimal degree
+Kings River Experimental Watershed,414,47,,KEW,Kings River Experimental Watershed,Site west bounding coordinate,119.2096,decimal degree
+Kings River Experimental Watershed,414,47,,KEW,Kings River Experimental Watershed,Site south bounding coordinate,36.957,decimal degree
+Kings River Experimental Watershed,414,47,,KEW,Kings River Experimental Watershed,Site east bounding coordinate,119.0261,decimal degree
+Kings River Experimental Watershed,640,47,414,bullM20,Lower Bull Met Station,Latitude,36.9763,decimal degrees
+Kings River Experimental Watershed,640,47,414,bullM20,Lower Bull Met Station,Longitude,119.0736,decimal degrees
+Kings River Experimental Watershed,638,47,414,provM10,Lower Providence Met Station,Latitude,37.0564,decimal degrees
+Kings River Experimental Watershed,638,47,414,provM10,Lower Providence Met Station,Longitude,119.2021,decimal degrees
+Kings River Experimental Watershed,629,47,641,P301,Providence Creek 301,Latitude,37.0595,decimal degrees
+Kings River Experimental Watershed,629,47,641,P301,Providence Creek 301,Longitude,119.2036,decimal degrees
+Kings River Experimental Watershed,641,47,414,WS_P301,Providence Creek 301 Watershed,north bounding coordinate,37.0678,decimal degrees
+Kings River Experimental Watershed,641,47,414,WS_P301,Providence Creek 301 Watershed,west bounding coordinate,119.2071,decimal degrees
+Kings River Experimental Watershed,641,47,414,WS_P301,Providence Creek 301 Watershed,south bounding coordinate,37.0591,decimal degrees
+Kings River Experimental Watershed,641,47,414,WS_P301,Providence Creek 301 Watershed,east bounding coordinate,119.1959,decimal degrees
+Kings River Experimental Watershed,630,47,642,P303,Providence Creek 303,Latitude,37.054,decimal degrees
+Kings River Experimental Watershed,630,47,642,P303,Providence Creek 303,Longitude,119.1963,decimal degrees
+Kings River Experimental Watershed,642,47,414,WS_P303,Providence Creek 303 Watershed,north bounding coordinate,37.0639,decimal degrees
+Kings River Experimental Watershed,642,47,414,WS_P303,Providence Creek 303 Watershed,west bounding coordinate,119.1816,decimal degrees
+Kings River Experimental Watershed,642,47,414,WS_P303,Providence Creek 303 Watershed,south bounding coordinate,37.0508,decimal degrees
+Kings River Experimental Watershed,642,47,414,WS_P303,Providence Creek 303 Watershed,east bounding coordinate,119.1965,decimal degrees
+Kings River Experimental Watershed,631,47,643,P304,Providence Creek 304,Latitude,37.0507,decimal degrees
+Kings River Experimental Watershed,631,47,643,P304,Providence Creek 304,Longitude,119.1953,decimal degrees
+Kings River Experimental Watershed,643,47,414,WS_P304,Providence Creek 304 Watershed,north bounding coordinate,37.0517,decimal degrees
+Kings River Experimental Watershed,643,47,414,WS_P304,Providence Creek 304 Watershed,west bounding coordinate,119.195,decimal degrees
+Kings River Experimental Watershed,643,47,414,WS_P304,Providence Creek 304 Watershed,south bounding coordinate,37.0445,decimal degrees
+Kings River Experimental Watershed,643,47,414,WS_P304,Providence Creek 304 Watershed,east bounding coordinate,119.1803,decimal degrees
+Kings River Experimental Watershed,628,47,624,P300,Providence Creek Integrating ,Latitude,37.052,decimal degrees
+Kings River Experimental Watershed,628,47,624,P300,Providence Creek Integrating ,Longitude,119.2033,decimal degrees
+Kings River Experimental Watershed,624,47,414,WS_P300,Providence Creek Integrating Watershed,north bounding coordinate,37.0716,decimal degrees
+Kings River Experimental Watershed,624,47,414,WS_P300,Providence Creek Integrating Watershed,west bounding coordinate,119.2096,decimal degrees
+Kings River Experimental Watershed,624,47,414,WS_P300,Providence Creek Integrating Watershed,south bounding coordinate,37.0445,decimal degrees
+Kings River Experimental Watershed,624,47,414,WS_P300,Providence Creek Integrating Watershed,east bounding coordinate,119.1803,decimal degrees
+Kings River Experimental Watershed,636,47,627,T003,Teakettle Creek 003 ,Latitude,36.9589,decimal degrees
+Kings River Experimental Watershed,636,47,627,T003,Teakettle Creek 003 ,Longitude,119.0266,decimal degrees
+Kings River Experimental Watershed,627,47,414,WS_T003,Teakettle Creek 003 Watershed,north bounding coordinate,36.9768,decimal degrees
+Kings River Experimental Watershed,627,47,414,WS_T003,Teakettle Creek 003 Watershed,west bounding coordinate,119.0524,decimal degrees
+Kings River Experimental Watershed,627,47,414,WS_T003,Teakettle Creek 003 Watershed,south bounding coordinate,36.957,decimal degrees
+Kings River Experimental Watershed,627,47,414,WS_T003,Teakettle Creek 003 Watershed,east bounding coordinate,119.0261,decimal degrees
+Kings River Experimental Watershed,639,47,414,ubullM25,Upper Bull Met Station,Latitude,36.9652,decimal degrees
+Kings River Experimental Watershed,639,47,414,ubullM25,Upper Bull Met Station,Longitude,119.0556,decimal degrees
+Kings River Experimental Watershed,637,47,414,uprovM15,Upper Providence Met Station,Latitude,37.0593,decimal degrees
+Kings River Experimental Watershed,637,47,414,uprovM15,Upper Providence Met Station,Longitude,119.1823,decimal degrees
+Konza Prairie,22,19,,KNZ,Konza Prairie,Site north bounding coordinate,39.0833,decimal degree
+Konza Prairie,22,19,,KNZ,Konza Prairie,Site west bounding coordinate,-96.5833,decimal degree
+Konza Prairie,22,19,,KNZ,Konza Prairie,Site south bounding coordinate,39.0833,decimal degree
+Konza Prairie,22,19,,KNZ,Konza Prairie,Site east bounding coordinate,-96.5833,decimal degree
+Konza Prairie,581,19,578,N01B,N01B,Latitude,39.0867,decimal degrees
+Konza Prairie,581,19,578,N01B,N01B,Longitude,-96.577,decimal degrees
+Konza Prairie,580,19,579,N02B,N02B,Latitude,39.0898,decimal degrees
+Konza Prairie,580,19,579,N02B,N02B,Longitude,-96.5886,decimal degrees
+Konza Prairie,582,19,577,N04D,N04D,Latitude,39.0874,decimal degrees
+Konza Prairie,582,19,577,N04D,N04D,Longitude,-96.5844,decimal degrees
+Konza Prairie,583,19,576,N20B,N20B,Latitude,39.0886,decimal degrees
+Konza Prairie,583,19,576,N20B,N20B,Longitude,-96.5766,decimal degrees
+Konza Prairie,578,19,22,WS_N01B,Watershed N01B,north bounding coordinate,39.088,decimal degrees
+Konza Prairie,578,19,22,WS_N01B,Watershed N01B,west bounding coordinate,-96.579,decimal degrees
+Konza Prairie,578,19,22,WS_N01B,Watershed N01B,south bounding coordinate,39.075,decimal degrees
+Konza Prairie,578,19,22,WS_N01B,Watershed N01B,east bounding coordinate,-96.569,decimal degrees
+Konza Prairie,579,19,22,WS_N02B,Watershed N02B,north bounding coordinate,39.091,decimal degrees
+Konza Prairie,579,19,22,WS_N02B,Watershed N02B,west bounding coordinate,-96.599,decimal degrees
+Konza Prairie,579,19,22,WS_N02B,Watershed N02B,south bounding coordinate,39.076,decimal degrees
+Konza Prairie,579,19,22,WS_N02B,Watershed N02B,east bounding coordinate,-96.584,decimal degrees
+Konza Prairie,577,19,22,WS_N04D,Watershed N04D,north bounding coordinate,39.09,decimal degrees
+Konza Prairie,577,19,22,WS_N04D,Watershed N04D,west bounding coordinate,-96.59,decimal degrees
+Konza Prairie,577,19,22,WS_N04D,Watershed N04D,south bounding coordinate,39.07,decimal degrees
+Konza Prairie,577,19,22,WS_N04D,Watershed N04D,east bounding coordinate,-96.577,decimal degrees
+Konza Prairie,576,19,22,WS_N20B,Watershed N20B,north bounding coordinate,39.092,decimal degrees
+Konza Prairie,576,19,22,WS_N20B,Watershed N20B,west bounding coordinate,-96.58,decimal degrees
+Konza Prairie,576,19,22,WS_N20B,Watershed N20B,south bounding coordinate,39.081,decimal degrees
+Konza Prairie,576,19,22,WS_N20B,Watershed N20B,east bounding coordinate,-96.561,decimal degrees
+Luquillo Experimental Forest,467,20,23,BisleyMet,Bisley Tower,Latitude,18.2777,decimal degrees
+Luquillo Experimental Forest,467,20,23,BisleyMet,Bisley Tower,Longitude,-65.7634,decimal degrees
+Luquillo Experimental Forest,403,20,23,ELVERDE,El Verde Log,Latitude,18.325015,decimal degrees
+Luquillo Experimental Forest,403,20,23,ELVERDE,El Verde Log,Longitude,-65.81778,decimal degrees
+Luquillo Experimental Forest,783,20,23,EVRAIN,El Verde Rainfall,Latitude,18.321163,decimal degrees
+Luquillo Experimental Forest,783,20,23,EVRAIN,El Verde Rainfall,Longitude,-65.819911,decimal degrees
+Luquillo Experimental Forest,421,20,23,EVFSTower,El Verde Tower,Latitude,18.3228,decimal degrees
+Luquillo Experimental Forest,421,20,23,EVFSTower,El Verde Tower,Longitude,-65.8203,decimal degrees
+Marcell Experimental Forest,244,21,234,S6-BOG,Bog runoff component of Watershed S6 weir,Latitude,47.51967,decimal degrees
+Marcell Experimental Forest,244,21,234,S6-BOG,Bog runoff component of Watershed S6 weir,Longitude,-93.46007,decimal degrees
+Marcell Experimental Forest,232,21,24,S4,north Unit Watershed S4,north bounding coordinate,47.564455,decimal degrees
+Marcell Experimental Forest,232,21,24,S4,north Unit Watershed S4,west bounding coordinate,-93.490804,decimal degrees
+Marcell Experimental Forest,232,21,24,S4,north Unit Watershed S4,south bounding coordinate,47.556218,decimal degrees
+Marcell Experimental Forest,232,21,24,S4,north Unit Watershed S4,east bounding coordinate,-93.478798,decimal degrees
+Marcell Experimental Forest,233,21,24,S5,north Unit Watershed S5,north bounding coordinate,47.566636,decimal degrees
+Marcell Experimental Forest,233,21,24,S5,north Unit Watershed S5,west bounding coordinate,-93.483198,decimal degrees
+Marcell Experimental Forest,233,21,24,S5,north Unit Watershed S5,south bounding coordinate,47.558561,decimal degrees
+Marcell Experimental Forest,233,21,24,S5,north Unit Watershed S5,east bounding coordinate,-93.471218,decimal degrees
+Marcell Experimental Forest,248,21,24,S5-UP-MS,north Unit  Upland  Watershed S5,Latitude,47.56507,decimal degrees
+Marcell Experimental Forest,248,21,24,S5-UP-MS,north Unit  Upland  Watershed S5,Longitude,-93.47678,decimal degrees
+Marcell Experimental Forest,231,21,24,S2,south Unit Watershed S2,north bounding coordinate,47.515518,decimal degrees
+Marcell Experimental Forest,231,21,24,S2,south Unit Watershed S2,west bounding coordinate,-93.472223,decimal degrees
+Marcell Experimental Forest,231,21,24,S2,south Unit Watershed S2,south bounding coordinate,47.512366,decimal degrees
+Marcell Experimental Forest,231,21,24,S2,south Unit Watershed S2,east bounding coordinate,-93.466719,decimal degrees
+Marcell Experimental Forest,247,21,24,S2-BOG-MS,south Unit  Bog Site  Watershed S2,Latitude,47.51402,decimal degrees
+Marcell Experimental Forest,247,21,24,S2-BOG-MS,south Unit  Bog Site  Watershed S2,Longitude,-93.4692,decimal degrees
+Marcell Experimental Forest,246,21,24,S2-UP-MS,south Unit  Upland  Watershed S2,Latitude,47.51523,decimal degrees
+Marcell Experimental Forest,246,21,24,S2-UP-MS,south Unit  Upland  Watershed S2,Longitude,-93.47077,decimal degrees
+Marcell Experimental Forest,240,21,232,S4-ALL,Total runoff of north Unit Watershed S4 weirs (sum of S4-N and S4-S weirs),Latitude,47.56270 47.55805,decimal degrees
+Marcell Experimental Forest,240,21,232,S4-ALL,Total runoff of north Unit Watershed S4 weirs (sum of S4-N and S4-S weirs),Longitude,-93.48707 -93.48258,decimal degrees
+Marcell Experimental Forest,243,21,233,S5-ALL,Total runoff of north Unit Watershed S5 weir,Latitude,47.56427,decimal degrees
+Marcell Experimental Forest,243,21,233,S5-ALL,Total runoff of north Unit Watershed S5 weir,Longitude,-93.47272,decimal degrees
+Marcell Experimental Forest,237,21,231,S2-ALL,Total runoff of south Unit Watershed S2 weir,Latitude,47.51402,decimal degrees
+Marcell Experimental Forest,237,21,231,S2-ALL,Total runoff of south Unit Watershed S2 weir,Longitude,-93.4725,decimal degrees
+Marcell Experimental Forest,382,21,234,S6-ALL,Total runoff Watershed S6 weir,Latitude,47.51967,decimal degrees
+Marcell Experimental Forest,382,21,234,S6-ALL,Total runoff Watershed S6 weir,Longitude,-93.46957,decimal degrees
+Marcell Experimental Forest,245,21,234,S6-UP,Upland runoff component of Watershed S6 weir,Latitude,47.51967,decimal degrees
+Marcell Experimental Forest,245,21,234,S6-UP,Upland runoff component of Watershed S6 weir,Longitude,-93.46957,decimal degrees
+Marcell Experimental Forest,234,21,24,S6,Watershed S6,north bounding coordinate,47.522302,decimal degrees
+Marcell Experimental Forest,234,21,24,S6,Watershed S6,west bounding coordinate,-93.473939,decimal degrees
+Marcell Experimental Forest,234,21,24,S6,Watershed S6,south bounding coordinate,47.518907,decimal degrees
+Marcell Experimental Forest,234,21,24,S6,Watershed S6,east bounding coordinate,-93.469196,decimal degrees
+Maybeso Creek Experimental Forest,420,46,413,HOLLIS,Hollis Meteorological Station,Latitude,55.3,decimal degrees
+Maybeso Creek Experimental Forest,420,46,413,HOLLIS,Hollis Meteorological Station,Longitude,132.3,decimal degrees
+Maybeso Creek Experimental Forest,413,46,,MEF,Maybeso Creek Experimental Forest,Site north bounding coordinate,long:132.72 lat:55.53,decimal degree
+Maybeso Creek Experimental Forest,413,46,,MEF,Maybeso Creek Experimental Forest,Site west bounding coordinate,long:132.82 lat:55.50,decimal degree
+Maybeso Creek Experimental Forest,413,46,,MEF,Maybeso Creek Experimental Forest,Site south bounding coordinate,long:132.74 lat:55.47,decimal degree
+Maybeso Creek Experimental Forest,413,46,,MEF,Maybeso Creek Experimental Forest,Site east bounding coordinate,long:132.64 lat:55.51,decimal degree
+Maybeso Creek Experimental Forest,419,46,418,MAYBESO,Maybeso Gauging Station,Latitude,55.4908,decimal degrees
+Maybeso Creek Experimental Forest,419,46,418,MAYBESO,Maybeso Gauging Station,Longitude,132.6753,decimal degrees
+Maybeso Creek Experimental Forest,418,46,413,Maybeso_,Maybeso Watershed,north bounding coordinate,long:132.72 lat:55.53,decimal degrees
+Maybeso Creek Experimental Forest,418,46,413,Maybeso_,Maybeso Watershed,west bounding coordinate,long:132.82 lat:55.50,decimal degrees
+Maybeso Creek Experimental Forest,418,46,413,Maybeso_,Maybeso Watershed,south bounding coordinate,long:132.74 lat:55.47,decimal degrees
+Maybeso Creek Experimental Forest,418,46,413,Maybeso_,Maybeso Watershed,east bounding coordinate,long:132.64 lat:55.51,decimal degrees
+McMurdo Dry Valleys,590,22,584,aiken_f5,Aiken Creek,Latitude,-77.602516,decimal degrees
+McMurdo Dry Valleys,590,22,584,aiken_f5,Aiken Creek,Longitude,163.271937,decimal degrees
+McMurdo Dry Valleys,595,22,585,andrsn_h1,Andersen Creek,Latitude,-77.622774,decimal degrees
+McMurdo Dry Valleys,595,22,585,andrsn_h1,Andersen Creek,Longitude,162.90635,decimal degrees
+McMurdo Dry Valleys,510,22,25,BENM,Beacon Valley,Latitude,-77.828,decimal degrees
+McMurdo Dry Valleys,510,22,25,BENM,Beacon Valley,Longitude,160.6568,decimal degrees
+McMurdo Dry Valleys,586,22,25,Bonney ,Bonney Basin,north bounding coordinate,-77.68,decimal degrees
+McMurdo Dry Valleys,586,22,25,Bonney ,Bonney Basin,west bounding coordinate,162.28,decimal degrees
+McMurdo Dry Valleys,586,22,25,Bonney ,Bonney Basin,south bounding coordinate,-77.73,decimal degrees
+McMurdo Dry Valleys,586,22,25,Bonney ,Bonney Basin,east bounding coordinate,162.58,decimal degrees
+McMurdo Dry Valleys,511,22,25,CAAM,Canada Glacier,Latitude,-77.6127,decimal degrees
+McMurdo Dry Valleys,511,22,25,CAAM,Canada Glacier,Longitude,162.9635,decimal degrees
+McMurdo Dry Valleys,589,22,584,canada_f1,Canada Stream,Latitude,-77.613653,decimal degrees
+McMurdo Dry Valleys,589,22,584,canada_f1,Canada Stream,Longitude,163.054733,decimal degrees
+McMurdo Dry Valleys,56,22,25,COHM,Commonwealth Glacier,Latitude,-77.5637,decimal degrees
+McMurdo Dry Valleys,56,22,25,COHM,Commonwealth Glacier,Longitude,163.2801,decimal degrees
+McMurdo Dry Valleys,601,22,588,common_c1,Commonwealth Stream,Latitude,-77.563333,decimal degrees
+McMurdo Dry Valleys,601,22,588,common_c1,Commonwealth Stream,Longitude,163.380833,decimal degrees
+McMurdo Dry Valleys,602,22,584,cresc_f8,Crescent Stream,Latitude,-77.619066,decimal degrees
+McMurdo Dry Valleys,602,22,584,cresc_f8,Crescent Stream,Longitude,163.184466,decimal degrees
+McMurdo Dry Valleys,591,22,584,delta_f10,Delta Stream,Latitude,-77.624619,decimal degrees
+McMurdo Dry Valleys,591,22,584,delta_f10,Delta Stream,Longitude,163.108449,decimal degrees
+McMurdo Dry Valleys,512,22,25,EXEM,Explorers Cove,Latitude,-77.5887,decimal degrees
+McMurdo Dry Valleys,512,22,25,EXEM,Explorers Cove,Longitude,163.4175,decimal degrees
+McMurdo Dry Valleys,584,22,25,Fryxell ,Fryxell Basin,north bounding coordinate,-77.57,decimal degrees
+McMurdo Dry Valleys,584,22,25,Fryxell ,Fryxell Basin,west bounding coordinate,163.05,decimal degrees
+McMurdo Dry Valleys,584,22,25,Fryxell ,Fryxell Basin,south bounding coordinate,-77.65,decimal degrees
+McMurdo Dry Valleys,584,22,25,Fryxell ,Fryxell Basin,east bounding coordinate,163.32,decimal degrees
+McMurdo Dry Valleys,592,22,584,green_f9,Green Creek,Latitude,-77.624097,decimal degrees
+McMurdo Dry Valleys,592,22,584,green_f9,Green Creek,Longitude,163.059748,decimal degrees
+McMurdo Dry Valleys,593,22,584,harnish_f7,Harnish Creek (F7),Latitude,-77.608333,decimal degrees
+McMurdo Dry Valleys,593,22,584,harnish_f7,Harnish Creek (F7),Longitude,163.232778,decimal degrees
+McMurdo Dry Valleys,585,22,25,Hoare ,Hoare Basin,north bounding coordinate,-77.62,decimal degrees
+McMurdo Dry Valleys,585,22,25,Hoare ,Hoare Basin,west bounding coordinate,162.78,decimal degrees
+McMurdo Dry Valleys,585,22,25,Hoare ,Hoare Basin,south bounding coordinate,-77.64,decimal degrees
+McMurdo Dry Valleys,585,22,25,Hoare ,Hoare Basin,east bounding coordinate,162.94,decimal degrees
+McMurdo Dry Valleys,596,22,585,house_h2,House Stream,Latitude,-77.642985,decimal degrees
+McMurdo Dry Valleys,596,22,585,house_h2,House Stream,Longitude,162.741319,decimal degrees
+McMurdo Dry Valleys,59,22,25,HODM,Howard Glacier,Latitude,-77.6715,decimal degrees
+McMurdo Dry Valleys,59,22,25,HODM,Howard Glacier,Longitude,163.0791,decimal degrees
+McMurdo Dry Valleys,594,22,584,huey_f2,Huey Creak,Latitude,-77.604893,decimal degrees
+McMurdo Dry Valleys,594,22,584,huey_f2,Huey Creak,Longitude,163.127411,decimal degrees
+McMurdo Dry Valleys,54,22,25,BOYM,Lake Bonney,Latitude,-77.7144,decimal degrees
+McMurdo Dry Valleys,54,22,25,BOYM,Lake Bonney,Longitude,162.4642,decimal degrees
+McMurdo Dry Valleys,55,22,25,BRHM,Lake Brownworth,Latitude,-77.4335,decimal degrees
+McMurdo Dry Valleys,55,22,25,BRHM,Lake Brownworth,Longitude,162.7036,decimal degrees
+McMurdo Dry Valleys,57,22,25,FRLM,Lake Fryxell,Latitude,-77.176,decimal degrees
+McMurdo Dry Valleys,57,22,25,FRLM,Lake Fryxell,Longitude,163.1696,decimal degrees
+McMurdo Dry Valleys,58,22,25,HOEM,Lake Hoare,Latitude,-77.0242,decimal degrees
+McMurdo Dry Valleys,58,22,25,HOEM,Lake Hoare,Longitude,162.9004,decimal degrees
+McMurdo Dry Valleys,61,22,25,VAAM,Lake Vanda,Latitude,-77.5233,decimal degrees
+McMurdo Dry Valleys,61,22,25,VAAM,Lake Vanda,Longitude,161.0114,decimal degrees
+McMurdo Dry Valleys,62,22,25,VIAM,Lake Vida,Latitude,-77.3778,decimal degrees
+McMurdo Dry Valleys,62,22,25,VIAM,Lake Vida,Longitude,161.8006,decimal degrees
+McMurdo Dry Valleys,603,22,584,lostsl_f3,Lost Seal Stream,Latitude,-77.595266,decimal degrees
+McMurdo Dry Valleys,603,22,584,lostsl_f3,Lost Seal Stream,Longitude,163.244395,decimal degrees
+McMurdo Dry Valleys,25,22,,MCM,McMurdo Dry Valleys,Site north bounding coordinate,-77,decimal degree
+McMurdo Dry Valleys,25,22,,MCM,McMurdo Dry Valleys,Site west bounding coordinate,159,decimal degree
+McMurdo Dry Valleys,25,22,,MCM,McMurdo Dry Valleys,Site south bounding coordinate,-78,decimal degree
+McMurdo Dry Valleys,25,22,,MCM,McMurdo Dry Valleys,Site east bounding coordinate,164,decimal degree
+McMurdo Dry Valleys,588,22,25,NewHarbor,New Harbor,north bounding coordinate,-77.53,decimal degrees
+McMurdo Dry Valleys,588,22,25,NewHarbor,New Harbor,west bounding coordinate,163.37,decimal degrees
+McMurdo Dry Valleys,588,22,25,NewHarbor,New Harbor,south bounding coordinate,-77.61,decimal degrees
+McMurdo Dry Valleys,588,22,25,NewHarbor,New Harbor,east bounding coordinate,163.51,decimal degrees
+McMurdo Dry Valleys,600,22,587,onyx_vnda,Onyx River at Vanda,Latitude,-77.523432,decimal degrees
+McMurdo Dry Valleys,600,22,587,onyx_vnda,Onyx River at Vanda,Longitude,161.696625,decimal degrees
+McMurdo Dry Valleys,598,22,586,priscu_b1,Priscu Stream,Latitude,-77.7,decimal degrees
+McMurdo Dry Valleys,598,22,586,priscu_b1,Priscu Stream,Longitude,162.534722,decimal degrees
+McMurdo Dry Valleys,599,22,586,santafe_b2,Santa Fe Stream,Latitude,-77.723056,decimal degrees
+McMurdo Dry Valleys,599,22,586,santafe_b2,Santa Fe Stream,Longitude,162.266667,decimal degrees
+McMurdo Dry Valleys,60,22,25,TARM,Taylor Glacier,Latitude,-77.7402,decimal degrees
+McMurdo Dry Valleys,60,22,25,TARM,Taylor Glacier,Longitude,162.1284,decimal degrees
+McMurdo Dry Valleys,604,22,584,vguer_f6,Von Guerard Stream,Latitude,-77.608228,decimal degrees
+McMurdo Dry Valleys,604,22,584,vguer_f6,Von Guerard Stream,Longitude,163.253605,decimal degrees
+McMurdo Dry Valleys,587,22,25,WrightVly,Wright Valley,north bounding coordinate,-77.41,decimal degrees
+McMurdo Dry Valleys,587,22,25,WrightVly,Wright Valley,west bounding coordinate,161.67,decimal degrees
+McMurdo Dry Valleys,587,22,25,WrightVly,Wright Valley,south bounding coordinate,-77.56,decimal degrees
+McMurdo Dry Valleys,587,22,25,WrightVly,Wright Valley,east bounding coordinate,162.71,decimal degrees
+Moorea Coral Reef,680,58,678,GUMPM,Gump Meteorological Station,Latitude,-17.49,decimal degrees
+Moorea Coral Reef,680,58,678,GUMPM,Gump Meteorological Station,Longitude,-149.833,decimal degrees
+Moorea Coral Reef,681,58,678,GUMPR,Gump Reef,Latitude,-17.4091,decimal degrees
+Moorea Coral Reef,681,58,678,GUMPR,Gump Reef,Longitude,-149.824,decimal degrees
+Moorea Coral Reef,678,58,,MCR,Moorea Coral Reef,Site north bounding coordinate,-17.38,decimal degree
+Moorea Coral Reef,678,58,,MCR,Moorea Coral Reef,Site west bounding coordinate,-150,decimal degree
+Moorea Coral Reef,678,58,,MCR,Moorea Coral Reef,Site south bounding coordinate,-17.68,decimal degree
+Moorea Coral Reef,678,58,,MCR,Moorea Coral Reef,Site east bounding coordinate,-149.67,decimal degree
+Niwot Ridge,525,26,526,ALBION,Albion Townsite,Latitude,40.0428,decimal degrees
+Niwot Ridge,525,26,526,ALBION,Albion Townsite,Longitude,-105.5922,decimal degrees
+Niwot Ridge,524,26,29,C1,C-1 Meterological Station,Latitude,40.0363,decimal degrees
+Niwot Ridge,524,26,29,C1,C-1 Meterological Station,Longitude,-105.5435,decimal degrees
+Niwot Ridge,523,26,29,D1,D-1 Meterological Station,Latitude,40.0597,decimal degrees
+Niwot Ridge,523,26,29,D1,D-1 Meterological Station,Longitude,-105.6169,decimal degrees
+Niwot Ridge,409,26,408,GL4,Green Lakes 4,Latitude,40.0558,decimal degrees
+Niwot Ridge,409,26,408,GL4,Green Lakes 4,Longitude,-105.6171,decimal degrees
+Niwot Ridge,29,26,,NWT,Niwot Ridge,Site north bounding coordinate,40.06206,decimal degree
+Niwot Ridge,29,26,,NWT,Niwot Ridge,Site west bounding coordinate,-105.643,decimal degree
+Niwot Ridge,29,26,,NWT,Niwot Ridge,Site south bounding coordinate,39.99324,decimal degree
+Niwot Ridge,29,26,,NWT,Niwot Ridge,Site east bounding coordinate,-105.3755,decimal degree
+Niwot Ridge,64,26,29,SADDLE,SADDLE,Latitude,40.0547,decimal degrees
+Niwot Ridge,64,26,29,SADDLE,SADDLE,Longitude,-105.5892,decimal degrees
+north Temperate Lakes,400,25,28,MADISON01A,Madison adjusted climate data,Latitude,43.1,decimal degrees
+north Temperate Lakes,400,25,28,MADISON01A,Madison adjusted climate data,Longitude,-89.3,decimal degrees
+north Temperate Lakes,405,25,28,MINOCQUA,MINOCQUA,Latitude,45.874,decimal degrees
+north Temperate Lakes,405,25,28,MINOCQUA,MINOCQUA,Longitude,-89.727,decimal degrees
+north Temperate Lakes,63,25,28,AIRPORTWOO,Noble F. Lee Municipal airport north of Minocqua,Latitude,45.928,decimal degrees
+north Temperate Lakes,63,25,28,AIRPORTWOO,Noble F. Lee Municipal airport north of Minocqua,Longitude,-89.371,decimal degrees
+Olympic Experimental State Forest,704,60,700,Calawah_R,Calawah river (USGS 12043000),Latitude,47.96007697,decimal degrees
+Olympic Experimental State Forest,704,60,700,Calawah_R,Calawah river (USGS 12043000),Longitude,-124.3929872,decimal degrees
+Olympic Experimental State Forest,698,60,693,Forks,Forks (452913)  ,Latitude,47.96667,decimal degrees
+Olympic Experimental State Forest,698,60,693,Forks,Forks (452913)  ,Longitude,-124.38333,decimal degrees
+Olympic Experimental State Forest,695,60,693,Forks_1E,Forks 1 E (452914) ,Latitude,47.9558,decimal degrees
+Olympic Experimental State Forest,695,60,693,Forks_1E,Forks 1 E (452914) ,Longitude,-124.3539,decimal degrees
+Olympic Experimental State Forest,705,60,701,Hoh_R,Hoh river (USGS 12041200),Latitude,47.80674726,decimal degrees
+Olympic Experimental State Forest,705,60,701,Hoh_R,Hoh river (USGS 12041200),Longitude,-124.2510329,decimal degrees
+Olympic Experimental State Forest,696,60,693,Hoh_Rs,Hoh Rs (453710) ,Latitude,47.8611,decimal degrees
+Olympic Experimental State Forest,696,60,693,Hoh_Rs,Hoh Rs (453710) ,Longitude,-123.9319,decimal degrees
+Olympic Experimental State Forest,707,60,699,Hoko_R,Hoko river (USGS 12043300),Latitude,48.24146416,decimal degrees
+Olympic Experimental State Forest,707,60,699,Hoko_R,Hoko river (USGS 12043300),Longitude,-124.3838328,decimal degrees
+Olympic Experimental State Forest,693,60,,OLY,Olympic Experimental State Forest,Site north bounding coordinate,48.377378,decimal degree
+Olympic Experimental State Forest,693,60,,OLY,Olympic Experimental State Forest,Site west bounding coordinate,-124.704529,decimal degree
+Olympic Experimental State Forest,693,60,,OLY,Olympic Experimental State Forest,Site south bounding coordinate,47.514121,decimal degree
+Olympic Experimental State Forest,693,60,,OLY,Olympic Experimental State Forest,Site east bounding coordinate,-123.886299,decimal degree
+Olympic Experimental State Forest,706,60,703,Queets_R,Queets river (USGS 12040500),Latitude,47.5378588,decimal degrees
+Olympic Experimental State Forest,706,60,703,Queets_R,Queets river (USGS 12040500),Longitude,-124.3157457,decimal degrees
+Olympic Experimental State Forest,697,60,693,Quillayute,Quillayute River (456860) ,Latitude,47.9,decimal degrees
+Olympic Experimental State Forest,697,60,693,Quillayute,Quillayute River (456860) ,Longitude,-124.63333,decimal degrees
+Olympic Experimental State Forest,694,60,693,Quillay_AP,Quillayute State Airport (456858) ,Latitude,47.93417,decimal degrees
+Olympic Experimental State Forest,694,60,693,Quillay_AP,Quillayute State Airport (456858) ,Longitude,-124.56083,decimal degrees
+Olympic Experimental State Forest,708,60,702,Quinault_R,Quinault river (USGS 12039500),Latitude,47.4575863,decimal degrees
+Olympic Experimental State Forest,708,60,702,Quinault_R,Quinault river (USGS 12039500),Longitude,-123.8893446,decimal degrees
+Plum Island Ecosystem,558,28,31,LOG,Boston Logan International Airport  Boston  MA,Latitude,42.367,decimal degrees
+Plum Island Ecosystem,558,28,31,LOG,Boston Logan International Airport  Boston  MA,Longitude,-71.0167,decimal degrees
+Plum Island Ecosystem,66,28,31,GDA,Governor Dummer,Latitude,42.7515,decimal degrees
+Plum Island Ecosystem,66,28,31,GDA,Governor Dummer,Longitude,70.9024,decimal degrees
+Plum Island Ecosystem,326,28,325,IP1101500,Ipswich River at south Middleton MA (USGS),Latitude,42.5694,decimal degrees
+Plum Island Ecosystem,326,28,325,IP1101500,Ipswich River at south Middleton MA (USGS),Longitude,71.0275,decimal degrees
+Plum Island Ecosystem,329,28,398,IP1102000,Ipswich River near Ipswich MA (USGS),Latitude,42.6597,decimal degrees
+Plum Island Ecosystem,329,28,398,IP1102000,Ipswich River near Ipswich MA (USGS),Longitude,70.8942,decimal degrees
+Plum Island Ecosystem,682,28,31,MFM,Marshview Farm Field Station,Latitude,42.757,decimal degrees
+Plum Island Ecosystem,682,28,31,MFM,Marshview Farm Field Station,Longitude,-70.8914,decimal degrees
+Plum Island Ecosystem,322,28,321,PR1101000,Parker River at Byefield MA (USGS),Latitude,42.7528,decimal degrees
+Plum Island Ecosystem,322,28,321,PR1101000,Parker River at Byefield MA (USGS),Longitude,70.9461,decimal degrees
+Plum Island Ecosystem,31,28,,PIE,Plum Island Ecosystem,Site north bounding coordinate,42.83,decimal degree
+Plum Island Ecosystem,31,28,,PIE,Plum Island Ecosystem,Site west bounding coordinate,71.22,decimal degree
+Plum Island Ecosystem,31,28,,PIE,Plum Island Ecosystem,Site south bounding coordinate,42.5,decimal degree
+Plum Island Ecosystem,31,28,,PIE,Plum Island Ecosystem,Site east bounding coordinate,70.75,decimal degree
+Santa Barbara Coastal,756,41,749,AB00,Arroyo Burro Creek at Cliff Drive,Latitude,34.40505027,decimal degrees
+Santa Barbara Coastal,756,41,749,AB00,Arroyo Burro Creek at Cliff Drive,Longitude,-119.74021,decimal degrees
+Santa Barbara Coastal,759,41,752,HO00,Arroyo Hondo Creek at Hwy 101 Bridge  Upstream Side,Latitude,34.4752858,decimal degrees
+Santa Barbara Coastal,759,41,752,HO00,Arroyo Hondo Creek at Hwy 101 Bridge  Upstream Side,Longitude,-120.14122,decimal degrees
+Santa Barbara Coastal,757,41,750,BC02,Bell Canyon Creek at Winchester Canyon Rd,Latitude,34.43854,decimal degrees
+Santa Barbara Coastal,757,41,750,BC02,Bell Canyon Creek at Winchester Canyon Rd,Longitude,-119.90563,decimal degrees
+Santa Barbara Coastal,758,41,751,GV01,Gaviota Creek at Hwy 101 south Rest Stop,Latitude,34.4855,decimal degrees
+Santa Barbara Coastal,758,41,751,GV01,Gaviota Creek at Hwy 101 south Rest Stop,Longitude,-120.22917,decimal degrees
+Santa Barbara Coastal,760,41,753,MC00,Mission Creek at Montecito St,Latitude,34.41307303,decimal degrees
+Santa Barbara Coastal,760,41,753,MC00,Mission Creek at Montecito St,Longitude,-119.69499,decimal degrees
+Santa Barbara Coastal,295,41,35,46161,NEWHALL 5 NW,Latitude,34.4,decimal degrees
+Santa Barbara Coastal,295,41,35,46161,NEWHALL 5 NW,Longitude,-118.6,decimal degrees
+Santa Barbara Coastal,296,41,35,46162,NEWHALL S FC32CE,Latitude,34.383333,decimal degrees
+Santa Barbara Coastal,296,41,35,46162,NEWHALL S FC32CE,Longitude,-118.533333,decimal degrees
+Santa Barbara Coastal,297,41,35,46399,OJAI,Latitude,34.466667,decimal degrees
+Santa Barbara Coastal,297,41,35,46399,OJAI,Longitude,-119.25,decimal degrees
+Santa Barbara Coastal,298,41,35,46569,OXNARD,Latitude,34.2,decimal degrees
+Santa Barbara Coastal,298,41,35,46569,OXNARD,Longitude,-119.183333,decimal degrees
+Santa Barbara Coastal,299,41,35,46572,OXNARD WSFO,Latitude,34.216667,decimal degrees
+Santa Barbara Coastal,299,41,35,46572,OXNARD WSFO,Longitude,-119.133333,decimal degrees
+Santa Barbara Coastal,300,41,35,46940,PIRU 2 ESE,Latitude,34.4,decimal degrees
+Santa Barbara Coastal,300,41,35,46940,PIRU 2 ESE,Longitude,-118.75,decimal degrees
+Santa Barbara Coastal,762,41,755,RS02,Rattlesnake Creek at Las Canoas Rd,Latitude,34.45761111,decimal degrees
+Santa Barbara Coastal,762,41,755,RS02,Rattlesnake Creek at Las Canoas Rd,Longitude,-119.69222,decimal degrees
+Santa Barbara Coastal,761,41,754,RG01,Refugio Creek at Hwy 101,Latitude,34.46573164,decimal degrees
+Santa Barbara Coastal,761,41,754,RG01,Refugio Creek at Hwy 101,Longitude,-120.06932,decimal degrees
+Santa Barbara Coastal,667,41,666,11120520,SAN PEDRO C A GOLETA CA,Latitude,34.44861,decimal degrees
+Santa Barbara Coastal,667,41,666,11120520,SAN PEDRO C A GOLETA CA,Longitude,-119.84028,decimal degrees
+Santa Barbara Coastal,301,41,35,47735,SANDBERG,Latitude,34.75,decimal degrees
+Santa Barbara Coastal,301,41,35,47735,SANDBERG,Longitude,-118.716667,decimal degrees
+Santa Barbara Coastal,302,41,35,47902,SANTA BARBARA,Latitude,34.416667,decimal degrees
+Santa Barbara Coastal,302,41,35,47902,SANTA BARBARA,Longitude,-119.683333,decimal degrees
+Santa Barbara Coastal,35,41,,SBC,Santa Barbara Coastal,Site north bounding coordinate,34.4125,decimal degree
+Santa Barbara Coastal,35,41,,SBC,Santa Barbara Coastal,Site west bounding coordinate,-119.842,decimal degree
+Santa Barbara Coastal,35,41,,SBC,Santa Barbara Coastal,Site south bounding coordinate,34.4125,decimal degree
+Santa Barbara Coastal,35,41,,SBC,Santa Barbara Coastal,Site east bounding coordinate,-119.842,decimal degree
+Santa Barbara Coastal,303,41,35,47905,SANTA BARBARA MUNICIPAL AP,Latitude,34.433333,decimal degrees
+Santa Barbara Coastal,303,41,35,47905,SANTA BARBARA MUNICIPAL AP,Longitude,-119.85,decimal degrees
+Santa Barbara Coastal,304,41,35,47957,SANTA PAULA,Latitude,34.316667,decimal degrees
+Santa Barbara Coastal,304,41,35,47957,SANTA PAULA,Longitude,-119.133333,decimal degrees
+Santa Barbara Coastal,305,41,35,48014,SAUGUS POWER PLANT 1,Latitude,34.583333,decimal degrees
+Santa Barbara Coastal,305,41,35,48014,SAUGUS POWER PLANT 1,Longitude,-118.45,decimal degrees
+Santa Barbara Coastal,306,41,35,49285,VENTURA,Latitude,34.283333,decimal degrees
+Santa Barbara Coastal,306,41,35,49285,VENTURA,Longitude,-119.3,decimal degrees
+Santee Experimental Forest Watersheds,200,36,40,WS-80,Control Watershed,north bounding coordinate,N-33.15931  W-79.78756,decimal degrees
+Santee Experimental Forest Watersheds,200,36,40,WS-80,Control Watershed,west bounding coordinate,N-33.15219  W-79.77854,decimal degrees
+Santee Experimental Forest Watersheds,200,36,40,WS-80,Control Watershed,south bounding coordinate,N-33.14220  W-79.79351,decimal degrees
+Santee Experimental Forest Watersheds,200,36,40,WS-80,Control Watershed,east bounding coordinate,N-33.15241  W-79.80339,decimal degrees
+Santee Experimental Forest Watersheds,203,36,200,WS80,Flume at Control Watershed,Latitude,N-33.14579,decimal degrees
+Santee Experimental Forest Watersheds,203,36,200,WS80,Flume at Control Watershed,Longitude,W-79.79123,decimal degrees
+Santee Experimental Forest Watersheds,204,36,201,WS77,Flume at Treatment Watershed,Latitude,N-33.14142,decimal degrees
+Santee Experimental Forest Watersheds,204,36,201,WS77,Flume at Treatment Watershed,Longitude,W-79.78409,decimal degrees
+Santee Experimental Forest Watersheds,218,36,40,Lottie,Lottie Road,Latitude,N-33.14707,decimal degrees
+Santee Experimental Forest Watersheds,218,36,40,Lottie,Lottie Road,Longitude,W-79.78971,decimal degrees
+Santee Experimental Forest Watersheds,216,36,200,MS25,Meteorologic Station #25,Latitude,N-33.13598,decimal degrees
+Santee Experimental Forest Watersheds,216,36,200,MS25,Meteorologic Station #25,Longitude,W-79.77910,decimal degrees
+Santee Experimental Forest Watersheds,215,36,201,MS05,Meteorologic Station #5,Latitude,N-33.14162,decimal degrees
+Santee Experimental Forest Watersheds,215,36,201,MS05,Meteorologic Station #5,Longitude,W-7978836,decimal degrees
+Santee Experimental Forest Watersheds,40,36,,SNT,Santee Experimental Forest Watersheds,Site north bounding coordinate,N-33.14999  W-79.77688,decimal degree
+Santee Experimental Forest Watersheds,40,36,,SNT,Santee Experimental Forest Watersheds,Site west bounding coordinate,N-33.13837  W-79.76318,decimal degree
+Santee Experimental Forest Watersheds,40,36,,SNT,Santee Experimental Forest Watersheds,Site south bounding coordinate,N-33.13837  W-79.77076,decimal degree
+Santee Experimental Forest Watersheds,40,36,,SNT,Santee Experimental Forest Watersheds,Site east bounding coordinate,N-33.13788  W-79.78143,decimal degree
+Santee Experimental Forest Watersheds,201,36,40,WS-77,Treatment Watershed,north bounding coordinate,N-33.14999 W-79.7768,decimal degrees
+Santee Experimental Forest Watersheds,201,36,40,WS-77,Treatment Watershed,west bounding coordinate,N-33.13837  W-79.76318,decimal degrees
+Santee Experimental Forest Watersheds,201,36,40,WS-77,Treatment Watershed,south bounding coordinate,N-33.13286  W-79.77076,decimal degrees
+Santee Experimental Forest Watersheds,201,36,40,WS-77,Treatment Watershed,east bounding coordinate,N-33.13788  W-79.78143,decimal degrees
+Sevilleta National Wildlife Refuge,294,32,36,BLUEGRAMA,Blue Grama (50),Latitude,34.335,decimal degrees
+Sevilleta National Wildlife Refuge,294,32,36,BLUEGRAMA,Blue Grama (50),Longitude,-106.632,decimal degrees
+Sevilleta National Wildlife Refuge,254,32,36,BRONCOWELL,Bronco Well (45),Latitude,34.4056,decimal degrees
+Sevilleta National Wildlife Refuge,254,32,36,BRONCOWELL,Bronco Well (45),Longitude,-106.934,decimal degrees
+Sevilleta National Wildlife Refuge,67,32,36,DEEPWELL,Deepwell (40),Latitude,34.3586,decimal degrees
+Sevilleta National Wildlife Refuge,67,32,36,DEEPWELL,Deepwell (40),Longitude,-106.6911,decimal degrees
+Sevilleta National Wildlife Refuge,255,32,36,FIELDSTN,Field Station (01),Latitude,34.356,decimal degrees
+Sevilleta National Wildlife Refuge,255,32,36,FIELDSTN,Field Station (01),Longitude,-106.8853,decimal degrees
+Sevilleta National Wildlife Refuge,293,32,36,FIVEPOINTS,Five Points (49),Latitude,34.335,decimal degrees
+Sevilleta National Wildlife Refuge,293,32,36,FIVEPOINTS,Five Points (49),Longitude,-106.7293,decimal degrees
+Sevilleta National Wildlife Refuge,720,32,716,Gila_R,Gila River (USGS 9430500),Latitude,33.0615,decimal degrees
+Sevilleta National Wildlife Refuge,720,32,716,Gila_R,Gila River (USGS 9430500),Longitude,108.5374,decimal degrees
+Sevilleta National Wildlife Refuge,719,32,715,Jemez_R,Jemez River (USGS 8324000),Latitude,35.66198,decimal degrees
+Sevilleta National Wildlife Refuge,719,32,715,Jemez_R,Jemez River (USGS 8324000),Longitude,106.7434,decimal degrees
+Sevilleta National Wildlife Refuge,251,32,36,MONTOSO,Montoso (42),Latitude,34.3685,decimal degrees
+Sevilleta National Wildlife Refuge,251,32,36,MONTOSO,Montoso (42),Longitude,-106.5355,decimal degrees
+Sevilleta National Wildlife Refuge,717,32,713,Pecos_R,Pecos River (USGS 8378500),Latitude,35.70835,decimal degrees
+Sevilleta National Wildlife Refuge,717,32,713,Pecos_R,Pecos River (USGS 8378500),Longitude,105.6827,decimal degrees
+Sevilleta National Wildlife Refuge,252,32,36,REDTANK,Red Tank (43),Latitude,34.3982,decimal degrees
+Sevilleta National Wildlife Refuge,252,32,36,REDTANK,Red Tank (43),Longitude,-107.0374,decimal degrees
+Sevilleta National Wildlife Refuge,718,32,714,Rio_G,Rio Grande (USGS 08313000),Latitude,35.8745,decimal degrees
+Sevilleta National Wildlife Refuge,718,32,714,Rio_G,Rio Grande (USGS 08313000),Longitude,106.1424,decimal degrees
+Sevilleta National Wildlife Refuge,253,32,36,RIOSALADO,Rio Salado (44),Latitude,34.296,decimal degrees
+Sevilleta National Wildlife Refuge,253,32,36,RIOSALADO,Rio Salado (44),Longitude,-106.9267,decimal degrees
+Sevilleta National Wildlife Refuge,292,32,36,SAVANNA,Savanna (48),Latitude,34.4147,decimal degrees
+Sevilleta National Wildlife Refuge,292,32,36,SAVANNA,Savanna (48),Longitude,-106.5234,decimal degrees
+Sevilleta National Wildlife Refuge,36,32,,SEV,Sevilleta National Wildlife Refuge,Site north bounding coordinate,34.353,decimal degree
+Sevilleta National Wildlife Refuge,36,32,,SEV,Sevilleta National Wildlife Refuge,Site south bounding coordinate,-106.882,decimal degree
+Sevilleta National Wildlife Refuge,250,32,36,southGATE,southgate (41),Latitude,34.2167,decimal degrees
+Sevilleta National Wildlife Refuge,250,32,36,southGATE,southgate (41),Longitude,-106.7954,decimal degrees
+Shortgrass Steppe,68,33,37,11,Meteorological Station 11                         ,Latitude,40 80.553,decimal degrees
+Shortgrass Steppe,68,33,37,11,Meteorological Station 11                         ,Longitude,104 75.470,decimal degrees
+Tenderfoot Creek Experimental Forest,549,37,548,BUBBLING,Bubbling Creek Flume,Latitude,46.92223,decimal degrees
+Tenderfoot Creek Experimental Forest,549,37,548,BUBBLING,Bubbling Creek Flume,Longitude,-110.8954,decimal degrees
+Tenderfoot Creek Experimental Forest,548,37,41,BUBBLING,Bubbling Creek Watershed,north bounding coordinate,46.922495,decimal degrees
+Tenderfoot Creek Experimental Forest,548,37,41,BUBBLING,Bubbling Creek Watershed,west bounding coordinate,-110.907268,decimal degrees
+Tenderfoot Creek Experimental Forest,548,37,41,BUBBLING,Bubbling Creek Watershed,south bounding coordinate,46.898313,decimal degrees
+Tenderfoot Creek Experimental Forest,548,37,41,BUBBLING,Bubbling Creek Watershed,east bounding coordinate,-110.884814,decimal degrees
+Tenderfoot Creek Experimental Forest,555,37,554,LONESOME,Lonesome Creek Flume,Latitude,46.91365,decimal degrees
+Tenderfoot Creek Experimental Forest,555,37,554,LONESOME,Lonesome Creek Flume,Longitude,-110.9387,decimal degrees
+Tenderfoot Creek Experimental Forest,554,37,41,LONESOME,Lonesome Creek Watershed,north bounding coordinate,46.916608,decimal degrees
+Tenderfoot Creek Experimental Forest,554,37,41,LONESOME,Lonesome Creek Watershed,west bounding coordinate,-110.947584,decimal degrees
+Tenderfoot Creek Experimental Forest,554,37,41,LONESOME,Lonesome Creek Watershed,south bounding coordinate,46.893484,decimal degrees
+Tenderfoot Creek Experimental Forest,554,37,41,LONESOME,Lonesome Creek Watershed,east bounding coordinate,-110.921236,decimal degrees
+Tenderfoot Creek Experimental Forest,545,37,543,LSTRINGER,Lower Stringer Creek Flume,Latitude,46.92694,decimal degrees
+Tenderfoot Creek Experimental Forest,545,37,543,LSTRINGER,Lower Stringer Creek Flume,Longitude,-110.901,decimal degrees
+Tenderfoot Creek Experimental Forest,539,37,537,LSUN,Lower Sun Creek Flume,Latitude,46.9198,decimal degrees
+Tenderfoot Creek Experimental Forest,539,37,537,LSUN,Lower Sun Creek Flume,Longitude,-110.878,decimal degrees
+Tenderfoot Creek Experimental Forest,542,37,540,LTFOOT,Lower Tenderfoot Creek Flume,Latitude,46.92693,decimal degrees
+Tenderfoot Creek Experimental Forest,542,37,540,LTFOOT,Lower Tenderfoot Creek Flume,Longitude,-110.9019,decimal degrees
+Tenderfoot Creek Experimental Forest,556,37,41,ONION,Onion Park Met Station,Latitude,46.91345,decimal degrees
+Tenderfoot Creek Experimental Forest,556,37,41,ONION,Onion Park Met Station,Longitude,-110.8527,decimal degrees
+Tenderfoot Creek Experimental Forest,551,37,550,PACK,Pack Creek Flume,Latitude,46.92719,decimal degrees
+Tenderfoot Creek Experimental Forest,551,37,550,PACK,Pack Creek Flume,Longitude,-110.9101,decimal degrees
+Tenderfoot Creek Experimental Forest,550,37,41,PACK,Pack Creek Watershed,north bounding coordinate,46.926919,decimal degrees
+Tenderfoot Creek Experimental Forest,550,37,41,PACK,Pack Creek Watershed,west bounding coordinate,-110.926621,decimal degrees
+Tenderfoot Creek Experimental Forest,550,37,41,PACK,Pack Creek Watershed,south bounding coordinate,46.896027,decimal degrees
+Tenderfoot Creek Experimental Forest,550,37,41,PACK,Pack Creek Watershed,east bounding coordinate,-110.904368,decimal degrees
+Tenderfoot Creek Experimental Forest,553,37,552,PASSIONATE,Passionate Creek Flume,Latitude,46.93003,decimal degrees
+Tenderfoot Creek Experimental Forest,553,37,552,PASSIONATE,Passionate Creek Flume,Longitude,-110.922,decimal degrees
+Tenderfoot Creek Experimental Forest,552,37,41,PASSIONATE,Passionate Creek Watershed,north bounding coordinate,46.949863,decimal degrees
+Tenderfoot Creek Experimental Forest,552,37,41,PASSIONATE,Passionate Creek Watershed,west bounding coordinate,-110.922688,decimal degrees
+Tenderfoot Creek Experimental Forest,552,37,41,PASSIONATE,Passionate Creek Watershed,south bounding coordinate,46.929849,decimal degrees
+Tenderfoot Creek Experimental Forest,552,37,41,PASSIONATE,Passionate Creek Watershed,east bounding coordinate,-110.898361,decimal degrees
+Tenderfoot Creek Experimental Forest,547,37,546,SPRPARK,Spring Park Creek Flume,Latitude,46.92364,decimal degrees
+Tenderfoot Creek Experimental Forest,547,37,546,SPRPARK,Spring Park Creek Flume,Longitude,-110.8822,decimal degrees
+Tenderfoot Creek Experimental Forest,546,37,41,SPRPARK,Spring Park Watershed,north bounding coordinate,46.946247,decimal degrees
+Tenderfoot Creek Experimental Forest,546,37,41,SPRPARK,Spring Park Watershed,west bounding coordinate,-110.882204,decimal degrees
+Tenderfoot Creek Experimental Forest,546,37,41,SPRPARK,Spring Park Watershed,south bounding coordinate,46.923059,decimal degrees
+Tenderfoot Creek Experimental Forest,546,37,41,SPRPARK,Spring Park Watershed,east bounding coordinate,-110.852781,decimal degrees
+Tenderfoot Creek Experimental Forest,557,37,41,STRINGER,Stringer Creek Met Station,Latitude,46.92695,decimal degrees
+Tenderfoot Creek Experimental Forest,557,37,41,STRINGER,Stringer Creek Met Station,Longitude,-110.9013,decimal degrees
+Tenderfoot Creek Experimental Forest,543,37,41,STRINGER,Stringer Creek Watershed,north bounding coordinate,46.957775,decimal degrees
+Tenderfoot Creek Experimental Forest,543,37,41,STRINGER,Stringer Creek Watershed,west bounding coordinate,-110.901834,decimal degrees
+Tenderfoot Creek Experimental Forest,543,37,41,STRINGER,Stringer Creek Watershed,south bounding coordinate,46.926391,decimal degrees
+Tenderfoot Creek Experimental Forest,543,37,41,STRINGER,Stringer Creek Watershed,east bounding coordinate,-110.869728,decimal degrees
+Tenderfoot Creek Experimental Forest,537,37,41,SUN,Sun Creek Watershed,north bounding coordinate,46.919556,decimal degrees
+Tenderfoot Creek Experimental Forest,537,37,41,SUN,Sun Creek Watershed,west bounding coordinate,-110.89086,decimal degrees
+Tenderfoot Creek Experimental Forest,537,37,41,SUN,Sun Creek Watershed,south bounding coordinate,46.891402,decimal degrees
+Tenderfoot Creek Experimental Forest,537,37,41,SUN,Sun Creek Watershed,east bounding coordinate,-110.868483,decimal degrees
+Tenderfoot Creek Experimental Forest,41,37,,TEN,Tenderfoot Creek Experimental Forest,Site north bounding coordinate,46.95776,decimal degree
+Tenderfoot Creek Experimental Forest,41,37,,TEN,Tenderfoot Creek Experimental Forest,Site west bounding coordinate,-110.94757,decimal degree
+Tenderfoot Creek Experimental Forest,41,37,,TEN,Tenderfoot Creek Experimental Forest,Site south bounding coordinate,46.89142,decimal degree
+Tenderfoot Creek Experimental Forest,41,37,,TEN,Tenderfoot Creek Experimental Forest,Site east bounding coordinate,-110.83292,decimal degree
+Tenderfoot Creek Experimental Forest,540,37,41,TFOOT,Tenderfoot Creek Watershed,north bounding coordinate,46.95778,decimal degrees
+Tenderfoot Creek Experimental Forest,540,37,41,TFOOT,Tenderfoot Creek Watershed,west bounding coordinate,-110.90728,decimal degrees
+Tenderfoot Creek Experimental Forest,540,37,41,TFOOT,Tenderfoot Creek Watershed,south bounding coordinate,46.891355,decimal degrees
+Tenderfoot Creek Experimental Forest,540,37,41,TFOOT,Tenderfoot Creek Watershed,east bounding coordinate,-110.832812,decimal degrees
+Tenderfoot Creek Experimental Forest,544,37,543,USTRINGER,Upper Stringer Creek Flume,Latitude,46.93484,decimal degrees
+Tenderfoot Creek Experimental Forest,544,37,543,USTRINGER,Upper Stringer Creek Flume,Longitude,-110.8927,decimal degrees
+Tenderfoot Creek Experimental Forest,538,37,537,USUN,Upper Sun Creek Flume,Latitude,46.90951,decimal degrees
+Tenderfoot Creek Experimental Forest,538,37,537,USUN,Upper Sun Creek Flume,Longitude,-110.8789,decimal degrees
+Tenderfoot Creek Experimental Forest,541,37,540,UTFOOT,Upper Tenderfoot Creek Flume,Latitude,46.92016,decimal degrees
+Tenderfoot Creek Experimental Forest,541,37,540,UTFOOT,Upper Tenderfoot Creek Flume,Longitude,-110.8734,decimal degrees
+TERN - Fu-shan,562,53,,FSH,TERN - Fushan,Site north bounding coordinate,24.76667,decimal degree
+TERN - Fu-shan,562,53,,FSH,TERN - Fushan,Site east bounding coordinate,121.71667,decimal degree
+"TERN - High Altitude Experimental Station  TESRI",569,54,,HAE,"TERN - High Altitude Experimental Station  TESRI",Site north bounding coordinate,24.16339,decimal degree
+"TERN - High Altitude Experimental Station  TESRI",569,54,,HAE,"TERN - High Altitude Experimental Station  TESRI",Site east bounding coordinate,121.27872,decimal degree
+TERN - Ta-ta-chia,561,52,,TCC,TERN - Tatachia,Site north bounding coordinate,23.46667,decimal degree
+TERN - Ta-ta-chia,561,52,,TCC,TERN - Tatachia,Site east bounding coordinate,120.86667,decimal degree
+TERN - Taiwan Agricultural Ecosystem Research,564,51,560,G2M35,Chi-ko Branch Farm,Latitude,23.5858,decimal degrees
+TERN - Taiwan Agricultural Ecosystem Research,564,51,560,G2M35,Chi-ko Branch Farm,Longitude,120.4083,decimal degrees
+TERN - Taiwan Agricultural Ecosystem Research,565,51,560,G2L02,Chia-yi Litchi Orchard,Latitude,23.485,decimal degrees
+TERN - Taiwan Agricultural Ecosystem Research,565,51,560,G2L02,Chia-yi Litchi Orchard,Longitude,120.4739,decimal degrees
+TERN - Taiwan Agricultural Ecosystem Research,560,51,,TAE,TERN - Taiwan Agricultural Ecosystem Research,Site north bounding coordinate,23.6375,decimal degree
+TERN - Taiwan Agricultural Ecosystem Research,560,51,,TAE,TERN - Taiwan Agricultural Ecosystem Research,Site east bounding coordinate,120.4681,decimal degree
+TERN - Taiwan Agricultural Ecosystem Research,563,51,560,72K22,Yuin-lin Branch Station,Latitude,23.6344,decimal degrees
+TERN - Taiwan Agricultural Ecosystem Research,563,51,560,72K22,Yuin-lin Branch Station,Longitude,120.4772,decimal degrees
+The Pine Watersheds,114,29,32,Pine1,Pine Watershed 1,north bounding coordinate, 34.39482 N,decimal degrees
+The Pine Watersheds,114,29,32,Pine1,Pine Watershed 1,west bounding coordinate,89.45362 W,decimal degrees
+The Pine Watersheds,114,29,32,Pine1,Pine Watershed 1,south bounding coordinate,34.39360 N,decimal degrees
+The Pine Watersheds,114,29,32,Pine1,Pine Watershed 1,east bounding coordinate,89.45196 W,decimal degrees
+The Pine Watersheds,115,29,114,Pine1F,Pine Watershed 1 Flume,Latitude,34.39437 N,decimal degrees
+The Pine Watersheds,115,29,114,Pine1F,Pine Watershed 1 Flume,Longitude,89.45360 W,decimal degrees
+The Pine Watersheds,170,29,32,Pine2,Pine Watershed 2,north bounding coordinate,34.39505 N,decimal degrees
+The Pine Watersheds,170,29,32,Pine2,Pine Watershed 2,west bounding coordinate,89.45224 W,decimal degrees
+The Pine Watersheds,170,29,32,Pine2,Pine Watershed 2,south bounding coordinate,34.39301 N,decimal degrees
+The Pine Watersheds,170,29,32,Pine2,Pine Watershed 2,east bounding coordinate,89.45118 W,decimal degrees
+The Pine Watersheds,171,29,170,Pine2F,Pine Watershed 2 Flume,Latitude,34.39303 N,decimal degrees
+The Pine Watersheds,171,29,170,Pine2F,Pine Watershed 2 Flume,Longitude,89.45200 W,decimal degrees
+The Pine Watersheds,172,29,32,Pine3,Pine Watershed 3,north bounding coordinate,34.39941 N,decimal degrees
+The Pine Watersheds,172,29,32,Pine3,Pine Watershed 3,west bounding coordinate,89.45661 W,decimal degrees
+The Pine Watersheds,172,29,32,Pine3,Pine Watershed 3,south bounding coordinate,34.39817 N,decimal degrees
+The Pine Watersheds,172,29,32,Pine3,Pine Watershed 3,east bounding coordinate,89.45544 W,decimal degrees
+The Pine Watersheds,173,29,172,Pine3F,Pine Watershed 3 Flume,Latitude,34.39934 N,decimal degrees
+The Pine Watersheds,173,29,172,Pine3F,Pine Watershed 3 Flume,Longitude,89.45556 W,decimal degrees
+The Pine Watersheds,32,29,,PIN,The Pines Watershed,Site north bounding coordinate, 34.39941 N,decimal degree
+The Pine Watersheds,32,29,,PIN,The Pines Watershed,Site west bounding coordinate,89.45661 W,decimal degree
+The Pine Watersheds,32,29,,PIN,The Pines Watershed,Site south bounding coordinate,34.39301 N,decimal degree
+The Pine Watersheds,32,29,,PIN,The Pines Watershed,Site east bounding coordinate,89.45118 W,decimal degree
+Virginia Coast Reserve,69,38,42,HOGI,Hog Island,Latitude,37.2938,decimal degrees
+Virginia Coast Reserve,69,38,42,HOGI,Hog Island,Longitude,-75.9251,decimal degrees
+Virginia Coast Reserve,781,38,42,HOG2,Hog Island Dune,Latitude,37.4505534,decimal degrees
+Virginia Coast Reserve,781,38,42,HOG2,Hog Island Dune,Longitude,-75.66683694,decimal degrees
+Virginia Coast Reserve,220,38,42,PHCK,Phillips Creek,Latitude,37.459389,decimal degrees
+Virginia Coast Reserve,220,38,42,PHCK,Phillips Creek,Longitude,-75.83239,decimal degrees
+Virginia Coast Reserve,782,38,42,PHCK2,Phillips Creek Logger 2,Latitude,37.45938967,decimal degrees
+Virginia Coast Reserve,782,38,42,PHCK2,Phillips Creek Logger 2,Longitude,-75.83239,decimal degrees
+Young Bay Experimental Forest,517,49,516,east,east Gauging Station,Latitude,58.1545N,decimal degrees
+Young Bay Experimental Forest,517,49,516,east,east Gauging Station,Longitude,134.6676W,decimal degrees
+Young Bay Experimental Forest,516,49,514,WS_east,east Watershed,north bounding coordinate,long:134.6571 lat:58.1624,decimal degrees
+Young Bay Experimental Forest,516,49,514,WS_east,east Watershed,west bounding coordinate,long:134.6906 lat:58.1592,decimal degrees
+Young Bay Experimental Forest,516,49,514,WS_east,east Watershed,south bounding coordinate,long:134.6519 lat:58.1000,decimal degrees
+Young Bay Experimental Forest,516,49,514,WS_east,east Watershed,east bounding coordinate,long:134.5892 lat:58.1083,decimal degrees
+Young Bay Experimental Forest,515,49,514,JUNAP,Juneau Airport  #504100,Latitude,58.3536,decimal degrees
+Young Bay Experimental Forest,515,49,514,JUNAP,Juneau Airport  #504100,Longitude,134.5961,decimal degrees
+Young Bay Experimental Forest,514,49,,YEF,Young Bay Experimental Forest,Site north bounding coordinate,long:134.6571 lat:58.1624,decimal degree
+Young Bay Experimental Forest,514,49,,YEF,Young Bay Experimental Forest,Site west bounding coordinate,long:134.6906 lat:58.1592,decimal degree
+Young Bay Experimental Forest,514,49,,YEF,Young Bay Experimental Forest,Site south bounding coordinate,long:134.6519 lat:58.1000,decimal degree
+Young Bay Experimental Forest,514,49,,YEF,Young Bay Experimental Forest,Site east bounding coordinate,long:134.5892 lat:58.1083,decimal degree
