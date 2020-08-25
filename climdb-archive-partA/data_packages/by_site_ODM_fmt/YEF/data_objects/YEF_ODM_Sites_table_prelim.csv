@@ -1,0 +1,7 @@
+"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"EAST","East Gauging Station","gs_elev","Elevation","5","YEF","WGS84","mean sea level","","","",""
+"EAST","East Gauging Station","gs_lat","Latitude","58.1545N","YEF","WGS84","mean sea level","","","",""
+"EAST","East Gauging Station","gs_long","Longitude","134.6676W","YEF","WGS84","mean sea level","","","",""
+"JUNAP","Juneau Airport  #504100","ms_elev","Elevation","6.1","YEF","WGS84","mean sea level","","","",""
+"JUNAP","Juneau Airport  #504100","ms_lat","Latitude","58.3536","YEF","WGS84","mean sea level","","","",""
+"JUNAP","Juneau Airport  #504100","ms_long","Longitude","134.5961","YEF","WGS84","mean sea level","","","",""

@@ -1,0 +1,4 @@
+"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"PALOBS","Palmer Meteorological Station","ms_elev","Elevation","","PAL","WGS84","mean sea level","","","",""
+"PALOBS","Palmer Meteorological Station","ms_lat","Latitude","","PAL","WGS84","mean sea level","","","",""
+"PALOBS","Palmer Meteorological Station","ms_long","Longitude","","PAL","WGS84","mean sea level","","","",""

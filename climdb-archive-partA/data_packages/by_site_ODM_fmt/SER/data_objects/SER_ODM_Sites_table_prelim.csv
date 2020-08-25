@@ -1,0 +1,4 @@
+"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"LIN6891648","Shanping forest ecological garden","ms_elev","Elevation","","SER","WGS84","mean sea level","","","",""
+"LIN6891648","Shanping forest ecological garden","ms_lat","Latitude","","SER","WGS84","mean sea level","","","",""
+"LIN6891648","Shanping forest ecological garden","ms_long","Longitude","","SER","WGS84","mean sea level","","","",""
