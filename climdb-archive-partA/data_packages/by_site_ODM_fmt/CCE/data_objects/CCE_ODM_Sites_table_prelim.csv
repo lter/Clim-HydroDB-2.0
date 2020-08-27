@@ -1,4 +1,4 @@
-"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
-"Lindbergh ","Lindbergh NOAA NESDIS Climate Station","ms_elev","Elevation","","CCE","WGS84","mean sea level","","","",""
-"Lindbergh ","Lindbergh NOAA NESDIS Climate Station","ms_lat","Latitude","","CCE","WGS84","mean sea level","","","",""
-"Lindbergh ","Lindbergh NOAA NESDIS Climate Station","ms_long","Longitude","","CCE","WGS84","mean sea level","","","",""
+"","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"Lindbergh","Lindbergh NOAA NESDIS Climate Station","ms_elev","Elevation","","CCE","WGS84","mean sea level","","","",""
+"Lindbergh","Lindbergh NOAA NESDIS Climate Station","ms_lat","Latitude","","CCE","WGS84","mean sea level","","","",""
+"Lindbergh","Lindbergh NOAA NESDIS Climate Station","ms_long","Longitude","","CCE","WGS84","mean sea level","","","",""

@@ -1,4 +1,4 @@
-"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
 "PH","Power Plant","ms_elev","Elevation","","GRE","WGS84","mean sea level","","","",""
 "PH","Power Plant","ms_lat","Latitude","","GRE","WGS84","mean sea level","","","",""
 "PH","Power Plant","ms_long","Longitude","","GRE","WGS84","mean sea level","","","",""

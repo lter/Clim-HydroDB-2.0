@@ -1,4 +1,4 @@
-"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
 "ALBION","Albion Townsite","gs_elev","Elevation","3259","NWT","WGS84","mean sea level","","","",""
 "ALBION","Albion Townsite","gs_lat","Latitude","40.0428","NWT","WGS84","mean sea level","","","",""
 "ALBION","Albion Townsite","gs_long","Longitude","-105.5922","NWT","WGS84","mean sea level","","","",""

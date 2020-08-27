@@ -1,4 +1,4 @@
-"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
 "GDA","Governor Dummer","ms_elev","Elevation","Site is 3 meters above MSL","PIE","WGS84","mean sea level","","","",""
 "GDA","Governor Dummer","ms_lat","Latitude","42.7515","PIE","WGS84","mean sea level","","","",""
 "GDA","Governor Dummer","ms_long","Longitude","70.9024","PIE","WGS84","mean sea level","","","",""

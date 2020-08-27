@@ -1,4 +1,4 @@
-"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
 "LHC5","Lienhuachih artificial forest","ms_elev","Elevation","","LHC","WGS84","mean sea level","","","",""
 "LHC5","Lienhuachih artificial forest","ms_lat","Latitude","","LHC","WGS84","mean sea level","","","",""
 "LHC5","Lienhuachih artificial forest","ms_long","Longitude","","LHC","WGS84","mean sea level","","","",""

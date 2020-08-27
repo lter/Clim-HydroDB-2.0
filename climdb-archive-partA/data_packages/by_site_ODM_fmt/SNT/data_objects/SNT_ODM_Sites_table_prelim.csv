@@ -1,4 +1,4 @@
-"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
 "MS05","Meteorologic Station #5","ms_elev","Elevation","4.4 m above mean sea level","SNT","WGS84","mean sea level","","","",""
 "MS05","Meteorologic Station #5","ms_lat","Latitude","N-33.14162","SNT","WGS84","mean sea level","","","",""
 "MS05","Meteorologic Station #5","ms_long","Longitude","W-7978836","SNT","WGS84","mean sea level","","","",""

@@ -1,4 +1,4 @@
-"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
 "Pine1F","Pine Watershed 1 Flume","gs_elev","Elevation","9.1","PIN","WGS84","mean sea level","","","",""
 "Pine1F","Pine Watershed 1 Flume","gs_lat","Latitude","34.39437 N","PIN","WGS84","mean sea level","","","",""
 "Pine1F","Pine Watershed 1 Flume","gs_long","Longitude","89.45360 W","PIN","WGS84","mean sea level","","","",""

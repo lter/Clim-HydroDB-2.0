@@ -1,4 +1,4 @@
-"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
 "EAST300","East_300","gs_elev","Elevation","1253","HOR","WGS84","mean sea level","","","",""
 "EAST300","East_300","gs_lat","Latitude","45.98666N","HOR","WGS84","mean sea level","","","",""
 "EAST300","East_300","gs_long","Longitude","115.33102W","HOR","WGS84","mean sea level","","","",""

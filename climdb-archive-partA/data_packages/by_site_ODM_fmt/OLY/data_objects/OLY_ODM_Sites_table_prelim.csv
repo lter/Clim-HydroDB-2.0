@@ -1,4 +1,4 @@
-"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
 "Calawah_R","Calawah river (USGS 12043000)","gs_elev","Elevation","61.4","OLY","WGS84","mean sea level","","","",""
 "Calawah_R","Calawah river (USGS 12043000)","gs_lat","Latitude","47.96007697","OLY","WGS84","mean sea level","","","",""
 "Calawah_R","Calawah river (USGS 12043000)","gs_long","Longitude","-124.39298720","OLY","WGS84","mean sea level","","","",""

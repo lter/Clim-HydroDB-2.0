@@ -1,4 +1,4 @@
-"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
 "72K22","Yuin-lin Branch Station","ms_elev","Elevation","35","TAE","WGS84","mean sea level","","","",""
 "72K22","Yuin-lin Branch Station","ms_lat","Latitude","23.6344","TAE","WGS84","mean sea level","","","",""
 "72K22","Yuin-lin Branch Station","ms_long","Longitude","120.4772","TAE","WGS84","mean sea level","","","",""

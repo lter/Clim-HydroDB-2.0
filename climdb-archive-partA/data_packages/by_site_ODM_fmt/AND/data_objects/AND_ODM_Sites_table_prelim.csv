@@ -1,4 +1,4 @@
-"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
 "CENMET","Central Meteorological Station","ms_elev","Elevation","1018","AND","WGS84","mean sea level","","","",""
 "CENMET","Central Meteorological Station","ms_lat","Latitude","44.24330600","AND","WGS84","mean sea level","","","",""
 "CENMET","Central Meteorological Station","ms_long","Longitude","-122.14161100","AND","WGS84","mean sea level","","","",""

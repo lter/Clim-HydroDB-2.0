@@ -1,4 +1,4 @@
-"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
 "C2_STRM","Caribou Watershed 2 stream gauge","gs_elev","Elevation","","BNZ","WGS84","mean sea level","","","",""
 "C2_STRM","Caribou Watershed 2 stream gauge","gs_lat","Latitude","","BNZ","WGS84","mean sea level","","","",""
 "C2_STRM","Caribou Watershed 2 stream gauge","gs_long","Longitude","","BNZ","WGS84","mean sea level","","","",""

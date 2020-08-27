@@ -1,4 +1,4 @@
-"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
 "B201","Bull Creek B201","gs_elev","Elevation","2160","KEW","WGS84","mean sea level","","","",""
 "B201","Bull Creek B201","gs_lat","Latitude","36.9781","KEW","WGS84","mean sea level","","","",""
 "B201","Bull Creek B201","gs_long","Longitude","119.0792","KEW","WGS84","mean sea level","","","",""

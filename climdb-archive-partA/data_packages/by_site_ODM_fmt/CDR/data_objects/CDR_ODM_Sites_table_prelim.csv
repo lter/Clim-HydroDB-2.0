@@ -1,4 +1,4 @@
-"res_site_code","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
+"","res_site_name","descriptor_type_code","descriptor_type_name","descriptor_value","raw_parent_code","lat_long_ref","elevation_ref","local_x","local_y","position_accuracy","SiteType"
 "CC2","Cedar Creek 2","ms_elev","Elevation","","CDR","WGS84","mean sea level","","","",""
 "CC2","Cedar Creek 2","ms_lat","Latitude","45.4021","CDR","WGS84","mean sea level","","","",""
 "CC2","Cedar Creek 2","ms_long","Longitude","-93.2026","CDR","WGS84","mean sea level","","","",""
