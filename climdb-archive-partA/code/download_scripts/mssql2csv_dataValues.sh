@@ -1,4 +1,4 @@
- #!/bin/bas2
+#!/bin/bash
   
 # queries climdb for raw values, exports one csv per research site.
 # copied from psql2csv.sh, from  mgb 2Oct2009m and mob 18mar2011
@@ -39,7 +39,7 @@ parent_dir="$git_clone_loc""$slash""$git_repo""$slash""$repo_subdir";
 
 # Fixed strings, to build the query
 # queryHead="select  TOP 100 site_code, sampledate, value from dbo.climdb_raw where site_code = ";
-queryHead="SELECT raw.value AS 'DataValue', raw.sampledate AS 'LocalDateTime', 'NA' AS 'UTCOffset', 'NA' AS 'DateTimeUTC', rs.res_site_code AS 'SiteCode', raw.variable AS 'VariableCode', 'NA' AS 'MethodCode', 'NA' AS 'SourceCode','-9999' AS 'QualityControlLevelCode'  from dbo.climdb_raw raw JOIN dbo.research_site rs ON raw.res_site_id = rs.res_site_id where raw.site_code = '";
+queryHead="SELECT raw.value AS 'DataValue', raw.sampledate AS 'LocalDateTime', 'NA' AS 'UTCOffset', 'NA' AS 'DateTimeUTC', rs.res_site_code AS 'SiteCode', raw.variable AS 'VariableCode', 0 AS 'MethodCode', raw.site_id AS 'SourceCode','-9999' AS 'QualityControlLevelCode'  from dbo.climdb_raw raw JOIN dbo.research_site rs ON raw.res_site_id = rs.res_site_id where raw.site_code = '";
 
 queryTail="';";
 
@@ -78,7 +78,7 @@ while IFS= read -r line; do
         # echo "";        
         echo 'saving to '"$queryOut";
 
-        # clean out the cruft
+        # clean out the cruft left by mssql
         sed '/^Connecting/d' tmp.csv | sed '/^sql-cli/d' | sed '/^Enter/d' | sed '/Executed/d' | sed 's/^mssql> //' | sed '/^$/d' > $queryOut; 
 
 
