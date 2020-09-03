@@ -3,8 +3,8 @@
 Directory holds scripts and control files for downloading content from ClimDB in the ODM format.
 
 ## ODM has 6 required tables:
-- Variables
-- Sites
+- Variables: 
+- Sites 	
 - Sources
 - Methods
 - QualityControl
