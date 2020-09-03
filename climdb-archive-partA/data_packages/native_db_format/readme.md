@@ -8,4 +8,5 @@ Package Contents:
 
 
 Directory contents:
-package materials, plus R code and EAL metadata tables to created EML 
+- package materials 
+- R code and EAL metadata tables to created EML 
