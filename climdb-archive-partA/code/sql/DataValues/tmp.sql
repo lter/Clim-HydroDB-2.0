@@ -1,0 +1,1 @@
+SELECT raw.value AS 'DataValue', raw.sampledate AS 'LocalDateTime', 'NA' AS 'UTCOffset', 'NA' AS 'DateTimeUTC', rs.res_site_code AS 'SiteCode', raw.variable AS 'VariableCode', 0 AS 'MethodCode', raw.site_id AS 'SourceCode','-9999' AS 'QualityControlLevelCode' from dbo.climdb_raw raw JOIN dbo.research_site rs ON raw.res_site_id = rs.res_site_id where raw.site_code = 'OLY';
