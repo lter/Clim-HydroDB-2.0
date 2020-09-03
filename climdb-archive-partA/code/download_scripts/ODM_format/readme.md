@@ -31,7 +31,7 @@ To run these, you will need to:
 - Sources 
   - one line table with contributor info (some likely to need updating by contributors)
 - Methods
-  - TBD
+  - See issue #13
 - QualityControl
   - ClimDb does not hold QC info at the granularity ODM allows. so this is a template table, and the same for all contributors. may need customization
 - DataValues
