@@ -1,0 +1,5 @@
+"res_sitetype_id","res_sitetype_name","res_sitetype_desc"
+"1","area","Research Area"
+"2","ws","Watershed"
+"3","gs","Gauging Station"
+"4","ms","Meteorologic Station"

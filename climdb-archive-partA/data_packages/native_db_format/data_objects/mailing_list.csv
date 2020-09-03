@@ -1,0 +1,5 @@
+"mailing_list_id","mailing_list_name","mailing_list_address","mailing_list_desc"
+"1","hydrodb","hydrodb@fsl.orst.edu","A list of all data and metadata contacts for Hydrodb"
+"2","hydrodb_all","hydrodb_all@fsl.orst.edu","A list of all participants in Hydrodb"
+"3","climdb","climdb@fsl.orst.edu","A list of all data and metadata contacts for Climdb"
+"4","climdb_all","climdb_all@fsl.orst.edu","A list of all participants in Climdb"
