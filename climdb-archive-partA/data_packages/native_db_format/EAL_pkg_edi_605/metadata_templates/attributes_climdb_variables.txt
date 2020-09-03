@@ -1,0 +1,14 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+variable_name	TO_DO	varchar	TO_DO	TO_DO	false	Not Available
+variable	TO_DO	varchar	TO_DO	TO_DO	false	Not Available
+fullname	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+aggregate_mean	TO_DO	varchar	TO_DO	TO_DO	false	Not Available
+aggregate_total	TO_DO	varchar	TO_DO	TO_DO	false	Not Available
+aggregate_min	TO_DO	varchar	TO_DO	TO_DO	false	Not Available
+aggregate_max	TO_DO	varchar	TO_DO	TO_DO	false	Not Available
+qc_min	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+qc_max	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+descriptor_category_id	TO_DO	int	TO_DO	TO_DO	false	Not Available
+unit_desc	TO_DO	char	TO_DO	TO_DO	true	Not Available
+unit	TO_DO	char	TO_DO	TO_DO	true	Not Available
+decimals	TO_DO	int	TO_DO	TO_DO	true	Not Available

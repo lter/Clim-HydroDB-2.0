@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+res_site_id	TO_DO	int	TO_DO	TO_DO	false	Not Available
+site_id	TO_DO	int	TO_DO	TO_DO	false	Not Available
+site_code	TO_DO	varchar	TO_DO	TO_DO	false	Not Available
+station	TO_DO	varchar	TO_DO	TO_DO	false	Not Available
+variable	TO_DO	varchar	TO_DO	TO_DO	false	Not Available
+first_seen	TO_DO	datetime	TO_DO	TO_DO	false	Not Available
+most_recent	TO_DO	datetime	TO_DO	TO_DO	false	Not Available
+last_update	TO_DO	datetime	TO_DO	TO_DO	false	Not Available

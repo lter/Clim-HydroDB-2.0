@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+descriptor_category_id	TO_DO	int	TO_DO	TO_DO	false	Not Available
+descriptor_category_name	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+descriptor_category_desc	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+descriptor_order	TO_DO	int	TO_DO	TO_DO	true	Not Available

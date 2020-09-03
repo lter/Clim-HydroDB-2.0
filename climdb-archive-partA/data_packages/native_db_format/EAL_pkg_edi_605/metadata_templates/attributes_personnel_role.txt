@@ -1,0 +1,3 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+personnel_role_id	TO_DO	int	TO_DO	TO_DO	false	Not Available
+personnel_role_desc	TO_DO	varchar	TO_DO	TO_DO	false	Not Available

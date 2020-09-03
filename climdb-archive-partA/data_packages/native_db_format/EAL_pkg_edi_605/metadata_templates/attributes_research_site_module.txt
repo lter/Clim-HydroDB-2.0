@@ -1,0 +1,3 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+res_site_id	TO_DO	int	TO_DO	TO_DO	false	Not Available
+res_module_id	TO_DO	int	TO_DO	TO_DO	false	Not Available

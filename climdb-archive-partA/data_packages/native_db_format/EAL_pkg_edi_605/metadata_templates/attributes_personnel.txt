@@ -1,0 +1,16 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+personnel_id	TO_DO	int	TO_DO	TO_DO	false	Not Available
+last_name	TO_DO	varchar	TO_DO	TO_DO	false	Not Available
+first_name	TO_DO	varchar	TO_DO	TO_DO	false	Not Available
+middle_name	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+address	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+city	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+state	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+postal_code	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+country	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+telephone1	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+telephone2	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+email1	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+email2	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+fax1	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+fax2	TO_DO	varchar	TO_DO	TO_DO	true	Not Available

@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site_id	TO_DO	int	TO_DO	TO_DO	false	Not Available
+site_code	TO_DO	varchar	TO_DO	TO_DO	false	Not Available
+site_name	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+loc1	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+loc2	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+latitude_dec	TO_DO	numeric	TO_DO	TO_DO	true	Not Available
+longitude_dec	TO_DO	numeric	TO_DO	TO_DO	true	Not Available
+hydro_data_url	TO_DO	char	TO_DO	TO_DO	true	Not Available
+clim_data_url	TO_DO	char	TO_DO	TO_DO	true	Not Available
+usgs_data_url	TO_DO	char	TO_DO	TO_DO	true	Not Available
+site_url	TO_DO	char	TO_DO	TO_DO	true	Not Available

@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+res_site_id	TO_DO	int	TO_DO	TO_DO	false	Not Available
+site_id	TO_DO	int	TO_DO	TO_DO	false	Not Available
+descriptor_type_id	TO_DO	int	TO_DO	TO_DO	false	Not Available
+descriptor_value	TO_DO	varchar	TO_DO	TO_DO	true	Not Available
+last_update	TO_DO	datetime	TO_DO	TO_DO	true	Not Available
