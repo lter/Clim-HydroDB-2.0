@@ -1,6 +1,12 @@
 Directory holds EML-described package of the climdb database in its native format. 
-Contents:
+
+Package will be edi.605. Contents:
 - 23 tables
-- one EML file
+- one EML file 
 - ERD
 - possibly some text documentation (pdfs)
+
+
+Directory contents:
+- package materials 
+- R code and EAL metadata tables to created EML 
