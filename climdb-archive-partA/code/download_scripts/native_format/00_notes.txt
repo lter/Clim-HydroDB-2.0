@@ -1,0 +1,12 @@
+Start here:
+mssql --help
+
+get a list of tables:
+select name from SYSOBJECTS where xtype = 'U' 
+ORDER by name
+GO
+
+per: https://chartio.com/resources/tutorials/sql-server-list-tables-how-to-show-all-tables/
+
+
+
