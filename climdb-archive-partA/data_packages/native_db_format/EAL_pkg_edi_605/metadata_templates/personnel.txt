@@ -1,0 +1,9 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Lauren	M	Hallett		hallett@uoregon.edu		PI	Synthesizing population and community synchrony to understand drivers of ecological stability across LTER sites	NSF (LTER Network)	1545288
+Lauren	M	Hallett		hallett@uoregon.edu		creator			
+Max	CN	Castorani		castorani@virginia.edu		creator			
+Nina	K	Lany		lanynina@msu.edu	https://orcid.org/0000-0003-0868-266X	creator			
+Daniel	C	Reed	SBC LTER	danreed@ucsb.edu		creator			
+Peter		Edmunds	USVI, MCR LTER	peter.edmunds@csun.edu		creator			
+Robert		Carpenter	MCR LTER	robert.carpenter@csun.edu		creator			
+Nina	K	Lany		lanynina@msu.edu	https://orcid.org/0000-0003-0868-266X	contact			
