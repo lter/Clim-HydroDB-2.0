@@ -1,0 +1,61 @@
+site.site_id,site.site_code,site.latitude_deg,site.longitude_deg,xxx.UTCOffset,site.site_name,Note,
+1,AND,44.2,-122.2,-8,H.J. Andrews Experimental Forest,Margaret added many xxx.UTCOffsets,
+2,ARC,68.6,-149.6,-9,Arctic Tundra,,
+3,BES,39.1,-76.3,-5,Baltimore Ecosystem Study,"mob added lat, lon",
+4,BNZ,64.8,-148,-9,Bonanza Creek Experimental Forest,,
+5,CAS,39.34,-123.77,-8,Caspar Creek Experimental Watersheds,judi added lat long,https://www.fs.fed.us/psw/topics/water/caspar/
+6,CDR,45.4,-93.2,-6,Cedar Creek Ecosystem Science Reserve,,
+7,CWT,35,-83.5,-5,Coweeta Hydrologic Laboratory,,
+8,ENT,47.95,120.47,-8,Entiat Experimental Forest,judi added lat long,https://www.fs.usda.gov/pnw/experimental-forests-and-ranges/entiat-experimental-forest
+9,FER,39.05,-79.67,-5,Fernow Experimental Forest,judi added lat long,https://www.nrs.fs.fed.us/ef/locations/wv/fernow/
+10,FLE,42.28,-83.73,-6,Fleming Creek Watersheds,susanne added lat lon url, https://www.hrwc.org/our-watershed/features/fleming-creek/
+11,FRA,39.9,-105.88,-7,Fraser Experimental Forest,judi added lat long,https://www.fs.usda.gov/rmrs/experimental-forests-and-ranges/fraser-experimental-forest
+12,GLA,41.36,-106.24,-7,Glacier Lakes Ecosystem Experiments Site,judi added lat long,https://www.fs.usda.gov/rmrs/experimental-forests-and-ranges/glees-glacier-lakes-ecosystem-experiments-site
+13,GRE,39.32,-111.5,-7,Great Basin Experimental Range,judi added lat long,https://www.fs.usda.gov/rmrs/experimental-forests-and-ranges/great-basin-experimental-range
+14,HBR,43.9,-71.8,-5,Hubbard Brook,,https://hubbardbrook.org/
+15,HFR,42.5,-72.2,-5,Harvard Forest,,
+16,HOR,45.99,-115.28,-7,Horse Creek Study Watersheds,judi added an estimated lat long,https://www.fs.fed.us/rm/boise/research/watershed/harvester/horsecreekdata.htm
+17,JRN,32.5,-106.8,-7,Jornada Basin,,
+18,KBS,42.4,-85.4,-6,Kellogg Biological Station,,
+19,KNZ,39.1,-94.6,-6,Konza Prairie,,
+20,LUQ,18.3,-65.8,-4,Luquillo Experimental Forest,,
+21,MAR,47.52,-93.47,-6,Marcell Experimental Forest,judi added an estimated lat long,https://www.nrs.fs.fed.us/ef/marcell/
+22,MCM,-78,165,11,McMurdo Dry Valleys,susanne added utc offset,
+23,LNO,34.3,-106.8,-7,LTER Network Office,,
+24,NEV,41.36,-74.70,-5,"Neversink Valley, Delaware River Basin",Susanne added lat lon, https://www.usgs.gov/centers/ny-water/science/natural-resources-neversink-river-watershed?qt-science_center_objects=0#qt-science_center_objects listed in climdb is a philly suburb,
+25,NTL,46,-89.7,-6,North Temperate Lakes,,
+26,NWT,40.1,-105.6,-7,Niwot Ridge,,
+27,PAL,-64.7,-64,-4,Palmer Station,susanne added utc offset,
+28,PIE,42.7514,-70.9024,-5,Plum Island Ecosystem,,
+29,PIN,43.97,-85.39,-6,The Pine Watersheds,susanne added lat lon utc offset url,http://www.northernmichiganstreams.org/pinews.asp
+30,PRI,48.35,-116.83,-8,Priest River Experimental Forest,judi added an estimated lat long,https://www.fs.usda.gov/rmrs/experimental-forests-and-ranges/priest-river-experimental-forest
+31,SDF,34.2,-117.75,-8,San Dimas Experimental Forest,judi added lat long,https://www.fs.fed.us/psw/ef/san_dimas/
+32,SEV,34.3,-106.8,-7,Sevilleta National Wildlife Refuge,,
+33,SGS,40.8,-104.8,-7,Shortgrass Steppe,,
+34,SIE,33.8,-110.97,-7,Sierra Ancha Experimental Forest,judi added lat long,https://www.fs.usda.gov/rmrs/experimental-forests-and-ranges/sierra-ancha-experimental-forest
+35,SIL,44.42,-115.75,-7,Silver Creek Experimental Watersheds,judi added lat long,https://www.fs.fed.us/rm/boise/research/watershed/harvester/silvercreekdata.htm
+36,SNT,33.14,-79.82,-5,Santee Experimental Forest Watersheds,judi added lat long,https://www.srs.fs.usda.gov/charleston/santee/
+37,TEN,46.93,-110.89,-7,Tenderfoot Creek Experimental Forest,judi added an estimated lat long,https://www.fs.usda.gov/rmrs/experimental-forests-and-ranges/tenderfoot-creek-experimental-forest
+38,VCR,37.5,-74.8,-5,Virginia Coast Reserve,,
+39,FCE,25.4682,-80.8533,-5,Florida Coastal Everglades,"mob added lat, lon",
+40,GCE,31.4,-81.3,-5,Georgia Coastal Ecosystems,,
+41,SBC,34.4125,-119.842,-8,Santa Barbara Coastal,"mob added lat, lon",
+42,CAP,33.427,-111.933,-7,Central Arizona - Phoenix,"mob added lat, lon",
+43,FEM,38.89,-77.03,-5,USFS Fire Evaluation Monitoring,judi added lat long,i think this is supposed to reference the FS offices in DC
+44,CBE,32.54,-80.85,-5,Coosawhatchie Bottomland Ecosystem,judi added an estimated lat long,https://www.srs.fs.usda.gov/pubs/gtr/gtr_srs038.pdf
+45,UMA,45.19,-118.66,-8,Umatilla National Forest,judi added an estimated lat long,https://www.fs.usda.gov/umatilla
+46,MEF,55.49,-132.67,-9,Maybeso Creek Experimental Forest,judi added lat long,https://www.fs.usda.gov/pnw/experimental-forests-and-ranges/maybeso-experimental-forest
+47,KEW,36.96,-119.02,-8,Kings River Experimental Watershed,judi added an estimated lat long,https://www.fs.fed.us/psw/topics/water/kingsriver/
+48,MEW,50.95,-115.15,-7,Marmot Experimental Watershed,judi added lat long,https://pubs.cif-ifc.org/doi/pdf/10.5558/tfc2016-010
+49,YEF,58.13,-134.53,-9,Young Bay Experimental Forest,judi added lat long,https://www.fs.fed.us/research/efr/young-bay.php
+50,SWS,38.26,-78.77,-5,Shenandoah Watershed Study,judi added an estimated lat long,https://swas.evsc.virginia.edu/POST/scripts/overview.php
+51,TAE,23.63,120.47,8,TERN - Taiwan Agricultural Ecosystem Research,susanne added lat lon from YuinLin Branch Farm but data might be from different TERN station,http://lter.tari.gov.tw/lterweb/en
+52,TTC,23.47,120.9,8,TERN - Ta-ta-chia,susanne added lat lon utc offset url,https://deims.org/edb0fd6e-388a-4895-b643-0885da245927
+53,FSH,24.73,121.56,8,TERN - Fu-shan,susanne added lat lon utc offset url,https://forestgeo.si.edu/sites/asia/fushan
+54,HAE,24.18,121.28,8,"TERN - High Altitude Experimental Station, TESRI",susanne added lat lon utc offset url,https://www.tesri.gov.tw/B2_6
+55,SER,22.97,120.69,8,TERN - Shanping Ecological Research Station,susanne added lat lon utc offset url,https://www.tfri.gov.tw/main/index.aspx?siteid=&ver=&usid=&mode=&lc=1945&noframe=
+56,WRC,45.83,-121.9,-8,Wind River Canopy Crane Research Facility,judi added lat long,https://www.fs.usda.gov/pnw/experimental-forests-and-ranges/wind-river-experimental-forest
+57,LHC,23.91,120.88,8,TFRI-Lienhuachih Research Center,susanne added lat lon utc offset url,https://forestgeo.si.edu/sites/asia/lienhuachih
+58,MCR,17.49,149.83,-10,Moorea Coral Reef,,http://mcr.lternet.edu/
+59,CCE,32.8736,-120.28,-8,California Current Ecosystem,"mob added lat, lon",
+60,OLY,48.2667,-124.675,-8,Olympic Experimental State Forest,,
