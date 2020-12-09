@@ -31,9 +31,7 @@ library(EMLassemblyline)
 ## initiate and create vector of directories for sites' eal templates
   dir_site <- character(length(site$site_id))
   for (i in seq_along(site$site_id)) {
-    
     dir_site[i] <- paste('./odm_tables/',as.character(site$site_code[i]),'/eal_templates',sep = '')
-    
 ## create output directory for eal templates if not yet established or remove existing eal templates
     if (!dir.exists(dir_site[i])){
       dir.create(dir_site[i])
