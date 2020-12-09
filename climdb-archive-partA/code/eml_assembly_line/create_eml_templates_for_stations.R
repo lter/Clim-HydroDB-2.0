@@ -6,6 +6,7 @@ library(stringr)
 library(EMLassemblyline)
 
 ## specify input paths
+
   dir_climdb_tables <- "./climdb_tables"
   dir_eal_templates <- "./eal_templates"
   
@@ -27,10 +28,12 @@ library(EMLassemblyline)
   roles <- read_csv(paste(dir_climdb_tables,"personnel_role_eal.csv",sep="/"))
   site_lat_lon <- read_csv(paste(dir_climdb_tables,"climdb_site_lat_lon_working.csv",sep="/"))
 
-## create vector of directories for sites' eal templates
+## initiate and create vector of directories for sites' eal templates
   dir_site <- character(length(site$site_id))
   for (i in seq_along(site$site_id)) {
+    
     dir_site[i] <- paste('./odm_tables/',as.character(site$site_code[i]),'/eal_templates',sep = '')
+    
 ## create output directory for eal templates if not yet established or remove existing eal templates
     if (!dir.exists(dir_site[i])){
       dir.create(dir_site[i])
@@ -39,25 +42,9 @@ library(EMLassemblyline)
     }    
   } # i - loop over sites
 
-## create eal templates: attribute.txt
-  for (i in seq_along(site$site_id)) {
-    file_attributes_DataValues <- paste(dir_site[i],'/attributes_',site$site_code[i],'_ODM_DataValues_table.txt',sep = "")
-    file_attributes_Methods <- paste(dir_site[i],'/attributes_',site$site_code[i],'_ODM_Methods_table.txt',sep = "")
-    file_attributes_QualityControlLevels <- paste(dir_site[i],'/attributes_',site$site_code[i],'_ODM_QualityControl_table.txt',sep = "")
-    file_attributes_Sites <- paste(dir_site[i],'/attributes_',site$site_code[i],'_ODM_Sites_table.txt',sep = "")
-    file_attributes_Sources <- paste(dir_site[i],'/attributes_',site$site_code[i],'_ODM_Sources_table.txt',sep = "")
-    file_attributes_Variables <- paste(dir_site[i],'/attributes_',site$site_code[i],'_ODM_Variables_table.txt',sep = "")
-    file.copy(paste(dir_eal_templates,'/attributes_DataValues.txt',sep=''), file_attributes_DataValues, overwrite = TRUE)
-    file.copy(paste(dir_eal_templates,'/attributes_Methods.txt',sep=''), file_attributes_Methods, overwrite = TRUE)
-    file.copy(paste(dir_eal_templates,'/attributes_QualityControlLevels.txt',sep=''), file_attributes_QualityControlLevels, overwrite = TRUE)
-    file.copy(paste(dir_eal_templates,'/attributes_Sites.txt',sep=''), file_attributes_Sites, overwrite = TRUE)
-    file.copy(paste(dir_eal_templates,'/attributes_Sources.txt',sep=''), file_attributes_Sources, overwrite = TRUE)
-    file.copy(paste(dir_eal_templates,'/attributes_Variables.txt',sep=''), file_attributes_Variables, overwrite = TRUE)
-  } # i - loop over sites
-
-
 ## create eal templates: abstract, intellectual_rights, methods, personnel, keywords, geographic_coverage
-## abstract.txt (include site name, acronym, station names with begin & end date)
+
+# loop over sites - index i
    for (i in seq_along(site$site_id)) {
 # select site's stations      
       site_stations <- filter(research_site, site_id == i) %>%
@@ -68,7 +55,8 @@ library(EMLassemblyline)
       res_site_ids <- site_stations$res_site_id
 #initiate character vector: station name, begin date, end date
       station_list <- character(length(site_stations$res_site_id))
-# fill vector with site's station name, begin date, end date: if available else no date listed   
+# fill vector with site's station name, begin date, end date: if available else no date listed
+# loop over site i research stations - index j
       for (j in seq_along(site_stations$res_site_id)) {
          station_name <- site_stations$res_site_name[j]
          station_dates <- filter(site_dates,res_site_id == as.numeric(res_site_ids[j]))
@@ -80,7 +68,8 @@ library(EMLassemblyline)
          station_list[j] <- paste("(",j,") ",toString(station_name, quote=FALSE),sep = "")
       } # if - statement
       } # j - loop over site's stations
-    
+
+## abstract.txt (include site name, acronym, station names with begin & end date)     
       abstract <- paste("The National Science Foundation's Long-Term Ecological Research (LTER) program and many ",
                     "U. S. Forest Service Experimental Research Stations collect and maintain extensive, long-term ecological databases",
                     "including streamflow and meteorological measurements. ",
@@ -115,10 +104,7 @@ library(EMLassemblyline)
       fileConn<-file(file_methods)
       writeLines(methods, fileConn)
       close(fileConn)                   
-   } # i - loop over sites
 
-## fill eal templates: personnel, keywords, geographic_coverage
-   for (i in seq_along(site$site_id)) {
 # filter personnel info for site
       personnel_info <- filter (site_personnel_role, site_id == i)
 #initiate tibble: info on personnel of site
@@ -199,3 +185,19 @@ library(EMLassemblyline)
       file.copy(paste(dir_eal_templates,"/","geographic_coverage.txt",sep=''), file_coverage, overwrite = TRUE)
       write.table(geographic_coverage_site, file_coverage, append = TRUE, quote = F, sep = "\t")
    } # i - loop over sites
+
+## create eal templates: attribute.txt
+  for (i in seq_along(site$site_id)) {
+    file_attributes_DataValues <- paste(dir_site[i],'/attributes_',site$site_code[i],'_ODM_DataValues_table.txt',sep = "")
+    file_attributes_Methods <- paste(dir_site[i],'/attributes_',site$site_code[i],'_ODM_Methods_table.txt',sep = "")
+    file_attributes_QualityControlLevels <- paste(dir_site[i],'/attributes_',site$site_code[i],'_ODM_QualityControl_table.txt',sep = "")
+    file_attributes_Sites <- paste(dir_site[i],'/attributes_',site$site_code[i],'_ODM_Sites_table.txt',sep = "")
+    file_attributes_Sources <- paste(dir_site[i],'/attributes_',site$site_code[i],'_ODM_Sources_table.txt',sep = "")
+    file_attributes_Variables <- paste(dir_site[i],'/attributes_',site$site_code[i],'_ODM_Variables_table.txt',sep = "")
+    file.copy(paste(dir_eal_templates,'/attributes_DataValues.txt',sep=''), file_attributes_DataValues, overwrite = TRUE)
+    file.copy(paste(dir_eal_templates,'/attributes_Methods.txt',sep=''), file_attributes_Methods, overwrite = TRUE)
+    file.copy(paste(dir_eal_templates,'/attributes_QualityControlLevels.txt',sep=''), file_attributes_QualityControlLevels, overwrite = TRUE)
+    file.copy(paste(dir_eal_templates,'/attributes_Sites.txt',sep=''), file_attributes_Sites, overwrite = TRUE)
+    file.copy(paste(dir_eal_templates,'/attributes_Sources.txt',sep=''), file_attributes_Sources, overwrite = TRUE)
+    file.copy(paste(dir_eal_templates,'/attributes_Variables.txt',sep=''), file_attributes_Variables, overwrite = TRUE)
+  } # i - loop over sites
