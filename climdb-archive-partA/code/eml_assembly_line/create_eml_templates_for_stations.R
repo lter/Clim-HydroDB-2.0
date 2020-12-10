@@ -60,7 +60,7 @@ library(EMLassemblyline)
          station_dates <- filter(site_dates,res_site_id == as.numeric(res_site_ids[j]))
       if (!is.na(station_dates[1,1])) {
          station_first_seen <- min(station_dates$first_seen)
-         station_most_recent <- min(station_dates$most_recent)
+         station_most_recent <- max(station_dates$most_recent)
          station_list[j] <- paste("(",j,") ",toString(station_name, quote=FALSE)," (",station_first_seen,",",station_most_recent,")",sep = "")
       } else {
          station_list[j] <- paste("(",j,") ",toString(station_name, quote=FALSE),sep = "")
