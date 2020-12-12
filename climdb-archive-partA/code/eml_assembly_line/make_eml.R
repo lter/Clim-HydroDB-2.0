@@ -1,10 +1,9 @@
 # This script executes an EMLassemblyline workflow for each site.
 
 library(EMLassemblyline)
-library(dplyr)
-library(tidyr)
-library(stringr)
+library(tidyverse)
 library(lubridate)
+library(stringr)
 
 ## specify input paths and read tables
     dir_climdb_tables <- "./climdb_tables"
