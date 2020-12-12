@@ -1,4 +1,4 @@
-<h2>Create EML for data packages of LTER ClimDB/HydroDB data in CUAHSI ODM format.</h2>
+<h2>Create EML for data packages of LTER ClimDB/HydroDB data in CUAHSI ODM format</h2>
 
 <b>Data set title: "Weather and hydrological data for SITE, previously held in LTER ClimDB/HydroDB (XXXX to XXXX)"</b>
 
