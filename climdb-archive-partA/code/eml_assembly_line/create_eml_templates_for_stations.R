@@ -5,12 +5,12 @@ library(lubridate)
 library(stringr)
 library(EMLassemblyline)
 
-## specify input paths
-
+## specify paths
   dir_climdb_tables <- "./climdb_tables"
   dir_eal_templates <- "./eal_templates"
+  dir_output <- "./odm_tables"
   
-## generate eal templates (only once)
+## generate empty eal templates (only once), copy attribute tables to dir_eal_templates
 #  template_core_metadata(
 #    path = dir_eal_templates,
 #    license = 'CCBY')
@@ -28,10 +28,10 @@ library(EMLassemblyline)
   roles <- read_csv(paste(dir_climdb_tables,"personnel_role_eal.csv",sep="/"))
   site_lat_lon <- read_csv(paste(dir_climdb_tables,"climdb_site_lat_lon_working.csv",sep="/"))
 
-## initiate and create vector of directories for sites' eal templates
+## create vector of directories for sites' eal templates
   dir_site <- character(length(site$site_id))
   for (i in seq_along(site$site_id)) {
-    dir_site[i] <- paste('./odm_tables/',as.character(site$site_code[i]),'/eal_templates',sep = '')
+    dir_site[i] <- paste(dir_output,'/',as.character(site$site_code[i]),'/eal_templates',sep = '')
 ## create output directory for eal templates if not yet established or remove existing eal templates
     if (!dir.exists(dir_site[i])){
       dir.create(dir_site[i])
@@ -41,10 +41,9 @@ library(EMLassemblyline)
   } # i - loop over sites
 
 ## create eal templates: abstract, intellectual_rights, methods, personnel, keywords, geographic_coverage
-
-# loop over sites - index i
+## abstract.txt (include site name, acronym, station names with begin & end date)
    for (i in seq_along(site$site_id)) {
-# select site's stations      
+     # select site's stations      
       site_stations <- filter(research_site, site_id == i) %>%
                         filter(!(res_site_id == i))
 # filter dates for site (for each station and observable)
@@ -53,8 +52,7 @@ library(EMLassemblyline)
       res_site_ids <- site_stations$res_site_id
 #initiate character vector: station name, begin date, end date
       station_list <- character(length(site_stations$res_site_id))
-# fill vector with site's station name, begin date, end date: if available else no date listed
-# loop over site i research stations - index j
+# fill vector with site's station name, begin date, end date: if available, else no date listed   
       for (j in seq_along(site_stations$res_site_id)) {
          station_name <- site_stations$res_site_name[j]
          station_dates <- filter(site_dates,res_site_id == as.numeric(res_site_ids[j]))
@@ -66,8 +64,7 @@ library(EMLassemblyline)
          station_list[j] <- paste("(",j,") ",toString(station_name, quote=FALSE),sep = "")
       } # if - statement
       } # j - loop over site's stations
-
-## abstract.txt (include site name, acronym, station names with begin & end date)     
+    
       abstract <- paste("The National Science Foundation's Long-Term Ecological Research (LTER) program and many ",
                     "U. S. Forest Service Experimental Research Stations collect and maintain extensive, long-term ecological databases",
                     "including streamflow and meteorological measurements. ",
@@ -81,8 +78,8 @@ library(EMLassemblyline)
                     "to ClimHydroDB, which has been reformatted to the ODM 1.1 model for contribution to the CUAHSI system. ",
                     "This package contains the six data tables required for upload to CUAHSI. ",
                     "Data are available for ",toString(length(site_stations$res_site_id)), " station(s): ",
-                    toString(station_list, quote=FALSE),".",sep=""
-  )
+                    toString(station_list, quote=FALSE),".",sep="")
+
 ## write template "abstract.txt"
       file_abstract <- paste(dir_site[i],"/abstract.txt",sep = "")
       fileConn<-file(file_abstract)
@@ -103,9 +100,9 @@ library(EMLassemblyline)
       writeLines(methods, fileConn)
       close(fileConn)                   
 
-# filter personnel info for site
+## filter personnel info for site
       personnel_info <- filter (site_personnel_role, site_id == i)
-#initiate tibble: info on personnel of site
+## initiate tibble: info on personnel of site
       personnel_site  <- tibble(givenName = character(),              
                         middleInitial = character(),
                         surName = character(),
@@ -117,7 +114,7 @@ library(EMLassemblyline)
                         fundingAgency = character(),
                         fundingNumber = character())
 
-# remove data for site only (res_site_id == i), keep only station ids
+# select site's stations
       site_stations <- filter(research_site, site_id == i) %>%
                         filter(!(res_site_id == i))
 # identify personnel ids for each station      
@@ -147,8 +144,7 @@ library(EMLassemblyline)
   ## write template "personnel.txt"
       personnel_site <- unique(personnel_site)
       file_personnel <- paste(dir_site[i],"/personnel.txt",sep = "")
-      file.copy(paste(dir_eal_templates,"/","personnel.txt",sep=''), file_personnel, overwrite = TRUE)
-      write.table(personnel_site, file_personnel, append = TRUE, quote = F, sep = "\t",na = "")
+      write.table(personnel_site, file_personnel, append = TRUE, quote = F, row.names = F, sep = "\t",na = "")
 
   ## write template "keywords.txt"
       keywords_site  <- tibble(keyword = character(),              
@@ -162,8 +158,7 @@ library(EMLassemblyline)
                            keywordThesaurus = '')
       }
       file_keywords <- paste(dir_site[i],"/keywords.txt",sep = "")
-      file.copy(paste(dir_eal_templates,"/","keywords.txt",sep=''), file_keywords, overwrite = TRUE)
-      write.table(keywords_site, file_keywords, append = TRUE, quote = F, sep = "\t")
+      write.table(keywords_site, file_keywords, append = TRUE, quote = F, row.names = F, sep = "\t")
 
   ## write template "geographic_coverage.txt"
   #initiate tibble: geographic coverage
@@ -180,11 +175,10 @@ library(EMLassemblyline)
                                  eastBoundingCoordinate = site_lat_lon$site.longitude_deg[i],
                                  westBoundingCoordinate = site_lat_lon$site.longitude_deg[i])
       file_coverage <- paste(dir_site[i],"/geographic_coverage.txt",sep = "")
-      file.copy(paste(dir_eal_templates,"/","geographic_coverage.txt",sep=''), file_coverage, overwrite = TRUE)
-      write.table(geographic_coverage_site, file_coverage, append = TRUE, quote = F, sep = "\t")
-   } # i - loop over sites
+      write.table(geographic_coverage_site, file_coverage, append = TRUE, quote = F, row.names = F, sep = "\t")
+  } # i - loop over sites
 
-## create eal templates: attribute.txt
+  ## create eal templates: attribute.txt
   for (i in seq_along(site$site_id)) {
     file_attributes_DataValues <- paste(dir_site[i],'/attributes_',site$site_code[i],'_ODM_DataValues_table.txt',sep = "")
     file_attributes_Methods <- paste(dir_site[i],'/attributes_',site$site_code[i],'_ODM_Methods_table.txt',sep = "")
