@@ -43,7 +43,7 @@ library(EMLassemblyline)
 ## create eal templates: abstract, intellectual_rights, methods, personnel, keywords, geographic_coverage
 ## abstract.txt (include site name, acronym, station names with begin & end date)
    for (i in seq_along(site$site_id)) {
-     # select site's stations      
+      ## select site's stations, remove line for site itself (res_site_id == i)  
       site_stations <- filter(research_site, site_id == i) %>%
                         filter(!(res_site_id == i))
 # filter dates for site (for each station and observable)
@@ -114,7 +114,7 @@ library(EMLassemblyline)
                         fundingAgency = character(),
                         fundingNumber = character())
 
-# select site's stations
+# select site's stations, remove line for site itself (res_site_id == i)
       site_stations <- filter(research_site, site_id == i) %>%
                         filter(!(res_site_id == i))
 # identify personnel ids for each station      
