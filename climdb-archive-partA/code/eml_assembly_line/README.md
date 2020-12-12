@@ -16,3 +16,10 @@
 2. Some ClimDB native tables with information on sites' characteristics, personnel & stations etc.
 
 Workflow
+
+
+<h3>Comments</h3>
+
+For automated processing of all sites' EAL templates the ClimDB/HydroDB table: researchsite_sitetype.csv had to be augmented with missing data for research stations with IDs: 697, 709, 710, 711, 712.
+
+There was no geographic information for several sites. We looked those up and added them to table "climdb_site_lat_lon_working".
