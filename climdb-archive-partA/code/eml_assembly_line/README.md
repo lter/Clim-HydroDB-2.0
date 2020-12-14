@@ -23,3 +23,12 @@ Workflow
 For automated processing of all sites' EAL templates the ClimDB/HydroDB table: researchsite_sitetype.csv had to be augmented with missing data for research stations with IDs: 697, 709, 710, 711, 712.
 
 There was no geographic information for several sites. We looked those up and added them to table "climdb_site_lat_lon_working".
+
+The ClimDB roles were mapped to the EML roles
+1 -> Principal Investigator
+2 -> Creator
+3 -> Contact
+4 -> Creator
+5 -> Contact
+6 -> Associated party
+7 -> Associated party
