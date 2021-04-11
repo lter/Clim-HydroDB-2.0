@@ -9,6 +9,7 @@
   * added missing stations 697, 698, 709, 710, 711, 712 to research_site_sitetype.csv, so that processing worked.
 * **create_eml_templates_for_stations.R**
   *  Script fills metadata templates for use with the EMLAssemblyline.
+  *  Emty templates are generated at beginning and placed in ./eal_templates, in addtion to attributes for odm tables. Definition of attributes in odm tables is obtained from CUAHSI ODM 1.1 guidelines.
 * **update_datavalues.R**
 * **make_EML.R**
 
