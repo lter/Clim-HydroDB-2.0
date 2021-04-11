@@ -7,8 +7,9 @@
   * output written to “./odm_tables/AND/data_objects/AND_Sites.csv”
   * Lat/Long information needs to be corrected by sites when reviewing data in staging!
   * added missing stations 697, 698, 709, 710, 711, 712 to research_site_sitetype.csv, so that processing worked.
-* **create_site_tables.R**
-* **create_site_tables.R**
+* **update_datavalues.R**
+* **create_eml_templates_for_stations.R**
+* **make_EML.R**
 
 
 
