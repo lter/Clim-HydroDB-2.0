@@ -2,8 +2,13 @@
 
 **R scripts**
 
-* [Agenda](https://github.com/EDIorg/workshops/blob/master/Albuquerque_UNM_17-19March2020/Agenda.md)
-* [List of Participants](https://github.com/EDIorg/workshops/blob/master/Albuquerque_UNM_17-19March2020/Participants.md)
-* [Logistics](https://github.com/EDIorg/workshops/wiki/Logistics)
+* **create_site_tables.R**
+  * creates tables XXX_Sites.csv in ODM 1.1 format. XXX denotes the site code, for example AND.
+  * output written to “./odm_tables/AND/data_objects/AND_Sites.csv”
+  * Lat/Long information needs to be corrected by sites when reviewing data in staging!
+  * added missing stations 697, 698, 709, 710, 711, 712 to research_site_sitetype.csv, so that processing worked.
+* **create_site_tables.R**
+* **create_site_tables.R**
 
-**Contact: Susanne Grossman-Clarke (grossmanclar@wisc.edu) with any questions.**
+
+
