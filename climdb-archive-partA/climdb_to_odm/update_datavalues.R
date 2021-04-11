@@ -9,9 +9,11 @@ library(stringr)
 ## specify paths
   dir_climdb_tables <- "./climdb_tables"
   dir_output <- "./odm_tables"
+
 ## read climDB tables
   site <- read_csv(paste(dir_climdb_tables,"site.csv",sep="/"))
   dir_site <- character(length(site$site_id))
+
   for (i in seq_along(site$site_id)) {
 ## Output directory for site i
       dir_site_data <- paste(dir_output,'/',as.character(site$site_code[i]),'/data_objects',sep = '')
