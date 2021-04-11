@@ -3,12 +3,13 @@
 **R scripts**
 
 * **create_site_tables.R**
-  * creates tables XXX_Sites.csv in ODM 1.1 format. XXX denotes the site code, for example AND.
+  * Script creates tables XXX_Sites.csv in ODM 1.1 format. XXX denotes the site code, for example AND.
   * output written to “./odm_tables/AND/data_objects/AND_Sites.csv”
   * Lat/Long information needs to be corrected by sites when reviewing data in staging!
   * added missing stations 697, 698, 709, 710, 711, 712 to research_site_sitetype.csv, so that processing worked.
-* **update_datavalues.R**
 * **create_eml_templates_for_stations.R**
+  *  Script fills metadata templates for use with the EMLAssemblyline.
+* **update_datavalues.R**
 * **make_EML.R**
 
 
