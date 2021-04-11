@@ -11,6 +11,7 @@
   *  Script fills metadata templates for use with the EMLAssemblyline.
   *  Emty templates are generated at beginning and placed in ./eal_templates, in addtion to attributes for odm tables. Definition of attributes in odm tables is obtained from CUAHSI ODM 1.1 guidelines.
 * **update_datavalues.R**
+  * Script updates DataValues.csv table created from ClimDB/HydroDB data in ODM 1.1 format with more appropriate values for SourceCode, QualityControlLevel, MethodCode.
 * **make_EML.R**
 
 
