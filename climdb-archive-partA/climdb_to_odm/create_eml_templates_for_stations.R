@@ -43,7 +43,7 @@ library(EMLassemblyline)
 
 ## create eal templates: abstract, intellectual_rights, methods, personnel, keywords, geographic_coverage
 ## abstract.txt (include site name, acronym, station names with begin & end date)
-         for (i in seq_along(site$site_id)) {
+  for (i in seq_along(site$site_id)) {
      # select site's stations      
       site_stations <- filter(research_site, site_id == i) %>%
                         filter(!(res_site_id == i))
