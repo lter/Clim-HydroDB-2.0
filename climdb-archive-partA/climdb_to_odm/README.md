@@ -1,4 +1,4 @@
-<h2>Processing scripts for creating EML for data packages of LTER ClimDB/HydroDB tables reformatted to CUAHSI ODM 1.1 format for each site</h2>
+<h2>Processing scripts for creating EML for data packages: LTER ClimDB/HydroDB tables reformatted to CUAHSI ODM 1.1 format for each site</h2>
 
 **Pre-requisites**
 
