@@ -32,8 +32,8 @@ library(EMLassemblyline)
 ## create vector of directories for sites' eal templates
   dir_site <- character(length(site$site_id))
 
-
-  for (i in seq_along(site$site_id)) {
+for (i in seq_along(site$site_id)) {
+    
     dir_site[i] <- paste(dir_output,'/',as.character(site$site_code[i]),'/eal_templates',sep = '')
 ## create output directory for eal templates if not yet established or remove existing eal templates
     if (!dir.exists(dir_site[i])){
@@ -44,13 +44,17 @@ library(EMLassemblyline)
 
 ## create eal templates: abstract, intellectual_rights, methods, personnel, keywords, geographic_coverage
 ## abstract.txt (include site name, acronym, station names with begin & end date)
-#  for (i in seq_along(site$site_id)) {
-     # select site's stations      
+    
+for (i in seq_along(site$site_id)) {
+
+## select site's stations      
       site_stations <- filter(research_site, site_id == i) %>%
                         filter(!(res_site_id == i))
+
 ## filter dates for site (for each station and observable)
       site_dates <- filter(research_site_dates, site_id == i)
-### select stations and their SiteCodes that have values in DataValue.csv
+
+  ## select stations and their SiteCodes that have values in DataValue.csv
       dir_site_tables <- paste(dir_output,'/',as.character(site$site_code[i]),sep = '')
       dir_site_data <- paste(dir_site_tables,'/data_objects',sep='')
 if (file.exists(paste(dir_site_data,'/',as.character(site$site_code[i]),'_DataValues.csv',sep = ''))) {      
@@ -58,13 +62,15 @@ if (file.exists(paste(dir_site_data,'/',as.character(site$site_code[i]),'_DataVa
       unique_SiteCodes <- unique(data_values$SiteCode)
       unique_VariableCodes <- unique(data_values$VariableCode)
       stations <- filter(site_stations, site_stations$res_site_code %in% unique_SiteCodes)   
+
 ## select station ids for “site i"
       res_site_ids <- stations$res_site_id
+
 ## initiate character vector: station name, begin date, end date
         station_list <- character(length(stations$res_site_id))
-## fill vector with site's station name, begin date, end date: if available else no date listed   
-#      for (j in seq_along(site_stations$res_site_id)) {
-        for (j in seq_along(stations$res_site_id)) {        
+
+  ## fill vector with site's station name, begin date, end date: if available else no date listed   
+    for (j in seq_along(stations$res_site_id)) {        
           station_name <- stations$res_site_name[j]          
          station_dates <- filter(site_dates,res_site_id == as.numeric(res_site_ids[j]))
       if (!is.na(station_dates[1,1])) {
@@ -73,9 +79,11 @@ if (file.exists(paste(dir_site_data,'/',as.character(site$site_code[i]),'_DataVa
          station_list[j] <- paste("(",j,") ",toString(station_name, quote=FALSE)," (",station_first_seen,",",station_most_recent,")",sep = "")
       } else {
          station_list[j] <- paste("(",j,") ",toString(station_name, quote=FALSE),sep = "")
+  
       } # if - statement
       } # j - loop over site's stations
-      abstract_part1 <- paste("The National Science Foundation's Long-Term Ecological Research (LTER) program and many ",
+
+    abstract_part1 <- paste("The National Science Foundation's Long-Term Ecological Research (LTER) program and many ",
                               "U.S. Forest Service Experimental Research Stations collect and maintain extensive, long-term ecological databases",
                               "including streamflow and meteorological measurements.",
                               "These databases have been widely used in intersite comparisons, modeling studies, and land management-related studies. ",
@@ -83,14 +91,15 @@ if (file.exists(paste(dir_site_data,'/',as.character(site$site_code[i]),'_DataVa
                               "The database was actively maintained until approximately 2015, and received contributions from 45 contributing LTER and USFS sites. ",
                               "In 2018, it was decided that a more modern system aligned with a broader community would be more appropriate for this type of data. ",
                               "The system maintained by the Consortium of Universities for the Advancement of Hydrologic Science (CUAHSI) was chosen.")
-      abstract_part2 <- paste("This data package contains data contributed by the site ",site$site_name[i],
+    abstract_part2 <- paste("This data package contains data contributed by the site ",site$site_name[i],
                     " (",site$site_code[i],") ",
                     "to ClimDBHydroDB, which has been reformatted to the Observations Data Model (ODM) 1.1 model for contribution to the CUAHSI system. ",
                     "This package contains the six data tables required for upload to CUAHSI. ",
                     "Data are available for ",toString(length(stations$res_site_id)), " station(s): ",
                     toString(station_list, quote=FALSE),".",sep="")
-      abstract <- paste(abstract_part1,"\n","\n",abstract_part2,sep="")
-## write template "abstract.txt"
+    abstract <- paste(abstract_part1,"\n","\n",abstract_part2,sep="")
+
+  ## write template "abstract.txt"
       file_abstract <- paste(dir_site[i],"/abstract.txt",sep = "")
       fileConn<-file(file_abstract)
       writeLines(abstract, fileConn)
