@@ -34,5 +34,10 @@
 * **make_EML.R**
   *  Script runs EMLAssemblyline for each ClimDB/HydroDB site to make EML for data in ODM 1.1. format.
 
-
-
+**After R-processing**
+* Copy odm_tables in upload directory
+* Delete eml_template directories: rm -r */eal_templates
+* Rename files *_M.csv to *_Methods.csv and replace in edi.*.xml *_M.csv with *_Methods.csv (necessary bc EAL cannot handle table with name methods):
+ * for f in */data_objects/*_M.csv; do mv -- "$f" "${f%M.csv}Methods.csv"; done;
+ * for f in */edi*; do sed -i "s/_M.csv/_Methods.csv/g" "$f"; done
+* Double check with: grep -i _Methods.csv */edi*
