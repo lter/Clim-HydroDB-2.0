@@ -22,11 +22,15 @@ library(stringr)
       data_values <- read_csv(paste(dir_site_data,'/',as.character(site$site_code[i]),'_DataValues.csv',sep = ''))
       data_methods <- read_csv(paste(dir_site_data,'/',as.character(site$site_code[i]),'_M.csv',sep = ''))
       data_sources <- read_csv(paste(dir_site_data,'/',as.character(site$site_code[i]),'_Sources.csv',sep = ''))
+## Change time to ISO
+      data_values <- data_values %>%
+                     mutate(LocalDateTime = as_datetime(LocalDateTime)) %>%
+                     mutate(LocalDateTime = as.character(LocalDateTime))        
 ## Update data values table
       data_values <- data_values %>% 
                      mutate(QualityControlLevelCode=1,
 #                            SourceCode=data_sources$SourceCode[1])
-                           SourceCode=site$site_code[i])
+                     SourceCode=site$site_code[i])
       data_methods <- rename(data_methods, VariableCode = MethodDescription)
       data_values <- data_values %>% 
                      left_join(data_methods, by = "VariableCode")
