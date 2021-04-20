@@ -13,7 +13,22 @@ library(stringr)
 ## eal input parameters
     user_id  <-  'EDI'
     user_domain  <-  'EDI'
-    package_id  <-  c('edi.100.1',........) # add id for each site's package to vector of length number of ClimDB/HydroDB sites
+    package_id  <-  c('edi.680.1','edi.781.1','edi.795.1','edi.797.1','edi.761.1','edi.762.1',
+                      'edi.763.1','edi.764.1','edi.765.1','edi.766.1','edi.767.1','edi.768.1',
+                      'edi.769.1','edi.770.1','edi.771.1','edi.772.1','edi.773.1','edi.774.1',
+                      'edi.775.1','edi.776.1','edi.777.1','edi.778.1','edi.779.1','edi.780.1',
+                      'edi.727.2','edi.782.1','edi.783.1','edi.784.1','edi.785.1','edi.786.1',
+                      'edi.787.1','edi.788.1','edi.789.1','edi.790.1','edi.791.1','edi.792.1',
+                      'edi.793.1','edi.794.1','edi.728.2','edi.796.1','edi.729.2','edi.798.1',
+                      'edi.799.1','edi.800.1','edi.801.1','edi.802.1','edi.803.1','edi.804.1',
+                      'edi.805.1','edi.806.1','edi.807.1','edi.808.1','edi.809.1','edi.810.1',
+                      'edi.811.1','edi.812.1','edi.813.1','edi.814.1','edi.815.1','edi.816.1') 
+# site$site_code
+#    [1] "AND" "ARC" "BES" "BNZ" "CAS" "CDR" "CWT" "ENT" "FER" "FLE" "FRA" "GLA" "GRE" "HBR"
+#    [15] "HFR" "HOR" "JRN" "KBS" "KNZ" "LUQ" "MAR" "MCM" "LNO" "NEV" "NTL" "NWT" "PAL" "PIE"
+#    [29] "PIN" "PRI" "SDF" "SEV" "SGS" "SIE" "SIL" "SNT" "TEN" "VCR" "FCE" "GCE" "SBC" "CAP"
+#    [43] "FEM" "CBE" "UMA" "MEF" "KEW" "MEW" "YEF" "SWS" "TAE" "TTC" "FSH" "HAE" "SER" "WRC"
+#    [57] "LHC" "MCR" "CCE" "OLY"    
     maintenance_description  <-  'completed'
     data_table_description <- c('Variable definitions',
                                 'Values and variable names in long format',
