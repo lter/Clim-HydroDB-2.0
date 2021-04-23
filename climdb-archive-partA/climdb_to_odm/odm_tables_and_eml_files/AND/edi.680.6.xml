@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.680.6" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Weather and hydrological data formatted to ODM 1.1 for H.J. Andrews Experimental Forest, archived from ClimDB/HydroDB (1949 to 2020)</title>
+    <creator>
+      <individualName>
+        <surName>H.J. Andrews Experimental Forest LTER</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Greenland</surName>
+      </individualName>
+      <electronicMailAddress>greenlan@lsu.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Don</givenName>
+        <surName>Henshaw</surName>
+      </individualName>
+      <organizationName>USDAForestService;ForestrySciencesLaboratory;3200SWJeffersonWay</organizationName>
+      <electronicMailAddress>don.henshaw@oregonstate.edu</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Fred</givenName>
+        <surName>Swanson</surName>
+      </individualName>
+      <organizationName>USDAForestService;ForestrySciencesLaboratory;3200SWJeffersonWay</organizationName>
+      <electronicMailAddress>fred.swanson@orst.edu</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Julia</givenName>
+        <givenName>A.</givenName>
+        <surName>Jones</surName>
+      </individualName>
+      <organizationName>OregonStateUniversity;Depn.tofGeosciences;WilkinsonHall104</organizationName>
+      <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Sherri</givenName>
+        <surName>Johnson</surName>
+      </individualName>
+      <electronicMailAddress>johnsons@fsl.orst.edu</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Theresa</givenName>
+        <surName>Valentine</surName>
+      </individualName>
+      <electronicMailAddress>theresa.valentine@oregonstate.edu</electronicMailAddress>
+      <role>Associated Party</role>
+    </associatedParty>
+    <pubDate>2021-04-18</pubDate>
+    <abstract>
+      <para>The National Science Foundation's Long-Term Ecological Research (LTER) program and many  U.S. Forest Service Experimental Research Stations collect and maintain extensive, long-term ecological databases including streamflow and meteorological measurements. These databases have been widely used in intersite comparisons, modeling studies, and land management-related studies.  Intersite research was facilitated by a centralized database called Climate and Hydrology Database Projects (CLIMDB/HYDRODB), initiated in 1998.  The database was actively maintained until approximately 2015, and received contributions from 45 contributing LTER and USFS sites.  In 2018, it was decided that a more modern system aligned with a broader community would be more appropriate for this type of data.  The system maintained by the Consortium of Universities for the Advancement of Hydrologic Science (CUAHSI) was chosen.</para>
+      <para>This data package contains data contributed by the site H.J. Andrews Experimental Forest (AND) to ClimDBHydroDB, which has been reformatted to the Observations Data Model (ODM) 1.1 model for contribution to the CUAHSI system. This package contains the six data tables required for upload to CUAHSI. Data are available for 16 station(s): (1) Climatic Station at WS#2 (1957,2016), (2) Primary Meteorological Station (1972,2016), (3) GSWS01 (1952,2016), (4) GSWS02 (1952,2016), (5) GSWS03 (1952,2016), (6) GSWS06 (1963,2016), (7) GSWS07 (1963,2016), (8) GSWS08 (1963,2016), (9) GSWS09 (1968,2016), (10) GSWS10 (1968,2016), (11) Mack Creek Gauging Station (1979,2016), (12) Lookout Creek Gauging Station (USGS 14161500) (1949,2020), (13) Central Meteorological Station (1995,2016), (14) Hi-15 Meteorological Station (1963,2016), (15) Upper Lookout Meteorological Station (1994,2016), (16) Vanilla Leaf Meteorological Station (1987,2016).&#13;
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>LTER ClimDB/HydroDB</keyword>
+      <keyword>H.J. Andrews Experimental Forest</keyword>
+      <keyword>Observations Data Model (ODM) 1.1</keyword>
+      <keyword>Temperature dew point</keyword>
+      <keyword>Global radiation</keyword>
+      <keyword>Precipitation</keyword>
+      <keyword>Relative humidity</keyword>
+      <keyword>Soil water content</keyword>
+      <keyword>Soil temperature</keyword>
+      <keyword>Air temperature</keyword>
+      <keyword>Wind direction</keyword>
+      <keyword>Surface water temperature</keyword>
+      <keyword>Wind speed</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This data package is released to the \"public domain\" under Creative Commons CC0 1.0 \"No Rights Reserved\" (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered professional etiquette to provide attribution of the original work if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website https://portal.edirepository.org (herein \"website\") in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available \"as is\" and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>AND</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.2</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.2</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.2</northBoundingCoordinate>
+          <southBoundingCoordinate>44.2</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1949-10-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020-08-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Don</givenName>
+        <surName>Henshaw</surName>
+      </individualName>
+      <organizationName>USDAForestService;ForestrySciencesLaboratory;3200SWJeffersonWay</organizationName>
+      <electronicMailAddress>don.henshaw@oregonstate.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Suzanne</givenName>
+        <givenName>M.</givenName>
+        <surName>Remillard</surName>
+      </individualName>
+      <organizationName>ForestrySciencesLaboratory;3200SWJeffersonWay</organizationName>
+      <electronicMailAddress>suzanne.remillard@oregonstate.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>The data were extracted from the ClimDB/HydroDB database with SQL statements and converted into tables conforming to Observations Data Model (ODM) 1.1. Export and EML creation scripts can be found at https://github.com/lter/Clim-HydroDB-2.0. Appropriate text metadata (not available from ClimDB/HydroDB) was added, including abstract, these extraction methods, keywords, and geographic coverage (if missing from ClimDB/HydroDB).&#13;
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>Variables</entityName>
+      <entityDescription>Variable definitions</entityDescription>
+      <physical>
+        <objectName>AND_Variables.csv</objectName>
+        <size unit="bytes">2066</size>
+        <authentication method="MD5">dcb58a13243b60ff4cfe052730c7e3f3</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>VariableCode</attributeName>
+          <attributeDefinition>User or organization-defined code to describe the variable. If for example, you are measuring streamflow, you may name this SF.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>User or organization-defined code to describe the variable. If for example, you are measuring streamflow, you may name this SF.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>VariableName</attributeName>
+          <attributeDefinition>Full text name of the variable that was measured, observed, modeled, etc. Example: Streamflow. Choose from the Variable Name controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=VariableNameCV&amp;id=1157579162</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Full text name of the variable that was measured, observed, modeled, etc. Example: Streamflow. Choose from the Variable Name controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=VariableNameCV&amp;id=1157579162</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>VariableUnitsName</attributeName>
+          <attributeDefinition>The name of units of the data values associated with a variable. Example: degree. Choose from the Units controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=Units&amp;id=1125579048</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The name of units of the data values associated with a variable. Example: degree. Choose from the Units controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=Units&amp;id=1125579048</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DataType</attributeName>
+          <attributeDefinition>The recorded value over the time interval being sampled. Example: average. Choose from the DataType controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=DataTypeCV&amp;id=789577851</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The recorded value over the time interval being sampled. Example: average. Choose from the DataType controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=DataTypeCV&amp;id=789577851</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SampleMedium</attributeName>
+          <attributeDefinition>The medium in which the sample or observation was taken or made. Example: Surface water. Choose from the SampleMedium controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=SampleMediumCV&amp;id=821577965</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The medium in which the sample or observation was taken or made. Example: Surface water. Choose from the SampleMedium controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=SampleMediumCV&amp;id=821577965</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ValueType</attributeName>
+          <attributeDefinition>Text value indicating what type of data value is being recorded. Example: Field Observation. Choose from the ValueType controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=ValueTypeCV&amp;id=1141579105</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Text value indicating what type of data value is being recorded. Example: Field Observation. Choose from the ValueType controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=ValueTypeCV&amp;id=1141579105</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>IsRegular</attributeName>
+          <attributeDefinition>Value indicates whether the data values are from a regularly sampled time series. Choose TRUE or FALSE.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Value indicates whether the data values are from a regularly sampled time series. Choose TRUE or FALSE.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TimeSupport</attributeName>
+          <attributeDefinition>Numerical value that indicates the time support (or temporal footprint) of the data values. 0 is used to indicate data values that are instantaneous. Other values indicate the time over which the data values are implicitly or explicitly averaged or aggregated. The Timesupport goes along with TimeUnitsName if IsRegularlyMeasured = TRUE.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Numerical value that indicates the time support (or temporal footprint) of the data values. 0 is used to indicate data values that are instantaneous. Other values indicate the time over which the data values are implicitly or explicitly averaged or aggregated. The Timesupport goes along with TimeUnitsName if IsRegularlyMeasured = TRUE.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TimeUnitsName</attributeName>
+          <attributeDefinition>The name of units of the time support. If TimeSupport is 0, indicating an instantaneous observation, a unit needs to still be given for completeness, although it is somewhat arbitrary. Choose from the Units controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=Units&amp;id=1125579048</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The name of units of the time support. If TimeSupport is 0, indicating an instantaneous observation, a unit needs to still be given for completeness, although it is somewhat arbitrary. Choose from the Units controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=Units&amp;id=1125579048</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GeneralCategory</attributeName>
+          <attributeDefinition>General category of data. Example: Hydrology. Choose from the GeneralCategory controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=GeneralCategoryCV&amp;id=805577908</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>General category of data. Example: Hydrology. Choose from the GeneralCategory controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=GeneralCategoryCV&amp;id=805577908</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NoDataValue</attributeName>
+          <attributeDefinition>Numeric value used to encode no data values for this variable. When formatting the Data Values table, use this number to indicate no data value was measured.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Numeric value used to encode no data values for this variable. When formatting the Data Values table, use this number to indicate no data value was measured.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>22</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>DataValue</entityName>
+      <entityDescription>Values and variable names in long format</entityDescription>
+      <physical>
+        <objectName>AND_DataValues.csv</objectName>
+        <size unit="bytes">42467483</size>
+        <authentication method="MD5">20a658488cd7b3191ff683257ea05ba5</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>DataValue</attributeName>
+          <attributeDefinition>The numeric value of the observation. For Categorical variables, a number is stored here. The Variables table has DataType as Categorical and the Categories table maps from the DataValue onto Category Description.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-23.7</minimum>
+                  <maximum exclusive="false">138469.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LocalDateTime</attributeName>
+          <attributeDefinition>Local date and time at which the data value was observed. Represented in an implementation specific format.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UTCOffset</attributeName>
+          <attributeDefinition>Offset in hours from UTC time of the corresponding LocalDateTime value.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalHour</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DateTimeUTC</attributeName>
+          <attributeDefinition>Universal UTC date and time at which the data value was observed. Represented in an implementation specific format.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteCode</attributeName>
+          <attributeDefinition>Code used by organization that collects the data to identify the site.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code used by organization that collects the data to identify the site.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>VariableCode</attributeName>
+          <attributeDefinition>Code used by the organization that collects the data to identify the variable.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code used by the organization that collects the data to identify the variable.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MethodCode</attributeName>
+          <attributeDefinition>Code used by the organization that collects the data to identify the Method, which is defined in the Methods table.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code used by the organization that collects the data to identify the Method, which is defined in the Methods table.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SourceCode</attributeName>
+          <attributeDefinition>Code used by the organization that collects the data to identify the source, which is defined in the Sources table.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code used by the organization that collects the data to identify the source, which is defined in the Sources table.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>QualityControlLevelCode</attributeName>
+          <attributeDefinition>Code which identifies the level of quality control that the value has been subjected to. This references the QualityControlLevels table.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code which identifies the level of quality control that the value has been subjected to. This references the QualityControlLevels table.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>755476</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>QualityControlLevels</entityName>
+      <entityDescription>Quality control levels</entityDescription>
+      <physical>
+        <objectName>AND_QualityControlLevels.csv</objectName>
+        <size unit="bytes">1627</size>
+        <authentication method="MD5">ba3a5cdd6844ffe91e5125364c3599ce</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>QualityControlLevelCode</attributeName>
+          <attributeDefinition>Code used to identify the level of quality control to which data values have been subjected.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code used to identify the level of quality control to which data values have been subjected.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Definition</attributeName>
+          <attributeDefinition>Definition of Quality Control Level</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Definition of Quality Control Level</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Explanation</attributeName>
+          <attributeDefinition>Explanation of Quality Control Level</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Explanation of Quality Control Level</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>6</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Sites</entityName>
+      <entityDescription>Site description and lat longs</entityDescription>
+      <physical>
+        <objectName>AND_Sites.csv</objectName>
+        <size unit="bytes">829</size>
+        <authentication method="MD5">a96877fb7dc0da5cafd230e1f4bbef20</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SiteCode</attributeName>
+          <attributeDefinition>User or organization-defined code that collects the data to identify the site.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>User or organization-defined code that collects the data to identify the site.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteName</attributeName>
+          <attributeDefinition>Full name of the sampling site.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Full name of the sampling site.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>Latitude in decimal degrees.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">44.2</minimum>
+                  <maximum exclusive="false">44.2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>Longitude in decimal degrees. East positive, West negative.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-122.2</minimum>
+                  <maximum exclusive="false">-122.2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LatLongDatumSRSName</attributeName>
+          <attributeDefinition>Full text name of the spatial reference system of the latitude and longitude coordinates in the SpatialReferences table. This should be from the SpatialReferences controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=SpatialReferences&amp;id=869578136</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Full text name of the spatial reference system of the latitude and longitude coordinates in the SpatialReferences table. This should be from the SpatialReferences controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=SpatialReferences&amp;id=869578136</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteType</attributeName>
+          <attributeDefinition>The type of site. This should be from the SiteType controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=SiteTypeCV&amp;id=853578079</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The type of site. This should be from the SiteType controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=SiteTypeCV&amp;id=853578079</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeDefinition>Comments related to the site.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments related to the site.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>16</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Methods</entityName>
+      <entityDescription>Methods</entityDescription>
+      <physical>
+        <objectName>AND_Methods.csv</objectName>
+        <size unit="bytes">788</size>
+        <authentication method="MD5">44eb55766a805720be8fdb4e69bcf5bf</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>MethodCode</attributeName>
+          <attributeDefinition>User or organization-defined code that collects the data to identify the method used for measurement</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>User or organization-defined code that collects the data to identify the method used for measurement</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MethodDescription</attributeName>
+          <attributeDefinition>Text description of each method.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Text description of each method.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MethodLink</attributeName>
+          <attributeDefinition>Link to additional reference material on the method.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Link to additional reference material on the method.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>20</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Sources</entityName>
+      <entityDescription>Research project providing these data</entityDescription>
+      <physical>
+        <objectName>AND_Sources.csv</objectName>
+        <size unit="bytes">264</size>
+        <authentication method="MD5">db066f9a74a2dfb21678b5118582d79c</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SourceCode</attributeName>
+          <attributeDefinition>Code used to identify the organization that created the data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code used to identify the organization that created the data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Organization</attributeName>
+          <attributeDefinition>Name of the organization that collected the data. This should be the agency or organization that collected the data, even if it came out of a database consolidated from many sources.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the organization that collected the data. This should be the agency or organization that collected the data, even if it came out of a database consolidated from many sources.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SourceDescription</attributeName>
+          <attributeDefinition>Full text description of the source of the data.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Full text description of the source of the data.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SourceLink</attributeName>
+          <attributeDefinition>Link that can be pointed at the original data file and/or associated metadata stored in the digital library or URL of data source.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Link that can be pointed at the original data file and/or associated metadata stored in the digital library or URL of data source.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ContactName</attributeName>
+          <attributeDefinition>Name of the contact person for the data source</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the contact person for the data source</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Email</attributeName>
+          <attributeDefinition>Email address for the contact person</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Email address for the contact person</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Citation</attributeName>
+          <attributeDefinition>Text string that give the citation to be used when the data from each source are reference</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Text string that give the citation to be used when the data from each source are reference</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>
