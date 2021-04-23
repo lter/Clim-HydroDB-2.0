@@ -1,0 +1,14 @@
+keyword	keywordThesaurus
+LTER ClimDB/HydroDB	
+H.J. Andrews Experimental Forest	
+Observations Data Model (ODM) 1.1	
+Temperature dew point	
+Global radiation	
+Precipitation	
+Relative humidity	
+Soil water content	
+Soil temperature	
+Air temperature	
+Wind direction	
+Surface water temperature	
+Wind speed	

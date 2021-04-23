@@ -1,0 +1,10 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+		H.J. Andrews Experimental Forest LTER				Creator			
+David		Greenland		greenlan@lsu.edu		Creator			
+Don		Henshaw	USDAForestService;ForestrySciencesLaboratory;3200SWJeffersonWay	don.henshaw@oregonstate.edu		Principal Investigator			
+Don		Henshaw	USDAForestService;ForestrySciencesLaboratory;3200SWJeffersonWay	don.henshaw@oregonstate.edu		Contact			
+Fred		Swanson	USDAForestService;ForestrySciencesLaboratory;3200SWJeffersonWay	fred.swanson@orst.edu		Principal Investigator			
+Julia	A.	Jones	OregonStateUniversity;Depn.tofGeosciences;WilkinsonHall104	jonesj@geo.oregonstate.edu		Principal Investigator			
+Sherri		Johnson		johnsons@fsl.orst.edu		Principal Investigator			
+Suzanne	M.	Remillard	ForestrySciencesLaboratory;3200SWJeffersonWay	suzanne.remillard@oregonstate.edu		Contact			
+Theresa		Valentine		theresa.valentine@oregonstate.edu		Associated party			
