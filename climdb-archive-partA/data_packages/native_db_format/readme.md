@@ -4,7 +4,9 @@ Package will be edi.605. Contents:
 - 23 tables
 - one EML file 
 - ERD
-- possibly some text documentation (pdfs)
+- DDL (SQL to create the original tables)
+- User Guide
+- text documentation and presentation (zipped, pdfs)
 
 
 Directory contents:
