@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+res_site_id	DB identifier for research site (xref to research_site table)	character				
+site_id	DB identifier for contributing site 	character				
+site_code	Contributing site code	character				
+station	Research site code	character				
+variable	Variable collected	categorical				
+first_seen	Date first collected	Date		YYYY-MM-DDThh:mm:ss.sssZ		
+most_recent	Date most recently collected	Date		YYYY-MM-DDThh:mm:ss.sssZ		
+last_update	Date this record updated	Date		YYYY-MM-DDThh:mm:ss.sssZ		

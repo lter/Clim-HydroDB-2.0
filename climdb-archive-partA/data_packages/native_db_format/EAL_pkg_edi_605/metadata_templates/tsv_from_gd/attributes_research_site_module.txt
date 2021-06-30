@@ -1,0 +1,3 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+res_site_id	DB identifier for research site (xref to research_site table)	character				
+res_module_id	DB identifier for research site (xref to research_module table)	character				

@@ -1,0 +1,16 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+personnel_id	DB identifier, for linking between tables 	character				
+last_name	surname of person	character				
+first_name	first name of person	character				
+middle_name	middle name or initial	character			true	Not Available
+address	street address	character			true	Not Available
+city	city	character			true	Not Available
+state	State	character			true	Not Available
+postal_code	zip or postal code 	character			true	Not Available
+country	Country	character			true	Not Available
+telephone1	Primary telephone number 	character			true	Not Available
+telephone2	Second telephone number	character			true	Not Available
+email1	Primary email address	character			true	Not Available
+email2	Second email address	character			true	Not Available
+fax1	Primary fax number	character			true	Not Available
+fax2	Second fax number	character			true	Not Available

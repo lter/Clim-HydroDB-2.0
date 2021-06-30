@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+res_site_id	DB identifier for a research site	character				
+site_id	DB identifier for a research site	character				
+res_site_parent_id	DB identifier for a research site	character			TRUE	Not Available
+res_site_code	Code for the research site	character				
+res_site_name	Name of the research site	character			TRUE	Not Available

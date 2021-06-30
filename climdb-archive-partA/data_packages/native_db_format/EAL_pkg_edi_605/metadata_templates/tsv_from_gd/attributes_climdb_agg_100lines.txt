@@ -1,0 +1,13 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+res_site_id	DB Indentifier for research site (xref to research_site table)	character				
+site_id	DB Indentifier for contributing site	character				
+site_code	code for contributing site	character				
+station	name of sampling site	character				
+variable	Variable sampled (xref to climdb_variables table)	categorical				
+year	Year (of aggregated value)	numeric	dimensionless			
+month	Month (of aggregated value)	numeric	dimensionless			
+aggregate_type	Aggregation type (xref to aggregation_type table)	character				
+value	measured value for this variable	character			true	Not Available
+num_get	TO_DO CONFIRM: appears to be a count of values that went into the aggregate 	numeric	dimensionless			
+num_e	TO_DO CONFIRM: appears to be a count of values excluded from the aggregate 	numeric	dimensionless			
+last_update	Date record was last updated	Date		YYYY-MM-DDThh:mm:ss.sssZ	true	Not Available

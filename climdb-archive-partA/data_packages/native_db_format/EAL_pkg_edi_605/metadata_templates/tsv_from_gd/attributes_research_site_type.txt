@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+res_sitetype_id	DB identifier	character				
+res_sitetype_name	coded name for the research site's type	character				
+res_sitetype_desc	description of this type (e.g., watershed or gauging/met station)	character				

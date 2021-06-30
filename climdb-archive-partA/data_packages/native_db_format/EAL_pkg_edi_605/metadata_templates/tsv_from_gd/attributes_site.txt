@@ -1,0 +1,12 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site_id	DB identifier for the site	character				
+site_code	3-letter code for site	character				
+site_name	Site Name	character			TRUE	Not Available
+loc1	location of site (usually near by town or city)	character			TRUE	Not Available
+loc2	location of site (usually state or other adminstrative area)	character			TRUE	Not Available
+latitude_dec	nomimln latitude for site	numeric	degree		TRUE	Not Available
+longitude_dec	nominal longitude for site	numeric	degree		TRUE	Not Available
+hydro_data_url	URL for harvesting site's hydrology data	character			TRUE	Not Available
+clim_data_url	URL for harvesting site's meteorology data	character			TRUE	Not Available
+usgs_data_url	URL for harvesting site's data provided by USGS	character			TRUE	Not Available
+site_url	Site URL	character			TRUE	Not Available

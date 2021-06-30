@@ -1,0 +1,23 @@
+attributeName	code	definition
+variable	ATM	DAILY_ATMPRESSURE_MEAN_HPA, Atmospheric Pressure
+variable	DEW	DAILY_DEWPOINT_MEAN_C, Dewpoint Temperature
+variable	DSCH	DAILY_DISCHARGE_MEAN_LPS, Stream Discharge
+variable	GRAD	DAILY_GLOBALRAD_TOTAL_MJM2, Global Radiation
+variable	PREC	DAILY_PRECIP_TOTAL_MM, Precipitation
+variable	RH	DAILY_RH_MEAN_PCT, Relative Humidity
+variable	RWDI	DAILY_RESWINDDIR_MEAN_DEG, Resultant Wind Direction
+variable	RWSP	DAILY_RESWINDSP_MEAN_MSEC, Resultant Wind Speed
+variable	SM	DAILY_SOILMOISTURE_MEAN_MPA, Soil Moisture
+variable	SMAX	DAILY_SOILTEMP_ABSMAX_C, Soil Temperature
+variable	SMEA	DAILY_SOILTEMP_MEAN_C, Soil Temperature
+variable	SMIN	DAILY_SOILTEMP_ABSMIN_C, Soil Temperature
+variable	SNOW	DAILY_SNOWH2O_INSTANT_MM, Snow Depth
+variable	TMAX	DAILY_AIRTEMP_ABSMAX_C, Air Temperature
+variable	TMEA	DAILY_AIRTEMP_MEAN_C, Air Temperature
+variable	TMIN	DAILY_AIRTEMP_ABSMIN_C, Air Temperature
+variable	VAP	DAILY_VAPPRESSURE_MEAN_HPA, Water Vapor Pressure
+variable	WDIR	DAILY_WINDDIR_MEAN_DEG, Wind Direction
+variable	WMAX	DAILY_WATERTEMP_ABSMAX_C, Water Temperature
+variable	WMEA	DAILY_WATERTEMP_MEAN_C, Water Temperature
+variable	WMIN	DAILY_WATERTEMP_ABSMIN_C, Water Temperature
+variable	WSP	DAILY_WINDSP_MEAN_MSEC, Wind Speed

@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+res_site_id	DB identifier for research site (xref to research_site table)	character				
+site_id	DB identifier for research site (xref to research_site table)	character				
+descriptor_type_id	DB identifier for research site (xref to research_site table)	character				
+descriptor_value	Descriptor value	character			TRUE	Not Available
+last_update	Date of last change to value	Date		YYYY-MM-DDThh:mm:ss.sssZ	TRUE	Not Available

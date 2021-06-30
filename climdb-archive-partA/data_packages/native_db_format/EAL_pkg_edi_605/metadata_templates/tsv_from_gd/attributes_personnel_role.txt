@@ -1,0 +1,3 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+personnel_role_id	DB identifier for role	character				
+personnel_role_desc	Description of role	character				

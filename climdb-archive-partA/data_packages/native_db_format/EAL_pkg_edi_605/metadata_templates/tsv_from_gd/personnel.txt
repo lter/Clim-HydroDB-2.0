@@ -1,0 +1,6 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Don	Z	Henshaw	Oregon State University	don@example.com	0000-0000-0000-0000	creator			
+Suzanne	Z	Remillard	Oregon State University	don@example.com	0000-0000-0000-0000	creator			
+Organization lead			Environmental Data Initiative	info@environmentaldatainitiative.org		contact			
+Corinna		Gries	University of Wisconsin	info@environmentaldatainitiative.org	0000-0000-0000-0000	PI	Environmental Data Initiative	NSF	1931174
+Mark		Servilla	University of New Mexico	info@environmentaldatainitiative.org	0000-0000-0000-0000	PI	Environmental Data Initiative	NSF	1931143

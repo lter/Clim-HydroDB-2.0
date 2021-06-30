@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site_id	DB identifier for site (xref to site table)	character				
+personnel_id	DB identifier for person (xref to personnel table)	character				
+personnel_role_id	DB identifier for preson's role (xref to personnel_role table)	character				
+res_module_id	DB identifier for research module associated with that person (xref to research_module table)	character				

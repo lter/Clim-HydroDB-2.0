@@ -1,0 +1,14 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+variable_name	Variable name	character				
+variable	Variable code (table PK)	categorical				
+fullname	Variable name, full version	character			TRUE	Not Available
+aggregate_mean	Boolean (Y/N) indicating whether this variable has an aggregate mean calculated	character				
+aggregate_total	Boolean (Y/N) indicating whether this variable has an aggregate total calculated	character				
+aggregate_min	Boolean (Y/N) indicating whether this variable has an aggregate minimum calculated	character				
+aggregate_max	Boolean (Y/N) indicating whether this variable has an aggregate maximum calculated	character				
+qc_min	Minimum acceptable value for an entry using this variable	character			TRUE	Not Available
+qc_max	Maximum acceptable value for an entry using this variable	character			TRUE	Not Available
+descriptor_category_id	DB identifier for descriptor category (xref to descriptor_category table)	character				
+unit_desc	Unit description (English)	character			TRUE	Not Available
+unit	Unit code	character			TRUE	Not Available
+decimals	Number of decimal places for values	numeric	number		TRUE	Not Available

@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+descriptor_category_id	DB identifier for descriptor category	character				
+descriptor_category_name	Name of the descriptor category	character			TRUE	Not Available
+descriptor_category_desc	definition of the descriptor	character			TRUE	Not Available
+descriptor_order	order in which descriptors should be presented	numeric	number		TRUE	Not Available

@@ -1,0 +1,4 @@
+attributeName	code	definition
+descriptor_type_length	s	TO DO
+descriptor_type_length  m       TO DO
+descriptor_type_length  l       TO DO

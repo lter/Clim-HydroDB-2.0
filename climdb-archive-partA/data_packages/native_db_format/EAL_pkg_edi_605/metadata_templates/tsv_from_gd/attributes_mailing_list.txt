@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+mailing_list_id	DB identifier for the mailing list	character				
+mailing_list_name	name of the mailing list	character				
+mailing_list_address	email address for the list	character				
+mailing_list_desc	description of the list	character			true	Not Available

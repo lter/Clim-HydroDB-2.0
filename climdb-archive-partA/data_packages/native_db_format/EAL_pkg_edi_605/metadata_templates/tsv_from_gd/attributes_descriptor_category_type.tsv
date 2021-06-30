@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+descriptor_category_id	DB identifier for descriptor_category	character				
+descriptor_type_id	DB identifier for descriptor_type	character				
+type_order	TO_DO	int	number			

@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+res_site_id	DB Indentifier for research site (xref to research_site table)	character				
+site_id	DB Indentifier for contributing site	character				
+site_code	code for contributing site	character				
+station	name of sampling site	character				
+sampledate	date variable-value was collected	Date		YYYY-MM-DDThh:mm:ss.sssZ		
+variable	Variable sampled (xref to climdb_variables table)	categorical				
+value	measured value for this variable	character			true	Not Available
+flag	Flag code for measured value (see User_Guide.pdf)	character			true	Not Available
+last_update	Date record was last updated	Date		YYYY-MM-DDThh:mm:ss.sssZ	true	Not Available

@@ -1,0 +1,7 @@
+keyword	keywordThesaurus
+ClimHydroDB
+LTER
+US Forest Service
+bog	https://vocab.lternet.edu/
+peatland	https://vocab.lternet.edu/
+vascular plants	https://vocab.lternet.edu/
