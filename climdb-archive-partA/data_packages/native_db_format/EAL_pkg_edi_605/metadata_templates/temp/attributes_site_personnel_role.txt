@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+site_id	TO_DO	numeric	TO_DO	TO_DO	false	Not Available
+personnel_id	TO_DO	numeric	TO_DO	TO_DO	false	Not Available
+personnel_role_id	TO_DO	numeric	TO_DO	TO_DO	false	Not Available
+res_module_id	TO_DO	numeric	TO_DO	TO_DO	false	Not Available

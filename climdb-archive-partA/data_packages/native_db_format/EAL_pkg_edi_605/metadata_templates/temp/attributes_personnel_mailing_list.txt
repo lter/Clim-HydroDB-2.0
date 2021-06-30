@@ -1,0 +1,3 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+mailing_list_id	TO_DO	numeric	TO_DO	TO_DO	false	Not Available
+personnel_id	TO_DO	numeric	TO_DO	TO_DO	false	Not Available

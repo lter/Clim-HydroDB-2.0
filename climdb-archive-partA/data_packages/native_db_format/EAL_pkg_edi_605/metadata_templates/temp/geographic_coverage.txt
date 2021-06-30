@@ -1,0 +1,6 @@
+geographicDescription	northBoundingCoordinate	southBoundingCoordinate	eastBoundingCoordinate	westBoundingCoordinate
+Moorea Coral Reef LTER	0	0	0	0
+Santa Barbara Coastal LTER	0	0	0	0
+US Virgin Islands LTREB	0	0	0	0
+Maui, US Hawaiian Islands	0	0	0	0
+Florida Keys	0	0	0	0

@@ -1,0 +1,5 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+mailing_list_id	TO_DO	numeric	TO_DO	TO_DO	false	Not Available
+mailing_list_name	TO_DO	char	TO_DO	TO_DO	false	Not Available
+mailing_list_address	TO_DO	char	TO_DO	TO_DO	false	Not Available
+mailing_list_desc	TO_DO	char	TO_DO	TO_DO	true	Not Available

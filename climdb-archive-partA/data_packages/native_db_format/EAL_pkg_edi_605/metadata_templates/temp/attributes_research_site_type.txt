@@ -1,0 +1,4 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+res_sitetype_id	TO_DO	numeric	TO_DO	TO_DO	false	Not Available
+res_sitetype_name	TO_DO	char	TO_DO	TO_DO	true	Not Available
+res_sitetype_desc	TO_DO	char	TO_DO	TO_DO	true	Not Available
