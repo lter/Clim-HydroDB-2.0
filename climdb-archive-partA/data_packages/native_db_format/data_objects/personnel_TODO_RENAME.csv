@@ -28,8 +28,7 @@
 "28","Garritt ","Robert","Hap","Marine Biological Lab; Ecosystems Center","Woods Hole","MA","02543","USA","508-289-7485","","hgarritt@mbl.edu","","508-457-1548",""
 "29","Ryan","Doug"," ","","","","","USA","","","dryan01@fs.fed.us","","",""
 "30","Hom","John"," ","","","","","USA","","","jhom@fs.fed.us","","",""
-"31","Jones","Julia","A.","Oregon State University;Depn.t of Geosciences;Wilkinson Hall 104                                                                                                ","Corvallis","OR","97331-5506       ","USA","(541) 737-1224   ","","jonesj@geo.oregonstate.edu
-","","(541) 737-1200 ",""
+"31","Jones","Julia","A.","Oregon State University;Dept of Geosciences;Wilkinson Hall 104","Corvallis","OR","97331-5506","USA","(541) 737-1224","","jonesj@geo.oregonstate.edu","","(541) 737-1200 ",""
 "32","Eads","Rand"," ","USDA Forest Service; Redwood Sciences Laboratory; 1700 Bayview Drive","Arcata","CA","95521","USA","707-825-2925","707-825-2900","reads@fs.fed.us","","707-825-2901",""
 "33","Remillard","Suzanne","M.","Forestry Sciences Laboratory; 3200 SW Jefferson Way","Corvallis","OR","97331","USA","541-758-8767","","suzanne.remillard@oregonstate.edu","","541-758-7760",""
 "34","Lewis","Jack"," ","USDA Forest Service; Redwood Sciences Laboratory; 1700 Bayview Drive","Arcata","CA","95521","USA","707-825-2929","707-825-2900","jlewis01@fs.fed.us","","707-825-2901",""
@@ -46,53 +45,42 @@
 "45","Kaplan","Nicole","E.","","","","","USA","","","nicole.kaplan@colostate.edu","","",""
 "46","King ","G.","John","Rocky Mountain Research Station; 316 E. Myrtle St.","Boise","ID","83702","USA","208-373-4384","","jgking@fs.fed.us","","208-373-4391",""
 "47","Gerhardt","Nick","","Nez Perce National Forest; Rt. 2 Box 475","Grangeville","ID","83530","USA","208-983-1950 x5154","","ngerhardt@fs.fed.us","","208-983-4099",""
-"48","Anderson                                     ","John                     ","","","","","","USA","","","janderso@jornada.nmsu.edu                         ","","",""
-"49","Baker","Karen","S.                       ","                                                                                                                                                                ","","","","USA","","","kbaker@ucsd.edu                                   ","","",""
-"50","Benson","Barbara","","","","","","USA","","","bjbenson@facstaff.wisc.edu                        ","","",""
-"51","Boose","Emery","","","","","","USA","","","boose@fas.harvard.edu                             ","","",""
-"52","Gao","Jincheng","","","","","","USA","","","jcgao@ksu.edu                                  ","","",""
-"53","Brunt","James","","","","","","USA","","","jbrunt@unm.edu                                ","","",""
-"54","Laundre ","Jim                      ","","The Ecosystems Center, Marine Biological Laboratory, 7 MBL St.
-","Woods Hole","MA","02543","USA","508 289 7476","","jiml@mbl.edu                                      ","","508-457-1548
-",""
-"55","Melendez-Colom","Eda","","Institute for Tropical Ecosystem Studies, University of Puerto Rico, P.O. Box 363682","San Juan ","PR","00936-3682","USA","787-767-0334,0350","","emelendez@lternet.edu                    ","","",""
-"56","Porter                                       ","John                     ","","","","","","USA","","","jhp7e@virginia.edu                                ","","",""
-"57","Ramsey                                       ","Ken                      ","","","","","","USA","","","keramsey@nmsu.edu                                 ","","",""
+"48","Anderson","John","","","","","","USA","","","janderso@jornada.nmsu.edu","","",""
+"49","Baker","Karen","S."," ","","","","USA","","","kbaker@ucsd.edu","","",""
+"50","Benson","Barbara","","","","","","USA","","","bjbenson@facstaff.wisc.edu","","",""
+"51","Boose","Emery","","","","","","USA","","","boose@fas.harvard.edu","","",""
+"52","Gao","Jincheng","","","","","","USA","","","jcgao@ksu.edu","","",""
+"53","Brunt","James","","","","","","USA","","","jbrunt@unm.edu","","",""
+"54","Laundre ","Jim","","The Ecosystems Center, Marine Biological Laboratory, 7 MBL St.","Woods Hole","MA","02543","USA","508 289 7476","","jiml@mbl.edu","","508-457-1548",""
+"55","Melendez-Colom","Eda","","Institute for Tropical Ecosystem Studies, University of Puerto Rico, P.O. Box 363682","San Juan ","PR","00936-3682","USA","787-767-0334,0350","","emelendez@lternet.edu","","",""
+"56","Porter","John","","","","","","USA","","","jhp7e@virginia.edu","","",""
+"57","Ramsey","Ken","","","","","","USA","","","keramsey@nmsu.edu","","",""
 "58","Chamblee","John","","Institute of Ecology; University of Georgia","Athens","GA","30602","USA","","","chamblee@uga.edu","","",""
-"59","Walsh","Jonathon","","","","","","USA","","","walshj@ecostudies.org                             ","","",""
-"60","Charlton","Brian","","","","","","USA","","","bacharlton@alaska.edu                         ","","",""
-"61","McCartney","Peter","","","","","","USA","","","peter.mccartney@asu.edu                           ","","",""
-"62","Johnson","Louise","A.                       ","","","","","USA","","","johns060@umn.edu                                  ","","",""
-"63","Powell","Linda","A.                       ","Southeast Environmental Research Center; OE 148, Florida International University, University Park
-
-","Miami","FL","33199","USA","305-348-6054","","powell@fiu.edu                                    ","","305-348-4096",""
-"64","Kellogg","Data Manager ","","","","","","USA","","","lter.data.manager@kbs.msu.edu                     ","","",""
-"65","Wheeler ","Kevin                    ","","","","","","USA","","","kevin.wheeler@colorado.edu                        ","","",""
-"66","Blankman","David","","","","","","USA","","","dblankman@lternet.edu                             ","","",""
-"67","Maddux","Troy","","","","","","USA","","","tmaddux@lternet.edu                               ","","",""
-"68","Ackerman","Todd","M.                       ","University of Colorado
-1560 30th Street
-Campus Box 450
-","Boulder","CO","80309","USA","303-492-4771","","todda@colorado.edu                         ","","",""
-"69","Luan","Wei-Yee","","","","","","USA","","","luan@lifesci.ucsb.edu                             ","","",""
-"70","Vanderbilt","Kristin","","","","","","USA","","","krvander@fiu.edu              ","","",""
-"72","Fountain                                     ","Andrew                   ","","","","","","USA","","","fountaina@pdx.edu                                 ","","",""
-"73","Gage                                         ","Stuart                   ","","","","","","USA","","","gages@pilot.msu.edu                               ","","",""
-"74","Goodin","Doug","","","","","","USA","","","dgoodin@ksu.edu                                   ","","",""
-"75","Greenland ","David                    ","","","","","","USA","","","greenlan@lsu.edu","","",""
-"76","Gutschick                                    ","Vince                    ","","","","","","USA","","","vince@nmsu.edu                                    ","","",""
-"77","Hayden                                       ","Bruce                    ","","","","","","USA","","","bph@virginia.edu                                  ","","",""
-"78","Heisler","Gordon","","","","","","USA","","","gheisler@fs.fed.us                                ","","",""
-"79","Hobbie ","John                     ","","The Ecosystems Center, Marine Biological Laboratory, 7 MBL St.
-","Woods Hole","MA","02543","USA","508 289 7470","","jhobbie@mbl.edu                                   ","","508-457-1548
-",""
-"80","Kloeppel","Brian","","","","","","USA","828-524-2128 ext 127","","kloeppel@uga.edu                    ","","828-369-6768",""
-"81","Lauenroth                                    ","William                  ","","","","","","USA","","","billl@cnr.colostate.edu                           ","","",""
-"82","Losleben","Mark","","","Boulder","CO","80309","USA","","","markl@colorado.edu                         ","","",""
-"83","Lyons ","Berry                ","","","","","","USA","","","lyons.142@osu.edu                                 ","","",""
-"84","Foster                                    ","David","R.","Harvard Forest and Department of Organismic and Evolutionary Biology; Harvard University
-Department of Organismic and Evolutionary Biology
-Harvard Forest and Department of Organismic and Evolution; Harvard University","Petersham","MA","01366","USA","978-724-3302 ","","drfoster@fas.harvard.edu","","978-724-3595 ",""
+"59","Walsh","Jonathon","","","","","","USA","","","walshj@ecostudies.org","","",""
+"60","Charlton","Brian","","","","","","USA","","","bacharlton@alaska.edu","","",""
+"61","McCartney","Peter","","","","","","USA","","","peter.mccartney@asu.edu","","",""
+"62","Johnson","Louise","A.","","","","","USA","","","johns060@umn.edu","","",""
+"63","Powell","Linda","A.","Southeast Environmental Research Center; OE 148, Florida International University, University Park","Miami","FL","33199","USA","305-348-6054","","powell@fiu.edu","","305-348-4096",""
+"64","Kellogg","Data Manager ","","","","","","USA","","","lter.data.manager@kbs.msu.edu","","",""
+"65","Wheeler ","Kevin                    ","","","","","","USA","","","kevin.wheeler@colorado.edu","","",""
+"66","Blankman","David","","","","","","USA","","","dblankman@lternet.edu","","",""
+"67","Maddux","Troy","","","","","","USA","","","tmaddux@lternet.edu","","",""
+"68","Ackerman","Todd","M.","University of Colorado;1560 30th Street;Campus Box 450","Boulder","CO","80309","USA","303-492-4771","","todda@colorado.edu","","",""
+"69","Luan","Wei-Yee","","","","","","USA","","","luan@lifesci.ucsb.edu","","",""
+"70","Vanderbilt","Kristin","","","","","","USA","","","krvander@fiu.edu","","",""
+"72","Fountain","Andrew","","","","","","USA","","","fountaina@pdx.edu","","",""
+"73","Gage","Stuart","","","","","","USA","","","gages@pilot.msu.edu","","",""
+"74","Goodin","Doug","","","","","","USA","","","dgoodin@ksu.edu","","",""
+"75","Greenland ","David","","","","","","USA","","","greenlan@lsu.edu","","",""
+"76","Gutschick","Vince","","","","","","USA","","","vince@nmsu.edu","","",""
+"77","Hayden","Bruce","","","","","","USA","","","bph@virginia.edu","","",""
+"78","Heisler","Gordon","","","","","","USA","","","gheisler@fs.fed.us","","",""
+"79","Hobbie ","John","","The Ecosystems Center; Marine Biological Laboratory; 7 MBL St","Woods Hole","MA","02543","USA","508 289 7470","","jhobbie@mbl.edu","","508-457-1548",""
+"80","Kloeppel","Brian","","","","","","USA","828-524-2128 ext 127","","kloeppel@uga.edu","","828-369-6768",""
+"81","Lauenroth","William","","","","","","USA","","","billl@cnr.colostate.edu","","",""
+"82","Losleben","Mark","","","Boulder","CO","80309","USA","","","markl@colorado.edu","","",""
+"83","Lyons ","Berry","","","","","","USA","","","lyons.142@osu.edu","","",""
+"84","Foster","David","R.","Harvard Forest and Department of Organismic and Evolutionary Biology; Harvard University;Department of Organismic and Evolutionary Biology;Harvard Forest and Department of Organismic and Evolution; Harvard University","Petersham","MA","01366","USA","978-724-3302 ","","drfoster@fas.harvard.edu","","978-724-3595 ",""
 "86","Mitchell","Katherine","","","","","","USA","","","kathmitc@nmsu.edu                            ","","",""
 "87","Moore","Julie","D.","USDA Forest Service; southern Research Station; Coweeta Hydrologic Laboratory","Otto","NC","","USA","828-524-2128 x123","","jdmoore@fs.fed.us","jmoore@sparc.ecology.uga.edu                      ","",""
 "88","Moore","Douglas","","","","","","USA","","","dmoore@sevilleta.unm.edu                          ","","",""
@@ -117,84 +105,50 @@ Harvard Forest and Department of Organismic and Evolution; Harvard University","
 "110","Updegraff","Karen","","Forest Resources, University of Minnesota","St. Paul","MN","55104","USA","612-625-0298","","karen@brimson.com","","",""
 "111","Kolka","Randy","K.","Forest Resources, University of Minnesota","St. Paul","MN","55104","USA","218-326-7115","","rkolka@fs.fed.us","","",""
 "112","Elling","Art","","Forest Resources, University of Minnesota","St. Paul","MN","55104","USA","218-326-7112","","aelling@fs.fed.us","","",""
-"113","Amatya ","Devendra ","M.","Center for Forested Wetlands Research
-USDA Forest Service
-2730 Savannah Highway","Charleston","SC","29414","USA","843-766-0371 (Ext 120)
-"," ","damatya@fs.fed.us"," ","843-766-8734"," "
+"113","Amatya ","Devendra ","M.","Center for Forested Wetlands Research;USDA Forest Service;2730 Savannah Highway","Charleston","SC","29414","USA","843-766-0371 (Ext 120)"," ","damatya@fs.fed.us"," ","843-766-8734"," "
 "114","Hollingsworth","Jamie","","Bonanza Creek Long Term Ecological Research","Fairbanks","AK","99775-6780","","","","jhollingsworth@alaska.edu","","",""
 "115","Bhandarkar","Saritha","","Center for Environmental Studies, ASU","Phoenix","AZ","","","(480)727-7290","","Saritha.Bhandarkar@asu.edu","saritha78@yahoo.com","",""
 "116","Belludi","Harsha","","","","","","","","","harsha@sevilleta.unm.edu","","",""
 "117","Sevilleta","Data Set Contact Group","","","","","","","","","climdb@sevilleta.unm.edu","","",""
 "118","Beighley ","Ed","","Marine Science Institute,  University of California","Santa Barbara","CA","93106","","805-893-7801","","beighley@icess.ucsb.edu","","",""
 "119","Balsiger","Dave","","","","","","","","","dbalsiger@wisc.edu","","",""
-"120","Ehde ","Craig","","","","","","","843-766-0371 x 125
-","","cehde@fs.fed.us
-","","843-766-8734",""
-"121","Peterson","Bruce ","","The Ecosystems Center, Marine Biological Laboratory, 7 MBL St.","Woods Hole","MA","02543","USA","508 289 7484","","peterson@mbl.edu","","508-457-1548
-",""
-"122","Hopkinson","Chuck","","Marine Biological Lab,Ecosystems Center,7 MBL Street
-","Woods Hole","MA","","USA","508-289-7688","","chopkins@mbl.edu","","508-457-1548",""
+"120","Ehde ","Craig","","","","","","","843-766-0371 x 125","","cehde@fs.fed.us","","843-766-8734",""
+"121","Peterson","Bruce ","","The Ecosystems Center, Marine Biological Laboratory, 7 MBL St.","Woods Hole","MA","02543","USA","508 289 7484","","peterson@mbl.edu","","508-457-1548",""
+"122","Hopkinson","Chuck","","Marine Biological Lab,Ecosystems Center,7 MBL Street","Woods Hole","MA","","USA","508-289-7688","","chopkins@mbl.edu","","508-457-1548",""
 "123","Caine","Nel","","","Boulder","CO","80309","","","","cainen@colorado.edu","","",""
 "124","Bahauddin","Dan","","Cedar Creek Natural History Area; 2660 Fawn Lake Dr. NE","Bethel","MN","55005","","763-434-5131","612-625-5738","bahau001@umn.edu","","",""
-"125","Burke ","Marianne ","","USDA Forest Service, Southern Research Station
-Center for Forested Wetlands Research
-2730 Savannah Highway
-","Charleston","SC","29414","USA","843-766-0371 x118","","mburke@fs.fed.us
-","","843-766-8734
-",""
-"126","Clifton ","Caty ","","Umatilla National Forest, 2517 SW Hailey Ave
-","Pendleton","OR","97801  ","","(541) 278-3822","","cclifton@fs.fed.us","","",""
+"125","Burke ","Marianne ","","USDA Forest Service, Southern Research Station;Center for Forested Wetlands Research;2730 Savannah Highway","Charleston","SC","29414","USA","843-766-0371 x118","","mburke@fs.fed.us","","843-766-8734",""
+"126","Clifton ","Caty ","","Umatilla National Forest, 2517 SW Hailey Ave","Pendleton","OR","97801  ","","(541) 278-3822","","cclifton@fs.fed.us","","",""
 "127","Edwards","Rick","","","Juneau","AK","","","","","rtedwards@fs.fed.us","","",""
 "128","Grayson ","Jenny","","","Juneau","AK","","","","","getgrayson@yahoo.com","","",""
-"129","Hunsaker ","Carolyn ","T.","USDA Forest Service
-2081 E. Sierra Avenue","Fresno","CA","93710","","559-323-3211","","chunsaker@fs.fed.us
-","","559-297-3355",""
+"129","Hunsaker ","Carolyn ","T.","USDA Forest Service;2081 E. Sierra Avenue","Fresno","CA","93710","","559-323-3211","","chunsaker@fs.fed.us","","559-297-3355",""
 "130","Cabrera","Isaac","","PSW, Sierra Nevada Research Center, Sierra Nevada Research Center","Fresno","CA","93710","","","","","icabrera@fs.fed.us","",""
 "131","Whitaker","Tom","","Pacific Southweat Research Station; USDA Forest Service","Fresno","CA","93710","","559-323-3210","","twhitaker@fs.fed.us","","559-297-3355",""
-"132","Bohm ","Sven ","","W.K. Kellogg Biological Station
-Michigan State University","Hickory Corners","MI","49060","","","","bohms@kbs.msu.edu","","",""
-"133","Bryant ","Mason ","","PNW Research Station
-Juneau Forestry Sciences Lab
-2770 Sherwood Ln. Ste. 2A","Juneau","AK","99801-8545","","(907) 586-8811 x228","","mdbryant@fs.fed.us","","(907) 586-7848",""
-"134","Wright ","Brenda ","","PNW Research Station
-Juneau Forestry Sciences Lab
-2770 Sherwood Ln. Ste. 2A","Juneau","AK","99801-8545","","(907) 586-8811 x244","","bwright01@fs.fed.us","","(907) 586-7848",""
+"132","Bohm ","Sven ","","W.K. Kellogg Biological Station;Michigan State University","Hickory Corners","MI","49060","","","","bohms@kbs.msu.edu","","",""
+"133","Bryant ","Mason ","","PNW Research Station;Juneau Forestry Sciences Lab;2770 Sherwood Ln. Ste. 2A","Juneau","AK","99801-8545","","(907) 586-8811 x228","","mdbryant@fs.fed.us","","(907) 586-7848",""
+"134","Wright ","Brenda ","","PNW Research Station;Juneau Forestry Sciences Lab;2770 Sherwood Ln. Ste. 2A","Juneau","AK","99801-8545","","(907) 586-8811 x244","","bwright01@fs.fed.us","","(907) 586-7848",""
 "135","Blair","John","M.","Division of Biology.232 Ackert Hall. Kansas State University","Manhattan","KS","66506-4901","","(785) 532-7065","","jblair@ksu.edu","","(785) 532-6653",""
 "136","Murdoch ","Pete","","425 Jordan Road","Troy","NY","12180","","518-285-5663","","pmurdoch@usgs.gov","","518-285-5601",""
-"137","Firda","Gary ","","425 Jordan Road","Troy","NY","12180","","(518) 285-5671
-","","gfirda@usgs.gov","","(518) 285-5601
-",""
-"138","O'Brien","Margaret ","","SBC-LTER Data Management
-Marine Science Institute
-UCSB
-","Santa Barbara","CA","93106","","805-893-2071","","mob@msi.ucsb.edu","","",""
+"137","Firda","Gary ","","425 Jordan Road","Troy","NY","12180","","(518) 285-5671","","gfirda@usgs.gov","","(518) 285-5601",""
+"138","O'Brien","Margaret ","","SBC-LTER Data Management;Marine Science Institute;UCSB","Santa Barbara","CA","93106","","805-893-2071","","mob@msi.ucsb.edu","","",""
 "139","Yang","Chi","","","","","","","","","Chi.Yang@Colorado.EDU","","",""
-"140","Swanson","Bob","","Forest Hydrology Consultant
-#28, 216 Three Sisters Drive
-","Canmore","AB","T1W 2M2","Canada","(403) 678-6096","","rhswan@telusplanet.net","","",""
+"140","Swanson","Bob","","Forest Hydrology Consultant;#28, 216 Three Sisters Drive","Canmore","AB","T1W 2M2","Canada","(403) 678-6096","","rhswan@telusplanet.net","","",""
 "141","Truesdell","Aaron","","","Juneau","AK","","","","","atruesdell@fs.fed.us","","",""
 "142","Clein","Joy","","","","","","","","","fnjsc4@uaf.edu","","",""
-"143","Lisle","Tom","E.","USDA Forest Service, Pacific Southwest Research Station
-Redwood Sciences Laboratory
-1700 Bayview Drive
-","Arcata","CA","95521","","707-825-2930","","tel7001@axe.humboldt.edu","","707-825-2901",""
+"143","Lisle","Tom","E.","USDA Forest Service, Pacific Southwest Research Station;Redwood Sciences Laboratory;1700 Bayview Drive","Arcata","CA","95521","","707-825-2930","","tel7001@axe.humboldt.edu","","707-825-2901",""
 "144","Montoya","Diane","S.","","","","","","707-825-2981","","dsutherland@fs.fed.us","","",""
 "145","Elder ","Kelly ","","","","","","","","","kelder@fs.fed.us","","",""
 "146","Valentine","Theresa","","","","","","","","","theresa.valentine@oregonstate.edu","","",""
 "147","Green","David ","","","","","","","208-983-4055","","dcgreen@fs.fed.us","","",""
 "148","Foltz","Randy","","","","","","","","","rfoltz@fs.fed.us","","",""
-"149","Luce","Charlie ","","","","","","","","","cluce@fs.fed.us
-","","",""
-"150","Howard","Gayle ","","","","","","","","","gahoward@fs.fed.us
-","","",""
+"149","Luce","Charlie ","","","","","","","","","cluce@fs.fed.us","","",""
+"150","Howard","Gayle ","","","","","","","","","gahoward@fs.fed.us","","",""
 "151","Seyedbagheri","Kathy","","Rocky Mountain Research Station; 316 E. Myrtle St.","Boise","ID","83702","USA","208-373-4370","","kseyedbagheri@fs.fed.us","","208-373-4391",""
 "152","Galloway","Jim","","","","","","","","","jgalloway@mbl.edu","","",""
 "153","Moore","Chris","","","","","","","","","cwm4y@neon.mail.virginia.edu","","",""
 "154","Deviney, Jr.","Frank ","A.","","","","","","","","deviney@virginia.edu ","","",""
 "155","Webb","Rick","","","","","","","","","rwebb@virginia.edu ","","",""
-"156","Ahl ","Robert ","","Department of Forest Management
-College of Forestry and Conservation
-The University of Monatana","","","","","","","ra148270@cue1.umt.edu","","",""
+"156","Ahl ","Robert ","","Department of Forest Management;College of Forestry and Conservation;The University of Monatana","","","","","","","ra148270@cue1.umt.edu","","",""
 "157","Dorrance","Carrie","","","","","","","(218) 326-7112","","cdorrance@fs.fed.us","","",""
 "158","Gries","Corinna","","Center for Environmental Studies, ASU","Phoenix","AZ","","","","","corinna@asu.edu","","",""
 "159","Kortz","Mason","","","","","","","","","mkortz@coast.ucsd.edu","","",""
@@ -212,8 +166,7 @@ The University of Monatana","","","","","","","ra148270@cue1.umt.edu","","",""
 "171","Lai","Jian-Jhih","","","","","","Taiwan","","","fish6902@ms52.hinet.net","","",""
 "172","Jones","Jay","","Institute of Arctic Biology, University of Alaska","Fairbanks","AK","99775","","(907) 474-7972","","Jay.Jones@alaska.edu","","(907) 474-6967",""
 "173","Tilman","David","","","","","","","","","tilman@umn.edu","","",""
-"174","Downing","Jason","","","Fairbanks","AK","","","(907) 474-6364
-","","jpdowning@alaska.edu","","",""
+"174","Downing","Jason","","","Fairbanks","AK","","","(907) 474-6364","","jpdowning@alaska.edu","","",""
 "175","Ryeol Na","Hang","","","","","","","","","nhr24@hotmail.com","","",""
 "176","Chapin","F. S.","","","","","","","","","fffsc@uaf.edu","","",""
 "177","Skibbe","Adam","","Division of Biology, Kansas State University","Manhattan","KS","66506-4901","","785-532-6729","","askibbe@ksu.edu","","",""
