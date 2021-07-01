@@ -3,7 +3,7 @@ res_site_id	DB Indentifier for research site (xref to research_site table)	chara
 site_id	DB Indentifier for contributing site (xref to site table)	character			TRUE	Not Available
 site_code	code for contributing site	categorical				
 station	name of sampling site	character				
-sampledate	TO_DO	Date		YYYY-MM-DDThh:mm:ss.sssZ		
+sampledate	Date of sample	Date		YYYY-MM-DDThh:mm:ss.sssZ		
 variable	Variable sampled (xref to climdb_variables table)	character				
 value	value for this variable	character			TRUE	Not Available
 flag	flag for this variable	character			TRUE	Not Available

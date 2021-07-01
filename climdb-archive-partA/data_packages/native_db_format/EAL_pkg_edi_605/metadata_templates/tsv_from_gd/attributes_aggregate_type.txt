@@ -1,3 +1,3 @@
 attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-aggregate_type	TO_DO	character				
-agg_type_desc	TO_DO	character			true	Not Available
+aggregate_type	code for type of aggregate	character				
+agg_type_desc	description of the aggregate type	character			true	Not Available
