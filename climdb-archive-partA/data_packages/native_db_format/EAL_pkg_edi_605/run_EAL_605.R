@@ -45,9 +45,9 @@ entity_URL_head = 'https://regan.edirepository.org/climdb/git_clones/Clim-HydroD
 # HIGH LEVEL METADATA
 user_id <- "mobrien"
 user_domain <- 'EDI'
-package_id <- "edi.605.1"
+package_id <- "edi.605.3"
 
-dataset_title <- 'TO DO: CLIMDB Archive - native format.'
+dataset_title <- 'ClimHyrdoDB Archive: Meteorologic and hydrologic observations from LTER and USFS sites, 2001-2020 - orignal database format'
 
 
 # high level metadata not available in tables
@@ -56,7 +56,7 @@ maint_desc <- "completed"
 
 
 # required metadata files. created with template_core_metadata function
-# EAL WILL NOT USE THESE VARS!! The text version is assumed to be populated, so you could use this to check their content.
+# EAL WILL NOT USE THESE VARS!! Code assumes something (either doc or text) is populated, so you could use this to check their content.
 abstract_metadata     <- 'abstract.docx'
 methods_metadata      <- 'methods.docx'
 intellrights_metadata <- 'intellectual_rights.txt'
@@ -75,6 +75,7 @@ people_metadata       <- 'personnel.txt'
 
 # metadata that might be found in a tables
 # note, EAL will want coords ordered clockwise: geographic.coordinates = c(north, east, south, west),
+# collected from actual data, not from contributor nominal locations.
 geog_descr <- 'Contiguous United States (CONUS)'
 north <- 50.635
 south <- 24.512
@@ -91,28 +92,34 @@ geog_coord <- c(north, south, east, west)
 otherEntity_file_names <- c(
  'schema_04a.jpg',
  'climdb_DDL.sql',
- 'climhydro_userguide_2012.pdf'
-# 'climdb_dump.zip'
+ 'climhydro_userguide_2012.pdf',
+ 'climdb-docs.gzip'
 )
 
 # otherEntity names
 otherEntity_names <- c(
  'ClimHydroDB Schema ERD',
  'ClimHydroDB table creation code',
- 'Users Guide (PDF)'
-# 'climdb_dump.zip',
+ 'Users Guide (PDF)',
+ 'ClimHydroDB related material'
 )
 
 # otherEntity descriptions
 otherEntity_descriptions <- c(
  'Entity relationship diagram (ERD) for ClimHydroDB',
  'SQL code for creating ClimHydroDB tables (DDL)',
- 'Users Guide for ClimHydroDB - 2012 PDF'
-# 'Zipped ClimHydro data dump - 2021',
+ 'Users Guide for ClimHydroDB - 2012 PDF',
+ 'Zipped presentations and related historical historical material'
 )
 
 # otherEntity URLs
-
+# example: data_obj_path <- paste0(parent_path,'/', "data_objects_temp")
+otherEntity_urls <- c(
+  paste0(entity_URL_head,'/', 'schema_04a.jpg'),
+  paste0(entity_URL_head,'/', 'climdb_DDL.sql'),
+  paste0(entity_URL_head,'/', 'climhydro_userguide_2012.pdf'),
+  paste0(entity_URL_head,'/', 'climdb-docs.gzip')
+)
 
 
 
@@ -301,6 +308,37 @@ entity_quote_characters <-c(
   
 )
 
+entity_urls <- c(
+  
+  paste0(entity_URL_head,'/', 'climdb_agg_100lines.csv'),
+  paste0(entity_URL_head,'/', 'climdb_raw_100lines.csv'),
+  paste0(entity_URL_head,'/', 'harvest_raw.csv'),
+  paste0(entity_URL_head,'/', 'site_personnel_role.csv'),
+  paste0(entity_URL_head,'/', 'sitetype_descriptor_category.csv'),
+  paste0(entity_URL_head,'/', 'site.csv'),
+  paste0(entity_URL_head,'/', 'research_site_type.csv'),
+  paste0(entity_URL_head,'/', 'research_site_module.csv'),
+  paste0(entity_URL_head,'/', 'research_site_sitetype.csv'),
+  paste0(entity_URL_head,'/', 'research_site_descriptor.csv'),
+  paste0(entity_URL_head,'/', 'research_module_descriptor.csv'),
+  paste0(entity_URL_head,'/', 'research_site.csv'),
+  paste0(entity_URL_head,'/', 'research_module.csv'),
+  paste0(entity_URL_head,'/', 'personnel_mailing_list.csv'),
+  paste0(entity_URL_head,'/', 'personnel_role.csv'),
+  paste0(entity_URL_head,'/', 'personnel_TODO_RENAME.csv'),
+  paste0(entity_URL_head,'/', 'mailing_list.csv'),
+  paste0(entity_URL_head,'/', 'descriptor_category_type.csv'),
+  paste0(entity_URL_head,'/', 'descriptor_type.csv'),
+  paste0(entity_URL_head,'/', 'descriptor_category.csv'),
+  paste0(entity_URL_head,'/', 'climdb_site_variable_dates.csv'),
+  paste0(entity_URL_head,'/', 'climdb_variables.csv'),
+  paste0(entity_URL_head,'/', 'aggregate_type.csv')
+  
+  
+)
+
+
+
 # ASSEMBLE THE EML
 
 make_eml(
@@ -315,12 +353,12 @@ make_eml(
   other.entity = otherEntity_file_names,
   other.entity.name = otherEntity_names,
   other.entity.description = otherEntity_descriptions,
-  # other.entity.url = otherEntity_urls,
+  other.entity.url = otherEntity_urls,
   data.table = file_names,
   data.table.name = entity_names,
   data.table.description = entity_descriptions,
   data.table.quote.character = entity_quote_characters,
-  # data.table.url = 
+  data.table.url = entity_urls,
   user.id = user_id,
   user.domain = user_domain,
   package.id = package_id
