@@ -58,7 +58,7 @@ http://dx.doi.org/10.1029/2007WR006392
 | Variables | The Variables table lists the full descriptive information about what variables have been measured. This table is mandatory. |  |
 | Methods | The Methods table lists the methods used to collect the data and any additional information about the method. This table is mandatory. |  |
 | Sites | The Sites table provides information giving the spatial location at which data values have been collected. This table is mandatory. |  |
-| Sources | "The Sources table lists the original sources of the data | providing information sufficient to retrieve and reconstruct the data value from the original data files if necessary. This table is mandatory." |
+| Sources | The Sources table lists the original sources of the data providing information sufficient to retrieve and reconstruct the data value from the original data files if necessary. This table is mandatory. |
 | Quality Control | The QualityControlLevels table contains the quality control levels that are used for versioning data within the database. This table is mandatory. |  |
 | DataValues | The DataValues table contains the actual data values and keys to metadata tables. This table is mandatory. |  |														
 																			
