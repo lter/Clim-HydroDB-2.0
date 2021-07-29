@@ -1,7 +1,7 @@
 VariableCode,VariableName,VariableUnitsName,DataType,SampleMedium,ValueType,IsRegular,TimeSupport,TimeUnitsName,GeneralCategory,NoDataValue
-Precip_Total_mm,Precipitation,millimeter,Cumulative,Air,Field Observation,TRUE,15,minutes,Climate,-9999
-AirTemp_Mean_C,Temperature,degree celsius,Average,Air,Field Observation,TRUE,15,minutes,Climate,-9999
-AirTemp_Max_C,Temperature,degree celsius,Maximum,Air,Field Observation,TRUE,15,minutes,Climate,-9999
-AirTemp_Min_C,Temperature,degree celsius,Minimum,Air,Field Observation,TRUE,15,minutes,Climate,-9999
-Windspeed_ms,Wind speed,meters per second,Average,Air,Field Observation,TRUE,15,minutes,Climate,-9999
-Rel_Humidity_percent,Relative humidity,percent,Average,Air,Field Observation,TRUE,15,minutes,Climate,-9999
+Precip_Total_mm,Precipitation,millimeter,Cumulative,Air,Field Observation,TRUE,15,minute,Climate,-9999
+AirTemp_Mean_C,Temperature,degree celsius,Average,Air,Field Observation,TRUE,15,minute,Climate,-9999
+AirTemp_Max_C,Temperature,degree celsius,Maximum,Air,Field Observation,TRUE,15,minute,Climate,-9999
+AirTemp_Min_C,Temperature,degree celsius,Minimum,Air,Field Observation,TRUE,15,minute,Climate,-9999
+Windspeed_ms,Wind speed,meters per second,Average,Air,Field Observation,TRUE,15,minute,Climate,-9999
+Rel_Humidity_percent,Relative humidity,percent,Average,Air,Field Observation,TRUE,15,minute,Climate,-9999
