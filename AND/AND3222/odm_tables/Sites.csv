@@ -1,5 +1,5 @@
-SiteCode,SiteName,Latitude,Longitude,Elevation,LatLongDatumSRSName,SiteType,Comments
-AIRCEN08,"ANDREWS FOREST, OR US",-122.141093,44.243482,1028,NAD83,Atmosphere,Central Meteorological Station
-AIRPRI08,"ANDREWS FOREST, OR US",-122.255941,44.211893,436,NAD83,Atmosphere,Primary Meteorological Station (PRIMET)
-AIRUPL08,"ANDREWS FOREST, OR US",-122.119763,44.207097,1284,NAD83,Atmosphere,Upper Lookout Meteorological Station
-AIRVAN08,"ANDREWS FOREST, OR US",-122.149368,44.271618,1268,NAD83,Atmosphere,Vanilla Leaf Meteorological Station
+SiteCode,SiteName,Latitude,Longitude,Elevation_m,LatLongDatumSRSName,SiteType,Comments
+AIRCEN08,Central Meteorological Station,44.243482,-122.141093,1028,NAD83,Atmosphere,
+AIRPRI08,Primary Meteorological Station (PRIMET),44.211893,-122.255941,436,NAD83,Atmosphere,
+AIRUPL08,Upper Lookout Meteorological Station,44.207097,-122.119763,1284,NAD83,Atmosphere,
+AIRVAN08,Vanilla Leaf Meteorological Station,44.271618,-122.149368,1268,NAD83,Atmosphere,
