@@ -1,3 +1,3 @@
-Florida Coastal LTER
+# Florida Coastal LTER
 
-Files from knb_lter_fce for conversion into CUAHSI ODM format.
+Files from knb_lter_fce for conversion into CUAHSI ODM CSV format.

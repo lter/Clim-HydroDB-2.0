@@ -20,7 +20,8 @@ template_table_attributes(
                  'QualityControlLevels.csv',
                  'Sites.csv',
                  'Sources.csv',
-                 'Variables.csv')
+                 'Variables.csv',
+                 'Qualifiers.csv')
 )
 
 # get start and end date
@@ -48,17 +49,20 @@ make_eml(
                  'QualityControlLevels.csv',
 #                 'Sites.csv',
                  'Sources.csv',
-                 'Variables.csv'),
+                 'Variables.csv',
+                 'Qualifiers.csv'),
   data.table.description = c('Values and variable names in long format',
                              'Method desciptions',
                              'Quality control levels as provided by CUAHSI',
 #                             'Site description and lat longs',
                              'Research project providing these data',
-                             'Variable definitions'),
+                             'Variable definitions',
+                             'Data qualifiers'),
   data.table.quote.character = c('\"',
                                  '\"',
                                  '\"',
 #                                 '\"',
+                                 '\"',
                                  '\"',
                                  '\"'),
   other.entity = c('convert2odm_fce.R'),
