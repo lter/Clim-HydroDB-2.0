@@ -4,7 +4,7 @@ This folder contains documentation and templates provided by CUAHSI related to t
 
 [Standard_Formatting_Template.xlsx](Standard_Formatting_Template.xlsx) is a spreadsheet with worksheets representing the CSV files that you will create for your data packages. The spreadsheet includes instructions for each column and is a great place to start when preparing your data.  When finished, you would export the relevant worksheets to CSV files.  
 
-[Advanced_Formatting_Template.xlsx](Advanced_Formatting_Template.xlsx) is an advanced template with additional tables if you need more than the minimum set of metadata.  Examples of advanced metadata include qualifiers at the individual data value level, metadata for samples and lab methods, and provenance tracking which data values were derived from others (such as daily data derived from hourly values).
+[Advanced_Formatting_Template.xlsx](Advanced_Formatting_Template.xlsx) is an advanced template with additional tables if you need more than the minimum set of metadata.  Examples of advanced metadata include qualifiers at the individual data value level, metadata for samples and lab methods, and provenance tracking which data values were derived from others (such as daily data derived from hourly values).  **WARNING: This template as downloaded from CUAHSI had mistakes related to groups, derived from values, offsets, and samples. We recommend only using this template to augment the standard template with Qualifiers and/or Categories.**
 
 Note that both templates have been modified to fix some mistakes and make them more friendly to climDB data publishers.
 
