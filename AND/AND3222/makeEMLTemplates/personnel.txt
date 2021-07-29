@@ -1,5 +1,0 @@
-givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
-Information		Manager	"Orgeon State University"	hjaweb@fsl.orst.edu		Information manager	AND LTER	National Science Foundation	DEB-1440409
-Donald	L	Henshaw	"Orgeon State University"	don.henshaw@oregonstate.edu		Information manager	AND LTER	National Science Foundation	DEB-1440409
-Adam	M	Kennedy	"Orgeon State University"	adam.kennedy@oregonstate.edu		contact		AND LTER	National Science Foundation	DEB-1440409
-
