@@ -5,8 +5,8 @@ Data set title: "Meteorological data from benchmark stations at the Andrews Expe
 ## Convert subset of data package
 
 * Table: MS00111.txt
-* PROBE_CODE values: "AIRCEN08", "AIRPRI08", "AIRUPL08", "AIRVAN08" (5 minute air temperatures)
-* Each PROBE_CODE value is an independent site since sensors have different locations (lat, lon).
+* SITECODE values: "CENMET","PRIMET","UPLMET","VANMET" (5 minute air temperatures)
+* Each SITECODE value is an independent site with different locations (lat, lon).
 
 ## Requirements
 
