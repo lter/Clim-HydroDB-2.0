@@ -2,9 +2,7 @@
 
 Data set title: "Meteorological data from benchmark stations at the Andrews Experimental Forest, 1957 to present."
 
-## Convert subset of data package
-
-* Table: MS00111.txt
+## Subset of data package Table MS00111.txt (air temperatures)
 * SITECODE values: "CENMET","PRIMET","UPLMET","VANMET" (5 minute air temperatures)
 * Each SITECODE value is an independent site with different locations (lat, lon).
 
