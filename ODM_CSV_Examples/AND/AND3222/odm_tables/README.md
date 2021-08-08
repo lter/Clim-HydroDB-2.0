@@ -6,4 +6,5 @@ Instructions in ["CUAHSI Data Formatting Guide"](https://www.cuahsi.org/uploads/
 2. Methods.csv
 3. Sites.csv
 4. Sources.csv
-5. QualityControlLevels.csv
+5. Qualifiers.csv
+6. QualityControlLevels.csv
