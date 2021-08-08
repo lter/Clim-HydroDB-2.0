@@ -1,4 +1,4 @@
-# Files for conversion of package knb-lter-and.3222.36 into CUAHSI ODM CSV format
+# Files for conversion of of sub-set of package knb-lter-and.3222.36 into CUAHSI ODM CSV format
 
 Data set title: "Meteorological data from benchmark stations at the Andrews Experimental Forest, 1957 to present."
 
