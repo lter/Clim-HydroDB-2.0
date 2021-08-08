@@ -3,9 +3,10 @@
 Data set title: "Meteorological data from benchmark stations at the Andrews Experimental Forest, 1957 to present."
 
 ## Subset of data package Table MS00111.txt (air temperatures)
-* Values for four benchmark stations: "CENMET","PRIMET","UPLMET","VANMET" (SITECODE)
-* Air temperature frequency ranges between hourly and 5 minute averages.
-* Sensor heights: 150 cm, 250 cm, 350 cm, 450 cm
+* Table MS00111.csv includes values for: 
+    * Four benchmark stations: "CENMET","PRIMET","UPLMET","VANMET"
+    * Air temperature frequency is variable with hourly values for older data, 15 min and 5 minute averages.
+    * Sensor heights: 150 cm, 250 cm, 350 cm, 450 cm
 * Processed in this example are data for the PRIMET station with a sensor height of 350 cm.
 
 ### Pre-requisites
