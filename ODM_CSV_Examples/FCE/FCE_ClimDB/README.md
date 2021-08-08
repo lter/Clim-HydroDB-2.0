@@ -34,4 +34,4 @@ Create ODM tables according to instructions in "CUAHSI Data Formatting Guide" us
     - In R working directory create subdirectories "odm_tables" and "data".
     - Place ODM tables in "odm_tables" dir.
     - Place input data in ClimDB format in "data" dir.
-    - Run program convert2odm_fce.R to convert data in ClimDB/HydroDB into ODM format and write into DataVlaues.csv file.
+    - Run program convert2odm_fce.R to convert data in ClimDB/HydroDB into ODM format and write into DataValues.csv file.
