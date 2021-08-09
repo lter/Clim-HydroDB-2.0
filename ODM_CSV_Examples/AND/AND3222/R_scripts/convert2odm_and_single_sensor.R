@@ -1,7 +1,7 @@
 # Convert subset of data package knb-lter-and.3222.36 into CUAHSI ODM format
 # Data set title: "Meteorological data from benchmark stations at the Andrews Experimental Forest, 1957 to present."
 # Subset: use Table MS00111.txt and select air temperatures from benchmark station PRIMET at 350 cm height
-# Air temperature intervals: 15 minutes and 5 minutes (not averaged to 15 minutes yet)
+# Air temperature intervals: Mix of 15 minutes and 5 minutes (not averaged to 15 minutes yet, but will be done by 8/11)
 
 library(tidyverse) 
 library(lubridate)
