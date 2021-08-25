@@ -93,7 +93,8 @@ otherEntity_file_names <- c(
  'schema_04a.jpg',
  'climdb_DDL.sql',
  'climhydro_userguide_2012.pdf',
- 'climdb-docs.gzip'
+ 'climdb-docs.gzip',
+ 'climdb-docs_code_files_description.gzip'
 )
 
 # otherEntity names
@@ -101,7 +102,8 @@ otherEntity_names <- c(
  'ClimHydroDB Schema ERD',
  'ClimHydroDB table creation code',
  'Users Guide (PDF)',
- 'ClimHydroDB related material'
+ 'ClimHydroDB documentation and related material',
+ 'ClimHydroDB documentation, code and web file description'
 )
 
 # otherEntity descriptions
@@ -109,7 +111,8 @@ otherEntity_descriptions <- c(
  'Entity relationship diagram (ERD) for ClimHydroDB',
  'SQL code for creating ClimHydroDB tables (DDL)',
  'Users Guide for ClimHydroDB - 2012 PDF',
- 'Zipped presentations and related historical historical material'
+ 'Zipped presentations and related historical historical material',
+ 'Zipped documentation of the database and webserver file structure (2001, 2003)'
 )
 
 # otherEntity URLs
@@ -119,6 +122,8 @@ otherEntity_urls <- c(
   paste0(entity_URL_head,'/', 'climdb_DDL.sql'),
   paste0(entity_URL_head,'/', 'climhydro_userguide_2012.pdf'),
   paste0(entity_URL_head,'/', 'climdb-docs.gzip')
+  paste0(entity_URL_head,'/', 'climdb-docs_code_files_description.gzip')
+  
 )
 
 
@@ -199,27 +204,27 @@ entity_descriptions <- c(
   # 'List of roles that occur at a site'
 
   
-  'Aggregated meteorology and hydrology data, based on nine aggregate types',
-  'Data before aggregation, QC applied TO DO: confirm',
-  'Raw data as harvested from contributor',
+  'Aggregated meteorology and hydrology data by research_site, from the climdb_raw table',
+  'Data before aggregation. A copy of what comes into harvest_raw if the harvest and QC were successful (no  errors or fatal errors; warnings are ingested)',
+  'Raw data as harvested from contributor. Temporary table into which data are imported upon harvest (by site). The programmatic QC is performed on this table. This table is overwritten when a new site harvests data.',
   'Cross-reference table between 4 tables: site, research_module, personel_role and personnel',
   'Cross-reference table between 2 tables: research_site_type and descriptor_category',
-  'List (controlled vocabulary) of contributing sites, typically an LTER, US Forest Service site, but also other field stations, some international. contains basic location info and URLs',
-  'List (controlled vocabulary) of types of research types (general area, watershed, station type)',
+  'List (controlled vocabulary) of contributing sites, typically an LTER, US Forest Service site, but also other field stations, some international. contains basic location info and URLs. This table was part of the initial ClimDB effort (early 90’s). For this 2003 version, ‘research_site’ became the main site table and metadata was stored in research_site_descriptor. The basic location and URL information here was carried over, but may be different than what was later recorded in research_site_descriptor',
+  'List (controlled vocabulary) of types of research types (general area, watershed, station type). Table was used to control the web display and information access',
   'Cross-reference table between 2 tables: research_site and research_module',
   'Cross-reference table between 2 tables: research_site and research_site_type',
-  'site-added content for describing research sites. long format (key-value pairs)',
-  'Cross-reference table between 2 tables: research_module and descriptor_category',
-  'Self-referencing table of research sites within contributing sites. Contributing site is parent of sub-site(s)',
-  'List (controlled vocabulary) of general modules the ClimHydroDB holds, for grouping other entries',
+  'site-added content for describing research sites. long format (key-value pairs). Contains all the metadata for sites, watersheds, research_sites and paramaters.',
+  'Cross-reference table between 2 tables: research_module and descriptor_category. Table was used to control the web display and for metadata update functions.',
+  'Self-referencing table of research sites within contributing sites. Contributing site is parent of sub-site(s). A contributing site is at the top level. Key table for research sites.',
+  'List (controlled vocabulary) of general modules the ClimHydroDB holds, for grouping other entries. Tables allows for grouping of research sites by module (originally set up as Climdb and Hydrodb, later extended for LTER, USFS and USGS.',
   'Cross-reference table between 2 tables: personnel and mailing_list',
   'List (controlled vocabulary) of roles for people at a contributing site',
   'People associated with a ClimHydroDB contribution',
   'mailing lists associated with ClimHydroDB, for management',
-  'Cross-reference table between 2 tables: descriptor_type and descriptor_category',
+  'Cross-reference table between 2 tables: descriptor_type and descriptor_category. Controls which metadata descriptors go with which categories',
   'List (controlled vocabulary) and definitions of descriptors (e.g., name, text definition)',
   'List (controlled vocabulary) of categories for descriptors',
-  'Table collects variables at each research site, with first/last dates seen. (TO DO: confirm) populated by code',
+  'Table collects variables at each research site, with first/last dates seen. Code extracts the first and last dates by research site; part of the harvester',
   'List (controlled vocabulary) and descriptions (unit, QC) of measurements which can be harvested or aggregated',
   'List (controlled vocabulary) of types of aggregates computed by ClimHydroDB',
   'Aggregated meteorology and hydrology data, based on nine aggregate types',

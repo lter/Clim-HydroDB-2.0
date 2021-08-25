@@ -1,6 +1,68 @@
 givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
-Don	Z	Henshaw	Oregon State University	don@example.com	0000-0000-0000-0000	creator			
-Suzanne	Z	Remillard	Oregon State University	don@example.com	0000-0000-0000-0000	creator			
+Don	Z	Henshaw	Oregon State University	don.henshaw@oregonstate.edu	0000-0001-5952-4528	creator			
+Suzanne	Z	Remillard	Oregon State University	suzanne.remillard@oregonstate.edu	0000-0002-0365-8866	creator			
+Yang		Xia	Kansas State University	yangx@ksu.edu	0000-0002-7587-5835	creator			
+James		Brunt	University of New Mexico	jbrunt@unm.edu	0000-0001-9174-4408	creator			
+Wade		Sheldon	University of Georgia	sheldon@uga.edu	0000-0001-9652-9678	creator			
 Organization lead			Environmental Data Initiative	info@environmentaldatainitiative.org		contact			
-Corinna		Gries	University of Wisconsin	info@environmentaldatainitiative.org	0000-0000-0000-0000	PI	Environmental Data Initiative	NSF	1931174
-Mark		Servilla	University of New Mexico	info@environmentaldatainitiative.org	0000-0000-0000-0000	PI	Environmental Data Initiative	NSF	1931143
+Corinna		Gries	University of Wisconsin	info@environmentaldatainitiative.org	0000-0002-9091-6543	PI	Environmental Data Initiative	NSF	1931174
+Mark		Servilla	University of New Mexico	info@environmentaldatainitiative.org	0000-0002-3192-7306	PI	Environmental Data Initiative	NSF	1931143
+			H.J. Andrews Experimental Forest (AND)	hjaweb@fsl.orst.edu		data contributor			
+			Arctic Tundra (ARC)	arc_im@mbl.edu		data contributor			
+			Baltimore Ecosystem Study (BES)	besim@caryinstitute.org		data contributor			
+			Bonanza Creek Experimental Forest (BNZ)	uaf-bnz-im-team@alaska.edu		data contributor			
+			Caspar Creek Experimental Watersheds (CAS)	NA		data contributor			
+			Cedar Creek Ecosystem Science Reserve (CDR)	webmaster@cedarcreek.umn.edu		data contributor			
+			Coweeta Hydrologic Laboratory (CWT)	cwtim@uga.edu		data contributor			
+			Entiat Experimental Forest (ENT)	NA		data contributor			
+			Fernow Experimental Forest (FER)	NA		data contributor			
+			Fleming Creek Watersheds (FLE)	NA		data contributor			
+			Fraser Experimental Forest (FRA)	NA		data contributor			
+			Glacier Lakes Ecosystem Experiments Site (GLA)	NA		data contributor			
+			Great Basin Experimental Range (GRE)	NA		data contributor			
+			Hubbard Brook (HBR)	hbr-im@lternet.edu		data contributor			
+			Harvard Forest (HFR)	hf-im@lists.fas.harvard.edu		data contributor			
+			Horse Creek Study Watersheds (HOR)	NA		data contributor			
+			Jornada Basin (JRN)	datamanager.jrn.lter@gmail.com		data contributor			
+			Kellogg Biological Station (KBS)	lter.data.manager@kbs.msu.edu		data contributor			
+			Konza Prairie (KNZ)	knzlter@ksu.edu		data contributor			
+			Luquillo Experimental Forest (LUQ)	NA		data contributor			
+			Marcell Experimental Forest (MAR)	NA		data contributor			
+			McMurdo Dry Valleys (MCM)	im@mcmlter.org		data contributor			
+			Neversink Valley, Delaware River Basin (NEV)	NA		data contributor			
+			North Temperate Lakes (NTL)	ntl.infomgr@gmail.com		data contributor			
+			Niwot Ridge (NWT)	lternwt@colorado.edu		data contributor			
+			Palmer Station (PAL)	pallter.im@gmail.com		data contributor			
+			Plum Island Ecosystem (PIE)	pie_im@mbl.edu		data contributor			
+			The Pine Watersheds (PIN)	NA		data contributor			
+			Priest River Experimental Forest (PRI)	NA		data contributor			
+			San Dimas Experimental Forest (SDF)	NA		data contributor			
+			Sevilleta National Wildlife Refuge (SEV)	data-use@sevilleta.unm.edu		data contributor			
+			Shortgrass Steppe (SGS)	NA		data contributor			
+			Sierra Ancha Experimental Forest (SIE)	NA		data contributor			
+			Silver Creek Experimental Watersheds (SIL)	NA		data contributor			
+			Santee Experimental Forest Watersheds (SNT)	NA		data contributor			
+			Tenderfoot Creek Experimental Forest (TEN)	NA		data contributor			
+			Virginia Coast Reserve (VCR)	NA		data contributor			
+			Florida Coastal Everglades (FCE)	fcelter@fiu.edu		data contributor			
+			Georgia Coastal Ecosystems (GCE)	gcelter@uga.edu		data contributor			
+			Santa Barbara Coastal (SBC)	sbclter@msi.ucsb.edu		data contributor			
+			Central Arizona - Phoenix (CAP)	caplter.data@asu.edu		data contributor			
+			USFS Fire Evaluation Monitoring (FEM)	NA		data contributor			
+			Coosawhatchie Bottomland Ecosystem (CBE)	NA		data contributor			
+			Umatilla National Forest (UMA)	NA		data contributor			
+			Maybeso Creek Experimental Forest (MEF)	NA		data contributor			
+			Kings River Experimental Watershed (KEW)	NA		data contributor			
+			Marmot Experimental Watershed (MEW)	NA		data contributor			
+			Young Bay Experimental Forest (YEF)	NA		data contributor			
+			Shenandoah Watershed Study (SWS)	NA		data contributor			
+			TERN - Taiwan Agricultural Ecosystem Research (TAE)	NA		data contributor			
+			TERN - Ta-ta-chia (TTC)	NA		data contributor			
+			TERN - Fu-shan (FSH)	NA		data contributor			
+			TERN - High Altitude Experimental Station, TESRI (HAE)	NA		data contributor			
+			TERN - Shanping Ecological Research Station (SER)	NA		data contributor			
+			Wind River Canopy Crane Research Facility (WRC)	NA		data contributor			
+			TFRI-Lienhuachih Research Center (LHC)	NA		data contributor			
+			Moorea Coral Reef (MCR)	mcrlter@msi.ucsb.edu		data contributor			
+			California Current Ecosystem (CCE)	ccelter-im@ucsd.edu		data contributor			
+			Olympic Experimental State Forest (OLY)	NA		data contributor			
