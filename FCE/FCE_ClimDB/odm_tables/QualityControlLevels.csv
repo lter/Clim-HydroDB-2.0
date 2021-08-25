@@ -1,7 +1,0 @@
-﻿QualityControlLevelCode,Definition,Explanation
-T,Trace,Trace
-A,Accumulated amount since last measure,Accumulated amount since last measure
-B,Accumulated amount includes estimated values,Accumulated amount includes estimated values
-S,Included in a subsequent value,Included in a subsequent value
-Q,"Preliminary Value, not been QA/QC","Preliminary Value, not been QA/QC"
-M,Missing Data,Value was never recorded

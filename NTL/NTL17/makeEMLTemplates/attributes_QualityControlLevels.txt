@@ -1,4 +1,0 @@
-attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-QualityControlLevelCode	Code used to identify the level of quality control to which data values have been subjected.	character				
-Definition	Definition of Quality Control Level.	character				
-Explanation	Explanation of Quality Control Level.	character				

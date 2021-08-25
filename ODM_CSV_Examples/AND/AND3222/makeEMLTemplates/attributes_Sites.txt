@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+SiteCode	"User or organization-defined code to identify the site."	character				
+SiteName	"Full name of the sampling site"	factor				
+Latitude	"Latitude in decimal degrees"	numeric degrees			
+Longitude	"Longitude in decimal degrees"	numeric	degrees			
+Elevation	"Elevation of site in meters"	numeric	meters			
+LatLongDatumSRSName	"Full text name of the spatial reference system of the latitude and longitude coordinates in the SpatialReferences table. This should be from the SpatialReferences controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=SpatialReferences&id=869578136"	factor				
+SiteType	"The type of site. This should be from the SiteType controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=SiteTypeCV&id=853578079"	factor				
+Comments	"Comments related to the site."	character				

@@ -1,8 +1,0 @@
-attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-SourceCode	Code used to identify the organization that created the data.	character				
-Organization	"Name of the organization that collected the data. This should be the agency or organization that collected the data, even if it came out of a database consolidated from many sources such as STORET."	character				
-SourceDescription	Full text description of the source of the data.	character				
-SourceLink	Link that can be pointed at the original data file and/or associated metadata stored in the digital library or URL of data source.	character				
-ContactName	Name of the contact person for the data source.	character				
-Email	Email addresss for the contact person.	character				
-Citation	Text string that give the citation to be used when the data from each source are referenced.	character				

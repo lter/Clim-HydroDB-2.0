@@ -1,1 +1,0 @@
-The National Climatic Data Center's (NOAA) daily mean, maximum, and minimum air temperatures and daily precipitation collected at Everglades Station (Coop ID- 082850). This site was terminated at the end of 2017.

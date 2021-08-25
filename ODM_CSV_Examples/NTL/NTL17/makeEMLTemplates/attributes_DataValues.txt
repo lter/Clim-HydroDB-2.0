@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+DataValue	"The numeric value of the observation. For Categorical variables, a number is stored here. The Variables table has DataType as Categorical and the Categories table maps from the DataValue onto Category Description."	numeric	dimensionless			
+LocalDateTime	Local date and time at which the data value was observed. Represented in an implementation specific format.	Date		YYYY-MM-DD hh:mm:ss		
+UTCOffset	Offset in hours from UTC time of the corresponding LocalDateTime value.	numeric	nominalHour			
+DateTimeUTC	Universal UTC date and time at which the data value was observed. Represented in an implementation specific format.	Date		YYYY-MM-DD hh:mm:ss		
+SiteCode	Code used by organization that collects the data to identify the site.	character				
+VariableCode	Code used by the organization that collects the data to identify the variable.	character				
+MethodCode	"Code used by the organization that collects the data to identify the Method, which is defined in the Methods table."	character				
+SourceCode	"Code used by the organization that collects the data to identify the source, which is defined in the Sources table."	character				
+QualityControlLevelCode	Code which identifies the level of quality control that the value has been subjected to. This references the QualityControlLevels table.	character				

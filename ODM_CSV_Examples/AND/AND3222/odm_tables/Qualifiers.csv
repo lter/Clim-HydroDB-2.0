@@ -1,0 +1,8 @@
+QualifierCode,QualifierDescription
+A,Accepted value has passed all QC tests applied as represented by the quality level
+B,Sensor buried in snow and value is snow temperature
+D,Value is estimated as the average of daily minimum and daily maximum
+E,Estimated value
+M,Missing value
+Q,Questionable value
+S,Daily value based on sunrise to sunrise

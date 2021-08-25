@@ -1,3 +1,0 @@
-givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
-NCDC		NOAA	National Climatic Data Center	ncdc.orders@noaa.gov		creator	National Climatic Data Center 		
-Information		Manager	Florida International University	fcelter@fiu.edu		contact	Florida Coastal Everglades LTER Program	National Science Foundation	DEB-#9910514-#0620409-#1237517

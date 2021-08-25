@@ -1,2 +1,0 @@
-VariableCode,VariableName,VariableUnitsName,DataType,SampleMedium,ValueType,IsRegular,TimeSupport,TimeUnitsName,GeneralCategory,NoDataValue
-AIRTEMP_MEAN,Temperature,degC,Average,Air,Derived Value,TRUE,15,minutes,Climate,-9999

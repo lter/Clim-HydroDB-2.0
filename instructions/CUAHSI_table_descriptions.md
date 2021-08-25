@@ -1,34 +1,27 @@
 # CUAHSI Table Descriptions
 
-This doc was created from the 
-1. CUAHSI Standard Formatting Template (see Excel file in CUAHSI_documentation dir)  
-2. screenshot of the general table arrangement, from the CUAHSI guide PDF.
+This doc was created from:
 
-
+1. CUAHSI Standard Formatting Template (see Excel file in CUAHSI_documentation dir)
+2. screenshot of the general table arrangement, from the CUAHSI guide PDF
 
 ## Introduction
+
 ![ODM general file layout](ODM_model.png)
 
+### 1. How to Use the Template
 
-### 1. How to Use the Template													
-The purpose of this document is to provide guidance in populating ODM 1.1.1 templates for uploading data using CUAHSI's ODM Uploader for Azure. 												
+The purpose of this document is to provide guidance in populating ODM 1.1 CSV templates. These templates help data publishers prepare data for upload into CUAHSI's HydroServer, but they are also useful in preparing files for archival in other repositories such as EDI.
 
-1. Use this guide to create tables by your own method
-    1. create 6 tables that look like these
-    2. Other instructions TBD
+You can use this guide to create tables by your own method so that they look like those in the template. Or, if you copy the template Excel file, you can past into it the data you indend to contribute, and export the tables. The following steps are copied directly from their Excel file for convenience; if you are going to populate the template, stop reading here and look in the Excel file instead:
 
-OR
+1. Populate metadata and data values
+2. Delete first column and 2nd, 3rd, 4th, and 5th rows so that only column headers and your metadata and data values remain
+3. Export each sheet as a separate CSV file
+4. Make an EML metadata file and upload the data package to EDI.  If loading data into CUAHSI, upload each CSV file using CUAHSI's Cloud HydroServer
 
-2. If you copy the template Excel file, you can past into it the data you indend to contribute, and export the six tables. These steps copied directly from their Excel file for convenience; if you are going to populate the template, stop reading here and look in the Excel file instead:									
-    1. Populate metadata and data values										
-    2. Delete first column and 2nd, 3rd, 4th, and 5th rows so that only column headers and your metadata and data values remain												
-    3. Export each sheet as a separate CSV file										
-    4. Upload each CSV file using CUAHSI's Cloud HydroServer
-											
-												
-													
-													
 ### Required Columns
+
 All 6 tables are required. Each table has some required columns. In each table's description, the `Constraint` row tells you if it's required (`mandatory`), or if the content comes from a controlled vocabulary
 
 #### Color Key 												
@@ -58,7 +51,7 @@ http://dx.doi.org/10.1029/2007WR006392
 | Variables | The Variables table lists the full descriptive information about what variables have been measured. This table is mandatory. |  |
 | Methods | The Methods table lists the methods used to collect the data and any additional information about the method. This table is mandatory. |  |
 | Sites | The Sites table provides information giving the spatial location at which data values have been collected. This table is mandatory. |  |
-| Sources | "The Sources table lists the original sources of the data | providing information sufficient to retrieve and reconstruct the data value from the original data files if necessary. This table is mandatory." |
+| Sources | The Sources table lists the original sources of the data providing information sufficient to retrieve and reconstruct the data value from the original data files if necessary. This table is mandatory. |
 | Quality Control | The QualityControlLevels table contains the quality control levels that are used for versioning data within the database. This table is mandatory. |  |
 | DataValues | The DataValues table contains the actual data values and keys to metadata tables. This table is mandatory. |  |														
 																			

@@ -1,0 +1,1 @@
+﻿Meteorological measurements are being gathered at a site at the Noble F. Lee Municipal airport located at Woodruff, WI for three purposes: 1) to supplement the data from the lake buoys, and 2) to provide standard meteorological measurements for the North Temperate Lakes site. Number of sites: 1. Date/time is Central Standard Time (GMT - 06:00) throughout the year.

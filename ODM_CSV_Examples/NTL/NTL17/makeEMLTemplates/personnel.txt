@@ -1,0 +1,6 @@
+givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+John		Magnusen	"Univeristy of Wisconsin, Madison"	john.magnuson@wisc.edu		creator			
+Stephen		Carpenter	"Univeristy of Wisconsin, Madison"	steve.carpenter@wisc.edu	http://orcid.org/0000-0001-8097-8700	creator			
+Emily		Stanley	"Univeristy of Wisconsin, Madison"	ehstanley@wisc.edu	http://orcid.org/0000-0003-4922-8121	creator			
+NTL		Information Manager	"Univeristy of Wisconsin, Madison"			contact			
+Emily		Stanley	"Univeristy of Wisconsin, Madison"	ehstanley@wisc.edu	http://orcid.org/0000-0003-4922-8121	PI	NTL LTER	National Science Foundation	DEB-1440297

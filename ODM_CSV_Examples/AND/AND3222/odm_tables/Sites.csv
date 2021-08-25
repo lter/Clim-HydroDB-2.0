@@ -1,0 +1,5 @@
+SiteCode,SiteName,Latitude,Longitude,Elevation_m,LatLongDatumSRSName,SiteType,Comments
+CENMET,Central Meteorological Station,44.243482,-122.141093,1028,NAD83,Atmosphere,
+PRIMET,Primary Meteorological Station (PRIMET),44.211893,-122.255941,436,NAD83,Atmosphere,
+UPLMET,Upper Lookout Meteorological Station,44.207097,-122.119763,1284,NAD83,Atmosphere,
+VANMET,Vanilla Leaf Meteorological Station,44.271618,-122.149368,1268,NAD83,Atmosphere,

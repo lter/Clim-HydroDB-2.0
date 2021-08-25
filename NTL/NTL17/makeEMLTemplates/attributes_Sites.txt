@@ -1,8 +1,0 @@
-attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
-SiteCode	User or organization-defined code that collects the data to identify the site.	character				
-SiteName	Full name of the sampling site.	character				
-Latitude	Latitude in decimal degrees.	numeric	degree			
-Longitude	"Longitude in decimal degrees. East positive, West negative."	numeric	degree			
-LatLongDatumSRSName	Full text name of the spatial reference system of the latitude and longitude coordinates in the SpatialReferences table. This should be from the SpatialReferences controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=SpatialReferences&id=869578136	character				
-SiteType	The type of site. This should be from the SiteType controlled vocabulary: http://his.cuahsi.org/mastercvreg/edit_cv11.aspx?tbl=SiteTypeCV&id=853578079	character				
-Comments	Comments related to the site.	character				

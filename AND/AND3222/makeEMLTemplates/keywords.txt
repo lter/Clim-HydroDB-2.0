@@ -1,5 +1,0 @@
-keyword	keywordThesaurus
-Temperature 
-Air Temperature 
-AND LTER 
-CUAHSI ODM	

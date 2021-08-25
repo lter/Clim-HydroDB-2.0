@@ -1,1 +1,0 @@
-Data are obtained from NCDC's "GHCN (Global Historical Climatology Network). Details of observation methods are described in NCDC's "GHCN (Global Historical Climatology Network) – Daily Documentation": https://www1.ncdc.noaa.gov/pub/data/cdo/documentation/GHCND_documentation.pdf

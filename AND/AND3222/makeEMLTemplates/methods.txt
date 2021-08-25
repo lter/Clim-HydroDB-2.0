@@ -1,1 +1,0 @@
-Air temperatures are measured at 5-minute intervals and averaged over 15 minute intervals qat 3.5 m above ground. Please follow this link to see a general description and history of air temperature measurements for these stations: http://andrewsforest.oregonstate.edu/data/studies/ms01/meta/air.html
