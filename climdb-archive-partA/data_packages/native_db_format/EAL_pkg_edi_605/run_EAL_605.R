@@ -121,7 +121,7 @@ otherEntity_urls <- c(
   paste0(entity_URL_head,'/', 'schema_04a.jpg'),
   paste0(entity_URL_head,'/', 'climdb_DDL.sql'),
   paste0(entity_URL_head,'/', 'climhydro_userguide_2012.pdf'),
-  paste0(entity_URL_head,'/', 'climdb-docs.gzip')
+  paste0(entity_URL_head,'/', 'climdb-docs.gzip'),
   paste0(entity_URL_head,'/', 'climdb-docs_code_files_description.gzip')
   
 )
