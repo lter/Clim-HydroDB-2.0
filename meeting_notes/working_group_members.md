@@ -18,3 +18,4 @@
 |Wade Sheldon | sheldon@uga.edu | GCE LTER|
 |Whiteaker, Timothy | whiteaker@utexas.edu | BLE LTER|
 |Yang Xia | yangx@ksu.edu | KNZ LTER|
+|Chris Turner | chris@axiomdatascience.com | Axiom Data Science |
