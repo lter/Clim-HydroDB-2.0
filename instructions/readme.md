@@ -6,10 +6,11 @@ To convert your data to ODM CSV format:
 
 1. Open **HyMet_Template.xlsx**.
 2. Determine if the provided tables meet your needs.  If you need additional descriptors such as lab methods, groups, or provenance, bring in columns and tables from **Advanced_Formatting_Template.xlsx** in the **CUAHSI_documentation** folder.
-3. Fill in the metadata tables (everything except DataValues) and export each to CSV. This is typically done by hand since the tables are usually lightweight.
+3. Fill in the metadata tables (everything except DataValues and SeriesCatalog) and export each to CSV. This is typically done by hand since the tables are usually lightweight.
 4. Fill in the DataValues table in the spreadsheet if your data are simple enough.  For a more reproducible workflow, write a script to convert your raw data into the DataValues.csv format.
-5. Generate EML for the tables you exported.
-6. Upload the data package to EDI.
+5. Populate the SeriesCatalog table to summarize time series in the dataset. We recommend programmatically doing this by reading from DataVales and the metadata tables.
+6. Generate EML for the tables you exported.
+7. Upload the data package to EDI.
 
 ## Tips
 
